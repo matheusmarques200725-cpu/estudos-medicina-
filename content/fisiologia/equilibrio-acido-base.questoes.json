@@ -1,0 +1,408 @@
+{
+  "topico": "equilibrio-acido-base",
+  "questoes": [
+    {
+      "id": "ab-001",
+      "nivel": "medio",
+      "enunciado": "Cerca de 4.300 mEq de bicarbonato são filtrados por dia, e praticamente todo ele é reabsorvido. Qual alternativa descreve corretamente o principal local e mecanismo dessa reabsorção?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ducto coletor, por secreção de H⁺ pela H⁺-ATPase das células intercaladas tipo β",
+          "explicacao": "O ducto coletor reabsorve apenas uma pequena fração do HCO₃⁻ filtrado. Além disso, as células tipo **β** secretam HCO₃⁻ (pendrina); quem secreta H⁺ são as tipo **α**."
+        },
+        {
+          "letra": "B",
+          "texto": "Túbulo proximal, por secreção de H⁺ via trocador Na⁺/H⁺ (NHE3) e ação da anidrase carbônica luminal e intracelular",
+          "explicacao": "Correta. O túbulo proximal reabsorve **~80%** do HCO₃⁻ filtrado. O NHE3 secreta H⁺, que se combina ao HCO₃⁻ filtrado; a AC IV (luminal) gera CO₂, que entra na célula, onde a AC II regenera H⁺ + HCO₃⁻. O HCO₃⁻ sai pelo NBCe1 basolateral."
+        },
+        {
+          "letra": "C",
+          "texto": "Alça de Henle descendente, por difusão passiva de HCO₃⁻ pela via paracelular",
+          "explicacao": "O ramo descendente é permeável à água, mas não é um local relevante de reabsorção de HCO₃⁻. A alça (ramo **ascendente espesso**) reabsorve ~10–15%."
+        },
+        {
+          "letra": "D",
+          "texto": "Túbulo proximal, por um transportador apical que capta HCO₃⁻ diretamente do lúmen",
+          "explicacao": "O HCO₃⁻ não é captado diretamente na membrana apical. Ele é 'desmontado' em CO₂ + H₂O no lúmen e 'remontado' dentro da célula — por isso a anidrase carbônica é essencial."
+        },
+        {
+          "letra": "E",
+          "texto": "Túbulo distal, por ação direta da aldosterona sobre o canal ENaC",
+          "explicacao": "O ENaC reabsorve Na⁺, não HCO₃⁻. A aldosterona estimula a secreção distal de H⁺, mas o distal não é o principal local de reabsorção de HCO₃⁻."
+        }
+      ],
+      "gabarito": "B",
+      "secao": "reabsorcao-bicarbonato",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 31; Berne & Levy, 7ª ed., cap. 37",
+      "tags": [
+        "bicarbonato",
+        "túbulo proximal",
+        "anidrase carbônica"
+      ]
+    },
+    {
+      "id": "ab-002",
+      "nivel": "medio",
+      "enunciado": "Paciente com insuficiência renal crônica apresenta gasometria arterial: pH 7,28; PCO₂ 30 mmHg; HCO₃⁻ 14 mEq/L. Como esse distúrbio deve ser classificado?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acidose respiratória aguda",
+          "explicacao": "Na acidose respiratória a PCO₂ estaria **elevada**. Aqui a PCO₂ está baixa e o HCO₃⁻ está baixo — o problema primário é metabólico."
+        },
+        {
+          "letra": "B",
+          "texto": "Acidose metabólica com acidose respiratória associada",
+          "explicacao": "Haveria acidose respiratória associada se a PCO₂ estivesse **acima** do esperado por Winter (> 31). A PCO₂ de 30 está dentro da faixa."
+        },
+        {
+          "letra": "C",
+          "texto": "Acidose metabólica com alcalose respiratória primária associada",
+          "explicacao": "Para haver alcalose respiratória associada, a PCO₂ deveria estar **abaixo** de 27 mmHg (limite inferior esperado por Winter)."
+        },
+        {
+          "letra": "D",
+          "texto": "Acidose metabólica com compensação respiratória adequada",
+          "explicacao": "Correta. pH baixo + HCO₃⁻ baixo = acidose metabólica. Winter: PCO₂ esperada = 1,5 × 14 + 8 = **29 ± 2** (27–31). A PCO₂ medida (30) está dentro da faixa → distúrbio simples, compensado adequadamente."
+        },
+        {
+          "letra": "E",
+          "texto": "Alcalose respiratória crônica compensada",
+          "explicacao": "Na alcalose respiratória o pH estaria normal ou elevado. Aqui há acidemia (pH 7,28), e o distúrbio que explica o pH é a queda do HCO₃⁻."
+        }
+      ],
+      "gabarito": "D",
+      "secao": "compensacoes",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Berne & Levy, 7ª ed., cap. 37",
+      "tags": [
+        "gasometria",
+        "Winter",
+        "compensação"
+      ]
+    },
+    {
+      "id": "ab-003",
+      "nivel": "medio",
+      "enunciado": "Durante uma acidose metabólica crônica (por exemplo, dieta muito rica em proteína animal ou doença renal leve), a excreção renal de ácido pode aumentar várias vezes ao longo de alguns dias. Qual mecanismo é o principal responsável por essa adaptação?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumento da amoniogênese a partir de glutamina no túbulo proximal",
+          "explicacao": "Correta. A acidose estimula o metabolismo da **glutamina** no túbulo proximal, que gera **2 NH₄⁺ + 2 HCO₃⁻** por molécula. O NH₄⁺ é excretado (difusão e aprisionamento no ducto coletor) e o HCO₃⁻ novo vai para o sangue. A excreção de NH₄⁺ pode aumentar de ~30–40 para mais de 300 mEq/dia."
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento da acidez titulável pelo fosfato urinário",
+          "explicacao": "A acidez titulável é limitada pela quantidade de fosfato filtrado, que não aumenta muito. É um sistema **pouco adaptável**."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento da excreção de H⁺ livre na urina",
+          "explicacao": "Mesmo em pH urinário 4,5 a concentração de H⁺ livre é ~0,03 mEq/L — quantidade desprezível. O ácido precisa sair ligado a tampões."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento da reabsorção proximal de bicarbonato filtrado",
+          "explicacao": "A reabsorção do HCO₃⁻ filtrado apenas **recupera** o que foi filtrado; não excreta ácido nem gera bicarbonato novo."
+        },
+        {
+          "letra": "E",
+          "texto": "Aumento da excreção urinária de ácido úrico",
+          "explicacao": "O urato não é um tampão urinário relevante para a excreção ácida líquida."
+        }
+      ],
+      "gabarito": "A",
+      "secao": "amonio",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 31; Berne & Levy, 7ª ed., cap. 37",
+      "tags": [
+        "amônio",
+        "amoniogênese",
+        "acidose crônica"
+      ]
+    },
+    {
+      "id": "ab-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 34 anos com diarreia aquosa há 5 dias. Exames: Na⁺ 138; Cl⁻ 114; HCO₃⁻ 14 (mEq/L); K⁺ 3,1 mEq/L; albumina 4,0 g/dL. Urina: Na⁺ 30, K⁺ 20, Cl⁻ 80 mEq/L. Qual é a interpretação correta?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acidose metabólica de ânion gap elevado por acúmulo de lactato",
+          "explicacao": "AG = 138 − (114 + 14) = **10**: dentro do normal. Não há ácido não medido acumulado."
+        },
+        {
+          "letra": "B",
+          "texto": "Acidose metabólica de ânion gap normal com ânion gap urinário positivo, sugerindo acidose tubular renal distal",
+          "explicacao": "O AGU aqui é **negativo** (30 + 20 − 80 = −30), o que indica boa excreção de NH₄⁺ — o oposto do que ocorre na ATR distal."
+        },
+        {
+          "letra": "C",
+          "texto": "Alcalose metabólica por perda de cloreto nas fezes",
+          "explicacao": "O HCO₃⁻ está **baixo**, não alto. Diarreia causa perda de HCO₃⁻ e acidose (a alcalose é típica dos **vômitos**)."
+        },
+        {
+          "letra": "D",
+          "texto": "Acidose metabólica de ânion gap normal com ânion gap urinário negativo, compatível com perda intestinal de bicarbonato",
+          "explicacao": "Correta. AG = 10 (normal) → acidose hiperclorêmica. AGU = 30 + 20 − 80 = **−30**: o cloreto urinário 'sobra' porque sai acompanhado de muito NH₄⁺ (cátion não medido). O rim está respondendo bem → causa **extrarrenal** (\"neGUTive\")."
+        },
+        {
+          "letra": "E",
+          "texto": "Acidose metabólica de ânion gap normal causada por hipoaldosteronismo (ATR tipo 4)",
+          "explicacao": "A ATR tipo 4 cursa com **hipercalemia** e AGU positivo (pouco NH₄⁺). Aqui o potássio está baixo e o AGU é negativo."
+        }
+      ],
+      "gabarito": "D",
+      "secao": "causas-acidose",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'",
+      "tags": [
+        "ânion gap",
+        "ânion gap urinário",
+        "diarreia"
+      ]
+    },
+    {
+      "id": "ab-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 38 anos com síndrome de Sjögren procura atendimento por cólica renal recorrente. Exames: Na⁺ 140; Cl⁻ 113; HCO₃⁻ 15; K⁺ 2,8 (mEq/L). pH urinário 6,4 em amostra matinal, mesmo com acidemia. Tomografia: nefrocalcinose bilateral. Qual é o diagnóstico mais provável?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acidose tubular renal tipo 1 (distal)",
+          "explicacao": "Correta. Acidose de AG normal (140 − 128 = 12) com **hipocalemia** e **pH urinário > 5,5** apesar da acidemia = incapacidade de acidificar a urina no néfron distal. A urina alcalina, a hipercalciúria e a hipocitratúria favorecem **nefrocalcinose e cálculos de fosfato de cálcio**. Sjögren é causa autoimune clássica (anticorpos contra as células intercaladas)."
+        },
+        {
+          "letra": "B",
+          "texto": "Acidose tubular renal tipo 2 (proximal)",
+          "explicacao": "Na ATR proximal, no estado estável (HCO₃⁻ abaixo do limiar), a urina consegue ser acidificada (pH < 5,5). Nefrocalcinose é incomum, porque a citratúria é preservada."
+        },
+        {
+          "letra": "C",
+          "texto": "Acidose tubular renal tipo 4 (hipoaldosteronismo)",
+          "explicacao": "A ATR tipo 4 cursa com **hipercalemia**, não hipocalemia, e pH urinário < 5,5."
+        },
+        {
+          "letra": "D",
+          "texto": "Acidose metabólica por diarreia oculta",
+          "explicacao": "Na diarreia o rim responde normalmente, acidificando a urina (pH baixo, AGU negativo). Também não explicaria nefrocalcinose."
+        },
+        {
+          "letra": "E",
+          "texto": "Hiperparatireoidismo primário com acidose leve",
+          "explicacao": "Explicaria cálculos e talvez acidose hiperclorêmica leve, mas não a hipocalemia importante e o pH urinário persistentemente alcalino na vigência de acidemia."
+        }
+      ],
+      "gabarito": "A",
+      "secao": "atr",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Berne & Levy, 7ª ed., cap. 37",
+      "tags": [
+        "ATR distal",
+        "Sjögren",
+        "nefrocalcinose"
+      ]
+    },
+    {
+      "id": "ab-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 66 anos com diabetes tipo 2 há 20 anos e doença renal crônica (TFG estimada 42 mL/min/1,73 m²) usa losartana. Exames: Na⁺ 139; Cl⁻ 110; HCO₃⁻ 18; K⁺ 6,1 (mEq/L). pH urinário 5,1. Renina e aldosterona plasmáticas baixas. Qual é o mecanismo central pelo qual esse distúrbio causa acidose?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Falha da H⁺-ATPase das células intercaladas, impedindo a acidificação urinária",
+          "explicacao": "Esse é o defeito da ATR **tipo 1**. Aqui o pH urinário é 5,1 — a urina **consegue** ser acidificada."
+        },
+        {
+          "letra": "B",
+          "texto": "Perda proximal de bicarbonato por redução do limiar de reabsorção",
+          "explicacao": "Esse é o mecanismo da ATR **tipo 2**, que cursa com hipocalemia, não hipercalemia."
+        },
+        {
+          "letra": "C",
+          "texto": "Acúmulo de ânions não medidos pela queda da TFG",
+          "explicacao": "A retenção de ânions na DRC ocorre em TFG mais baixa e eleva o ânion gap. Aqui o AG é normal (139 − 128 = 11)."
+        },
+        {
+          "letra": "D",
+          "texto": "Excesso de mineralocorticoide com perda renal de H⁺",
+          "explicacao": "Excesso de mineralocorticoide causaria **alcalose** metabólica e hipocalemia — o oposto do quadro."
+        },
+        {
+          "letra": "E",
+          "texto": "Hipercalemia secundária ao hipoaldosteronismo, que suprime a amoniogênese e reduz a excreção de NH₄⁺",
+          "explicacao": "Correta. É a **ATR tipo 4** (hipoaldosteronismo hiporreninêmico, típico da nefropatia diabética, agravado pelo BRA). A falta de aldosterona reduz a secreção de K⁺ e de H⁺; a **hipercalemia suprime a amoniogênese** proximal. A urina é ácida, mas tem pouco tampão (NH₄⁺), então a excreção ácida líquida é baixa. Corrigir o K⁺ costuma melhorar a acidose."
+        }
+      ],
+      "gabarito": "E",
+      "secao": "atr",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Guyton & Hall, 14ª ed., cap. 31",
+      "tags": [
+        "ATR tipo 4",
+        "hipercalemia",
+        "amônio",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "ab-007",
+      "nivel": "dificil",
+      "enunciado": "Jovem com diabetes tipo 1 chega após 3 dias de vômitos incoercíveis e poliúria. Exames: pH 7,31; PCO₂ 29 mmHg; HCO₃⁻ 14; Na⁺ 140; Cl⁻ 90 (mEq/L); albumina 4,0 g/dL; cetonemia positiva. Qual é a interpretação completa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acidose metabólica de ânion gap elevado pura, com compensação respiratória adequada",
+          "explicacao": "A compensação está adequada (Winter: 1,5 × 14 + 8 = 29), mas o delta-delta mostra que o HCO₃⁻ caiu **menos** do que o aumento do AG prevê — há outro distúrbio associado."
+        },
+        {
+          "letra": "B",
+          "texto": "Acidose metabólica de ânion gap elevado associada a acidose metabólica de ânion gap normal",
+          "explicacao": "Isso seria indicado por delta-delta **< 1**. Aqui ele é > 2."
+        },
+        {
+          "letra": "C",
+          "texto": "Acidose metabólica de ânion gap elevado associada a alcalose metabólica",
+          "explicacao": "Correta. AG = 140 − (90 + 14) = **36**. Δ/Δ = (36 − 12)/(24 − 14) = 24/10 = **2,4** (> 2): o HCO₃⁻ está mais alto do que a cetoacidose sozinha explicaria → **alcalose metabólica** associada, pelos vômitos (perda de HCl; note o cloreto baixo). A PCO₂ de 29 está dentro do previsto por Winter (27–31)."
+        },
+        {
+          "letra": "D",
+          "texto": "Acidose metabólica com acidose respiratória associada",
+          "explicacao": "A PCO₂ medida (29) está dentro da faixa esperada por Winter (27–31). Não há retenção inadequada de CO₂."
+        },
+        {
+          "letra": "E",
+          "texto": "Alcalose metabólica primária com acidose respiratória compensatória",
+          "explicacao": "O pH está baixo (acidemia) e a PCO₂ está baixa — não há acidose respiratória e o distúrbio dominante é a acidose metabólica."
+        }
+      ],
+      "gabarito": "C",
+      "secao": "gasometria",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Diretriz SBD 2024 – Cetoacidose diabética",
+      "tags": [
+        "delta-delta",
+        "ânion gap",
+        "cetoacidose",
+        "distúrbio misto"
+      ]
+    },
+    {
+      "id": "ab-008",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 25 anos com hiperêmese gravídica: vômitos há 1 semana. Exames: pH 7,52; HCO₃⁻ 36 mEq/L; PCO₂ 46 mmHg; K⁺ 2,7 mEq/L; Cl⁻ 88 mEq/L. Urina: Cl⁻ 8 mEq/L, pH urinário 5,5. Por que a urina está ácida apesar da alcalemia e qual é a melhor conduta inicial?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Há acidose tubular renal associada; iniciar bicarbonato de sódio",
+          "explicacao": "Não há acidose sistêmica. Administrar álcali agravaria perigosamente a alcalose."
+        },
+        {
+          "letra": "B",
+          "texto": "A depleção de volume, de cloreto e de potássio mantém o rim reabsorvendo Na⁺ e secretando H⁺; repor SF 0,9% com KCl",
+          "explicacao": "Correta. É a **acidúria paradoxal**. Hipovolemia → Ang II (↑NHE3 proximal) e aldosterona (↑H⁺-ATPase distal); a hipocalemia estimula a H⁺/K⁺-ATPase; e a falta de Cl⁻ limita a excreção de HCO₃⁻ pela pendrina. O rim **prioriza o volume sobre o pH**. Cl⁻ urinário < 20 = alcalose **responsiva a cloreto**: repor SF 0,9% + KCl remove os fatores de manutenção."
+        },
+        {
+          "letra": "C",
+          "texto": "A alcalose é resistente a cloreto por hiperaldosteronismo primário; iniciar espironolactona",
+          "explicacao": "Alcalose resistente a cloreto cursa com **Cl⁻ urinário > 20** e, no hiperaldosteronismo primário, com hipertensão e volume expandido — não com vômitos e hipovolemia."
+        },
+        {
+          "letra": "D",
+          "texto": "A compensação respiratória gera acidúria; administrar acetazolamida como primeira medida",
+          "explicacao": "A hipoventilação compensatória não explica a urina ácida. A acetazolamida pode ser útil em alcalose com hipervolemia (ex.: IC), mas aqui pioraria a hipovolemia e a hipocalemia."
+        },
+        {
+          "letra": "E",
+          "texto": "É um erro laboratorial, pois a alcalose metabólica sempre cursa com urina alcalina",
+          "explicacao": "A urina alcalina é esperada apenas quando o rim consegue excretar o excesso de HCO₃⁻. Com depleção de volume, Cl⁻ e K⁺, a acidúria paradoxal é um achado clássico."
+        }
+      ],
+      "gabarito": "B",
+      "secao": "alcalose-metabolica",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Guyton & Hall, 14ª ed., cap. 31",
+      "tags": [
+        "alcalose metabólica",
+        "acidúria paradoxal",
+        "cloro urinário"
+      ]
+    },
+    {
+      "id": "ab-009",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 68 anos com DPOC grave, PCO₂ basal de 70 mmHg e HCO₃⁻ de 34 mEq/L, é intubado por pneumonia. A ventilação é ajustada com volume-minuto alto e, em 2 horas, a gasometria mostra: pH 7,55; PCO₂ 40 mmHg; HCO₃⁻ 33 mEq/L. Ele apresenta arritmias e mioclonias. Qual é a explicação fisiopatológica?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Alcalose respiratória aguda por hiperventilação, pois a PCO₂ está normal",
+          "explicacao": "A PCO₂ de 40 não é baixa em termos absolutos; o que está anormal é o **HCO₃⁻**. Numa alcalose respiratória aguda, o HCO₃⁻ cairia, e não permaneceria em 33."
+        },
+        {
+          "letra": "B",
+          "texto": "Acidose respiratória crônica descompensada",
+          "explicacao": "O pH de 7,55 indica alcalemia, não acidemia."
+        },
+        {
+          "letra": "C",
+          "texto": "Alcalose metabólica por vômitos durante a intubação",
+          "explicacao": "Não há dados de perda gástrica. A alcalose decorre do HCO₃⁻ previamente elevado."
+        },
+        {
+          "letra": "D",
+          "texto": "Acidose metabólica de ânion gap elevado por hipoperfusão mascarada pela ventilação",
+          "explicacao": "Não há acidemia nem queda do HCO₃⁻; a gasometria não sugere acidose metabólica."
+        },
+        {
+          "letra": "E",
+          "texto": "Alcalose metabólica pós-hipercapnia: o HCO₃⁻ elevado, gerado pelo rim ao longo de dias como compensação, ficou sem a PCO₂ alta que o equilibrava",
+          "explicacao": "Correta. Na acidose respiratória crônica, o rim gerou HCO₃⁻ novo (24 + 3,5 × 3 ≈ 34, via amoniogênese) ao longo de dias. Quando a PCO₂ é reduzida em horas, o rim não consegue excretar o HCO₃⁻ na mesma velocidade → pH = 6,1 + log(33 / 1,2) ≈ 7,54. A alcalemia aguda reduz o Ca²⁺ ionizado e favorece arritmias e convulsões. Por isso a PCO₂ deve ser reduzida gradualmente, até o valor basal do paciente."
+        }
+      ],
+      "gabarito": "E",
+      "secao": "compensacoes",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Berne & Levy, 7ª ed., cap. 37",
+      "tags": [
+        "acidose respiratória crônica",
+        "pós-hipercapnia",
+        "compensação renal"
+      ]
+    },
+    {
+      "id": "ab-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 63 anos com mieloma múltiplo apresenta acidose metabólica hiperclorêmica (HCO₃⁻ 16 mEq/L), K⁺ 3,2 mEq/L, glicosúria com glicemia normal e hipofosfatemia. No estado basal, o pH urinário é 5,2. Ao receber bicarbonato de sódio IV, o HCO₃⁻ plasmático sobe para 20 mEq/L, o pH urinário passa para 7,6 e o potássio cai para 2,6 mEq/L. Qual alternativa explica corretamente esse comportamento?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ATR tipo 1: a urina ácida basal exclui o diagnóstico, e a resposta ao bicarbonato confirma que o defeito é distal",
+          "explicacao": "A ATR tipo 1 nunca acidifica a urina abaixo de 5,5. Além disso, glicosúria e hipofosfatemia indicam disfunção **proximal**."
+        },
+        {
+          "letra": "B",
+          "texto": "ATR tipo 4: o hipoaldosteronismo causado pelas cadeias leves impede a secreção de K⁺",
+          "explicacao": "A ATR tipo 4 cursa com hipercalemia. Aqui o potássio é baixo e piora com o álcali."
+        },
+        {
+          "letra": "C",
+          "texto": "ATR tipo 2 com síndrome de Fanconi: o limiar proximal de reabsorção de HCO₃⁻ está reduzido; acima dele, o HCO₃⁻ escapa para o néfron distal, alcalinizando a urina e aumentando a perda de K⁺",
+          "explicacao": "Correta. As cadeias leves lesam o túbulo proximal (**Fanconi**: glicosúria, fosfatúria, aminoacidúria). Com HCO₃⁻ plasmático de 16 (abaixo do novo limiar), todo o filtrado é reabsorvido e o néfron distal normal acidifica a urina (pH 5,2). Ao elevar o HCO₃⁻ acima do limiar, há **bicarbonatúria** (pH 7,6), e a maior oferta distal de Na⁺ e HCO₃⁻ (ânion pouco reabsorvível) aumenta a secreção de K⁺. Por isso a ATR proximal exige doses altas de álcali e reposição de potássio."
+        },
+        {
+          "letra": "D",
+          "texto": "Acidose por diarreia: a urina ácida mostra resposta renal adequada e o bicarbonato corrige o déficit intestinal",
+          "explicacao": "Diarreia não explica glicosúria normoglicêmica, hipofosfatemia nem a bicarbonatúria maciça com HCO₃⁻ plasmático ainda abaixo do normal."
+        },
+        {
+          "letra": "E",
+          "texto": "Acidose de ânion gap elevado por cadeias leves, que são ânions não medidos",
+          "explicacao": "As paraproteínas do mieloma, quando catiônicas, tendem até a **reduzir** o ânion gap. O quadro descrito é hiperclorêmico."
+        }
+      ],
+      "gabarito": "C",
+      "secao": "atr",
+      "referencia": "Harrison, 21ª ed., cap. 'Acidose e alcalose'; Berne & Levy, 7ª ed., cap. 37",
+      "tags": [
+        "ATR proximal",
+        "Fanconi",
+        "mieloma",
+        "limiar de bicarbonato"
+      ]
+    }
+  ]
+}

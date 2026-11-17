@@ -1,0 +1,21 @@
+{
+  "semestres": [
+    { "numero": 1, "nome": "1º semestre" },
+    { "numero": 2, "nome": "2º semestre" },
+    { "numero": 3, "nome": "3º semestre" },
+    { "numero": 4, "nome": "4º semestre" }
+  ],
+  "materias": [
+    {
+      "id": "fisiologia",
+      "nome": "Fisiologia",
+      "icone": "🫀",
+      "cor": "#0f766e",
+      "referencias": [
+        "Hall JE, Hall ME. Guyton & Hall – Tratado de Fisiologia Médica. 14ª ed. Elsevier, 2021.",
+        "Koeppen BM, Stanton BA. Berne & Levy – Fisiologia. 7ª ed. Elsevier, 2018.",
+        "Koeppen BM, Stanton BA. Renal Physiology (Mosby Physiology Series). 6ª ed. Elsevier, 2019."
+      ]
+    }
+  ]
+}

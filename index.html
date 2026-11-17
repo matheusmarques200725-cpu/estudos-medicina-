@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <title>Estudos de Medicina</title>
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="#/" class="app-brand">🩺 <span>Estudos Med</span></a>
+      <nav class="app-nav">
+        <a href="#/" data-nav="home"><span class="ico">🏠</span><span class="lbl">Início</span></a>
+        <a href="#/simulado" data-nav="simulado"><span class="ico">⏱️</span><span class="lbl">Simulado</span></a>
+        <a href="#/revisao" data-nav="revisao"><span class="ico">🔁</span><span class="lbl">Revisão</span> <span id="app-due-badge" class="badge" hidden></span></a>
+        <a href="#/desempenho" data-nav="desempenho"><span class="ico">📊</span><span class="lbl">Desempenho</span></a>
+        <a href="#/busca" data-nav="busca" aria-label="Buscar">🔍</a>
+        <button id="app-theme" class="icon-btn" aria-label="Alternar tema">◐</button>
+      </nav>
+    </header>
+    <main id="app-main"></main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

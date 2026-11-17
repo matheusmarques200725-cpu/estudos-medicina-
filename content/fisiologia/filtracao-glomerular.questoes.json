@@ -1,0 +1,406 @@
+{
+  "topico": "filtracao-glomerular",
+  "questoes": [
+    {
+      "id": "fg-001",
+      "nivel": "medio",
+      "enunciado": "Em um experimento, um fármaco produz constrição **moderada e seletiva da arteríola eferente**, sem alterar a pressão arterial sistêmica nem a arteríola aferente. Quais são os efeitos esperados sobre a taxa de filtração glomerular (TFG), o fluxo plasmático renal (FPR) e a fração de filtração (FF)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "TFG ↓, FPR ↓, FF inalterada",
+          "explicacao": "Esse é o padrão da constrição da arteríola **aferente**: a pressão e o fluxo que chegam ao glomérulo caem juntos, e TFG e FPR diminuem proporcionalmente."
+        },
+        {
+          "letra": "B",
+          "texto": "TFG ↑, FPR ↓, FF ↑",
+          "explicacao": "Correta. A eferente é a resistência de saída: contraí-la represa sangue no glomérulo e **eleva a P<sub>CG</sub>** (↑TFG), enquanto a resistência total aumentada **reduz o FPR**. Com TFG maior e FPR menor, a FF = TFG/FPR **aumenta**."
+        },
+        {
+          "letra": "C",
+          "texto": "TFG ↑, FPR ↑, FF inalterada",
+          "explicacao": "Esse é o padrão da **dilatação da aferente**: mais pressão e mais fluxo chegam ao glomérulo. A constrição eferente reduz o fluxo, não o aumenta."
+        },
+        {
+          "letra": "D",
+          "texto": "TFG ↓, FPR ↑, FF ↓",
+          "explicacao": "Esse é o padrão da **dilatação da eferente** (como ocorre com IECA/BRA): a P<sub>CG</sub> cai e o fluxo de saída aumenta."
+        },
+        {
+          "letra": "E",
+          "texto": "TFG inalterada, FPR ↓, FF ↓",
+          "explicacao": "Se o FPR cai e a TFG fica igual, a FF **aumentaria**, não diminuiria. Além disso, a constrição eferente moderada eleva a TFG."
+        }
+      ],
+      "gabarito": "B",
+      "secao": "arteriolas",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27",
+      "tags": [
+        "arteríolas",
+        "fração de filtração"
+      ]
+    },
+    {
+      "id": "fg-002",
+      "nivel": "medio",
+      "enunciado": "Homem de 71 anos, com hiperplasia prostática, chega ao pronto-socorro com dor suprapúbica e anúria há 18 horas. Exame: bexiga palpável até a cicatriz umbilical. Creatinina de 2,9 mg/dL (basal 1,0). A ultrassonografia mostra hidronefrose bilateral. Qual alteração das forças de filtração explica primariamente a queda da TFG?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Redução da pressão hidrostática no capilar glomerular (P<sub>CG</sub>)",
+          "explicacao": "A P<sub>CG</sub> cai em situações de hipoperfusão (LRA pré-renal) ou dilatação eferente. Na obstrução, o problema está do lado do túbulo, não da perfusão."
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento da pressão oncótica no capilar glomerular (π<sub>CG</sub>)",
+          "explicacao": "A π<sub>CG</sub> sobe com hemoconcentração ou queda acentuada do FPR. Não é o mecanismo primário da obstrução urinária."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento do coeficiente de filtração (K<sub>f</sub>)",
+          "explicacao": "Aumento de K<sub>f</sub> elevaria a TFG. K<sub>f</sub> diminui (não aumenta) em doenças que reduzem a área filtrante, como glomerulonefrites."
+        },
+        {
+          "letra": "D",
+          "texto": "Redução da pressão oncótica na cápsula de Bowman (π<sub>B</sub>)",
+          "explicacao": "A π<sub>B</sub> já é praticamente zero em condições normais, pois quase não há proteína no filtrado; sua variação não explica o quadro."
+        },
+        {
+          "letra": "E",
+          "texto": "Aumento da pressão hidrostática na cápsula de Bowman (P<sub>B</sub>)",
+          "explicacao": "Correta. A obstrução transmite pressão retrógrada pelo túbulo até a cápsula de Bowman. Como P<sub>B</sub> se opõe à filtração, a pressão efetiva cai e a TFG diminui — mecanismo da **LRA pós-renal**, reversível com desobstrução (sondagem vesical) precoce."
+        }
+      ],
+      "gabarito": "E",
+      "secao": "starling",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27; KDIGO 2012 – Acute Kidney Injury",
+      "tags": [
+        "Starling",
+        "LRA pós-renal",
+        "obstrução"
+      ]
+    },
+    {
+      "id": "fg-003",
+      "nivel": "medio",
+      "enunciado": "Uma estudante coleta urina de 24 horas para estimar sua função renal. Resultados: volume urinário de 2.880 mL; creatinina urinária de 60 mg/dL; creatinina plasmática de 1,2 mg/dL. Qual é a depuração (*clearance*) de creatinina?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "50 mL/min",
+          "explicacao": "Resultado obtido se o fluxo urinário fosse considerado 1 mL/min. Lembre-se: 2.880 mL / 1.440 min = **2 mL/min**."
+        },
+        {
+          "letra": "B",
+          "texto": "72 mL/min",
+          "explicacao": "Não corresponde a nenhuma combinação correta dos dados. Use C = U × V̇ / P com V̇ em mL/min."
+        },
+        {
+          "letra": "C",
+          "texto": "100 mL/min",
+          "explicacao": "Correta. V̇ = 2.880 mL ÷ 1.440 min = 2 mL/min. C<sub>Cr</sub> = (60 × 2) / 1,2 = **100 mL/min**. Lembre que, como há pequena secreção tubular de creatinina, esse valor superestima levemente a TFG verdadeira."
+        },
+        {
+          "letra": "D",
+          "texto": "144 mL/min",
+          "explicacao": "Resultado obtido multiplicando U × V̇ × P (em vez de dividir por P): 60 × 2 × 1,2 = 144. A concentração plasmática vai no **denominador**."
+        },
+        {
+          "letra": "E",
+          "texto": "200 mL/min",
+          "explicacao": "Resultado de 60 × 2 / 0,6 — usaria uma creatinina plasmática de 0,6, que não é a informada."
+        }
+      ],
+      "gabarito": "C",
+      "secao": "depuracao",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27",
+      "tags": [
+        "depuração",
+        "creatinina",
+        "cálculo"
+      ]
+    },
+    {
+      "id": "fg-004",
+      "nivel": "medio",
+      "enunciado": "A albumina (~69 kDa) tem um raio molecular próximo ao limite de passagem pela barreira glomerular, mas sua concentração no filtrado é mínima. Moléculas neutras de dextrano com o mesmo raio são filtradas em quantidade significativamente maior. Qual característica da barreira explica essa diferença?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A barreira tem carga negativa (heparan sulfato, glicocálice, podócitos), que repele a albumina aniônica",
+          "explicacao": "Correta. Além do tamanho, a barreira seleciona por **carga**: os proteoglicanos da MBG e o glicocálice são aniônicos. A albumina, também aniônica em pH fisiológico, é repelida; o dextrano neutro do mesmo tamanho não sofre essa repulsão. A perda dessa carga é um mecanismo de proteinúria."
+        },
+        {
+          "letra": "B",
+          "texto": "A albumina é reabsorvida totalmente na cápsula de Bowman antes de chegar ao túbulo",
+          "explicacao": "Não há reabsorção na cápsula de Bowman. A pequena quantidade de albumina filtrada é captada por endocitose no túbulo proximal — mas isso não explica a diferença na filtração."
+        },
+        {
+          "letra": "C",
+          "texto": "As fenestras endoteliais são menores que o raio da albumina",
+          "explicacao": "As fenestras do endotélio têm ~70–100 nm, muito maiores que a albumina; elas barram células, não proteínas plasmáticas."
+        },
+        {
+          "letra": "D",
+          "texto": "A albumina liga-se à nefrina e é transportada de volta ao capilar",
+          "explicacao": "A nefrina é uma proteína estrutural do diafragma de fenda, não um transportador. Não existe esse transporte retrógrado."
+        },
+        {
+          "letra": "E",
+          "texto": "A pressão oncótica na cápsula de Bowman impede a entrada de proteínas",
+          "explicacao": "A pressão oncótica na cápsula é praticamente zero justamente **porque** a albumina não é filtrada — é consequência, não causa."
+        }
+      ],
+      "gabarito": "A",
+      "secao": "barreira",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27; Berne & Levy, 7ª ed., cap. 33",
+      "tags": [
+        "barreira de filtração",
+        "proteinúria"
+      ]
+    },
+    {
+      "id": "fg-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 74 anos, tabagista, com hipertensão de difícil controle e doença arterial periférica, apresenta sopro abdominal periumbilical. Creatinina basal 1,1 mg/dL. Inicia enalapril 20 mg/dia. Dez dias depois, a creatinina é 2,4 mg/dL e o potássio 5,8 mEq/L. Qual é o mecanismo mais provável da piora da função renal?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Necrose tubular aguda por toxicidade direta do enalapril",
+          "explicacao": "IECAs não são nefrotóxicos tubulares diretos. A lesão é hemodinâmica e, em geral, reversível com a suspensão."
+        },
+        {
+          "letra": "B",
+          "texto": "Nefrite intersticial aguda alérgica induzida pelo IECA",
+          "explicacao": "Nefrite intersticial é rara com IECA e cursaria com febre, rash, eosinofilia ou piúria estéril. O contexto (estenose provável, piora logo após iniciar IECA) aponta para mecanismo hemodinâmico."
+        },
+        {
+          "letra": "C",
+          "texto": "Vasoconstrição da arteríola aferente pelo acúmulo de bradicinina",
+          "explicacao": "A bradicinina acumulada pelos IECA é **vasodilatadora** (e explica a tosse e o angioedema), não vasoconstritora."
+        },
+        {
+          "letra": "D",
+          "texto": "Perda da vasoconstrição eferente mediada por angiotensina II, com queda da pressão hidrostática glomerular",
+          "explicacao": "Correta. Com estenose bilateral de artéria renal (sugerida pelo sopro e pela aterosclerose difusa), a pressão que chega ao glomérulo é baixa e a TFG depende da **Ang II contraindo a eferente** para manter a P<sub>CG</sub>. O IECA remove esse suporte → a eferente dilata → P<sub>CG</sub> despenca → TFG cai. A hipercalemia reflete a redução de aldosterona e da TFG."
+        },
+        {
+          "letra": "E",
+          "texto": "Aumento da pressão na cápsula de Bowman por retenção urinária",
+          "explicacao": "Não há dados de obstrução urinária. P<sub>B</sub> aumentada é o mecanismo da LRA pós-renal."
+        }
+      ],
+      "gabarito": "D",
+      "secao": "ieca-estenose",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27; Goodman & Gilman, 13ª ed., cap. 26",
+      "tags": [
+        "IECA",
+        "estenose de artéria renal",
+        "angiotensina II"
+      ]
+    },
+    {
+      "id": "fg-006",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 79 anos com insuficiência cardíaca de fração de ejeção reduzida, em uso de furosemida e losartana, passa a tomar ibuprofeno 600 mg três vezes ao dia por dor no joelho. Em uma semana, evolui com oligúria e creatinina de 1,0 para 2,6 mg/dL; sedimento urinário sem alterações. Qual é o papel específico do anti-inflamatório nesse quadro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Bloqueio da síntese de prostaglandinas que mantinham a arteríola aferente dilatada",
+          "explicacao": "Correta. Na IC, o baixo débito ativa simpático e Ang II, que tendem a contrair as arteríolas renais. As **prostaglandinas (PGE₂, PGI₂) dilatam a aferente** e preservam a perfusão glomerular. O AINE remove essa proteção; somado ao BRA (perda do suporte eferente) e ao diurético (↓volume), configura o **triplo golpe**."
+        },
+        {
+          "letra": "B",
+          "texto": "Constrição direta da arteríola eferente",
+          "explicacao": "AINE não contrai a eferente. Aliás, a constrição eferente tenderia a **preservar** a TFG. O efeito do AINE ocorre na aferente."
+        },
+        {
+          "letra": "C",
+          "texto": "Obstrução tubular por cristais do fármaco",
+          "explicacao": "Nefropatia por cristais ocorre com aciclovir, metotrexato, sulfonamidas e indinavir, não com ibuprofeno. O sedimento normal também afasta essa hipótese."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento da secreção tubular de creatinina, sem alteração real da TFG",
+          "explicacao": "Fármacos que interferem na secreção de creatinina (trimetoprima, cimetidina) a **reduzem**, elevando a creatinina sérica. Mas aqui há oligúria, o que indica queda real da TFG."
+        },
+        {
+          "letra": "E",
+          "texto": "Glomerulonefrite rapidamente progressiva induzida por AINE",
+          "explicacao": "Haveria hematúria dismórfica, cilindros hemáticos e proteinúria. O sedimento normal e a relação temporal com o AINE em paciente vulnerável apontam para lesão hemodinâmica."
+        }
+      ],
+      "gabarito": "A",
+      "secao": "controle-neurohumoral",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27; Goodman & Gilman, 13ª ed., cap. 38",
+      "tags": [
+        "AINE",
+        "prostaglandinas",
+        "triplo golpe"
+      ]
+    },
+    {
+      "id": "fg-007",
+      "nivel": "dificil",
+      "enunciado": "Diuréticos de alça, como a furosemida, aumentam a atividade de renina plasmática de forma rápida, antes mesmo de haver redução significativa do volume extracelular. Qual mecanismo explica esse aumento precoce?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A furosemida estimula diretamente os receptores β1 das células justaglomerulares",
+          "explicacao": "A estimulação β1 (simpática) é uma via real de liberação de renina, mas a furosemida não é agonista adrenérgico."
+        },
+        {
+          "letra": "B",
+          "texto": "A hipocalemia causada pelo diurético estimula diretamente a síntese de renina",
+          "explicacao": "A hipocalemia se desenvolve depois e não é o mecanismo principal do aumento precoce de renina."
+        },
+        {
+          "letra": "C",
+          "texto": "A furosemida aumenta a pressão de perfusão na arteríola aferente, estimulando o barorreceptor intrarrenal",
+          "explicacao": "O barorreceptor da aferente libera renina quando a pressão **cai**, não quando sobe."
+        },
+        {
+          "letra": "D",
+          "texto": "O aumento de NaCl na mácula densa libera adenosina, que estimula a renina",
+          "explicacao": "A furosemida aumenta o NaCl no lúmen, mas a mácula densa não consegue captá-lo (NKCC2 bloqueado). Além disso, o sinal de adenosina por ↑NaCl **inibe** a renina e contrai a aferente."
+        },
+        {
+          "letra": "E",
+          "texto": "O bloqueio do NKCC2 na mácula densa faz com que ela 'perceba' baixa oferta de NaCl e sinalize liberação de renina",
+          "explicacao": "Correta. A mácula densa capta NaCl pelo **mesmo cotransportador NKCC2** que a furosemida inibe. Com o NKCC2 bloqueado, ela interpreta a situação como **baixa oferta de NaCl** (como se a TFG estivesse baixa) e estimula a liberação de renina (via COX-2/PGE₂). Mais tarde, a depleção de volume reforça o estímulo."
+        }
+      ],
+      "gabarito": "E",
+      "secao": "feedback-tubuloglomerular",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27; Berne & Levy, 7ª ed., cap. 33",
+      "tags": [
+        "feedback tubuloglomerular",
+        "mácula densa",
+        "renina",
+        "furosemida"
+      ]
+    },
+    {
+      "id": "fg-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 45 anos, sem doença renal, inicia sulfametoxazol-trimetoprima em dose alta para tratamento de pneumocistose. Creatinina sérica: 0,9 mg/dL antes; 1,2 mg/dL após cinco dias. Diurese preservada, urina I normal, cistatina C inalterada. Qual é a interpretação mais adequada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lesão renal aguda estágio 1, devendo suspender o antibiótico imediatamente",
+          "explicacao": "O aumento isolado de creatinina, com cistatina C estável e sem outros sinais de lesão, não indica queda real da TFG. Suspender um tratamento necessário seria um erro."
+        },
+        {
+          "letra": "B",
+          "texto": "Nefrite intersticial alérgica pela sulfonamida",
+          "explicacao": "É possível com sulfonamidas, mas cursaria com piúria, eosinofilúria, febre ou rash e com queda real da TFG (cistatina C também subiria)."
+        },
+        {
+          "letra": "C",
+          "texto": "Inibição da secreção tubular de creatinina pela trimetoprima, sem redução real da TFG",
+          "explicacao": "Correta. Cerca de 10–20% da creatinina urinária vem de **secreção tubular** (transportadores de cátions orgânicos). A trimetoprima compete por essa via, elevando a creatinina sérica **sem alterar a TFG verdadeira**. A cistatina C, que não depende dessa secreção nem da massa muscular, confirma que a filtração está preservada."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento da produção muscular de creatinina pela infecção",
+          "explicacao": "Infecção grave tende a causar catabolismo e perda de massa muscular, o que **reduziria** a produção de creatinina."
+        },
+        {
+          "letra": "E",
+          "texto": "Obstrução tubular por cristais de sulfametoxazol",
+          "explicacao": "A cristalúria ocorre principalmente com desidratação e urina ácida e cursaria com sedimento alterado e queda real da TFG."
+        }
+      ],
+      "gabarito": "C",
+      "secao": "creatinina",
+      "referencia": "Berne & Levy, 7ª ed., cap. 33; KDIGO 2024 – CKD Guideline (avaliação da TFG)",
+      "tags": [
+        "creatinina",
+        "secreção tubular",
+        "cistatina C"
+      ]
+    },
+    {
+      "id": "fg-009",
+      "nivel": "aprofundado",
+      "enunciado": "Mulher de 58 anos com diabetes tipo 2, TFG estimada de 72 mL/min/1,73 m² e albuminúria de 420 mg/g, inicia dapagliflozina. Após três semanas, a TFG estimada é 63 mL/min/1,73 m² e permanece estável nas avaliações seguintes; potássio normal. Qual explicação fisiológica justifica essa queda e qual a conduta mais adequada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Necrose tubular por glicosúria intensa; suspender o fármaco",
+          "explicacao": "A glicosúria induzida pelos iSGLT2 não causa necrose tubular. Uma queda pequena e estável é esperada e não indica lesão."
+        },
+        {
+          "letra": "B",
+          "texto": "Hipovolemia grave por diurese osmótica; suspender e hidratar",
+          "explicacao": "Há natriurese e diurese osmótica leves, mas uma queda estável sem sinais de hipovolemia não sugere desidratação significativa."
+        },
+        {
+          "letra": "C",
+          "texto": "Dilatação da arteríola eferente por bloqueio da angiotensina II; trocar por um IECA",
+          "explicacao": "Esse é o mecanismo dos IECA/BRA, não dos iSGLT2. E a recomendação atual é usar ambos em conjunto na doença renal do diabetes com albuminúria."
+        },
+        {
+          "letra": "D",
+          "texto": "Maior oferta de NaCl à mácula densa, que restaura o feedback tubuloglomerular e contrai a arteríola aferente, reduzindo a hiperfiltração; manter o fármaco",
+          "explicacao": "Correta. No diabetes, o SGLT2 hiperativo reabsorve mais Na⁺ junto com a glicose → **menos NaCl chega à mácula densa** → o FTG dilata a aferente → hiperfiltração. O iSGLT2 aumenta a oferta distal de NaCl → **constrição aferente** → ↓P<sub>CG</sub>. A queda inicial (~10–30%) é hemodinâmica, esperada e associada a **nefroproteção** de longo prazo."
+        },
+        {
+          "letra": "E",
+          "texto": "Obstrução urinária por infecção fúngica ascendente; solicitar ultrassom de urgência",
+          "explicacao": "Infecções genitais micóticas são efeito adverso conhecido, mas não causam obstrução nem explicam o padrão de queda pequena e estável."
+        }
+      ],
+      "gabarito": "D",
+      "secao": "hiperfiltracao",
+      "referencia": "Berne & Levy, 7ª ed., cap. 33; KDIGO 2024 – CKD Guideline; Diretriz SBD 2024 (doença renal do diabetes)",
+      "tags": [
+        "iSGLT2",
+        "hiperfiltração",
+        "feedback tubuloglomerular",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "fg-010",
+      "nivel": "aprofundado",
+      "enunciado": "Em rins isolados perfundidos com pressão constante, infunde-se angiotensina II em doses crescentes. Em doses baixas, a TFG aumenta discretamente; em doses muito altas, a TFG cai, embora a pressão hidrostática glomerular (P<sub>CG</sub>) continue elevada. Qual é a explicação mais adequada para a queda da TFG nas doses altas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Em doses altas, a angiotensina II passa a dilatar a arteríola eferente",
+          "explicacao": "A Ang II não muda de efeito com a dose; ela continua vasoconstritora. O enunciado informa que a P<sub>CG</sub> permanece alta, o que é incompatível com dilatação eferente."
+        },
+        {
+          "letra": "B",
+          "texto": "A queda acentuada do fluxo plasmático renal faz a pressão oncótica capilar subir rapidamente ao longo do glomérulo, anulando a pressão efetiva de filtração",
+          "explicacao": "Correta. É a **resposta bifásica** à constrição eferente. Com FPR muito baixo, a mesma filtração de água concentra rapidamente as proteínas: a π<sub>CG</sub> sobe tanto ao longo do capilar que a pressão efetiva chega a zero precocemente (equilíbrio de filtração), e boa parte do capilar deixa de filtrar. A TFG cai apesar da P<sub>CG</sub> alta."
+        },
+        {
+          "letra": "C",
+          "texto": "A angiotensina II aumenta o coeficiente de filtração (K<sub>f</sub>) por relaxamento mesangial",
+          "explicacao": "A Ang II **contrai** as células mesangiais, o que tende a **reduzir** K<sub>f</sub>. Mesmo assim, o enunciado aponta para a dinâmica oncótica, que é o mecanismo principal."
+        },
+        {
+          "letra": "D",
+          "texto": "A pressão na cápsula de Bowman cai, reduzindo o gradiente de filtração",
+          "explicacao": "Uma queda de P<sub>B</sub> **aumentaria** a pressão efetiva de filtração, não a reduziria."
+        },
+        {
+          "letra": "E",
+          "texto": "A angiotensina II aumenta a permeabilidade da barreira à albumina, elevando a pressão oncótica na cápsula",
+          "explicacao": "Mesmo com algum aumento de proteinúria, a π<sub>B</sub> continuaria desprezível e, se aumentasse, **favoreceria** a filtração."
+        }
+      ],
+      "gabarito": "B",
+      "secao": "starling",
+      "referencia": "Guyton & Hall, 14ª ed., cap. 27; Berne & Levy, 7ª ed., cap. 33",
+      "tags": [
+        "Starling",
+        "arteríola eferente",
+        "resposta bifásica",
+        "pressão oncótica"
+      ]
+    }
+  ]
+}

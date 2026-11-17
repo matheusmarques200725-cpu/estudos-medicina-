@@ -1,0 +1,33 @@
+{
+  "name": "estudos-medicina",
+  "version": "1.0.0",
+  "description": "Plataforma pessoal de estudos de medicina (material + banco de questões)",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "node scripts/validate.js && vite build",
+    "preview": "vite preview --host",
+    "validate": "node scripts/validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusmarques200725-cpu/estudos-medicina-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matheusmarques200725-cpu/estudos-medicina-/issues"
+  },
+  "homepage": "https://github.com/matheusmarques200725-cpu/estudos-medicina-#readme",
+  "devDependencies": {
+    "vite": "^6.4.6",
+    "vite-plugin-pwa": "^0.21.2"
+  },
+  "dependencies": {
+    "markdown-it": "^15.0.3",
+    "markdown-it-attrs": "^5.0.1",
+    "markdown-it-container": "^4.0.0",
+    "mermaid": "^12.3.0",
+    "minisearch": "^7.2.0",
+    "yaml": "^2.9.1"
+  },
+  "private": true,
+  "type": "module"
+}
