@@ -1,0 +1,165 @@
+{
+  "topico": "sistema-complemento",
+  "questoes": [
+    {
+      "id": "co-001",
+      "nivel": "medio",
+      "enunciado": "Ao entrar em contato com o sangue, *Streptococcus pneumoniae* fica recoberto por um fragmento do complemento que se liga covalentemente à sua superfície e é reconhecido pelos receptores CR1 de neutrófilos e macrófagos, facilitando a fagocitose. Qual é esse fragmento?",
+      "alternativas": [
+        { "letra": "A", "texto": "C3a", "explicacao": "C3a é um fragmento **pequeno e solúvel** (anafilatoxina), que se difunde e atua sobre mastócitos; não fica ligado ao micróbio." },
+        { "letra": "B", "texto": "C5a", "explicacao": "C5a é a anafilatoxina mais potente e principal fator **quimiotático** do complemento; também é solúvel, não opsonina." },
+        { "letra": "C", "texto": "C3b", "explicacao": "Correta. **C3b** é o fragmento maior da clivagem de C3; por meio de sua ligação tioéster, liga-se covalentemente à superfície microbiana e é reconhecido pelo **CR1** (e, após clivagem em iC3b, pelo CR3) dos fagócitos — **opsonização**, a função antibacteriana mais importante do complemento." },
+        { "letra": "D", "texto": "C5b-9", "explicacao": "C5b-9 é o **complexo de ataque à membrana**, que forma poros e lisa a célula; não é reconhecido por receptores de fagócitos para facilitar a fagocitose." },
+        { "letra": "E", "texto": "C1q", "explicacao": "C1q é o componente de reconhecimento da via clássica (liga-se a anticorpos), e não a principal opsonina reconhecida por CR1." }
+      ],
+      "gabarito": "C",
+      "secao": "funcoes-efetoras",
+      "referencia": "Abbas, Lichtman & Pillai – Imunologia Celular e Molecular, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'",
+      "tags": ["C3b", "opsonização"]
+    },
+    {
+      "id": "co-002",
+      "nivel": "medio",
+      "enunciado": "Qual isotipo de imunoglobulina ativa a via clássica do complemento com maior eficiência, sendo suficiente uma única molécula ligada ao antígeno?",
+      "alternativas": [
+        { "letra": "A", "texto": "IgM, por sua estrutura pentamérica, que oferece várias porções Fc próximas para a ligação do C1q", "explicacao": "Correta. O **C1q** precisa se ligar a pelo menos **duas porções Fc** próximas para ser ativado. Uma única **IgM pentamérica** ligada ao antígeno já oferece isso; com IgG, são necessárias várias moléculas lado a lado. Por isso a IgM, que predomina na resposta primária, é o ativador mais eficiente da via clássica." },
+        { "letra": "B", "texto": "IgG4, por sua alta afinidade pelo C1q", "explicacao": "IgG4 é a subclasse de IgG que **menos** ativa o complemento." },
+        { "letra": "C", "texto": "IgA secretora, por ser a imunoglobulina mais abundante nas mucosas", "explicacao": "A IgA praticamente **não ativa** a via clássica; sua função principal é neutralizar micróbios nas mucosas sem inflamação." },
+        { "letra": "D", "texto": "IgE, por ligar-se a mastócitos", "explicacao": "A IgE atua via receptores FcεRI em mastócitos e basófilos e não ativa a via clássica." },
+        { "letra": "E", "texto": "IgD, por ser expressa na superfície de linfócitos B naïve", "explicacao": "A IgD funciona principalmente como receptor de antígeno na membrana do linfócito B e não ativa o complemento." }
+      ],
+      "gabarito": "A",
+      "secao": "vias-ativacao",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'",
+      "tags": ["via clássica", "IgM", "C1q"]
+    },
+    {
+      "id": "co-003",
+      "nivel": "medio",
+      "enunciado": "Jovem de 22 anos tem o segundo episódio de meningite por *Neisseria meningitidis* em três anos. Não tem asplenia, e os níveis de imunoglobulinas são normais. O CH50 é indetectável. Qual é a alteração mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de C1-INH", "explicacao": "A deficiência de C1-INH causa **angioedema hereditário**, e não infecções recorrentes por Neisseria." },
+        { "letra": "B", "texto": "Deficiência da NADPH oxidase", "explicacao": "A doença granulomatosa crônica predispõe a infecções por catalase-positivos e fungos, com CH50 normal." },
+        { "letra": "C", "texto": "Deficiência de DAF (CD55) e CD59", "explicacao": "A ausência dessas proteínas reguladoras causa **hemoglobinúria paroxística noturna**, com hemólise, e não meningococcemia de repetição." },
+        { "letra": "D", "texto": "Deficiência de IgA", "explicacao": "A deficiência de IgA costuma ser assintomática ou associada a infecções sinopulmonares e gastrointestinais; o CH50 seria normal." },
+        { "letra": "E", "texto": "Deficiência de um componente terminal (C5, C6, C7, C8 ou C9)", "explicacao": "Correta. Sem componentes terminais, não se forma o **complexo de ataque à membrana**, essencial para lisar **Neisseria** (bactérias de membrana externa fina, sensíveis ao MAC). O **CH50** depende de toda a via clássica até C9 e fica indetectável. Esses pacientes devem ser vacinados contra meningococo." }
+      ],
+      "gabarito": "E",
+      "secao": "deficiencias",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["MAC", "Neisseria", "CH50"]
+    },
+    {
+      "id": "co-004",
+      "nivel": "medio",
+      "enunciado": "Em um foco de infecção bacteriana, um fragmento solúvel do complemento atrai neutrófilos para o local, ativa-os e provoca degranulação de mastócitos, contribuindo para vasodilatação e aumento da permeabilidade vascular. Qual é esse fragmento?",
+      "alternativas": [
+        { "letra": "A", "texto": "C3d", "explicacao": "C3d é um produto de degradação de C3b que se liga ao **CR2 (CD21)** dos linfócitos B, funcionando como correceptor do BCR; não é quimiotático." },
+        { "letra": "B", "texto": "C5a", "explicacao": "Correta. **C5a** é a anafilatoxina **mais potente** e o principal fator **quimiotático** do complemento para neutrófilos (e monócitos). Junto com C3a, degranula mastócitos (histamina), causando vasodilatação e aumento da permeabilidade." },
+        { "letra": "C", "texto": "C4b", "explicacao": "C4b é componente da C3 convertase clássica e também funciona como opsonina fraca; não é anafilatoxina." },
+        { "letra": "D", "texto": "Fator B", "explicacao": "O fator B é um componente da via alternativa que, clivado pelo fator D, forma a convertase C3bBb." },
+        { "letra": "E", "texto": "C9", "explicacao": "C9 é o componente que polimeriza para formar o poro do complexo de ataque à membrana." }
+      ],
+      "gabarito": "B",
+      "secao": "funcoes-efetoras",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'; Robbins – Patologia Básica, 10ª ed., cap. 'Inflamação e reparo'",
+      "tags": ["C5a", "anafilatoxina", "quimiotaxia"]
+    },
+    {
+      "id": "co-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 24 anos tem episódios recorrentes, desde a adolescência, de edema de lábios e mãos, sem prurido nem urticária, que duram 2 a 4 dias, além de crises de dor abdominal em cólica. Após uma extração dentária, evolui com rouquidão e dificuldade para respirar. Ela já usou anti-histamínicos e corticoides sem melhora. A mãe tem quadro semelhante. Exames: C4 baixo, C3 normal. Qual é o mediador responsável pelo edema e o tratamento mais adequado da crise?",
+      "alternativas": [
+        { "letra": "A", "texto": "Histamina; adrenalina intramuscular e anti-histamínico", "explicacao": "O edema histaminérgico (alérgico) costuma vir com urticária e prurido e responde a anti-histamínicos e corticoides — o que não ocorreu. A adrenalina pode ser usada como ponte em emergência de via aérea, mas não trata o mecanismo." },
+        { "letra": "B", "texto": "Leucotrienos; antagonista de receptor de leucotrienos", "explicacao": "Leucotrienos participam da asma e da inflamação alérgica, mas não explicam o angioedema hereditário." },
+        { "letra": "C", "texto": "C5a; anticorpo anti-C5 (eculizumabe)", "explicacao": "O eculizumabe é usado na HPN e na SHU atípica; não trata o angioedema hereditário, mediado por bradicinina." },
+        { "letra": "D", "texto": "Bradicinina, por deficiência do inibidor de C1 (C1-INH); concentrado de C1-INH ou icatibanto", "explicacao": "Correta. É o **angioedema hereditário** (autossômico dominante). O **C1-INH** inibe C1r/C1s e também a **calicreína** e o fator XIIa. Sem ele, há produção excessiva de **bradicinina** → aumento de permeabilidade → edema sem urticária, de pele, intestino e **laringe**. O C4 baixo reflete o consumo contínuo pela via clássica sem freio. Na crise, usa-se **concentrado de C1-INH** ou **icatibanto** (antagonista do receptor B2 da bradicinina), além de garantir a via aérea." },
+        { "letra": "E", "texto": "Prostaglandina E₂; anti-inflamatório não esteroidal", "explicacao": "A PGE₂ participa da febre e da dor; AINEs não tratam angioedema e podem até precipitar angioedema em pessoas suscetíveis." }
+      ],
+      "gabarito": "D",
+      "secao": "angioedema-hereditario",
+      "referencia": "Harrison, 21ª ed., cap. 'Angioedema'; ASBAI – Diretrizes brasileiras do angioedema hereditário",
+      "tags": ["angioedema hereditário", "C1-INH", "bradicinina", "icatibanto"]
+    },
+    {
+      "id": "co-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 34 anos tem urina escura pela manhã, fadiga e dor abdominal. Exames: hemoglobina 8,9 g/dL, reticulócitos aumentados, LDH muito elevada, haptoglobina indetectável, teste de Coombs direto negativo e plaquetopenia leve. A ultrassonografia com Doppler mostra trombose de veias hepáticas. Qual alteração molecular explica a destruição das hemácias?",
+      "alternativas": [
+        { "letra": "A", "texto": "Anticorpos IgG antieritrocitários que ativam a via clássica do complemento", "explicacao": "Isso seria uma anemia hemolítica autoimune, que cursa com **Coombs direto positivo**." },
+        { "letra": "B", "texto": "Deficiência hereditária de glicose-6-fosfato desidrogenase", "explicacao": "A deficiência de G6PD causa hemólise por estresse oxidativo, desencadeada por fármacos ou infecções, sem a trombose venosa característica." },
+        { "letra": "C", "texto": "Mutação adquirida em PIG-A, com perda da âncora GPI e das proteínas reguladoras CD55 e CD59 na membrana das hemácias", "explicacao": "Correta. É a **hemoglobinúria paroxística noturna**. A mutação em **PIG-A** em uma célula-tronco hematopoética impede a síntese da âncora **GPI**; sem ela, as células-filhas não expressam **DAF (CD55)** e **CD59** e ficam desprotegidas da ativação contínua da via alternativa → **hemólise intravascular** (Coombs negativo, hemoglobinúria). A **trombose em locais atípicos** (como veias hepáticas – síndrome de Budd-Chiari) é a principal causa de morte. O diagnóstico é feito por **citometria de fluxo**." },
+        { "letra": "D", "texto": "Mutação no gene da espectrina, com esferocitose e destruição esplênica", "explicacao": "A esferocitose hereditária causa hemólise **extravascular** (no baço), com esferócitos no esfregaço, e não hemoglobinúria nem trombose." },
+        { "letra": "E", "texto": "Deficiência de C1-INH, com ativação descontrolada da via clássica sobre as hemácias", "explicacao": "A deficiência de C1-INH causa angioedema por bradicinina, e não hemólise." }
+      ],
+      "gabarito": "C",
+      "secao": "hpn",
+      "referencia": "Harrison, 21ª ed., cap. 'Hemoglobinúria paroxística noturna'; Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'",
+      "tags": ["HPN", "PIG-A", "CD55", "CD59"]
+    },
+    {
+      "id": "co-007",
+      "nivel": "dificil",
+      "enunciado": "Menino de 8 anos apresenta urina cor de 'coca-cola', edema periorbitário e pressão arterial elevada, 2 semanas após um quadro de faringoamigdalite. Exames: hematúria com cilindros hemáticos, C3 baixo e C4 normal. O que o padrão do complemento indica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência congênita de C3, que deve ser investigada na família", "explicacao": "O C3 baixo aqui reflete **consumo** por doença ativa, e não deficiência congênita; ele normaliza com a resolução do quadro." },
+        { "letra": "B", "texto": "Ativação predominante da via clássica por imunocomplexos, como no lúpus", "explicacao": "A ativação da via clássica consome **C4 e C3**; com C4 normal, a via clássica não é a principal envolvida." },
+        { "letra": "C", "texto": "Deficiência de C1-INH com consumo de C3", "explicacao": "A deficiência de C1-INH consome **C4** (não C3) e causa angioedema." },
+        { "letra": "D", "texto": "Doença por anticorpos anti-membrana basal glomerular, que não envolve complemento", "explicacao": "A doença anti-MBG causa glomerulonefrite rapidamente progressiva com deposição linear de IgG, sem relação com faringite prévia e geralmente sem hipocomplementemia." },
+        { "letra": "E", "texto": "Consumo de C3 por ativação predominante da via alternativa, típico da glomerulonefrite pós-estreptocócica, com normalização esperada em 6 a 8 semanas", "explicacao": "Correta. Na **GN pós-estreptocócica**, imunocomplexos e antígenos do estreptococo ativam predominantemente a **via alternativa** nos glomérulos → **C3 baixo com C4 normal**. O C3 deve normalizar em **6 a 8 semanas**; se continuar baixo, deve-se suspeitar de outra glomerulopatia (como a GN membranoproliferativa ou glomerulopatia por C3)." }
+      ],
+      "gabarito": "E",
+      "secao": "marcadores",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'; Robbins – Patologia Básica, 10ª ed., cap. 'Rim'",
+      "tags": ["GN pós-estreptocócica", "C3", "via alternativa"]
+    },
+    {
+      "id": "co-008",
+      "nivel": "dificil",
+      "enunciado": "Paciente com hemoglobinúria paroxística noturna em uso de eculizumabe (anticorpo monoclonal anti-C5) há 8 meses chega ao pronto-socorro com febre alta, cefaleia, rigidez de nuca e petéquias nos membros inferiores. Por que esse fármaco aumenta o risco desse quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque, ao bloquear a clivagem de C5, impede a formação do complexo de ataque à membrana, essencial para a lise de Neisseria", "explicacao": "Correta. O **eculizumabe** se liga a **C5** e impede sua clivagem em C5a e C5b. Sem C5b, não se forma o **MAC (C5b-9)**, reproduzindo farmacologicamente uma **deficiência de complemento terminal** → risco aumentado de **doença meningocócica** (o quadro sugere meningococcemia). Por isso a **vacinação antimeningocócica** (ACWY e B) é obrigatória antes de iniciar o fármaco, e alguns protocolos associam antibiótico profilático." },
+        { "letra": "B", "texto": "Porque bloqueia C3, impedindo a opsonização de todas as bactérias", "explicacao": "O eculizumabe atua em **C5**, não em C3; a opsonização por C3b está preservada." },
+        { "letra": "C", "texto": "Porque causa neutropenia grave por toxicidade medular", "explicacao": "Neutropenia não é o mecanismo característico do risco infeccioso associado ao eculizumabe." },
+        { "letra": "D", "texto": "Porque destrói os linfócitos B, reduzindo a produção de anticorpos", "explicacao": "Esse é o mecanismo de anticorpos anti-CD20, como o rituximabe, e não do eculizumabe." },
+        { "letra": "E", "texto": "Porque bloqueia a via das lectinas, impedindo o reconhecimento de manose na superfície bacteriana", "explicacao": "O eculizumabe não atua na via das lectinas; ele bloqueia a etapa final comum a todas as vias." }
+      ],
+      "gabarito": "A",
+      "secao": "hpn",
+      "referencia": "Harrison, 21ª ed., cap. 'Hemoglobinúria paroxística noturna'; Ministério da Saúde – Manual dos CRIE",
+      "tags": ["eculizumabe", "C5", "Neisseria", "vacinação"]
+    },
+    {
+      "id": "co-009",
+      "nivel": "aprofundado",
+      "enunciado": "A via alternativa do complemento está permanentemente ativa em baixo nível, porque o C3 sofre hidrólise espontânea no plasma e gera C3b, que se fixa em qualquer superfície próxima. Por que essa ativação contínua destrói bactérias, mas normalmente não lesa as células humanas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque o C3b só consegue se ligar a carboidratos exclusivos de bactérias, como o LPS", "explicacao": "O C3b se liga de forma covalente e pouco seletiva a grupos hidroxila e amino de **qualquer** superfície próxima, inclusive de células humanas." },
+        { "letra": "B", "texto": "Porque as células humanas expressam reguladores (DAF/CD55, MCP/CD46, CD59) e capturam o fator H por meio do ácido siálico, inativando rapidamente o C3b e as convertases, enquanto os micróbios não têm essa proteção", "explicacao": "Correta. A discriminação é feita por **ausência de proteção**: nas células próprias, **DAF** dissocia as convertases, **MCP** e **fator H** (que se liga ao ácido siálico abundante nas membranas humanas) atuam como cofatores do **fator I** para clivar o C3b, e **CD59** bloqueia o MAC. Nas superfícies microbianas, sem esses reguladores, o C3b persiste, a **properdina** estabiliza a convertase C3bBb e a alça de amplificação se instala. Defeitos nesses reguladores causam HPN e SHU atípica." },
+        { "letra": "C", "texto": "Porque as células humanas não têm membrana lipídica onde o complexo de ataque possa se inserir", "explicacao": "Células humanas têm membrana lipídica e podem ser lisadas pelo MAC — é exatamente o que ocorre na HPN, quando faltam os reguladores." },
+        { "letra": "D", "texto": "Porque a via alternativa depende de anticorpos específicos, que só existem contra micróbios", "explicacao": "A via alternativa é **inata** e não depende de anticorpos; quem depende de anticorpos é a via clássica." },
+        { "letra": "E", "texto": "Porque o fígado deixa de produzir C3 quando há células humanas lesadas", "explicacao": "A síntese hepática de C3 não é regulada dessa forma; o C3 é até uma proteína de fase aguda, que aumenta na inflamação." }
+      ],
+      "gabarito": "B",
+      "secao": "regulacao",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'",
+      "tags": ["via alternativa", "fator H", "reguladores", "próprio × não próprio"]
+    },
+    {
+      "id": "co-010",
+      "nivel": "aprofundado",
+      "enunciado": "Menina de 7 anos com deficiência homozigótica de C1q desenvolve lesões cutâneas fotossensíveis, artrite, nefrite e anticorpos antinucleares em título alto. Paradoxalmente, a falta de um componente que inicia a cascata leva a uma doença autoimune mediada por imunocomplexos. Qual é a explicação mais aceita?",
+      "alternativas": [
+        { "letra": "A", "texto": "A falta de C1q aumenta a ativação da via alternativa, que passa a lisar células renais e cutâneas", "explicacao": "A ausência de C1q não hiperativa a via alternativa contra tecidos próprios; o mecanismo central está na remoção deficiente de restos celulares e imunocomplexos." },
+        { "letra": "B", "texto": "C1q é necessário para a seleção negativa no timo, e sua ausência libera linfócitos T autorreativos", "explicacao": "A seleção negativa tímica depende de apresentação de antígenos próprios (por exemplo, via AIRE), e não do C1q." },
+        { "letra": "C", "texto": "Sem C1q, os linfócitos B não conseguem trocar de classe e produzem apenas IgM autorreativa", "explicacao": "A troca de classe depende de CD40L e citocinas de linfócitos T auxiliares. E os autoanticorpos do lúpus são predominantemente IgG." },
+        { "letra": "D", "texto": "C1q participa da remoção de células apoptóticas e de imunocomplexos; sua falta faz acumular restos nucleares, que se tornam fonte de autoantígenos e estimulam a produção de anticorpos antinucleares, além de prejudicar a eliminação dos imunocomplexos formados", "explicacao": "Correta. O **C1q** liga-se a **células apoptóticas** e a imunocomplexos e favorece sua retirada silenciosa por fagócitos (e, com C3b/CR1, o transporte dos complexos até o fígado e o baço). Sem C1q, o material nuclear persiste, a tolerância é rompida e surgem **anticorpos antinucleares**; os imunocomplexos formados não são eliminados e depositam-se em pele, articulações e rins. A deficiência de C1q é um dos maiores fatores de risco genéticos conhecidos para **lúpus**; deficiências de C2 e C4 também aumentam o risco." },
+        { "letra": "E", "texto": "A falta de C1q impede a formação do MAC, causando infecções que desencadeiam autoimunidade por mimetismo molecular", "explicacao": "A deficiência de C1q não impede o MAC (as vias alternativa e das lectinas ainda podem ativá-lo), e o mimetismo molecular não é a explicação principal desse fenômeno." }
+      ],
+      "gabarito": "D",
+      "secao": "deficiencias",
+      "referencia": "Abbas, 10ª ed., caps. 'Mecanismos efetores da imunidade humoral' e 'Tolerância imunológica e autoimunidade'",
+      "tags": ["C1q", "lúpus", "células apoptóticas", "imunocomplexos"]
+    }
+  ]
+}

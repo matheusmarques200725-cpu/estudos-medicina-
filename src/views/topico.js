@@ -1,4 +1,5 @@
-import { topicById, materiaById, topicUrl, semestreNome } from '../content.js';
+import { topicById, materiaById, moduloById, moduloPrincipal, moduloUrl, topicUrl, semestreNome } from '../content.js';
+import { materiaChip } from './home.js';
 import { renderMarkdown, renderMermaid } from '../markdown.js';
 import { getStatus, setStatus, getNote, setNote } from '../store.js';
 import { STATUS, STATUS_LABEL } from '../lib/parse.js';
@@ -28,14 +29,14 @@ function sectionize(article) {
 export function topicoView(main, materiaId, topicId, secao) {
   const t = topicById[topicId];
   if (!t || t.materia !== materiaId) { main.innerHTML = '<p>Tópico não encontrado. <a href="#/">Voltar</a></p>'; return; }
-  const m = materiaById[t.materia];
+  const mp = moduloPrincipal(t);
   const st = statsFor(t.questoes);
   const relacionados = (t.relacionados || []).map((id) => topicById[id]).filter(Boolean);
   const pendentes = (t.relacionados || []).filter((id) => !topicById[id]);
   const status = getStatus(t.id);
 
   main.innerHTML = `
-    <nav class="crumbs"><a href="#/">Início</a> › <a href="#/materia/${m.id}">${esc(m.nome)}</a> › ${esc(t.titulo)}</nav>
+    <nav class="crumbs"><a href="#/">Início</a> › ${esc(semestreNome(t.semestre))}${mp ? ` › <a href="${moduloUrl(mp)}">${esc(mp.sigla)}</a>` : ''} › ${esc(t.titulo)}</nav>
     <div class="topic-layout">
       <aside class="toc">
         <details open><summary>Sumário</summary>
@@ -45,7 +46,9 @@ export function topicoView(main, materiaId, topicId, secao) {
       <div class="topic-main">
         <header class="topic-head">
           <h1>${esc(t.titulo)}</h1>
-          <p class="muted small">${esc(m.nome)} · ${esc(semestreNome(t.semestre))}${t.modulo_uepa ? ' · Módulo: ' + esc(t.modulo_uepa) : ''}${t.atualizado ? ' · atualizado em ' + esc(t.atualizado) : ''}</p>
+          <p class="muted small topic-meta">${materiaChip(t.materia)}
+            ${(t.modulos || []).map((id) => moduloById[id]).filter(Boolean).map((x) => `<a class="chip" href="${moduloUrl(x)}">${esc(x.sigla)} · ${esc(x.nome)}</a>`).join(' ')}
+            ${t.atualizado ? `<span>atualizado em ${esc(t.atualizado)}</span>` : ''}</p>
           <div class="topic-toolbar">
             <div class="seg" role="group" aria-label="Status do tópico">
               ${STATUS.map((s) => `<button class="seg-btn status-${s} ${status === s ? 'active' : ''}" data-status="${s}">${STATUS_LABEL[s]}</button>`).join('')}

@@ -8,6 +8,8 @@ const qFiles = import.meta.glob('../content/**/*.questoes.json', { import: 'defa
 export const materias = catalog.materias;
 export const semestres = catalog.semestres || [];
 export const materiaById = Object.fromEntries(materias.map((m) => [m.id, m]));
+export const modulos = catalog.modulos || [];
+export const moduloById = Object.fromEntries(modulos.map((m) => [m.id, m]));
 
 export const topics = Object.values(mdFiles)
   .map((raw) => {
@@ -32,4 +34,8 @@ export const questionById = Object.fromEntries(questions.map((q) => [q.id, q]));
 
 export const topicUrl = (t, secao) => `#/${t.materia}/${t.id}${secao ? '#' + secao : ''}`;
 export const semestreNome = (n) => semestres.find((s) => s.numero === n)?.nome || `${n}º semestre`;
-export const modulosUepa = () => [...new Set(topics.map((t) => t.modulo_uepa).filter(Boolean))].sort();
+/** Tópicos de um módulo (ASE), incluindo os que o têm como módulo secundário. */
+export const topicsByModulo = (id) => topics.filter((t) => (t.modulos || []).includes(id));
+export const moduloUrl = (m) => `#/ase/${m.id}`;
+/** Módulo principal do tópico (o 1º da lista). */
+export const moduloPrincipal = (t) => moduloById[(t.modulos || [])[0]] || null;

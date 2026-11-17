@@ -1,0 +1,165 @@
+{
+  "topico": "imunidade-celular-mhc-linfocitos-t",
+  "questoes": [
+    {
+      "id": "tc-001",
+      "nivel": "medio",
+      "enunciado": "Uma célula epitelial respiratória infectada pelo vírus influenza produz proteínas virais em seu citoplasma. Como peptídeos dessas proteínas são apresentados e qual linfócito os reconhece?",
+      "alternativas": [
+        { "letra": "A", "texto": "Em MHC de classe II, após endocitose, reconhecidos por linfócitos T CD4⁺", "explicacao": "A via do MHC II apresenta proteínas **captadas do meio extracelular** e degradadas em vesículas endocíticas, principalmente em APCs profissionais. Uma célula epitelial comum não é a principal apresentadora em MHC II." },
+        { "letra": "B", "texto": "Como antígenos intactos na membrana, reconhecidos diretamente pelo TCR", "explicacao": "O TCR não reconhece antígenos intactos; reconhece **peptídeos ligados ao MHC**. Antígenos intactos são reconhecidos pelo BCR dos linfócitos B." },
+        { "letra": "C", "texto": "Em moléculas CD1, reconhecidos por células NK", "explicacao": "CD1 apresenta principalmente **lipídios** a linfócitos T não convencionais; as NK não usam TCR e são inibidas pelo MHC I." },
+        { "letra": "D", "texto": "Em MHC de classe I, após degradação no proteassoma e transporte ao retículo endoplasmático pelo TAP, reconhecidos por linfócitos T CD8⁺", "explicacao": "Correta. Proteínas produzidas **no citosol** (próprias, virais ou tumorais) são marcadas com ubiquitina, degradadas no **proteassoma**, e os peptídeos são levados pelo **TAP** ao retículo endoplasmático, onde se ligam ao **MHC I** (com β2-microglobulina). Como quase todas as células nucleadas expressam MHC I, qualquer célula infectada pode ser reconhecida e morta por **CD8⁺**." },
+        { "letra": "E", "texto": "Em MHC de classe I, reconhecidos por linfócitos T CD4⁺", "explicacao": "O correceptor **CD4** liga-se ao **MHC II**. O MHC I é reconhecido por linfócitos que expressam **CD8**." }
+      ],
+      "gabarito": "D",
+      "secao": "mhc-classes",
+      "referencia": "Abbas, Lichtman & Pillai – Imunologia Celular e Molecular, 10ª ed., cap. 'Moléculas do MHC e apresentação de antígenos aos linfócitos T'",
+      "tags": ["MHC I", "proteassoma", "TAP", "CD8"]
+    },
+    {
+      "id": "tc-002",
+      "nivel": "medio",
+      "enunciado": "As moléculas de MHC de classe II são sintetizadas no retículo endoplasmático, local repleto de peptídeos citosólicos. Mesmo assim, elas apresentam principalmente peptídeos de proteínas endocitadas. Qual mecanismo garante isso?",
+      "alternativas": [
+        { "letra": "A", "texto": "O TAP transporta os peptídeos citosólicos diretamente para os endossomos", "explicacao": "O TAP leva peptídeos do citosol para o **retículo endoplasmático**, alimentando a via do MHC I, e não para os endossomos." },
+        { "letra": "B", "texto": "A cadeia invariante ocupa a fenda do MHC II no retículo endoplasmático; nos compartimentos endocíticos, ela é degradada até CLIP, que é trocado pelo peptídeo antigênico com ajuda do HLA-DM", "explicacao": "Correta. A **cadeia invariante (Ii)** bloqueia a fenda do MHC II desde a síntese e direciona a molécula para os **compartimentos endocíticos**. Lá, proteases degradam a Ii, restando o fragmento **CLIP** na fenda; o **HLA-DM** catalisa a troca de CLIP por peptídeos derivados das proteínas endocitadas. Assim, as duas vias não se misturam." },
+        { "letra": "C", "texto": "A β2-microglobulina impede que peptídeos citosólicos se liguem ao MHC II", "explicacao": "A β2-microglobulina faz parte da molécula de **MHC I**, e não do MHC II." },
+        { "letra": "D", "texto": "O proteassoma degrada apenas proteínas extracelulares", "explicacao": "O proteassoma degrada proteínas **citosólicas** e alimenta a via do MHC I." },
+        { "letra": "E", "texto": "O MHC II é sintetizado diretamente nos lisossomos, sem passar pelo retículo endoplasmático", "explicacao": "Como toda proteína de membrana, o MHC II é sintetizado no retículo endoplasmático; o que o protege é a cadeia invariante." }
+      ],
+      "gabarito": "B",
+      "secao": "apresentacao-antigeno",
+      "referencia": "Abbas, 10ª ed., cap. 'Moléculas do MHC e apresentação de antígenos aos linfócitos T'",
+      "tags": ["MHC II", "cadeia invariante", "CLIP", "HLA-DM"]
+    },
+    {
+      "id": "tc-003",
+      "nivel": "medio",
+      "enunciado": "Em um experimento, um linfócito T CD4⁺ naïve reconhece seu peptídeo apresentado em MHC II por uma célula que não expressa B7-1 nem B7-2 (CD80/CD86). Qual é o desfecho mais provável para esse linfócito?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ativação completa com intensa produção de IL-2 e proliferação", "explicacao": "A ativação completa de um linfócito T naïve exige o **segundo sinal** (CD28-B7). Sem ele, não há produção adequada de IL-2 nem expansão clonal." },
+        { "letra": "B", "texto": "Diferenciação imediata em linfócito Th1 produtor de IFN-γ", "explicacao": "A diferenciação em efetor depende primeiro da ativação completa e das citocinas do ambiente (sinal 3)." },
+        { "letra": "C", "texto": "Transformação em linfócito T CD8⁺ citotóxico", "explicacao": "A linhagem CD4 ou CD8 é definida no timo e não muda após a maturação." },
+        { "letra": "D", "texto": "Destruição imediata da célula apresentadora por perforina", "explicacao": "Linfócitos CD4⁺ naïve não são citotóxicos, e a morte por perforina é função típica de CD8⁺ efetores e NK." },
+        { "letra": "E", "texto": "Anergia: estado de não responsividade funcional, um mecanismo de tolerância periférica", "explicacao": "Correta. O **sinal 1** (TCR + peptídeo-MHC) **sem o sinal 2** (CD28 ligando B7) leva à **anergia**. Como as APCs só expressam B7 quando ativadas por PAMPs ou sinais de perigo, antígenos próprios apresentados em condições de repouso tendem a induzir tolerância — um mecanismo de **tolerância periférica**." }
+      ],
+      "gabarito": "E",
+      "secao": "ativacao-t",
+      "referencia": "Abbas, 10ª ed., caps. 'Ativação dos linfócitos T' e 'Tolerância imunológica e autoimunidade'",
+      "tags": ["coestimulação", "CD28", "B7", "anergia"]
+    },
+    {
+      "id": "tc-004",
+      "nivel": "medio",
+      "enunciado": "Criança de área endêmica com ascaridíase e ancilostomíase apresenta eosinofilia e IgE total muito elevada. Qual subtipo de linfócito T CD4⁺ coordena essa resposta, e por meio de quais citocinas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Th2, por meio de IL-4 (troca de classe para IgE), IL-5 (eosinófilos) e IL-13 (muco e contração da musculatura intestinal)", "explicacao": "Correta. Helmintos induzem resposta **Th2** (fator de transcrição **GATA-3**). A **IL-4** promove a troca de classe para **IgE**, a **IL-5** recruta e ativa **eosinófilos**, e a **IL-13** aumenta a secreção de muco e o peristaltismo, ajudando a expulsar os vermes, além de ativar macrófagos M2." },
+        { "letra": "B", "texto": "Th1, por meio de IFN-γ, que ativa macrófagos para fagocitar os vermes", "explicacao": "Helmintos são grandes demais para serem fagocitados, e o IFN-γ **inibe** a resposta Th2, que é a eficaz contra eles." },
+        { "letra": "C", "texto": "Th17, por meio de IL-17, que recruta neutrófilos", "explicacao": "A resposta Th17 é importante contra bactérias extracelulares e fungos, e não é a responsável pela eosinofilia e pela IgE." },
+        { "letra": "D", "texto": "Treg, por meio de IL-10, que aumenta a produção de IgE", "explicacao": "As Treg modulam a resposta, e a IL-10 é anti-inflamatória; elas não são as coordenadoras da produção de IgE e da eosinofilia." },
+        { "letra": "E", "texto": "Linfócitos T CD8⁺, por meio de perforina e granzimas liberadas sobre os vermes", "explicacao": "CD8⁺ matam células infectadas que apresentam peptídeos em MHC I; não são a defesa principal contra helmintos." }
+      ],
+      "gabarito": "A",
+      "secao": "subtipos-cd4",
+      "referencia": "Abbas, 10ª ed., caps. 'Diferenciação e funções dos linfócitos T CD4⁺ efetores' e 'Imunidade aos micróbios'",
+      "tags": ["Th2", "IL-4", "IL-5", "helmintos"]
+    },
+    {
+      "id": "tc-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 42 anos com artrite reumatoide refratária vai iniciar infliximabe (anticorpo anti-TNF). A prova tuberculínica é de 14 mm, e a radiografia de tórax mostra apenas um nódulo calcificado antigo. Por que a infecção latente deve ser tratada antes de iniciar o fármaco?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque o anti-TNF destrói os linfócitos B que produzem anticorpos contra o bacilo", "explicacao": "O controle da tuberculose depende pouco de anticorpos; a resposta essencial é celular (Th1, macrófagos e TNF)." },
+        { "letra": "B", "texto": "Porque o anti-TNF bloqueia a apresentação de antígenos em MHC I", "explicacao": "O anti-TNF não atua diretamente na apresentação de antígenos em MHC I." },
+        { "letra": "C", "texto": "Porque o TNF é essencial para formar e manter o granuloma que contém os bacilos; sem ele, o granuloma se desorganiza e a infecção latente se reativa", "explicacao": "Correta. O controle do *M. tuberculosis* depende do eixo **IL-12 → Th1 → IFN-γ → macrófago ativado**, e o **TNF** é crucial para recrutar células e **manter a estrutura do granuloma**. Bloqueá-lo desorganiza o granuloma e permite a **reativação**, muitas vezes com formas extrapulmonares ou disseminadas. Por isso, as diretrizes do Ministério da Saúde exigem rastrear (prova tuberculínica ou IGRA e radiografia) e tratar a infecção latente antes de iniciar imunobiológicos." },
+        { "letra": "D", "texto": "Porque o anti-TNF aumenta a resposta Th2, que estimula a multiplicação do bacilo", "explicacao": "O anti-TNF não atua principalmente desviando a resposta para Th2; o problema central é a perda da manutenção do granuloma." },
+        { "letra": "E", "texto": "Porque o infliximabe é tóxico para o fígado e impede o uso posterior de isoniazida", "explicacao": "Hepatotoxicidade pode ocorrer com vários fármacos, mas não é a justificativa imunológica para tratar a infecção latente antes do anti-TNF." }
+      ],
+      "gabarito": "C",
+      "secao": "tuberculose",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade aos micróbios'; Ministério da Saúde – Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
+      "tags": ["tuberculose", "TNF", "granuloma", "anti-TNF"]
+    },
+    {
+      "id": "tc-006",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 19 anos, menstruada, com absorvente interno há 2 dias, chega com febre de 40 °C, eritrodermia difusa, vômitos, diarreia, confusão mental e hipotensão. Hemoculturas são negativas. Qual mecanismo explica a liberação maciça de citocinas nesse quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Endotoxina (LPS) de bactérias Gram-negativas ativando TLR4 em monócitos", "explicacao": "O quadro sugere síndrome do choque tóxico estafilocócico; *S. aureus* é Gram-positivo e não possui LPS." },
+        { "letra": "B", "texto": "Anticorpos IgE contra componentes do absorvente, com degranulação de mastócitos", "explicacao": "Seria anafilaxia, que cursa com urticária, broncoespasmo e angioedema, e não com febre alta e eritrodermia após 2 dias." },
+        { "letra": "C", "texto": "Processamento da toxina pelo proteassoma e apresentação em MHC I a CD8⁺ específicos", "explicacao": "Superantígenos **não são processados**; e a ativação de um único clone específico não explicaria a liberação maciça de citocinas." },
+        { "letra": "D", "texto": "Toxina estafilocócica (TSST-1) que atua como superantígeno, ligando o MHC II à região Vβ do TCR fora da fenda e ativando uma grande fração dos linfócitos T de forma policlonal", "explicacao": "Correta. A **TSST-1** liga-se, sem processamento, à face lateral do **MHC II** e à região **Vβ** do TCR. Como muitos TCRs compartilham as mesmas famílias Vβ, até **20% dos linfócitos T** são ativados de uma vez (em vez de ~1 em 10⁵ numa resposta convencional), liberando grandes quantidades de **IL-2, IFN-γ e TNF** → febre, eritrodermia, choque e disfunção de múltiplos órgãos. As hemoculturas costumam ser negativas porque o efeito é da toxina produzida no foco (vagina, ferida)." },
+        { "letra": "E", "texto": "Ativação da via alternativa do complemento pela superfície do absorvente", "explicacao": "A ativação do complemento não explica a tempestade de citocinas típica da síndrome do choque tóxico." }
+      ],
+      "gabarito": "D",
+      "secao": "superantigenos",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade aos micróbios'; Harrison, 21ª ed., cap. 'Infecções estafilocócicas'",
+      "tags": ["superantígeno", "TSST-1", "choque tóxico", "Vβ"]
+    },
+    {
+      "id": "tc-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 61 anos com melanoma metastático responde bem ao pembrolizumabe (anticorpo anti-PD-1). Após 3 meses, apresenta diarreia com sangue e, depois, hipotireoidismo por tireoidite. Qual é o mecanismo dessas complicações?",
+      "alternativas": [
+        { "letra": "A", "texto": "Toxicidade citotóxica direta do anticorpo sobre o epitélio intestinal e a tireoide", "explicacao": "Os inibidores de checkpoint não são quimioterápicos citotóxicos; seus efeitos adversos decorrem da ativação imune." },
+        { "letra": "B", "texto": "Remoção de um freio fisiológico dos linfócitos T efetores, permitindo que clones autorreativos ataquem tecidos próprios", "explicacao": "Correta. O **PD-1**, ao se ligar ao PD-L1/PD-L2, inibe linfócitos T efetores nos tecidos e participa da **tolerância periférica**. Bloqueá-lo reativa a resposta antitumoral, mas também libera linfócitos **autorreativos** → **eventos adversos imunomediados**, como colite, tireoidite, hepatite, pneumonite, hipofisite e diabetes tipo 1. O tratamento envolve suspender ou ajustar o fármaco e usar corticoides conforme a gravidade." },
+        { "letra": "C", "texto": "Imunodeficiência induzida pelo fármaco, com infecções oportunistas no intestino e na tireoide", "explicacao": "O fármaco **potencializa** a resposta imune; o quadro é inflamatório-autoimune, e não infeccioso." },
+        { "letra": "D", "texto": "Bloqueio do B7 nas células apresentadoras, impedindo a coestimulação", "explicacao": "Esse é o mecanismo do **abatacepte** (CTLA-4-Ig), um imunossupressor usado na artrite reumatoide; ele **reduziria** a resposta T." },
+        { "letra": "E", "texto": "Metástases do melanoma no cólon e na tireoide", "explicacao": "Embora o melanoma possa metastatizar amplamente, colite e tireoidite surgindo durante o uso de anti-PD-1 são efeitos adversos imunomediados bem conhecidos." }
+      ],
+      "gabarito": "B",
+      "secao": "ativacao-t",
+      "referencia": "Abbas, 10ª ed., caps. 'Ativação dos linfócitos T' e 'Imunologia dos tumores'; Goodman & Gilman, 13ª ed.",
+      "tags": ["PD-1", "checkpoint", "eventos adversos imunomediados"]
+    },
+    {
+      "id": "tc-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 35 anos vivendo com HIV vai iniciar terapia antirretroviral. Uma das opções inclui abacavir. Antes de prescrever esse fármaco, qual exame é recomendado e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Contagem de CD4⁺, porque o abacavir é contraindicado se CD4 < 200/mm³", "explicacao": "A contagem de CD4 orienta o estadiamento e as profilaxias, mas não é o exame específico para a segurança do abacavir." },
+        { "letra": "B", "texto": "Genotipagem do CCR5, porque o abacavir bloqueia esse correceptor", "explicacao": "Quem bloqueia o CCR5 é o **maraviroque**; o tropismo para CCR5 é avaliado antes desse fármaco, e não do abacavir." },
+        { "letra": "C", "texto": "HLA-B27, porque pacientes positivos desenvolvem espondilite com o abacavir", "explicacao": "HLA-B27 associa-se a espondiloartrites, e não à reação ao abacavir." },
+        { "letra": "D", "texto": "Carga viral, porque o abacavir só funciona com carga viral indetectável", "explicacao": "A carga viral é usada para acompanhar a resposta ao tratamento, e não para decidir a segurança do abacavir." },
+        { "letra": "E", "texto": "Pesquisa do alelo HLA-B*57:01, porque seus portadores têm alto risco de reação de hipersensibilidade grave mediada por linfócitos T", "explicacao": "Correta. O abacavir se liga à fenda do **HLA-B\\*57:01** e altera o repertório de peptídeos próprios apresentados; linfócitos T CD8⁺ passam a reconhecê-los como estranhos → **síndrome de hipersensibilidade** (febre, rash, sintomas gastrointestinais e respiratórios), potencialmente fatal na reexposição. Portadores do alelo **não devem** receber abacavir, por isso o teste é feito antes da prescrição." }
+      ],
+      "gabarito": "E",
+      "secao": "hla-doencas",
+      "referencia": "Abbas, 10ª ed., cap. 'Moléculas do MHC e apresentação de antígenos aos linfócitos T'; Ministério da Saúde – PCDT para Manejo da Infecção pelo HIV em Adultos",
+      "tags": ["HLA-B*57:01", "abacavir", "farmacogenética"]
+    },
+    {
+      "id": "tc-009",
+      "nivel": "aprofundado",
+      "enunciado": "Um vírus infecta exclusivamente células epiteliais do trato respiratório e não consegue infectar células dendríticas. Mesmo assim, o hospedeiro gera linfócitos T CD8⁺ citotóxicos específicos contra proteínas desse vírus. Como os linfócitos T CD8⁺ naïve são ativados nessa situação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Por apresentação cruzada: células dendríticas fagocitam células epiteliais infectadas ou mortas e desviam os antígenos virais para a via do MHC I, ativando CD8⁺ naïve no linfonodo", "explicacao": "Correta. Linfócitos T naïve precisam ser ativados por **células dendríticas** (que oferecem MHC, coestimulação e citocinas) no linfonodo. Quando o vírus não infecta as dendríticas, algumas subpopulações (como as dendríticas **cDC1**) fagocitam restos de células infectadas e transferem os antígenos para a via do **MHC I** — a **apresentação cruzada**. Esse mecanismo também é essencial para respostas CD8⁺ contra tumores." },
+        { "letra": "B", "texto": "As células epiteliais infectadas migram para o linfonodo e ativam os CD8⁺ naïve diretamente", "explicacao": "Células epiteliais não migram para linfonodos e não expressam coestimuladores suficientes para ativar linfócitos T naïve." },
+        { "letra": "C", "texto": "Os anticorpos contra o vírus ativam diretamente os CD8⁺ naïve pelo receptor Fc", "explicacao": "Anticorpos não ativam linfócitos T CD8⁺ naïve por receptor Fc; o TCR precisa reconhecer peptídeo apresentado em MHC I." },
+        { "letra": "D", "texto": "Os linfócitos T CD8⁺ naïve reconhecem o vírus livre no sangue, sem necessidade de apresentação", "explicacao": "O TCR não reconhece antígenos livres; reconhece peptídeos ligados ao MHC." },
+        { "letra": "E", "texto": "Os macrófagos apresentam os peptídeos virais em MHC II, que ativa diretamente os CD8⁺", "explicacao": "O CD8 liga-se ao **MHC I**; peptídeos em MHC II são reconhecidos por CD4⁺." }
+      ],
+      "gabarito": "A",
+      "secao": "apresentacao-antigeno",
+      "referencia": "Abbas, 10ª ed., caps. 'Moléculas do MHC e apresentação de antígenos aos linfócitos T' e 'Diferenciação e funções dos linfócitos T CD8⁺ efetores'",
+      "tags": ["apresentação cruzada", "célula dendrítica", "CD8"]
+    },
+    {
+      "id": "tc-010",
+      "nivel": "aprofundado",
+      "enunciado": "Adolescente de 15 anos tem candidíase mucocutânea crônica (unhas, mucosa oral e esofágica) desde a infância, além de furúnculos estafilocócicos 'frios' recorrentes. Os linfócitos T CD4⁺ e CD8⁺ estão em número normal, e as respostas a vírus são adequadas. Testes funcionais mostram incapacidade dos linfócitos T de produzir IL-17 e IL-22. Qual é a explicação imunológica para o padrão de infecções?",
+      "alternativas": [
+        { "letra": "A", "texto": "Falha da resposta Th1, impedindo a ativação de macrófagos por IFN-γ", "explicacao": "Defeitos do eixo Th1/IFN-γ predispõem principalmente a micobactérias e *Salmonella*, e não a candidíase mucocutânea com furunculose." },
+        { "letra": "B", "texto": "Excesso de Treg, suprimindo todas as respostas imunes", "explicacao": "As respostas a vírus são adequadas, o que contraria uma supressão global; o defeito é seletivo." },
+        { "letra": "C", "texto": "Falha da resposta Th17, que normalmente recruta neutrófilos e induz peptídeos antimicrobianos nas barreiras epiteliais, essenciais contra Candida e S. aureus em pele e mucosas", "explicacao": "Correta. A **IL-17** recruta e ativa **neutrófilos** (via quimiocinas e G-CSF) e, com a **IL-22**, induz **peptídeos antimicrobianos** (como as β-defensinas) e mantém a integridade das barreiras. Defeitos na via Th17 — por mutações em **STAT3** (síndrome de hiper-IgE autossômica dominante), em IL-17RA/IL-17F, ganho de função de STAT1 ou autoanticorpos anti-IL-17 (como na APECED) — causam **candidíase mucocutânea crônica** e infecções estafilocócicas de pele com pouca inflamação." },
+        { "letra": "D", "texto": "Ausência de linfócitos B, impedindo a produção de anticorpos contra fungos", "explicacao": "Defeitos de linfócitos B causam infecções por bactérias encapsuladas; a candidíase mucocutânea não é característica." },
+        { "letra": "E", "texto": "Deficiência de MHC de classe I, impedindo a apresentação de antígenos fúngicos", "explicacao": "Deficiências de MHC I (como a de TAP) cursam com infecções respiratórias bacterianas e vasculite cutânea; além disso, a resposta antiviral seria comprometida." }
+      ],
+      "gabarito": "C",
+      "secao": "subtipos-cd4",
+      "referencia": "Abbas, 10ª ed., caps. 'Diferenciação e funções dos linfócitos T CD4⁺ efetores' e 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["Th17", "IL-17", "candidíase mucocutânea", "STAT3"]
+    }
+  ]
+}

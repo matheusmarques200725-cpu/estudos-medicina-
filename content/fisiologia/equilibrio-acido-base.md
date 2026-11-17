@@ -2,9 +2,9 @@
 id: equilibrio-acido-base
 titulo: Regulação renal do equilíbrio ácido-base
 materia: fisiologia
-semestre: 2
+semestre: 1
 ordem: 2
-modulo_uepa: ""
+modulos: [ase3, ase4]
 tags: [ácido-base, bicarbonato, gasometria, ânion gap, amônio, acidose tubular renal, compensação]
 relacionados: [filtracao-glomerular, farmaco-diureticos, clinica-cetoacidose-diabetica]
 atualizado: 2026-11-17

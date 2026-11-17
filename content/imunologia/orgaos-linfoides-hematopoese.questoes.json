@@ -1,0 +1,165 @@
+{
+  "topico": "orgaos-linfoides-hematopoese",
+  "questoes": [
+    {
+      "id": "lh-001",
+      "nivel": "medio",
+      "enunciado": "Homem de 58 anos com pneumonia lobar apresenta febre de 39 °C. Hemograma: leucócitos 18.500/mm³, com 14% de bastonetes (referência até 5%) e granulações tóxicas nos neutrófilos. O que explica o aumento de bastonetes no sangue periférico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Liberação acelerada de neutrófilos jovens da reserva medular, estimulada por citocinas como G-CSF, IL-1 e TNF", "explicacao": "Correta. É o **desvio à esquerda**. Diante de alta demanda (infecção bacteriana), citocinas inflamatórias e G-CSF aceleram a liberação do compartimento de reserva da medula, que contém formas ainda não segmentadas. As granulações tóxicas reforçam a interpretação de infecção." },
+        { "letra": "B", "texto": "Desmarginação de neutrófilos maduros aderidos ao endotélio", "explicacao": "A desmarginação (por corticoide, adrenalina ou estresse) libera neutrófilos **maduros e segmentados** que estavam aderidos às paredes vasculares; ela não aumenta as formas jovens." },
+        { "letra": "C", "texto": "Transformação leucêmica dos precursores mieloides", "explicacao": "Leucemias mieloides podem mostrar formas imaturas, mas o contexto clínico (pneumonia, febre, granulações tóxicas) e a leucocitose moderada indicam resposta reativa, não neoplasia." },
+        { "letra": "D", "texto": "Divisão mitótica dos bastonetes no sangue periférico", "explicacao": "Bastonetes e segmentados não se dividem. A capacidade mitótica da linhagem termina no **mielócito**, ainda dentro da medula." },
+        { "letra": "E", "texto": "Retorno de neutrófilos dos tecidos para a circulação", "explicacao": "Neutrófilos que migram para os tecidos não retornam à circulação; morrem lá (por apoptose) e são fagocitados por macrófagos." }
+      ],
+      "gabarito": "A",
+      "secao": "linhagem-granulocitica",
+      "referencia": "Hoffbrand – Fundamentos em Hematologia, 7ª ed.; Junqueira & Carneiro, 13ª ed., cap. 'Hemocitopoese'",
+      "tags": ["desvio à esquerda", "neutrófilo", "leucograma"]
+    },
+    {
+      "id": "lh-002",
+      "nivel": "medio",
+      "enunciado": "Durante o desenvolvimento no timo, cerca de 90% dos timócitos morrem por 'negligência' por não receberem sinais de sobrevivência. Esse processo ocorre em qual etapa e com qual finalidade?",
+      "alternativas": [
+        { "letra": "A", "texto": "Seleção negativa na medula tímica, eliminando clones que reagem fortemente a antígenos próprios", "explicacao": "A seleção negativa elimina os timócitos que se ligam **com alta avidez** a peptídeos próprios — é a base da tolerância central. A morte 'por negligência' é a dos que **não** reconhecem nada." },
+        { "letra": "B", "texto": "Rearranjo do TCR na medula óssea, eliminando receptores não funcionais", "explicacao": "O rearranjo do TCR acontece no **timo**, não na medula óssea; a medula óssea é onde os linfócitos **B** amadurecem." },
+        { "letra": "C", "texto": "Seleção positiva no córtex tímico, mantendo apenas os timócitos cujo TCR reconhece o MHC próprio", "explicacao": "Correta. Na **seleção positiva** (córtex), só sobrevivem os timócitos cujo TCR interage, mesmo que fracamente, com moléculas de **MHC próprio** apresentadas pelo epitélio cortical. Os que não reconhecem morrem por falta de sinal. Isso garante a **restrição ao MHC** e define a linhagem (MHC II → CD4; MHC I → CD8)." },
+        { "letra": "D", "texto": "Expansão clonal no paracórtex do linfonodo, selecionando os clones de maior afinidade", "explicacao": "A expansão clonal ocorre após o encontro com o antígeno em órgãos linfoides **secundários**, e não envolve morte em massa de timócitos." },
+        { "letra": "E", "texto": "Involução tímica pós-puberal, que substitui o tecido linfoide por gordura", "explicacao": "A involução é uma redução progressiva do órgão com a idade; não é o mecanismo de seleção que elimina 90% dos timócitos." }
+      ],
+      "gabarito": "C",
+      "secao": "timo",
+      "referencia": "Abbas, Lichtman & Pillai – Imunologia Celular e Molecular, 10ª ed., cap. 'Desenvolvimento dos linfócitos'",
+      "tags": ["timo", "seleção positiva", "restrição ao MHC"]
+    },
+    {
+      "id": "lh-003",
+      "nivel": "medio",
+      "enunciado": "A biópsia de um linfonodo cervical de um adolescente com infecção viral aguda mostra expansão acentuada de uma região rica em vênulas de endotélio alto, situada entre os folículos e a medula. Qual população celular predomina nessa região?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócitos B organizados em centros germinativos", "explicacao": "Os folículos com centros germinativos ficam no **córtex** superficial do linfonodo e refletem resposta de células B." },
+        { "letra": "B", "texto": "Linfócitos T e células dendríticas apresentadoras de antígeno", "explicacao": "Correta. A região descrita é o **paracórtex**, zona de linfócitos **T**, onde as células dendríticas que chegam dos tecidos apresentam antígenos. As **HEV** ficam ali e permitem a entrada de linfócitos do sangue. Infecções virais, que estimulam fortemente a resposta T, expandem o paracórtex." },
+        { "letra": "C", "texto": "Plasmócitos secretores de anticorpos", "explicacao": "Plasmócitos se concentram nos **cordões medulares**, na região central do linfonodo, próximo ao hilo." },
+        { "letra": "D", "texto": "Neutrófilos em migração a partir da linfa", "explicacao": "Neutrófilos não são residentes do linfonodo; aparecem em linfadenites supurativas, não como população normal de uma região anatômica." },
+        { "letra": "E", "texto": "Células dendríticas foliculares retendo imunocomplexos", "explicacao": "As células dendríticas foliculares ficam nos **folículos B** e apresentam antígenos intactos a linfócitos B; não são o componente predominante do paracórtex." }
+      ],
+      "gabarito": "B",
+      "secao": "linfonodos",
+      "referencia": "Abbas, 10ª ed., cap. 'Células e tecidos do sistema imune'; Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["linfonodo", "paracórtex", "HEV"]
+    },
+    {
+      "id": "lh-004",
+      "nivel": "medio",
+      "enunciado": "Jovem de 19 anos foi esplenectomizado após trauma abdominal. Dois anos depois, apresenta febre alta, hipotensão e púrpura em poucas horas, evoluindo para choque séptico. Qual agente é o mais provável e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "*Staphylococcus aureus*, porque o baço é o principal local de produção de neutrófilos", "explicacao": "A produção de neutrófilos no adulto ocorre na **medula óssea**, não no baço. O S. aureus não é o agente característico da sepse pós-esplenectomia." },
+        { "letra": "B", "texto": "*Pseudomonas aeruginosa*, porque a esplenectomia causa neutropenia crônica", "explicacao": "A asplenia não causa neutropenia (pode até haver leucocitose leve). Pseudomonas é típica da neutropenia por quimioterapia e de infecções hospitalares." },
+        { "letra": "C", "texto": "*Candida albicans*, porque o baço é essencial para a imunidade celular contra fungos", "explicacao": "A defesa contra Candida depende principalmente de linfócitos Th17 e neutrófilos; a candidíase invasiva não é a infecção característica da asplenia." },
+        { "letra": "D", "texto": "*Streptococcus pneumoniae*, porque o baço filtra bactérias opsonizadas e produz IgM rápida contra polissacarídeos capsulares", "explicacao": "Correta. A **zona marginal** do baço produz IgM rapidamente contra **polissacarídeos capsulares**, e os macrófagos da polpa vermelha removem bactérias opsonizadas do sangue. Sem baço, **bactérias encapsuladas** (pneumococo, Hib, meningococo) causam sepse fulminante. Daí a indicação de vacinação e de procurar atendimento imediato ao primeiro sinal de febre." },
+        { "letra": "E", "texto": "*Mycobacterium tuberculosis*, porque o baço é o principal órgão de formação de granulomas", "explicacao": "A resposta à tuberculose depende de linfócitos Th1 e macrófagos em vários tecidos; a asplenia não é fator de risco característico para TB." }
+      ],
+      "gabarito": "D",
+      "secao": "baco",
+      "referencia": "Abbas, 10ª ed., cap. 'Células e tecidos do sistema imune'; Ministério da Saúde – Manual dos CRIE",
+      "tags": ["baço", "asplenia", "bactérias encapsuladas"]
+    },
+    {
+      "id": "lh-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 45 anos, em tratamento de crise de asma com prednisona 40 mg/dia há 4 dias, faz exames de rotina. Está afebril e sem sinais de infecção. Hemograma: leucócitos 15.200/mm³; neutrófilos 85% (todos segmentados, sem bastonetes, sem granulações tóxicas); linfócitos 9%; eosinófilos 0%. Qual é a interpretação mais adequada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Infecção bacteriana oculta, com indicação de antibiótico empírico", "explicacao": "Não há febre, desvio à esquerda nem granulações tóxicas. Iniciar antibiótico baseado apenas na leucocitose induzida por corticoide é um erro comum." },
+        { "letra": "B", "texto": "Leucemia mieloide crônica em fase inicial", "explicacao": "A LMC cursa com leucocitose geralmente maior, formas jovens em todas as etapas, basofilia e esplenomegalia; o quadro é explicado pelo fármaco." },
+        { "letra": "C", "texto": "Reação leucemoide por estresse da crise asmática", "explicacao": "Reação leucemoide implica leucocitose acentuada (em geral > 50.000/mm³) com formas jovens; não é o caso." },
+        { "letra": "D", "texto": "Eosinofilia mascarada pela asma, que deve aparecer após suspender o corticoide", "explicacao": "A ausência de eosinófilos é efeito esperado do corticoide e não é o achado principal a explicar; a pergunta é sobre a neutrofilia." },
+        { "letra": "E", "texto": "Efeito do corticoide: desmarginação de neutrófilos e menor migração para os tecidos, com linfopenia e eosinopenia associadas", "explicacao": "Correta. Glicocorticoides reduzem a adesão dos neutrófilos ao endotélio → os neutrófilos 'marginados' voltam à corrente sanguínea (**desmarginação**) e saem menos para os tecidos. O resultado é **neutrofilia de segmentados, sem desvio à esquerda**, com **linfopenia** e **eosinopenia** (redistribuição e apoptose)." }
+      ],
+      "gabarito": "E",
+      "secao": "leucograma-clinico",
+      "referencia": "Hoffbrand – Fundamentos em Hematologia, 7ª ed.; Harrison, 21ª ed., cap. 'Distúrbios dos granulócitos e monócitos'",
+      "tags": ["corticoide", "neutrofilia", "desmarginação"]
+    },
+    {
+      "id": "lh-006",
+      "nivel": "dificil",
+      "enunciado": "Recém-nascido de 5 dias apresenta crises de tetania. Exames: cálcio sérico baixo e PTH inapropriadamente baixo. O ecocardiograma mostra *truncus arteriosus*, e a radiografia de tórax não evidencia sombra tímica. Qual alteração imunológica é esperada nessa criança?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ausência de linfócitos B e de todas as classes de imunoglobulinas", "explicacao": "Esse é o padrão da agamaglobulinemia ligada ao X (defeito em BTK), em que os linfócitos B não amadurecem na **medula óssea**." },
+        { "letra": "B", "texto": "Redução dos linfócitos T, com número de linfócitos B geralmente preservado", "explicacao": "Correta. É a **síndrome de DiGeorge (deleção 22q11.2)**: falha no desenvolvimento das **3ª e 4ª bolsas faríngeas** → timo hipoplásico/ausente (↓ **linfócitos T**), paratireoides ausentes (hipocalcemia) e cardiopatia conotruncal. Os linfócitos B se desenvolvem na medula e estão em número normal, mas a produção de anticorpos pode ser prejudicada pela falta de ajuda T." },
+        { "letra": "C", "texto": "Neutropenia grave por falha da produção medular", "explicacao": "A medula óssea é normal na DiGeorge; neutrófilos não dependem do timo." },
+        { "letra": "D", "texto": "Deficiência do complemento C3 com infecções piogênicas recorrentes", "explicacao": "Deficiência de C3 é uma imunodeficiência humoral de complemento, sem relação com a embriologia das bolsas faríngeas." },
+        { "letra": "E", "texto": "Excesso de linfócitos T autorreativos por falha da seleção negativa mediada por AIRE", "explicacao": "A falha de AIRE (APECED) leva a autoimunidade poliendócrina, mas o timo está presente. Aqui o problema é a **ausência** do órgão." }
+      ],
+      "gabarito": "B",
+      "secao": "timo",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunodeficiências congênitas e adquiridas'; Junqueira & Carneiro, 13ª ed.",
+      "tags": ["DiGeorge", "timo", "22q11.2"]
+    },
+    {
+      "id": "lh-007",
+      "nivel": "dificil",
+      "enunciado": "Trabalhador rural de 32 anos apresenta tosse seca, sibilos e desconforto abdominal há 3 semanas. Hemograma: leucócitos 11.000/mm³ com 28% de eosinófilos (3.080/mm³). Por que os eosinófilos são importantes na resposta a esse tipo de agressor?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque helmintos são grandes demais para serem fagocitados, e os eosinófilos, recrutados por IL-5 de linfócitos Th2, liberam proteínas catiônicas tóxicas (como a proteína básica principal) sobre a superfície do parasita", "explicacao": "Correta. O quadro sugere **migração larval pulmonar de helmintos** (síndrome de Löffler, por exemplo, por Ascaris ou Strongyloides). Helmintos não podem ser fagocitados; a resposta **Th2** (IL-4, IL-5, IL-13) produz IgE e recruta e ativa eosinófilos (via **IL-5**), que degranulam **proteína básica principal**, peroxidase e proteína catiônica eosinofílica sobre o verme." },
+        { "letra": "B", "texto": "Porque os eosinófilos são os principais fagócitos de bactérias intracelulares", "explicacao": "Bactérias intracelulares são controladas principalmente por macrófagos ativados por IFN-γ (resposta Th1)." },
+        { "letra": "C", "texto": "Porque os eosinófilos produzem a maior parte dos anticorpos IgE", "explicacao": "Anticorpos são produzidos por **plasmócitos**. Os eosinófilos e mastócitos possuem receptores para IgE, mas não a produzem." },
+        { "letra": "D", "texto": "Porque os eosinófilos apresentam antígenos aos linfócitos T naïve nos linfonodos", "explicacao": "A apresentação de antígeno a T naïve é função principalmente das **células dendríticas**." },
+        { "letra": "E", "texto": "Porque os eosinófilos são estimulados por IFN-γ, de linfócitos Th1, a formar granulomas", "explicacao": "Granulomas dependem de Th1/IFN-γ e macrófagos. Eosinófilos são característicos da resposta **Th2**, que o IFN-γ inibe." }
+      ],
+      "gabarito": "A",
+      "secao": "linhagem-granulocitica",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade aos micróbios'; Neves – Parasitologia Humana",
+      "tags": ["eosinofilia", "helmintos", "IL-5", "Th2"]
+    },
+    {
+      "id": "lh-008",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 30 anos com esclerose múltipla inicia fingolimode, um modulador do receptor de esfingosina-1-fosfato (S1P). Após algumas semanas, o hemograma mostra linfopenia acentuada (linfócitos 350/mm³), sem alteração de neutrófilos. Qual é o mecanismo dessa linfopenia?",
+      "alternativas": [
+        { "letra": "A", "texto": "Destruição dos linfócitos no baço por anticorpos induzidos pelo fármaco", "explicacao": "Não há mecanismo imune destrutivo; os linfócitos estão vivos, porém retidos nos órgãos linfoides." },
+        { "letra": "B", "texto": "Supressão da produção de linfócitos na medula óssea", "explicacao": "Se houvesse supressão medular, outras linhagens (como neutrófilos) também seriam afetadas, e o efeito seria muito mais lento." },
+        { "letra": "C", "texto": "Bloqueio da entrada dos linfócitos nos linfonodos pelas vênulas de endotélio alto", "explicacao": "Bloquear a **entrada** manteria os linfócitos **no sangue** (ou até aumentaria a contagem), e não causaria linfopenia." },
+        { "letra": "D", "texto": "Retenção dos linfócitos nos linfonodos, pois a saída pela linfa eferente depende do gradiente de S1P", "explicacao": "Correta. Os linfócitos deixam o linfonodo seguindo o gradiente de **S1P** (alto na linfa e no sangue), detectado pelo receptor S1P1. O fingolimode causa internalização desse receptor → os linfócitos **não conseguem sair** e ficam presos nos linfonodos → linfopenia periférica e menor chegada de linfócitos autorreativos ao SNC." },
+        { "letra": "E", "texto": "Apoptose dos timócitos por falha da seleção positiva", "explicacao": "O efeito é sobre a recirculação de linfócitos maduros, não sobre a maturação tímica." }
+      ],
+      "gabarito": "D",
+      "secao": "linfonodos",
+      "referencia": "Abbas, 10ª ed., cap. 'Migração de leucócitos para os tecidos'; Goodman & Gilman, 13ª ed., cap. 'Imunossupressores'",
+      "tags": ["recirculação", "S1P", "fingolimode"]
+    },
+    {
+      "id": "lh-009",
+      "nivel": "aprofundado",
+      "enunciado": "Adolescente de 14 anos tem candidíase mucocutânea crônica desde a infância. Aos 9 anos foi diagnosticado hipoparatireoidismo e, agora, apresenta hipotensão, hiperpigmentação e hiponatremia por insuficiência adrenal primária. O sequenciamento revela mutação bialélica no gene *AIRE*. Qual alteração explica a autoimunidade contra múltiplas glândulas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ausência de linfócitos T reguladores periféricos por mutação em FOXP3", "explicacao": "Mutações em FOXP3 causam a síndrome IPEX (enteropatia, diabetes neonatal, eczema). O gene afetado aqui é AIRE." },
+        { "letra": "B", "texto": "Falha da seleção positiva no córtex tímico, levando à ausência de linfócitos T CD4⁺", "explicacao": "A seleção positiva não depende de AIRE. Os pacientes têm linfócitos T em número normal; o problema é a presença de clones **autorreativos**." },
+        { "letra": "C", "texto": "Falha das células epiteliais da medula tímica em expressar antígenos de tecidos periféricos, impedindo a seleção negativa de clones autorreativos", "explicacao": "Correta. **AIRE** induz a expressão ectópica de proteínas de tecidos periféricos (paratireoide, adrenal etc.) nas células epiteliais da **medula tímica**. Sem ele, timócitos que reconhecem esses antígenos **não são eliminados** na seleção negativa e chegam à periferia → **APECED/síndrome poliglandular autoimune tipo 1**. A candidíase relaciona-se a autoanticorpos contra IL-17 e IL-22, essenciais à defesa antifúngica de mucosas." },
+        { "letra": "D", "texto": "Deficiência de linfócitos B na medula óssea, com produção excessiva de autoanticorpos IgM", "explicacao": "Deficiência de linfócitos B diminuiria (não aumentaria) a produção de anticorpos; o defeito é na tolerância central de T." },
+        { "letra": "E", "texto": "Aplasia tímica com falha de desenvolvimento das 3ª e 4ª bolsas faríngeas", "explicacao": "Isso é a síndrome de DiGeorge. O hipoparatireoidismo da DiGeorge é por **ausência** das glândulas, não por autoimunidade, e não há insuficiência adrenal autoimune." }
+      ],
+      "gabarito": "C",
+      "secao": "timo",
+      "referencia": "Abbas, 10ª ed., cap. 'Tolerância imunológica e autoimunidade'",
+      "tags": ["AIRE", "seleção negativa", "APECED", "tolerância central"]
+    },
+    {
+      "id": "lh-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 52 anos, assintomático, tem leucócitos de 86.000/mm³ em exame de rotina. O esfregaço mostra neutrófilos em todas as fases de maturação (mielócitos, metamielócitos, bastonetes e segmentados), poucos blastos e esplenomegalia ao exame. Qual combinação de achados mais favorece leucemia mieloide crônica em vez de reação leucemoide?",
+      "alternativas": [
+        { "letra": "A", "texto": "Presença de bastonetes e granulações tóxicas nos neutrófilos", "explicacao": "Granulações tóxicas e predomínio de bastonetes sugerem **reação leucemoide** por infecção ou inflamação grave, e não LMC." },
+        { "letra": "B", "texto": "Leucocitose acima de 50.000/mm³", "explicacao": "Ambas as condições podem ultrapassar 50.000/mm³; o número isolado não diferencia." },
+        { "letra": "C", "texto": "Neutrofilia com linfopenia relativa", "explicacao": "A linfopenia relativa acompanha qualquer neutrofilia importante e não é específica." },
+        { "letra": "D", "texto": "Elevação da proteína C-reativa e febre", "explicacao": "Sinais inflamatórios sistêmicos favorecem uma causa reativa (infecção, inflamação), e não LMC." },
+        { "letra": "E", "texto": "Basofilia absoluta, esplenomegalia e detecção do gene de fusão BCR-ABL1 (cromossomo Filadélfia)", "explicacao": "Correta. A LMC é uma neoplasia mieloproliferativa causada pela translocação t(9;22), que gera a tirosina-quinase **BCR-ABL1**, constitutivamente ativa. Sinais característicos: **basofilia** (e eosinofilia), **esplenomegalia**, células em todas as fases de maturação e paciente frequentemente assintomático. A reação leucemoide tem causa identificável (infecção grave, por exemplo), sem basofilia e sem BCR-ABL1." }
+      ],
+      "gabarito": "E",
+      "secao": "leucograma-clinico",
+      "referencia": "Hoffbrand – Fundamentos em Hematologia, 7ª ed.; Harrison, 21ª ed., cap. 'Leucemia mieloide crônica'",
+      "tags": ["LMC", "reação leucemoide", "basofilia", "BCR-ABL"]
+    }
+  ]
+}

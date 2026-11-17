@@ -1,21 +1,172 @@
 {
   "semestres": [
-    { "numero": 1, "nome": "1º semestre" },
-    { "numero": 2, "nome": "2º semestre" },
-    { "numero": 3, "nome": "3º semestre" },
-    { "numero": 4, "nome": "4º semestre" }
+    { "numero": 1, "nome": "1º semestre (MED1)" },
+    { "numero": 2, "nome": "2º semestre (MED2)" }
   ],
-  "materias": [
+  "modulos": [
     {
-      "id": "fisiologia",
-      "nome": "Fisiologia",
+      "id": "ase1",
+      "semestre": 1,
+      "sigla": "ASE1",
+      "nome": "Introdução ao Estudo da Medicina",
+      "ch": 56,
+      "icone": "🩺",
+      "cor": "#64748b",
+      "ementa": "História do conhecimento médico; estudo do corpo humano; tecidos básicos (epitelial e conjuntivo); anatomia e planimetria; aprendizagem baseada em problemas; médico e sociedade; políticas de saúde e humanização; bioética e ética profissional; relação médico-paciente; saúde e doença; história natural da doença; níveis de atenção; SUS, SAMU, UBS, ESF; sistemas de informação e indicadores de saúde.",
+      "objetivos": [
+        "Aplicar a metodologia da Aprendizagem Baseada em Problemas",
+        "Compreender o processo saúde-doença e a história natural da doença",
+        "Conhecer os princípios básicos de anatomia e histologia dos principais tecidos e os planos anatômicos",
+        "Compreender os níveis de atenção e o SUS como principal política pública de saúde",
+        "Definir os principais sistemas de informação em saúde (SIM, SINASC, SINAN, SISVAN) e a importância dos indicadores de saúde"
+      ],
+      "bibliografia": [
+        "Martins C. Perspectivas da Relação Médico-Paciente. Artmed, 2011.",
+        "Bynum W. História da Medicina. L&PM, 2011.",
+        "Conselho Federal de Medicina. Código de Ética Médica (Resolução CFM nº 2.217/2018).",
+        "Reis DO, Araújo EC, Cecílio LCO. Políticas Públicas de Saúde no Brasil: SUS e pactos pela saúde."
+      ]
+    },
+    {
+      "id": "ase2",
+      "semestre": 1,
+      "sigla": "ASE2",
+      "nome": "Proliferação, Alteração do Crescimento e Diferenciação Celular",
+      "ch": 112,
+      "icone": "🧬",
+      "cor": "#7c3aed",
+      "ementa": "Organização e homeostasia celular; membrana plasmática e transportes; organelas; replicação, transcrição e tradução; genótipo, fenótipo e expressão gênica; ciclo celular, mitose, meiose e apoptose; padrões de herança; célula-tronco; alterações do crescimento e da diferenciação (hipertrofia, hipotrofia, atrofia, hiperplasia, metaplasia, displasia, anaplasia, neoplasia); distúrbios do desenvolvimento (aplasia, agenesia, atresia); oncogênese, proto-oncogenes e genes supressores; mutações, genotoxicidade e carcinogenicidade; epigenética.",
+      "objetivos": [
+        "Esclarecer os constituintes da célula (membrana, citoplasma e núcleo) e suas funções",
+        "Conhecer os mecanismos de regulação do crescimento celular e as etapas do ciclo celular",
+        "Esclarecer mitose, meiose (gametogênese), apoptose e mecanismos de reparo",
+        "Identificar os padrões de herança genética",
+        "Conceituar célula-tronco e discutir os aspectos éticos da manipulação gênica e celular",
+        "Analisar as alterações celulares envolvidas nos distúrbios do desenvolvimento, crescimento e diferenciação"
+      ],
+      "bibliografia": [
+        "Thompson & Thompson – Genética Médica.",
+        "Junqueira LC, Carneiro J. Histologia Básica – Texto e Atlas. 12ª ed. Guanabara Koogan, 2013.",
+        "De Robertis – Biologia Celular e Molecular.",
+        "Alberts B et al. Biologia Molecular da Célula. Artmed."
+      ]
+    },
+    {
+      "id": "ase3",
+      "semestre": 1,
+      "sigla": "ASE3",
+      "nome": "Funções Biológicas I",
+      "ch": 112,
       "icone": "🫀",
+      "cor": "#dc2626",
+      "ementa": "Homeostasia; fatores ambientais que interferem na homeostase (estresse, sedentarismo, medicamentos, exercício); constituição e função dos sistemas cardiovascular, respiratório, muscular e esquelético; ciclo cardíaco, impulso elétrico, regulação da pressão arterial, circulação arterial e venosa; mecânica ventilatória, ventilação/perfusão, transporte de gases, equilíbrio ácido-básico; organização e classificação dos músculos e ossos.",
+      "objetivos": [
+        "Identificar os sistemas envolvidos no controle da homeostasia, osmolaridade plasmática e equilíbrio ácido-básico e hidroeletrolítico",
+        "Caracterizar as fases do ciclo cardíaco e relacioná-las à função elétrica do coração",
+        "Descrever os mecanismos de controle da pressão arterial",
+        "Descrever a mecânica ventilatória, o transporte de O₂ e CO₂, os efeitos Bohr e Haldane e a curva de dissociação da hemoglobina",
+        "Compreender a relação ventilação-perfusão",
+        "Classificar e caracterizar os tipos de ossos e de músculos"
+      ],
+      "bibliografia": [
+        "Berne & Levy – Fisiologia. 7ª ed. GEN Guanabara Koogan, 2018.",
+        "Guyton & Hall – Tratado de Fisiologia Médica. 14ª ed. Elsevier, 2021.",
+        "Silverthorn DU. Fisiologia Humana: uma abordagem integrada. 7ª ed. Artmed.",
+        "Netter FH. Atlas de Anatomia Humana."
+      ]
+    },
+    {
+      "id": "ase4",
+      "semestre": 2,
+      "sigla": "ASE4",
+      "nome": "Funções Biológicas II",
+      "ch": 70,
+      "icone": "🧠",
       "cor": "#0f766e",
-      "referencias": [
-        "Hall JE, Hall ME. Guyton & Hall – Tratado de Fisiologia Médica. 14ª ed. Elsevier, 2021.",
-        "Koeppen BM, Stanton BA. Berne & Levy – Fisiologia. 7ª ed. Elsevier, 2018.",
-        "Koeppen BM, Stanton BA. Renal Physiology (Mosby Physiology Series). 6ª ed. Elsevier, 2019."
+      "ementa": "Homeostasia; fatores ambientais que interferem na homeostase; constituição e função dos sistemas nervoso, endócrino e renal; divisão do sistema nervoso; potencial de membrana e impulso nervoso; neurotransmissores e neurotransmissão; sistema nervoso central e periférico; eixo hipotálamo-hipófise; controle neuroendócrino funcional; sistema renal: renina-angiotensina-aldosterona, formação da urina, equilíbrio hidroeletrolítico.",
+      "objetivos": [
+        "Descrever a organização do sistema nervoso (central e periférico, somático e autônomo)",
+        "Esclarecer o potencial de membrana, sua propagação e o impulso nervoso",
+        "Esclarecer os tipos e funções dos neurotransmissores, as sinapses e a junção neuromuscular; ato e arco reflexos",
+        "Esclarecer o eixo hipotálamo-hipófise-glândulas e o controle neuroendócrino",
+        "Descrever a formação da urina: filtração glomerular, reabsorção e secreção tubular",
+        "Compreender o sistema renina-angiotensina-aldosterona e os mecanismos básicos de controle da pressão arterial"
+      ],
+      "bibliografia": [
+        "Guyton & Hall – Tratado de Fisiologia Médica. Elsevier.",
+        "Riella MC. Princípios de Nefrologia e Distúrbios Hidroeletrolíticos. Guanabara Koogan.",
+        "Bear MF. Neurociências: Desvendando o Sistema Nervoso. Artmed.",
+        "Kandel ER et al. Princípios de Neurociências. Artmed.",
+        "Nelson DL, Cox MM. Princípios de Bioquímica de Lehninger. Artmed."
+      ]
+    },
+    {
+      "id": "ase5",
+      "semestre": 2,
+      "sigla": "ASE5",
+      "nome": "Metabolismo e Nutrição",
+      "ch": 112,
+      "icone": "🍎",
+      "cor": "#d97706",
+      "ementa": "Sistema digestório: constituição, histologia, anatomia, fisiologia e glândulas anexas; biomoléculas e sua digestão e absorção; produção de energia; metabolismo de carboidratos (glicogênese, glicogenólise, glicólise, gliconeogênese), lipídios e proteínas; funções neuroendócrinas (adrenal e tireoide); controle hormonal da digestão; saciedade; desnutrição, obesidade, diabetes, dislipidemia, síndrome metabólica; erros inatos do metabolismo; absorção e metabolismo de fármacos; terapia nutricional; transtornos alimentares e álcool; fármacos que agem na secreção gástrica, na motilidade intestinal e antieméticos; nutrigenômica.",
+      "objetivos": [
+        "Analisar digestão, absorção, transporte, incorporação e mobilização dos nutrientes",
+        "Descrever o controle secretório e da motilidade do trato digestório",
+        "Identificar as principais rotas metabólicas de carboidratos, lipídios e proteínas",
+        "Esclarecer o armazenamento e a produção de energia no músculo, no fígado e nas demais células (incluindo o ciclo de Cori)",
+        "Identificar os fatores farmacocinéticos de absorção, distribuição, metabolismo e excreção de fármacos"
+      ],
+      "bibliografia": [
+        "Nelson DL, Cox MM. Princípios de Bioquímica de Lehninger. Artmed.",
+        "Champe P, Harvey R, Ferrier D. Bioquímica Ilustrada. Artmed.",
+        "Marks – Bioquímica Médica Básica: uma abordagem clínica. Artmed.",
+        "Junqueira LC. Histologia Básica. Guanabara Koogan.",
+        "Vilar L. Endocrinologia Clínica. Guanabara Koogan.",
+        "Rang & Dale – Farmacologia. Elsevier.",
+        "Guyton & Hall – Tratado de Fisiologia Médica. Elsevier."
+      ]
+    },
+    {
+      "id": "ase6",
+      "semestre": 2,
+      "sigla": "ASE6",
+      "nome": "Mecanismos de Agressão e Defesa",
+      "ch": 98,
+      "icone": "🛡️",
+      "cor": "#be123c",
+      "ementa": "Órgãos e tecidos linfoides; linhagem linfocítica e granulocítica; mecanismo geral de agressão celular; alterações celulares aos agentes agressores físicos, químicos, biológicos e imunológicos; sinalização intracelular e agressão; isquemia, necrose, apoptose; reparo tecidual; agressão por vírus, bactérias, fungos, protozoários e helmintos; resposta inflamatória aguda e crônica; resposta imunológica celular e humoral; estresse oxidativo; hipersensibilidade; autoimunidade; imunodeficiências primárias e secundárias; sistema complemento; coagulação; mecanismos de defesa: dor e febre; resposta neuroendócrina versus resposta imunológica; trauma tecidual; radiações e agressão térmica; intoxicações.",
+      "objetivos": [
+        "Caracterizar as linhagens sanguíneas granulocíticas e linfocíticas e os órgãos linfoides primários e secundários",
+        "Destacar os principais mecanismos de agressão e as alterações celulares e moleculares aos agentes agressores",
+        "Caracterizar as respostas imunes inata e adquirida (celular e humoral) e a importância das células T e B",
+        "Identificar os principais mediadores químicos do sistema imunológico e a importância do sistema complemento",
+        "Reconhecer as falhas da resposta imune: autoimunidade, hipersensibilidades e imunodeficiências",
+        "Esclarecer a inflamação aguda e crônica e os sinais cardinais",
+        "Esclarecer estresse oxidativo, apoptose, necrose, isquemia e hipóxia",
+        "Compreender a resposta a vírus, bactérias, fungos e parasitas, a resposta neuroendócrina, a cascata da coagulação e o reparo tecidual"
+      ],
+      "bibliografia": [
+        "Abbas AK, Lichtman AH, Pillai S. Imunologia Celular e Molecular. Elsevier.",
+        "Roitt IM, Delves PJ. Fundamentos de Imunologia. Guanabara Koogan.",
+        "Kumar V, Abbas AK, Aster JC. Robbins – Patologia Básica. Elsevier.",
+        "Bogliolo – Patologia Geral. Guanabara Koogan.",
+        "Rang & Dale – Farmacologia. Elsevier.",
+        "Guyton & Hall – Tratado de Fisiologia Médica. Elsevier.",
+        "Neves DP. Parasitologia Humana. Atheneu.",
+        "Rey L. Bases da Parasitologia Médica. Guanabara Koogan."
       ]
     }
+  ],
+  "materias": [
+    { "id": "fisiologia", "nome": "Fisiologia", "icone": "🫀", "cor": "#0f766e" },
+    { "id": "imunologia", "nome": "Imunologia", "icone": "🛡️", "cor": "#be123c" },
+    { "id": "patologia", "nome": "Patologia", "icone": "🔬", "cor": "#9333ea" },
+    { "id": "microbiologia-parasitologia", "nome": "Microbiologia e Parasitologia", "icone": "🦠", "cor": "#65a30d" },
+    { "id": "farmacologia", "nome": "Farmacologia", "icone": "💊", "cor": "#2563eb" },
+    { "id": "bioquimica", "nome": "Bioquímica", "icone": "⚗️", "cor": "#d97706" },
+    { "id": "histologia-embriologia", "nome": "Histologia e Embriologia", "icone": "🧫", "cor": "#db2777" },
+    { "id": "anatomia", "nome": "Anatomia", "icone": "🦴", "cor": "#78716c" },
+    { "id": "biologia-celular-genetica", "nome": "Biologia Celular e Genética", "icone": "🧬", "cor": "#7c3aed" },
+    { "id": "saude-coletiva", "nome": "Saúde Coletiva e Humanidades", "icone": "🏥", "cor": "#64748b" }
   ]
 }

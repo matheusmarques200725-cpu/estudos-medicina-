@@ -1,0 +1,165 @@
+{
+  "topico": "imunidade-inata",
+  "questoes": [
+    {
+      "id": "ii-001",
+      "nivel": "medio",
+      "enunciado": "Paciente com pielonefrite por *Escherichia coli* evolui com febre alta, taquicardia e hipotensão. O componente da parede bacteriana responsável por desencadear a liberação maciça de citocinas é reconhecido principalmente por qual receptor?",
+      "alternativas": [
+        { "letra": "A", "texto": "TLR3, que reconhece RNA de dupla fita no endossomo", "explicacao": "O TLR3 detecta **RNA de dupla fita**, típico de infecções virais, e não componentes da parede de bactérias." },
+        { "letra": "B", "texto": "TLR4, que reconhece o lipopolissacarídeo (LPS) da membrana externa de bactérias Gram-negativas", "explicacao": "Correta. O **LPS** (endotoxina) de Gram-negativos é o ligante clássico do **TLR4** (com MD-2 e CD14). A sinalização via **MyD88 → NF-κB** induz TNF, IL-1 e IL-6, que, em excesso sistêmico, causam febre, vasodilatação e choque." },
+        { "letra": "C", "texto": "TLR5, que reconhece o peptidoglicano de bactérias Gram-positivas", "explicacao": "O TLR5 reconhece **flagelina**. O peptidoglicano e as lipoproteínas de Gram-positivos são reconhecidos principalmente pelo **TLR2** (e o peptidoglicano também por NOD1/NOD2)." },
+        { "letra": "D", "texto": "TLR9, que reconhece lipoproteínas bacterianas na superfície celular", "explicacao": "O TLR9 é endossomal e reconhece **DNA com motivos CpG não metilados**." },
+        { "letra": "E", "texto": "Receptor de célula T (TCR), que reconhece o LPS apresentado pelo MHC II", "explicacao": "O TCR reconhece **peptídeos** apresentados por MHC, não lipopolissacarídeos; e a resposta descrita é imediata, típica da imunidade inata." }
+      ],
+      "gabarito": "B",
+      "secao": "receptores-padroes",
+      "referencia": "Abbas, Lichtman & Pillai – Imunologia Celular e Molecular, 10ª ed., cap. 'Imunidade inata'",
+      "tags": ["TLR4", "LPS", "PAMP"]
+    },
+    {
+      "id": "ii-002",
+      "nivel": "medio",
+      "enunciado": "Células de um melanoma passam a expressar muito pouco MHC de classe I, o que as torna invisíveis aos linfócitos T CD8⁺ específicos. Qual célula da imunidade inata tende a reconhecer e destruir essas células tumorais justamente por causa dessa alteração?",
+      "alternativas": [
+        { "letra": "A", "texto": "Neutrófilo, por fagocitose dependente de complemento", "explicacao": "Neutrófilos são fagócitos de micróbios e não reconhecem perda de MHC I." },
+        { "letra": "B", "texto": "Mastócito, por liberação de histamina", "explicacao": "Mastócitos participam de inflamação alérgica e defesa antiparasitária; não matam células tumorais por ausência de MHC I." },
+        { "letra": "C", "texto": "Linfócito B, por produção de IgM", "explicacao": "Linfócitos B pertencem à imunidade adaptativa e reconhecem antígenos específicos, não a ausência de MHC I." },
+        { "letra": "D", "texto": "Célula NK, que perde o sinal inibitório dado pelo MHC I próprio e libera perforina e granzimas", "explicacao": "Correta. As **NK** possuem receptores **inibitórios** (KIR, CD94/NKG2A) que reconhecem MHC I próprio. Quando a célula-alvo perde MHC I (estratégia de escape de vírus e tumores contra CD8⁺), a NK deixa de ser inibida — **hipótese do 'próprio ausente'** — e, somando sinais ativadores (NKG2D), mata a célula por **perforina e granzimas**." },
+        { "letra": "E", "texto": "Célula dendrítica plasmocitoide, por produção de interferon tipo I", "explicacao": "Essas células produzem grandes quantidades de IFN tipo I em infecções virais, mas não são as efetoras citotóxicas que reconhecem perda de MHC I." }
+      ],
+      "gabarito": "D",
+      "secao": "celulas-nk",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade inata'",
+      "tags": ["NK", "MHC I", "próprio ausente"]
+    },
+    {
+      "id": "ii-003",
+      "nivel": "medio",
+      "enunciado": "Paciente com artrite séptica tem proteína C-reativa de 180 mg/L (referência < 5 mg/L) após 24 horas de sintomas. Qual citocina é o principal estímulo para os hepatócitos aumentarem a síntese de PCR?",
+      "alternativas": [
+        { "letra": "A", "texto": "Interleucina-6 (IL-6)", "explicacao": "Correta. A **IL-6**, produzida por macrófagos e endotélio ativados (com contribuição de IL-1 e TNF), é o principal indutor das **proteínas de fase aguda** no fígado: PCR, amiloide sérico A, fibrinogênio e hepcidina. A PCR age como opsonina e ativa o complemento pela via clássica." },
+        { "letra": "B", "texto": "Interleucina-4 (IL-4)", "explicacao": "A IL-4 é citocina da resposta **Th2** (troca de classe para IgE, ativação alternativa de macrófagos), sem papel principal na resposta de fase aguda." },
+        { "letra": "C", "texto": "Interferon-γ (IFN-γ)", "explicacao": "O IFN-γ ativa macrófagos (via clássica, M1); não é o principal indutor hepático da PCR." },
+        { "letra": "D", "texto": "Interleucina-10 (IL-10)", "explicacao": "A IL-10 é **anti-inflamatória**: inibe macrófagos e dendríticas e reduz a produção de citocinas pró-inflamatórias." },
+        { "letra": "E", "texto": "Interleucina-2 (IL-2)", "explicacao": "A IL-2 é fator de crescimento e sobrevivência de linfócitos T (e de Treg), sem papel direto na síntese hepática de PCR." }
+      ],
+      "gabarito": "A",
+      "secao": "citocinas-inatas",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade inata'; Robbins – Patologia Básica, 10ª ed., cap. 'Inflamação e reparo'",
+      "tags": ["IL-6", "PCR", "fase aguda"]
+    },
+    {
+      "id": "ii-004",
+      "nivel": "medio",
+      "enunciado": "Em uma lesão inflamatória aguda, neutrófilos circulantes precisam sair dos vasos e chegar ao foco infeccioso. Qual sequência descreve corretamente esse processo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Adesão firme por selectinas → rolamento mediado por integrinas → quimiotaxia → diapedese", "explicacao": "Os papéis estão invertidos: **selectinas** medeiam o **rolamento** (interações fracas e transitórias); **integrinas** medeiam a **adesão firme**." },
+        { "letra": "B", "texto": "Diapedese → rolamento → adesão firme → ativação das integrinas por quimiocinas", "explicacao": "A diapedese é a etapa final de saída do vaso, e não a primeira." },
+        { "letra": "C", "texto": "Quimiotaxia no tecido → rolamento → diapedese → adesão firme", "explicacao": "A quimiotaxia no tecido ocorre **depois** que o leucócito atravessa o endotélio." },
+        { "letra": "D", "texto": "Fagocitose no sangue → transporte do micróbio até o tecido → liberação por exocitose", "explicacao": "Esse não é o mecanismo de recrutamento; neutrófilos migram ativamente para o tecido seguindo sinais químicos." },
+        { "letra": "E", "texto": "Rolamento por selectinas → ativação das integrinas por quimiocinas → adesão firme (integrina–ICAM-1) → diapedese (PECAM-1) → quimiotaxia no tecido", "explicacao": "Correta. TNF e IL-1 induzem **selectinas E e P** no endotélio → rolamento. **Quimiocinas** (IL-8) ligadas ao endotélio ativam as **integrinas** (LFA-1, Mac-1) do neutrófilo, que se ligam com alta afinidade a **ICAM-1** → adesão firme. Depois vem a **diapedese** (PECAM-1/CD31) e a **quimiotaxia** no tecido, guiada por C5a, LTB4, IL-8 e peptídeos bacterianos." }
+      ],
+      "gabarito": "E",
+      "secao": "recrutamento-leucocitario",
+      "referencia": "Abbas, 10ª ed., cap. 'Migração de leucócitos para os tecidos'; Robbins – Patologia Básica, 10ª ed., cap. 'Inflamação e reparo'",
+      "tags": ["recrutamento leucocitário", "selectinas", "integrinas"]
+    },
+    {
+      "id": "ii-005",
+      "nivel": "dificil",
+      "enunciado": "Menino de 6 anos teve abscesso hepático por *Staphylococcus aureus*, linfadenite supurativa por *Serratia marcescens* e, agora, pneumonia por *Aspergillus fumigatus*. A biópsia de linfonodo mostra granulomas. A contagem de neutrófilos é normal, e o teste da di-hidrorrodamina (DHR) por citometria mostra ausência de fluorescência após estímulo. Qual é o defeito mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência da integrina CD18, que impede a adesão dos neutrófilos ao endotélio", "explicacao": "Isso é a **LAD-1**, que cursa com leucocitose, ausência de pus e queda tardia do coto umbilical. Aqui há abscessos e granulomas, ou seja, os fagócitos chegam aos tecidos." },
+        { "letra": "B", "texto": "Mutação em LYST, com grânulos gigantes e falha da fusão fagolisossomal", "explicacao": "Isso é a síndrome de **Chédiak-Higashi**, que cursa com albinismo parcial e grânulos gigantes no esfregaço; o teste de DHR seria normal." },
+        { "letra": "C", "texto": "Deficiência da NADPH oxidase, que impede a explosão respiratória dos fagócitos", "explicacao": "Correta. É a **doença granulomatosa crônica**. Os fagócitos englobam os micróbios, mas **não geram superóxido** e, portanto, não produzem H₂O₂ nem HOCl. Micro-organismos **catalase-positivos** (S. aureus, Serratia, Aspergillus, Burkholderia, Nocardia) destroem o pouco H₂O₂ que eles próprios produzem e sobrevivem; a persistência do agressor gera **granulomas**. O teste de **DHR** (oxidação de corante pelo H₂O₂) mostra ausência de fluorescência." },
+        { "letra": "D", "texto": "Deficiência de mieloperoxidase, com falha na conversão de H₂O₂ em HOCl", "explicacao": "A deficiência de MPO costuma ser assintomática ou leve (às vezes candidíase em diabéticos). O teste de DHR é **normal**, pois o H₂O₂ é produzido." },
+        { "letra": "E", "texto": "Deficiência do componente C3 do complemento, com falha de opsonização", "explicacao": "A deficiência de C3 causa infecções por bactérias encapsuladas piogênicas; não explica Aspergillus, granulomas nem o teste de DHR alterado." }
+      ],
+      "gabarito": "C",
+      "secao": "imunodeficiencias-inatas",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunodeficiências congênitas e adquiridas'; Harrison, 21ª ed., cap. 'Distúrbios dos granulócitos e monócitos'",
+      "tags": ["doença granulomatosa crônica", "NADPH oxidase", "catalase"]
+    },
+    {
+      "id": "ii-006",
+      "nivel": "dificil",
+      "enunciado": "Recém-nascido de 4 semanas ainda não teve a queda do coto umbilical, que agora está edemaciado e eritematoso, sem secreção purulenta. Hemograma: leucócitos 48.000/mm³, com 80% de neutrófilos. Qual é o defeito subjacente mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ausência da integrina β2 (CD18), impedindo a adesão firme dos neutrófilos ao endotélio e sua saída para os tecidos", "explicacao": "Correta. É a **deficiência de adesão leucocitária tipo 1 (LAD-1)**. Sem a cadeia **CD18**, as integrinas LFA-1 e Mac-1 não se formam; os neutrófilos rolam, mas não aderem firmemente à ICAM-1 nem fazem diapedese. Ficam no sangue (**leucocitose acentuada**) e não chegam ao tecido (**infecções sem pus**). A separação do coto umbilical depende de neutrófilos — por isso ela atrasa." },
+        { "letra": "B", "texto": "Deficiência da NADPH oxidase, com infecções por catalase-positivos e granulomas", "explicacao": "Na doença granulomatosa crônica os neutrófilos migram normalmente e há formação de pus e abscessos; o defeito está em matar os micróbios fagocitados." },
+        { "letra": "C", "texto": "Neutropenia congênita grave por mutação em ELANE", "explicacao": "Na neutropenia congênita a contagem de neutrófilos é **muito baixa**, ao contrário da leucocitose descrita." },
+        { "letra": "D", "texto": "Deficiência de C5 do complemento, impedindo a quimiotaxia", "explicacao": "A deficiência de componentes terminais (C5–C9) se manifesta principalmente por infecções recorrentes por **Neisseria**; não explica o quadro neonatal descrito." },
+        { "letra": "E", "texto": "Síndrome de DiGeorge, com ausência de linfócitos T", "explicacao": "DiGeorge cursa com hipocalcemia, cardiopatia e deficiência de linfócitos T; não causa leucocitose neutrofílica nem atraso na queda do coto." }
+      ],
+      "gabarito": "A",
+      "secao": "imunodeficiencias-inatas",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["LAD-1", "CD18", "integrinas"]
+    },
+    {
+      "id": "ii-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 55 anos com hiperuricemia acorda com dor intensa, calor, rubor e edema na primeira articulação metatarsofalangiana. A artrocentese mostra cristais em forma de agulha com birrefringência negativa e muitos neutrófilos. Qual mecanismo inato explica a intensa resposta inflamatória a esses cristais?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ligação dos cristais a anticorpos IgE em mastócitos, com liberação de histamina", "explicacao": "Esse é o mecanismo da hipersensibilidade tipo I (alérgica); a gota é uma inflamação inata a cristais, sem necessidade de sensibilização prévia." },
+        { "letra": "B", "texto": "Reconhecimento dos cristais pelo TLR4, como se fossem lipopolissacarídeo bacteriano", "explicacao": "O TLR4 reconhece LPS. Os cristais de urato atuam como **DAMP** detectado principalmente pelo inflamassoma NLRP3 após fagocitose." },
+        { "letra": "C", "texto": "Ativação de linfócitos T CD4⁺ específicos para o urato, com produção de IFN-γ", "explicacao": "Urato não é antígeno peptídico apresentado por MHC; a crise aguda de gota é um fenômeno da imunidade **inata**." },
+        { "letra": "D", "texto": "Ativação do inflamassoma NLRP3 nos macrófagos que fagocitam os cristais, gerando caspase-1 e liberação de IL-1β, que recruta neutrófilos", "explicacao": "Correta. Os macrófagos sinoviais fagocitam os cristais de **urato monossódico**, o que desestabiliza os fagolisossomos e ativa o **inflamassoma NLRP3** → **caspase-1** cliva pró-IL-1β em **IL-1β** ativa → ativação endotelial e recrutamento maciço de **neutrófilos**. Isso explica a eficácia dos bloqueadores de IL-1 em casos refratários e da colchicina, que reduz a migração e a ativação dos neutrófilos." },
+        { "letra": "E", "texto": "Ativação da via clássica do complemento por imunocomplexos de urato com IgG", "explicacao": "Embora cristais possam ativar o complemento de forma acessória, o mecanismo central e mais cobrado é o inflamassoma NLRP3 com IL-1β; não há imunocomplexos específicos contra urato." }
+      ],
+      "gabarito": "D",
+      "secao": "receptores-padroes",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade inata'; Harrison, 21ª ed., cap. 'Gota e outras artropatias por cristais'",
+      "tags": ["inflamassoma", "NLRP3", "IL-1β", "gota", "DAMP"]
+    },
+    {
+      "id": "ii-008",
+      "nivel": "dificil",
+      "enunciado": "Durante uma infecção por vírus influenza, células epiteliais respiratórias infectadas e células dendríticas plasmocitoides liberam interferons tipo I (IFN-α e IFN-β). Qual é o principal efeito dessas citocinas nas células vizinhas ainda não infectadas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ativação clássica de macrófagos, com aumento da produção de óxido nítrico", "explicacao": "A ativação clássica de macrófagos é efeito típico do **IFN-γ** (tipo II), produzido por NK e linfócitos T, e não dos interferons tipo I." },
+        { "letra": "B", "texto": "Indução de um 'estado antiviral', com enzimas que degradam RNA viral e bloqueiam a tradução de proteínas, além de aumento da expressão de MHC I", "explicacao": "Correta. Os IFN tipo I se ligam ao receptor IFNAR das células vizinhas e induzem genes antivirais (ISGs), como a **PKR** (bloqueia a tradução) e a **OAS/RNase L** (degrada RNA). Assim, essas células ficam resistentes à replicação viral. Os IFN tipo I também **aumentam o MHC I** (facilitando o reconhecimento por CD8⁺) e ativam NK. Explicam ainda febre, mialgia e mal-estar da gripe." },
+        { "letra": "C", "texto": "Troca de classe das imunoglobulinas para IgE nos linfócitos B", "explicacao": "A troca para IgE depende de **IL-4/IL-13** (resposta Th2)." },
+        { "letra": "D", "texto": "Inibição da expressão de MHC I para evitar a lise de células sadias", "explicacao": "É o oposto: os IFN tipo I **aumentam** a expressão de MHC I." },
+        { "letra": "E", "texto": "Indução de apoptose imediata de todas as células epiteliais vizinhas", "explicacao": "O efeito principal é tornar as células resistentes à infecção, e não destruí-las." }
+      ],
+      "gabarito": "B",
+      "secao": "citocinas-inatas",
+      "referencia": "Abbas, 10ª ed., caps. 'Imunidade inata' e 'Imunidade aos micróbios'",
+      "tags": ["interferon tipo I", "estado antiviral", "vírus"]
+    },
+    {
+      "id": "ii-009",
+      "nivel": "aprofundado",
+      "enunciado": "Paciente com bacteremia por *Klebsiella pneumoniae* evolui em 12 horas com hipotensão refratária a volume, extremidades quentes, lactato elevado, plaquetopenia, alargamento de TP e TTPa e aumento de D-dímero. Qual sequência fisiopatológica explica melhor a associação entre choque e coagulopatia nesse quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Produção de anticorpos IgE contra a bactéria, com degranulação de mastócitos e liberação de histamina", "explicacao": "Esse é o mecanismo da anafilaxia, que pode causar choque distributivo, mas não explica a coagulação intravascular disseminada em um quadro de bacteremia por Gram-negativo." },
+        { "letra": "B", "texto": "Destruição direta das plaquetas pela bactéria, com hemorragia maciça e choque hipovolêmico", "explicacao": "O choque descrito é distributivo (extremidades quentes) e há consumo de fatores com D-dímero alto, o que indica ativação sistêmica da coagulação, e não apenas perda de plaquetas." },
+        { "letra": "C", "texto": "Insuficiência adrenal aguda causada pela bactéria, com perda de cortisol e de aldosterona", "explicacao": "Insuficiência adrenal pode contribuir para hipotensão em alguns casos, mas não explica a ativação sistêmica da coagulação." },
+        { "letra": "D", "texto": "Ativação da resposta Th2, com eosinofilia e vasodilatação mediada por IL-5", "explicacao": "A resposta Th2 não é o eixo da sepse bacteriana, e IL-5 não causa vasodilatação sistêmica." },
+        { "letra": "E", "texto": "LPS ativa TLR4 em monócitos e endotélio → liberação sistêmica de TNF e IL-1 → produção de óxido nítrico (vasodilatação), aumento de permeabilidade e expressão de fator tecidual com redução de anticoagulantes naturais → coagulação intravascular disseminada", "explicacao": "Correta. Na sepse por Gram-negativo, o **LPS** ativa **TLR4** de forma sistêmica. **TNF e IL-1** induzem **iNOS** (NO → vasodilatação e choque distributivo), aumentam a permeabilidade vascular e fazem monócitos e endotélio expressarem **fator tecidual**, enquanto reduzem trombomodulina e proteína C ativada. O resultado é trombina disseminada, consumo de plaquetas e fatores (TP/TTPa alargados) e fibrinólise secundária (**D-dímero alto**) — a **CIVD**." }
+      ],
+      "gabarito": "E",
+      "secao": "sepse",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunidade inata'; Harrison, 21ª ed., cap. 'Sepse e choque séptico'; Surviving Sepsis Campaign 2021",
+      "tags": ["sepse", "TNF", "CIVD", "TLR4"]
+    },
+    {
+      "id": "ii-010",
+      "nivel": "aprofundado",
+      "enunciado": "Menina de 2 anos tem o terceiro episódio de doença pneumocócica invasiva (meningite e bacteremia). Nos episódios, a febre foi baixa e a proteína C-reativa estava apenas discretamente elevada, apesar da gravidade. Hemograma, imunoglobulinas, complemento e baço (ultrassonografia e esfregaço) são normais. Qual defeito explica melhor esse quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência da NADPH oxidase", "explicacao": "A doença granulomatosa crônica causa infecções por catalase-positivos e fungos com granulomas, e a resposta febril e de PCR é preservada." },
+        { "letra": "B", "texto": "Agamaglobulinemia ligada ao X", "explicacao": "Também causaria infecções por encapsulados, mas as **imunoglobulinas estão normais** no caso; e a resposta febril não estaria tão reduzida." },
+        { "letra": "C", "texto": "Deficiência de IRAK-4 ou MyD88, que bloqueia a sinalização dos TLRs e do receptor de IL-1", "explicacao": "Correta. **MyD88 e IRAK-4** são adaptadores comuns à maioria dos **TLRs** e ao receptor de **IL-1**. Sem eles, a ativação de NF-κB e a produção de **TNF, IL-1 e IL-6** ficam muito reduzidas: há pouca febre e pouca PCR (que depende de IL-6), apesar da infecção grave. As crianças têm infecções piogênicas invasivas, sobretudo por pneumococo, na primeira infância, com tendência a melhorar com a idade, à medida que a resposta adaptativa amadurece." },
+        { "letra": "D", "texto": "Asplenia funcional", "explicacao": "A asplenia causa sepse por encapsulados, mas a resposta febril e de fase aguda é preservada; e o esfregaço (sem Howell-Jolly) e a ultrassonografia são normais." },
+        { "letra": "E", "texto": "Deficiência de linfócitos T por aplasia tímica", "explicacao": "A deficiência de T predispõe a vírus, fungos e oportunistas, e não especificamente a infecções pneumocócicas com resposta inflamatória atenuada." }
+      ],
+      "gabarito": "C",
+      "secao": "imunodeficiencias-inatas",
+      "referencia": "Abbas, 10ª ed., caps. 'Imunidade inata' e 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["MyD88", "IRAK-4", "TLR", "imunodeficiência inata"]
+    }
+  ]
+}

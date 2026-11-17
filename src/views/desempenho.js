@@ -1,4 +1,4 @@
-import { topics, materias, questions, topicUrl } from '../content.js';
+import { topics, materias, modulos, questions, topicUrl, topicsByModulo, moduloUrl } from '../content.js';
 import { srsEntries, getSimulados, dueIds } from '../store.js';
 import { NIVEIS, NIVEL_LABEL } from '../lib/parse.js';
 import { esc, statsFor, pctBar, statusChip } from '../ui.js';
@@ -18,14 +18,20 @@ export function desempenhoView(main) {
       <div class="stat"><span class="stat-n">${Object.keys(srsEntries()).length}</span><span class="stat-l">na fila de revisão (${dueIds().length} hoje)</span></div>
       <div class="stat"><span class="stat-n">${getSimulados().length}</span><span class="stat-l">simulados feitos</span></div>
     </div>
-    ${materias.filter((m) => topics.some((t) => t.materia === m.id)).map((m) => {
-      const ts = topics.filter((t) => t.materia === m.id);
-      return `<section class="card"><h2>${m.icone || ''} ${esc(m.nome)}</h2>
+    ${modulos.filter((m) => topicsByModulo(m.id).length).map((m) => {
+      const ts = topicsByModulo(m.id);
+      return `<section class="card"><h2><a href="${moduloUrl(m)}">${m.icone || ''} ${esc(m.sigla)} · ${esc(m.nome)}</a></h2>
         <div class="table-wrap"><table class="simple">${head}<tbody>
-        ${row('<strong>Total da matéria</strong>', statsFor(ts.flatMap((t) => t.questoes)))}
+        ${row('<strong>Total do módulo</strong>', statsFor(ts.flatMap((t) => t.questoes)))}
         ${ts.map((t) => row(`<a href="${topicUrl(t)}">${esc(t.titulo)}</a>`, statsFor(t.questoes), statusChip(getStatus(t.id)))).join('')}
         </tbody></table></div></section>`;
     }).join('')}
+    <section class="card"><h2>Por disciplina</h2>
+      <div class="table-wrap"><table class="simple">${head}<tbody>
+      ${materias.filter((m) => topics.some((t) => t.materia === m.id)).map((m) =>
+        row(`<a href="#/materia/${m.id}">${m.icone || ''} ${esc(m.nome)}</a>`, statsFor(topics.filter((t) => t.materia === m.id).flatMap((t) => t.questoes)))).join('')}
+      </tbody></table></div>
+    </section>
     <section class="card"><h2>Por nível</h2>
       <div class="table-wrap"><table class="simple">${head}<tbody>
       ${NIVEIS.map((n) => row(NIVEL_LABEL[n], statsFor(questions.filter((q) => q.nivel === n)))).join('')}

@@ -1,5 +1,5 @@
 import './styles.css';
-import { homeView, materiaView } from './views/home.js';
+import { homeView, materiaView, moduloView } from './views/home.js';
 import { topicoView } from './views/topico.js';
 import { questoesTopicoView, revisaoView } from './views/estudo.js';
 import { simuladoView, stopSimulado } from './views/simulado.js';
@@ -37,7 +37,8 @@ updateBadge();
 
 // ---------- Rotas (hash) ----------
 // #/                         início
-// #/materia/<id>             matéria
+// #/ase/<id>                  módulo da UEPA (ASE)
+// #/materia/<id>             disciplina
 // #/<materia>/<topico>[#sec] material do tópico (opcionalmente rolando até a seção)
 // #/<materia>/<topico>/questoes
 // #/simulado?topico=…|materia=…   #/revisao   #/desempenho   #/busca?q=…
@@ -53,6 +54,7 @@ function route() {
 
   if (!parts.length) homeView(main);
   else if (parts[0] === 'materia') materiaView(main, parts[1]);
+  else if (parts[0] === 'ase') moduloView(main, parts[1]);
   else if (parts[0] === 'simulado') simuladoView(main, params);
   else if (parts[0] === 'revisao') revisaoView(main);
   else if (parts[0] === 'desempenho') desempenhoView(main);

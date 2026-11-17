@@ -1,5 +1,5 @@
 // Modo estudo: uma questão por vez, feedback imediato. Usado na página de questões do tópico e na revisão.
-import { topicById, materiaById, topicUrl, questionById } from '../content.js';
+import { topicById, moduloPrincipal, moduloUrl, semestreNome, topicUrl, questionById } from '../content.js';
 import { recordAnswer, dueIds, srsEntries, INTERVALOS } from '../store.js';
 import { NIVEIS, NIVEL_LABEL } from '../lib/parse.js';
 import { esc, questionCard, revealAnswer, lastResultIcon, shuffle, statsFor } from '../ui.js';
@@ -57,10 +57,10 @@ let ordemAleatoria = false;
 export function questoesTopicoView(main, materiaId, topicId) {
   const t = topicById[topicId];
   if (!t || t.materia !== materiaId) { main.innerHTML = '<p>Tópico não encontrado.</p>'; return; }
-  const m = materiaById[t.materia];
+  const mp = moduloPrincipal(t);
   const st = statsFor(t.questoes);
   main.innerHTML = `
-    <nav class="crumbs"><a href="#/">Início</a> › <a href="#/materia/${m.id}">${esc(m.nome)}</a> › <a href="${topicUrl(t)}">${esc(t.titulo)}</a> › Questões</nav>
+    <nav class="crumbs"><a href="#/">Início</a> › ${esc(semestreNome(t.semestre))}${mp ? ` › <a href="${moduloUrl(mp)}">${esc(mp.sigla)}</a>` : ''} › <a href="${topicUrl(t)}">${esc(t.titulo)}</a> › Questões</nav>
     <h1>📝 Questões — ${esc(t.titulo)}</h1>
     <p class="muted">${st.total} questões · ${st.answered} respondidas${st.pct != null ? ` · ${st.pct}% de acerto` : ''}</p>
     <div class="card filters">

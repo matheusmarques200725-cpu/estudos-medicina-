@@ -1,5 +1,5 @@
 // Modo simulado: cronometrado, sem feedback até o fim; nota final + revisão com explicações.
-import { topics, materias, questions, topicById } from '../content.js';
+import { topics, modulos, questions, topicById } from '../content.js';
 import { recordAnswer, recordSimulado, getSimulados } from '../store.js';
 import { NIVEIS, NIVEL_LABEL } from '../lib/parse.js';
 import { esc, questionCard, revealAnswer, shuffle } from '../ui.js';
@@ -12,15 +12,23 @@ export function simuladoView(main, params) {
   stopSimulado();
   const preTopico = params.get('topico');
   const preMateria = params.get('materia');
-  const checkedTopic = (t) => (preTopico ? t.id === preTopico : preMateria ? t.materia === preMateria : true);
+  const preModulo = params.get('modulo');
+  const checkedTopic = (t) => (preTopico ? t.id === preTopico
+    : preMateria ? t.materia === preMateria
+      : preModulo ? (t.modulos || []).includes(preModulo) : true);
+  // Agrupa por módulo principal (ASE); tópicos sem módulo ficam em "Outros".
+  const grupos = [
+    ...modulos.map((m) => ({ nome: `${m.sigla} · ${m.nome}`, ts: topics.filter((t) => t.modulos?.[0] === m.id) })),
+    { nome: 'Outros', ts: topics.filter((t) => !t.modulos?.length) },
+  ].filter((g) => g.ts.length);
   const hist = getSimulados();
   main.innerHTML = `
     <h1>⏱️ Simulado</h1>
     <form class="card sim-form" id="cfg">
       <fieldset><legend>Tópicos</legend>
-        ${materias.filter((m) => topics.some((t) => t.materia === m.id)).map((m) => `
-          <div class="sim-materia"><strong>${esc(m.nome)}</strong>
-            ${topics.filter((t) => t.materia === m.id).map((t) => `
+        ${grupos.map((g) => `
+          <div class="sim-materia"><strong>${esc(g.nome)}</strong>
+            ${g.ts.map((t) => `
               <label class="check"><input type="checkbox" name="topico" value="${t.id}" ${checkedTopic(t) ? 'checked' : ''}> ${esc(t.titulo)} <span class="muted small">(${t.questoes.length})</span></label>`).join('')}
           </div>`).join('')}
       </fieldset>

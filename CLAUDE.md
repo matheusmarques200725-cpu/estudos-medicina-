@@ -1,6 +1,6 @@
 # CLAUDE.md — Estudos de Medicina
 
-Site pessoal de estudos de um estudante de medicina da **UEPA (método de tutoria/PBL)**. Organização: **semestre → matéria → tópico**. Cada tópico tem (1) material aprofundado em Markdown e (2) banco de questões em JSON, ligados entre si. Idioma de todo o conteúdo e da interface: **português do Brasil**.
+Site pessoal de estudos de um estudante de medicina da **UEPA (método de tutoria/PBL)**. Organização: **semestre → módulo (ASE da UEPA) → tópico**, com a **disciplina** (fisiologia, imunologia, patologia…) como etiqueta/filtro. Cada tópico tem (1) material aprofundado em Markdown e (2) banco de questões em JSON, ligados entre si. Idioma de todo o conteúdo e da interface: **português do Brasil**.
 
 ## Comandos
 
@@ -16,8 +16,8 @@ Deploy: GitHub Actions (`.github/workflows/deploy.yml`) publica no GitHub Pages 
 
 ```
 content/                          ← CONTEÚDO (editável, separado do código)
-  materias.json                   semestres + matérias (id, nome, ícone, cor, referências-base)
-  <materia>/<topico>.md           material do tópico (frontmatter YAML + Markdown)
+  materias.json                   semestres + modulos (ASE1–ASE6: ementa, objetivos, bibliografia UEPA) + materias (disciplinas)
+  <materia>/<topico>.md           material do tópico (frontmatter YAML + Markdown); pasta = disciplina
   <materia>/<topico>.questoes.json  questões do tópico
 scripts/validate.js               validação do conteúdo (roda antes do build)
 src/
@@ -27,17 +27,17 @@ src/
   store.js                        localStorage: status, anotações, respostas, simulados, revisão espaçada
   ui.js                           componentes compartilhados (cartão de questão, feedback, estatísticas)
   main.js                         roteador por hash + tema
-  views/                          home, topico, estudo (questões + revisão), simulado, desempenho, busca
+  views/                          home (+ página do ASE e da disciplina), topico, estudo (questões + revisão), simulado, desempenho, busca
   styles.css                      mobile-first, tema claro/escuro
 ```
 
 Stack: Vite + JavaScript puro (sem framework), markdown-it, mermaid, MiniSearch, vite-plugin-pwa. Sem backend, sem login.
 
-**Rotas:** `#/` · `#/materia/<id>` · `#/<materia>/<topico>` · `#/<materia>/<topico>#<secao>` · `#/<materia>/<topico>/questoes` · `#/simulado[?topico=|?materia=]` · `#/revisao` · `#/desempenho` · `#/busca`.
+**Rotas:** `#/` · `#/ase/<id>` (módulo) · `#/materia/<id>` (disciplina) · `#/<materia>/<topico>` · `#/<materia>/<topico>#<secao>` · `#/<materia>/<topico>/questoes` · `#/simulado[?topico=|?materia=|?modulo=]` · `#/revisao` · `#/desempenho` · `#/busca`.
 
 ## Como adicionar conteúdo
 
-1. Matéria nova → adicionar em `content/materias.json` (o `id` vira o nome da pasta).
+1. Disciplina nova → adicionar em `materias` de `content/materias.json` (o `id` vira o nome da pasta). Módulos (ASEs) ficam em `modulos`.
 2. Tópico novo → `content/<materia>/<id>.md` seguindo o modelo abaixo (nome do arquivo = `id`).
 3. Questões → `content/<materia>/<id>.questoes.json` (10 por tópico).
 4. `npm run validate` até zerar os erros. Avisos de "relacionado ainda não existe" são aceitáveis para tópicos planejados.
@@ -50,10 +50,10 @@ IDs de tópicos são globais e únicos (kebab-case, sem acento). Use prefixo de 
 ---
 id: filtracao-glomerular            # = nome do arquivo
 titulo: Filtração glomerular e sua regulação
-materia: fisiologia                 # = id em materias.json e nome da pasta
-semestre: 2
-ordem: 1                            # ordem dentro da matéria/semestre
-modulo_uepa: ""                     # módulo de tutoria da UEPA (filtro na página inicial)
+materia: fisiologia                 # disciplina: id em materias.json e nome da pasta
+semestre: 2                         # deve bater com o semestre do 1º módulo
+ordem: 1                            # ordem dentro do módulo
+modulos: [ase4]                     # ASE(s) da UEPA; o 1º é o principal (validado)
 tags: [rim, TFG]
 relacionados: [equilibrio-acido-base, farmaco-diureticos]   # ids de outros tópicos
 atualizado: 2026-11-17
@@ -134,8 +134,21 @@ Regras do Markdown:
 
 Chave `estudos-med:v1`: `{ status, notes, answers, srs, simulados }`. Revisão espaçada: errou → entra na fila (volta em 1 dia); acertou na data → próxima etapa (1 → 3 → 7 → 15 → 30 dias); acertou na última → sai da fila; errou → volta ao início. Mudanças de formato exigem migração para não perder o progresso.
 
-## Plano de expansão
+## Módulos da UEPA e roteiro de tópicos
 
-- Etapa 1 (feita): estrutura + Fisiologia renal (filtração glomerular; equilíbrio ácido-base).
-- Etapa 2: ajustes de feedback; preencher semestres/módulos UEPA reais.
-- Etapa 3+: expandir por matéria (ex.: restante da fisiologia renal → farmacologia dos diuréticos e IECA/BRA → patologia renal), sempre material completo + 10 questões, com links cruzados.
+MED1 (1º semestre) = ASE1–ASE3; MED2 (2º semestre) = ASE4–ASE6. Ementas, objetivos e bibliografia básica de cada ASE estão em `content/materias.json` (fonte: Manual Acadêmico MED1/MED2 da UEPA). Ao escrever um tópico, priorize as referências da bibliografia básica do ASE, nas edições atuais.
+
+**Ordem de produção combinada com o usuário: ASE6 → ASE4/ASE5 → ASE1–3, em lotes de 3–4 tópicos** (o usuário revisa cada lote). ✔ = pronto.
+
+- **ASE6 – Mecanismos de Agressão e Defesa** (cursando)
+  - Lote 1 ✔: `orgaos-linfoides-hematopoese` (lh-), `imunidade-inata` (ii-), `sistema-complemento` (co-), `imunidade-celular-mhc-linfocitos-t` (tc-) — imunologia
+  - Lote 2: `imunidade-humoral-anticorpos` (imunologia); `lesao-celular-estresse-oxidativo` (isquemia/hipóxia, agentes físicos/químicos/biológicos), `necrose-apoptose`, `inflamacao-aguda` (sinais cardinais, mediadores) — patologia
+  - Lote 3: `inflamacao-cronica-reparo`, `hemostasia-coagulacao`, `febre-dor-resposta-neuroendocrina`, `agressoes-fisicas-quimicas` (trauma, radiação, frio/calor, intoxicações)
+  - Lote 4: `hipersensibilidades`, `autoimunidade-tolerancia`, `imunodeficiencias`, `resposta-imune-agentes-infecciosos` (vírus, bactérias, fungos, protozoários, helmintos)
+- **ASE4 – Funções Biológicas II:** organização do SN; potencial de membrana e de ação; sinapses e neurotransmissores; junção neuromuscular; reflexos; SN autônomo; eixo hipotálamo-hipófise e controle neuroendócrino; formação da urina (✔ `filtracao-glomerular`; reabsorção/secreção tubular); SRAA e controle da PA; equilíbrio hidroeletrolítico; estresse/fatores ambientais.
+- **ASE5 – Metabolismo e Nutrição:** motilidade e secreção digestivas; digestão e absorção; glândulas anexas; metabolismo de carboidratos (glicólise, glicogênio, gliconeogênese, Cori); lipídios; proteínas/ciclo da ureia; bioenergética; insulina, glucagon e incretinas; tireoide; adrenais; fome/saciedade; obesidade, DM, dislipidemia, síndrome metabólica; desnutrição e terapia nutricional; erros inatos; farmacocinética; fármacos do TGI e antieméticos; álcool.
+- **ASE3 – Funções Biológicas I:** ciclo cardíaco; atividade elétrica; regulação da PA; circulação; mecânica ventilatória; V/Q; transporte de gases; ✔ `equilibrio-acido-base`; músculos; esqueleto.
+- **ASE2 – Proliferação, Alteração do Crescimento e Diferenciação Celular:** célula e membrana; organelas; DNA/transcrição/tradução; ciclo celular, mitose/meiose; herança; adaptações celulares; neoplasia/oncogenes; mutações; célula-tronco.
+- **ASE1 – Introdução ao Estudo da Medicina:** SUS e níveis de atenção; sistemas de informação e indicadores; história natural da doença; bioética e relação médico-paciente; tecidos epitelial/conjuntivo; planimetria.
+
+Links planejados em `relacionados` que ainda não existem geram apenas aviso no validador — é esperado.

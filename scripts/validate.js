@@ -17,6 +17,7 @@ const warn = (f, msg) => warnings.push(`${path.relative(root, f)}: ${msg}`);
 const materiasFile = path.join(contentDir, 'materias.json');
 const catalog = JSON.parse(fs.readFileSync(materiasFile, 'utf8'));
 const materiaIds = new Set(catalog.materias.map((m) => m.id));
+const moduloById = Object.fromEntries((catalog.modulos || []).map((m) => [m.id, m]));
 
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) =>
@@ -35,6 +36,13 @@ for (const f of mdFiles) {
   if (meta.materia && !materiaIds.has(meta.materia)) err(f, `matéria "${meta.materia}" não existe em materias.json`);
   if (meta.materia && path.basename(path.dirname(f)) !== meta.materia) err(f, `arquivo deve ficar em content/${meta.materia}/`);
   if (topics.has(meta.id)) err(f, `id de tópico duplicado: ${meta.id}`);
+  if ('modulo_uepa' in meta) err(f, 'campo "modulo_uepa" foi substituído por "modulos: [aseN]"');
+  if (!Array.isArray(meta.modulos) || !meta.modulos.length) err(f, 'frontmatter sem "modulos" (ex.: modulos: [ase6])');
+  else {
+    for (const m of meta.modulos) if (!moduloById[m]) err(f, `módulo "${m}" não existe em materias.json`);
+    const principal = moduloById[meta.modulos[0]];
+    if (principal && principal.semestre !== meta.semestre) err(f, `semestre ${meta.semestre} não bate com o módulo principal ${principal.sigla} (${principal.semestre}º semestre)`);
+  }
   const heads = extractHeadings(body);
   const anchors = new Set();
   for (const h of heads) {

@@ -4,7 +4,7 @@ titulo: Filtração glomerular e sua regulação
 materia: fisiologia
 semestre: 2
 ordem: 1
-modulo_uepa: ""
+modulos: [ase4]
 tags: [rim, TFG, forças de Starling, autorregulação, feedback tubuloglomerular, depuração, creatinina]
 relacionados: [equilibrio-acido-base, farmaco-diureticos, farmaco-ieca-bra, patologia-lesao-renal-aguda]
 atualizado: 2026-11-17

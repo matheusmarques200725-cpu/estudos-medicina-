@@ -190,3 +190,11 @@ table.simple { border-collapse: collapse; width: 100%; font-size: .9rem; }
 .results { list-style: none; padding: 0; }
 .results li a { text-decoration: none; color: var(--text); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 mark { background: var(--warn-soft); color: inherit; padding: 0 2px; border-radius: 3px; }
+
+/* Etiquetas de disciplina e módulo */
+.chip-materia { text-decoration: none; color: var(--text); border-color: var(--c, var(--border)); }
+a.chip { text-decoration: none; color: var(--text); }
+.topic-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.topic-stats { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.materia-card.vazio { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; justify-content: space-between; padding: 10px 16px; margin: 8px 0; }
+.materia-card.vazio a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: .95rem; }
