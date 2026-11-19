@@ -1,0 +1,165 @@
+{
+  "topico": "visao-geral-sistema-imune",
+  "questoes": [
+    {
+      "id": "vg-001",
+      "nivel": "medio",
+      "enunciado": "A toxina tetânica é uma proteína grande. Pacientes vacinados produzem vários anticorpos diferentes contra ela, cada um ligando-se a uma região distinta da molécula. Como se chama cada uma dessas pequenas regiões da toxina reconhecidas especificamente por um anticorpo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Hapteno", "explicacao": "Hapteno é uma molécula **pequena** que só se torna imunogênica quando ligada a uma proteína carreadora (como a penicilina). Não é o nome da região reconhecida em uma proteína grande." },
+        { "letra": "B", "texto": "Imunógeno", "explicacao": "Imunógeno é a molécula inteira capaz de **provocar** uma resposta imune — aqui, a toxina como um todo —, e não a pequena região que se encaixa no anticorpo." },
+        { "letra": "C", "texto": "Epítopo (determinante antigênico)", "explicacao": "Correta. **Epítopo** é a pequena parte do antígeno que se encaixa de fato no sítio de ligação do anticorpo (ou no TCR, no caso de peptídeos apresentados). Uma proteína grande tem **vários epítopos**, e cada um pode ser reconhecido por um clone diferente de linfócito B — por isso a resposta à toxina inclui vários anticorpos diferentes." },
+        { "letra": "D", "texto": "Adjuvante", "explicacao": "Adjuvante é uma substância adicionada às vacinas para ativar a imunidade inata e fortalecer a resposta; não é uma parte do antígeno." },
+        { "letra": "E", "texto": "Região constante (Fc)", "explicacao": "A região Fc pertence ao **anticorpo**, não ao antígeno; ela não reconhece o antígeno, e sim define as funções efetoras do anticorpo." }
+      ],
+      "gabarito": "C",
+      "secao": "antigeno-epitopo",
+      "referencia": "Abbas, Lichtman & Pillai – Imunologia Celular e Molecular, 10ª ed., cap. 'Anticorpos e antígenos'",
+      "tags": ["antígeno", "epítopo"]
+    },
+    {
+      "id": "vg-002",
+      "nivel": "medio",
+      "enunciado": "Um recém-nascido de 15 dias, filho de mãe adequadamente vacinada contra sarampo e tétano, tem anticorpos protetores contra essas doenças, embora nunca tenha sido vacinado. Qual classe de anticorpo explica essa proteção e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "IgG, a única classe que atravessa a placenta, transferida ativamente da mãe para o feto", "explicacao": "Correta. A **IgG** é transportada pela placenta (por um receptor especial, o FcRn), sobretudo no último trimestre. Ela confere **imunidade passiva**: proteção imediata, mas temporária (meses), porque o bebê recebeu anticorpos prontos e não formou memória própria." },
+        { "letra": "B", "texto": "IgM, por ser a primeira classe produzida e ter estrutura pentamérica", "explicacao": "A IgM é a primeira produzida numa resposta nova, mas, por ser um **pentâmero** grande, **não atravessa a placenta**. IgM específica no sangue do recém-nascido sugere infecção congênita, produzida pelo próprio feto." },
+        { "letra": "C", "texto": "IgA, recebida pela placenta e concentrada no sangue do bebê", "explicacao": "A IgA chega ao bebê pelo **leite materno**, atuando nas mucosas do intestino; ela não atravessa a placenta nem é a principal responsável pelos anticorpos protetores no sangue." },
+        { "letra": "D", "texto": "IgE, produzida pelo próprio bebê após contato com antígenos maternos", "explicacao": "A IgE participa da defesa contra helmintos e das alergias; não explica a proteção contra sarampo e tétano no recém-nascido." },
+        { "letra": "E", "texto": "IgD, transferida pelo cordão umbilical junto com os linfócitos B maternos", "explicacao": "A IgD funciona principalmente como receptor na membrana dos linfócitos B naïve; não é transferida pela placenta." }
+      ],
+      "gabarito": "A",
+      "secao": "isotipos",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'",
+      "tags": ["IgG", "placenta", "imunidade passiva"]
+    },
+    {
+      "id": "vg-003",
+      "nivel": "medio",
+      "enunciado": "Um vírus infecta hepatócitos e se replica no citoplasma deles. Qual célula da imunidade adaptativa é capaz de reconhecer o hepatócito infectado e destruí-lo diretamente?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócito B, que reconhece o vírus dentro da célula pelo BCR", "explicacao": "O linfócito B e os anticorpos reconhecem antígenos **fora** das células (ou na superfície delas); não alcançam o vírus que se replica dentro do citoplasma e não matam células diretamente." },
+        { "letra": "B", "texto": "Plasmócito, que secreta anticorpos que entram no hepatócito", "explicacao": "Anticorpos não entram nas células para destruir vírus no citoplasma; eles neutralizam vírus livres e marcam micróbios e células para outras células efetoras." },
+        { "letra": "C", "texto": "Linfócito T CD4⁺, que reconhece peptídeos virais em MHC de classe I", "explicacao": "O correceptor CD4 se liga ao **MHC de classe II**, presente principalmente em células apresentadoras. Os CD4⁺ coordenam a resposta com citocinas, mas não são os principais executores da morte de células infectadas." },
+        { "letra": "D", "texto": "Célula dendrítica, que fagocita o hepatócito infectado e o destrói com anticorpos", "explicacao": "A dendrítica captura antígenos e os apresenta aos linfócitos T no linfonodo; ela não é a célula que destrói os hepatócitos infectados nos tecidos." },
+        { "letra": "E", "texto": "Linfócito T CD8⁺ citotóxico, que reconhece peptídeos virais apresentados em MHC de classe I e induz a apoptose da célula infectada", "explicacao": "Correta. Proteínas virais produzidas no citoplasma são cortadas em peptídeos e exibidas no **MHC de classe I**, presente em praticamente todas as células com núcleo. O **linfócito T CD8⁺** (CD8 se liga ao MHC I) reconhece esse complexo e libera **perforina e granzimas**, induzindo a apoptose da célula — eliminando a 'fábrica' de vírus." }
+      ],
+      "gabarito": "E",
+      "secao": "cd4-cd8",
+      "referencia": "Abbas, 10ª ed., caps. 'Propriedades e visão geral das respostas imunes' e 'Diferenciação e funções dos linfócitos T CD8⁺ efetores'",
+      "tags": ["CD8", "MHC I", "vírus"]
+    },
+    {
+      "id": "vg-004",
+      "nivel": "medio",
+      "enunciado": "Ao se ligar a uma bactéria, um anticorpo IgG passa a ser reconhecido por receptores presentes na membrana dos neutrófilos e macrófagos, que então fagocitam a bactéria com mais eficiência. Qual parte da molécula de anticorpo é reconhecida por esses receptores?",
+      "alternativas": [
+        { "letra": "A", "texto": "A região variável da cadeia leve", "explicacao": "As regiões variáveis (das cadeias leve e pesada) formam o sítio que se liga ao **antígeno**; não são reconhecidas pelos receptores dos fagócitos." },
+        { "letra": "B", "texto": "A porção Fc, formada pelas regiões constantes das cadeias pesadas", "explicacao": "Correta. A molécula de anticorpo tem forma de Y: os braços (**Fab**) reconhecem o antígeno, e a haste (**Fc**), formada pelas regiões constantes das cadeias pesadas, interage com **receptores Fc** dos fagócitos e com o complemento. Por isso o anticorpo funciona como 'ponte' entre o micróbio e a célula que vai destruí-lo — a **opsonização**." },
+        { "letra": "C", "texto": "O fragmento Fab, que contém o sítio de ligação ao antígeno", "explicacao": "O Fab é a parte que se liga à bactéria; os receptores dos fagócitos reconhecem a outra extremidade do anticorpo." },
+        { "letra": "D", "texto": "A proteína CD3 associada ao anticorpo", "explicacao": "O CD3 é um complexo de sinalização associado ao **TCR** dos linfócitos T, e não aos anticorpos." },
+        { "letra": "E", "texto": "As proteínas Igα e Igβ ligadas ao anticorpo secretado", "explicacao": "Igα e Igβ são proteínas de sinalização associadas ao **BCR** na membrana do linfócito B; não fazem parte do anticorpo secretado." }
+      ],
+      "gabarito": "B",
+      "secao": "estrutura-anticorpo",
+      "referencia": "Abbas, 10ª ed., cap. 'Anticorpos e antígenos'",
+      "tags": ["anticorpo", "Fc", "opsonização"]
+    },
+    {
+      "id": "vg-005",
+      "nivel": "dificil",
+      "enunciado": "Estudante de 20 anos apresenta icterícia, colúria e mal-estar há 5 dias, após viagem. Exames: transaminases muito elevadas; anti-HAV IgM reagente; anti-HAV IgG reagente. Qual é a interpretação mais adequada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Imunidade por vacinação prévia, sem infecção atual", "explicacao": "A vacina induz **IgG**, não IgM persistente; e o quadro clínico com transaminases elevadas indica doença ativa." },
+        { "letra": "B", "texto": "Infecção passada pelo vírus da hepatite A, sem relação com o quadro atual", "explicacao": "IgG isolada indicaria infecção passada, mas a **IgM reagente** aponta para infecção **recente**." },
+        { "letra": "C", "texto": "Resultado incompatível, pois IgM e IgG não podem coexistir", "explicacao": "IgM e IgG frequentemente coexistem na fase aguda: a IgM aparece primeiro, e a IgG começa a subir logo depois, enquanto a IgM ainda está presente." },
+        { "letra": "D", "texto": "Hepatite A aguda: a IgM específica indica infecção recente, e a IgG já começou a ser produzida na resposta primária", "explicacao": "Correta. Na **resposta primária**, a **IgM** é a primeira classe produzida e desaparece em semanas a meses; a **IgG** surge um pouco depois (após a troca de classe) e persiste por anos. **IgM anti-HAV reagente** é o marcador de **hepatite A aguda**; a IgG concomitante é esperada nessa fase." },
+        { "letra": "E", "texto": "Imunidade passiva por anticorpos maternos", "explicacao": "Anticorpos maternos (IgG) desaparecem nos primeiros meses de vida e não incluem IgM; não explicam o quadro de um adulto." }
+      ],
+      "gabarito": "D",
+      "secao": "sorologia",
+      "referencia": "Abbas, 10ª ed., cap. 'Propriedades e visão geral das respostas imunes'; Ministério da Saúde – Manual Técnico para o Diagnóstico das Hepatites Virais",
+      "tags": ["sorologia", "IgM", "IgG", "resposta primária"]
+    },
+    {
+      "id": "vg-006",
+      "nivel": "dificil",
+      "enunciado": "Um adulto recebe a primeira dose de uma vacina proteica e, após algumas semanas, apresenta título baixo de IgG específica. Seis meses depois, recebe a segunda dose: em menos de uma semana, o título de IgG é dez vezes maior, e os anticorpos se ligam ao antígeno com mais força. O que explica essa diferença?",
+      "alternativas": [
+        { "letra": "A", "texto": "A segunda dose ativa a imunidade inata, que passa a produzir IgG", "explicacao": "A imunidade inata não produz anticorpos; quem os produz são os plasmócitos, derivados de linfócitos B." },
+        { "letra": "B", "texto": "A primeira dose induziu tolerância, que foi quebrada pela segunda", "explicacao": "Se a primeira dose tivesse induzido tolerância, a segunda resposta seria fraca ou ausente, e não muito mais intensa." },
+        { "letra": "C", "texto": "A primeira dose gerou linfócitos B e T de memória, mais numerosos e de maior afinidade, que respondem mais rápido e com mais intensidade na reexposição (resposta secundária)", "explicacao": "Correta. Após a **seleção clonal** e a **expansão** na primeira exposição, parte das células sobrevive como **memória** — em número muito maior que os clones originais. Nos centros germinativos ocorreram **troca de classe** e **maturação de afinidade**. Na reexposição, essas células respondem em poucos dias, produzindo grande quantidade de **IgG de alta afinidade** — a **resposta secundária**, base das doses de reforço." },
+        { "letra": "D", "texto": "A segunda dose contém mais antígeno, o que aumenta proporcionalmente os anticorpos", "explicacao": "Mesmo com a mesma quantidade de antígeno, a resposta secundária é mais rápida e intensa; a diferença está nas células de memória, e não na dose." },
+        { "letra": "E", "texto": "Os anticorpos da primeira dose se multiplicaram no sangue durante os seis meses", "explicacao": "Anticorpos são proteínas e não se multiplicam; na verdade, seus níveis caem com o tempo." }
+      ],
+      "gabarito": "C",
+      "secao": "selecao-clonal",
+      "referencia": "Abbas, 10ª ed., cap. 'Propriedades e visão geral das respostas imunes'",
+      "tags": ["memória", "resposta secundária", "vacina", "maturação de afinidade"]
+    },
+    {
+      "id": "vg-007",
+      "nivel": "dificil",
+      "enunciado": "Vacinas feitas apenas com polissacarídeos da cápsula do pneumococo geram resposta fraca e pouca memória em crianças menores de 2 anos. Já as vacinas conjugadas, em que o polissacarídeo é ligado a uma proteína carreadora, protegem bem os lactentes. Qual é a explicação imunológica?",
+      "alternativas": [
+        { "letra": "A", "texto": "A proteína carreadora é reconhecida diretamente pelos neutrófilos, que passam a produzir anticorpos", "explicacao": "Neutrófilos não produzem anticorpos; apenas os plasmócitos, derivados de linfócitos B, fazem isso." },
+        { "letra": "B", "texto": "O polissacarídeo isolado é apresentado em MHC de classe I a linfócitos T CD8⁺, que inibem a resposta", "explicacao": "Polissacarídeos não são apresentados em MHC aos linfócitos T convencionais, que reconhecem apenas peptídeos." },
+        { "letra": "C", "texto": "A conjugação torna o polissacarídeo capaz de atravessar a placenta", "explicacao": "A capacidade de atravessar a placenta é propriedade da IgG materna, e não da vacina; a vacina é aplicada no próprio lactente." },
+        { "letra": "D", "texto": "A proteína carreadora ativa o complemento, que substitui a necessidade de anticorpos", "explicacao": "O benefício da conjugação está na ajuda do linfócito T ao linfócito B, e não em substituir os anticorpos pelo complemento." },
+        { "letra": "E", "texto": "Polissacarídeos ativam linfócitos B sem ajuda do linfócito T; com a proteína carreadora, o linfócito B que reconhece o polissacarídeo apresenta peptídeos da proteína a linfócitos T auxiliares e recebe ajuda, o que gera troca de classe e memória", "explicacao": "Correta. Polissacarídeos são antígenos **independentes de T**: ativam o linfócito B diretamente, com resposta de **IgM**, pouca troca de classe e **pouca memória** — e são pouco eficazes em menores de 2 anos. Na vacina **conjugada**, o linfócito B que reconhece o polissacarídeo pelo BCR engloba o conjunto e exibe **peptídeos da proteína em MHC II**; o **T CD4⁺** reconhece esses peptídeos e fornece ajuda (CD40L, citocinas). A resposta passa a ser **dependente de T**: IgG, alta afinidade e memória." }
+      ],
+      "gabarito": "E",
+      "secao": "vacinas",
+      "referencia": "Abbas, 10ª ed., caps. 'Ativação dos linfócitos B e produção de anticorpos' e 'Propriedades e visão geral das respostas imunes'",
+      "tags": ["vacina conjugada", "antígeno T-independente", "linfócito B"]
+    },
+    {
+      "id": "vg-008",
+      "nivel": "dificil",
+      "enunciado": "Lactente de 4 meses apresenta diarreia crônica, candidíase oral persistente, déficit de crescimento e pneumonia por *Pneumocystis jirovecii*. A imunofenotipagem mostra ausência quase total de linfócitos T e B, com células NK em número normal. O sequenciamento revela mutação nos genes RAG1/RAG2. Qual processo está comprometido?",
+      "alternativas": [
+        { "letra": "A", "texto": "A recombinação V(D)J, que corta e une os segmentos gênicos para formar os receptores BCR e TCR", "explicacao": "Correta. As enzimas **RAG-1 e RAG-2** fazem os cortes no DNA que permitem unir os segmentos **V, D e J** e montar os receptores dos linfócitos. Sem receptor funcional, os linfócitos B e T não completam a maturação → **imunodeficiência combinada grave (SCID)**. As **células NK**, que não usam receptores rearranjados, estão presentes. O tratamento é o transplante de células-tronco hematopoéticas." },
+        { "letra": "B", "texto": "A explosão respiratória dos fagócitos", "explicacao": "Defeitos na explosão respiratória (doença granulomatosa crônica) comprometem neutrófilos e macrófagos; os linfócitos estariam em número normal." },
+        { "letra": "C", "texto": "A troca de classe dos linfócitos B nos centros germinativos", "explicacao": "Defeitos de troca de classe causam excesso de IgM com falta de IgG, IgA e IgE, mas há linfócitos B e T circulantes." },
+        { "letra": "D", "texto": "A formação do timo a partir das bolsas faríngeas", "explicacao": "A aplasia tímica (DiGeorge) reduz os linfócitos T, mas os linfócitos B se desenvolvem na medula óssea e estão presentes." },
+        { "letra": "E", "texto": "A produção de anticorpos pelos plasmócitos, com linfócitos B e T normais", "explicacao": "O quadro mostra ausência dos próprios linfócitos B e T, e não apenas falha na secreção de anticorpos." }
+      ],
+      "gabarito": "A",
+      "secao": "diversidade",
+      "referencia": "Abbas, 10ª ed., caps. 'Desenvolvimento dos linfócitos' e 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["V(D)J", "RAG", "SCID"]
+    },
+    {
+      "id": "vg-009",
+      "nivel": "aprofundado",
+      "enunciado": "Um paciente produz anticorpos contra o polissacarídeo da cápsula do pneumococo, mas nenhum linfócito T dele responde a esse polissacarídeo purificado em laboratório, embora os linfócitos T respondam normalmente a proteínas da mesma bactéria. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Os linfócitos T desse paciente sofreram anergia por excesso de polissacarídeo", "explicacao": "O fenômeno descrito é uma propriedade geral dos linfócitos T, e não uma alteração individual: eles não reconhecem polissacarídeos de forma convencional." },
+        { "letra": "B", "texto": "O polissacarídeo é grande demais para entrar no linfonodo", "explicacao": "Polissacarídeos chegam aos órgãos linfoides; o linfócito B os reconhece, inclusive na zona marginal do baço." },
+        { "letra": "C", "texto": "Os linfócitos T reconhecem apenas antígenos ligados a anticorpos", "explicacao": "Linfócitos T não reconhecem antígenos ligados a anticorpos; reconhecem peptídeos apresentados por MHC." },
+        { "letra": "D", "texto": "O TCR convencional reconhece apenas peptídeos apresentados em moléculas de MHC; o BCR reconhece antígenos intactos de vários tipos químicos, inclusive polissacarídeos", "explicacao": "Correta. O **TCR** só enxerga o complexo **peptídeo + MHC**: a proteína precisa ser cortada em peptídeos dentro de uma célula e exibida na fenda do MHC. Polissacarídeos não são processados nem apresentados dessa forma. Já o **BCR** (e os anticorpos) reconhece moléculas **intactas** — proteínas, polissacarídeos, lipídios, ácidos nucleicos. Por isso existem respostas de anticorpos contra cápsulas, mas não respostas T convencionais contra elas." },
+        { "letra": "E", "texto": "Os polissacarídeos são reconhecidos apenas por linfócitos T CD8⁺, que não foram testados", "explicacao": "Linfócitos T CD8⁺ também reconhecem peptídeos em MHC (de classe I), e não polissacarídeos." }
+      ],
+      "gabarito": "D",
+      "secao": "comparacao-b-t",
+      "referencia": "Abbas, 10ª ed., caps. 'Anticorpos e antígenos' e 'Moléculas do MHC e apresentação de antígenos aos linfócitos T'",
+      "tags": ["TCR", "BCR", "reconhecimento de antígeno", "polissacarídeo"]
+    },
+    {
+      "id": "vg-010",
+      "nivel": "aprofundado",
+      "enunciado": "Uma bactéria nunca antes encontrada pelo organismo entra por um corte na pele. Qual sequência descreve corretamente a resposta imune até a formação de memória?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócitos T CD8⁺ reconhecem a bactéria na pele → produzem anticorpos → ativam neutrófilos → formam memória", "explicacao": "Linfócitos T não produzem anticorpos, e linfócitos T naïve não reconhecem bactérias diretamente nos tecidos; precisam ser ativados no linfonodo por células dendríticas." },
+        { "letra": "B", "texto": "Imunidade inata local (macrófagos, complemento, neutrófilos) → célula dendrítica captura antígenos e migra ao linfonodo → apresenta peptídeos a linfócitos T CD4⁺ naïve, que se expandem → T CD4⁺ ajudam linfócitos B a gerar plasmócitos (IgM, depois IgG) → eliminação → contração e memória", "explicacao": "Correta. A **imunidade inata** reage em minutos a horas e contém a infecção. A **célula dendrítica** recebe o sinal de perigo, leva o antígeno pela linfa ao **linfonodo** e o apresenta em **MHC II** ao raro clone de **T CD4⁺** compatível (seleção e expansão clonal). Os CD4⁺ ajudam os **linfócitos B** a formar plasmócitos (primeiro IgM, depois IgG após a troca de classe) e ativam macrófagos. Eliminada a bactéria, ocorre a **contração**, e permanecem as células de **memória**." },
+        { "letra": "C", "texto": "Plasmócitos de memória produzem IgG imediatamente → a imunidade inata é ativada depois para limpar os restos", "explicacao": "Numa primeira exposição não existem células de memória específicas; a resposta adaptativa demora dias, e a inata é a que atua primeiro." },
+        { "letra": "D", "texto": "Linfócitos B naïve migram para a pele, viram plasmócitos no local e produzem IgE → mastócitos eliminam a bactéria", "explicacao": "A ativação dos linfócitos B ocorre nos órgãos linfoides secundários, com ajuda dos T CD4⁺; e a IgE é característica de respostas contra helmintos e alergias, não de infecções bacterianas comuns." },
+        { "letra": "E", "texto": "A bactéria é apresentada em MHC de classe I a T CD4⁺ no timo → os T CD4⁺ matam diretamente as bactérias no sangue", "explicacao": "O timo não é o local de ativação contra micróbios (é onde os linfócitos T amadurecem); o CD4 se liga ao MHC II; e os T CD4⁺ não matam bactérias diretamente." }
+      ],
+      "gabarito": "B",
+      "secao": "linha-do-tempo",
+      "referencia": "Abbas, 10ª ed., cap. 'Propriedades e visão geral das respostas imunes'",
+      "tags": ["linha do tempo", "célula dendrítica", "linfonodo", "seleção clonal"]
+    }
+  ]
+}

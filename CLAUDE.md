@@ -123,6 +123,16 @@ Regras do Markdown:
 - Estilo residência/USMLE: caso clínico quando fizer sentido, uma única resposta claramente melhor, distratores plausíveis que testem erros conceituais reais. Não deixe o gabarito sempre na mesma letra — distribua A–E.
 - Explicações não devem citar outras alternativas pela letra (para permitir reordenação).
 
+## Didática (obrigatória — pedido explícito do usuário)
+
+O usuário prefere **textos longos, completos e didáticos** a textos resumidos. Nunca "pule" o que parece óbvio.
+
+- **Nenhum termo técnico sem definição** na primeira vez que aparece no tópico — mesmo que seja explicado em outro tópico (dê uma definição curta e um link para a explicação completa).
+- **Conceitos-base** cobre todos os pré-requisitos do tópico, partindo do que um estudante do semestre já sabe.
+- **Explicação detalhada em narrativa passo a passo**: o que acontece, em que ordem e por quê. Tabelas, listas e diagramas complementam o texto; não o substituem.
+- **Sem limite de tamanho.** Use exemplos concretos e analogias quando ajudarem.
+- Ao começar um ASE que dependa de vocabulário novo, crie primeiro um **tópico introdutório/panorama** (como `visao-geral-sistema-imune` no ASE6).
+
 ## Regras de conteúdo (obrigatórias)
 
 1. **Nível:** graduação avançada, com raciocínio **fisiopatológico** (o porquê, não só o quê). Didático, em português claro.
@@ -143,8 +153,8 @@ MED1 (1º semestre) = ASE1–ASE3; MED2 (2º semestre) = ASE4–ASE6. Ementas, o
 **Ordem de produção combinada com o usuário: ASE6 → ASE4/ASE5 → ASE1–3, em lotes de 3–4 tópicos** (o usuário revisa cada lote). ✔ = pronto.
 
 - **ASE6 – Mecanismos de Agressão e Defesa** (cursando)
-  - Lote 1 ✔: `orgaos-linfoides-hematopoese` (lh-), `imunidade-inata` (ii-), `sistema-complemento` (co-), `imunidade-celular-mhc-linfocitos-t` (tc-) — imunologia
-  - Lote 2: `imunidade-humoral-anticorpos` (imunologia); `lesao-celular-estresse-oxidativo` (isquemia/hipóxia, agentes físicos/químicos/biológicos), `necrose-apoptose`, `inflamacao-aguda` (sinais cardinais, mediadores) — patologia
+  - Lote 1 ✔: `visao-geral-sistema-imune` (vg-, panorama: antígeno, B/T, BCR/TCR, MHC, seleção clonal), `orgaos-linfoides-hematopoese` (lh-), `imunidade-inata` (ii-), `sistema-complemento` (co-), `imunidade-celular-mhc-linfocitos-t` (tc-) — imunologia
+  - Lote 2: `imunidade-humoral-anticorpos` (imunologia; aprofunda o que o panorama introduz); `lesao-celular-estresse-oxidativo` (isquemia/hipóxia, agentes físicos/químicos/biológicos), `necrose-apoptose`, `inflamacao-aguda` (sinais cardinais, mediadores) — patologia
   - Lote 3: `inflamacao-cronica-reparo`, `hemostasia-coagulacao`, `febre-dor-resposta-neuroendocrina`, `agressoes-fisicas-quimicas` (trauma, radiação, frio/calor, intoxicações)
   - Lote 4: `hipersensibilidades`, `autoimunidade-tolerancia`, `imunodeficiencias`, `resposta-imune-agentes-infecciosos` (vírus, bactérias, fungos, protozoários, helmintos)
 - **ASE4 – Funções Biológicas II:** organização do SN; potencial de membrana e de ação; sinapses e neurotransmissores; junção neuromuscular; reflexos; SN autônomo; eixo hipotálamo-hipófise e controle neuroendócrino; formação da urina (✔ `filtracao-glomerular`; reabsorção/secreção tubular); SRAA e controle da PA; equilíbrio hidroeletrolítico; estresse/fatores ambientais.
