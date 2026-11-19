@@ -6,9 +6,11 @@ semestre: 2
 ordem: 4
 modulos: [ase6]
 tags: [MHC, HLA, apresentação de antígeno, TCR, coestimulação, CD28, CTLA-4, PD-1, Th1, Th2, Th17, Treg, CD8, superantígeno]
-relacionados: [orgaos-linfoides-hematopoese, imunidade-inata, imunidade-humoral-anticorpos, hipersensibilidades, autoimunidade-tolerancia, imunodeficiencias, resposta-imune-agentes-infecciosos]
-atualizado: 2026-11-18
+relacionados: [visao-geral-sistema-imune, orgaos-linfoides-hematopoese, imunidade-inata, imunidade-humoral-anticorpos, hipersensibilidades, autoimunidade-tolerancia, imunodeficiencias, resposta-imune-agentes-infecciosos]
+atualizado: 2026-11-19
 ---
+
+> **Pré-requisito:** a [visão geral do sistema imune](#/imunologia/visao-geral-sistema-imune) apresenta linfócitos B e T, TCR, MHC e células apresentadoras de forma introdutória. Este tópico aprofunda a parte dos linfócitos T.
 
 ## Objetivos do tópico {#objetivos}
 
@@ -43,6 +45,28 @@ O receptor do linfócito T (TCR) **não reconhece antígenos livres**. Ele recon
 2. O linfócito T precisa de **contato com outra célula** — não detecta antígeno solúvel.
 
 Regra prática para não confundir: **CD8 × MHC I = 8** e **CD4 × MHC II = 8**.
+
+**Um exemplo para fixar a restrição ao MHC.** Imagine um peptídeo do vírus influenza com 9 aminoácidos. Um linfócito T CD8⁺ de uma pessoa reconhece esse peptídeo quando ele está encaixado na molécula **HLA-A2 dessa pessoa**. Se o mesmo peptídeo for colocado numa molécula de HLA diferente (de outra pessoa), esse linfócito geralmente **não** o reconhece, porque o TCR "lê" ao mesmo tempo o peptídeo e partes da própria molécula de MHC. E o peptídeo solto, fora do MHC, também não é reconhecido. É por isso que se diz que o linfócito T é **restrito ao MHC próprio**.
+
+### Estrutura do TCR e do complexo CD3 {#estrutura-tcr}
+
+O **TCR** é formado, na grande maioria dos linfócitos T, por duas cadeias proteicas, **α e β**, unidas e ancoradas na membrana. Cada cadeia tem:
+
+- uma **região variável**, na ponta, diferente em cada clone — é a parte que toca o complexo peptídeo-MHC;
+- uma **região constante**, igual em todos os linfócitos T, que ancora o receptor na membrana.
+
+Cerca de 5% dos linfócitos T usam cadeias **γ e δ**; são abundantes nas mucosas e reconhecem antígenos de forma menos dependente do MHC clássico.
+
+O TCR tem uma cauda muito curta dentro da célula e **não consegue sinalizar sozinho**. Ele fica associado ao **complexo CD3** (e à cadeia ζ), que contém os motivos que, ao serem fosforilados, iniciam a cascata de sinalização dentro do linfócito. Por isso:
+
+- **CD3** está em **todos** os linfócitos T e é o marcador usado para contá-los;
+- o correceptor (**CD4** ou **CD8**) se liga a uma parte constante do MHC e traz junto uma enzima (a quinase Lck) que ajuda a disparar o sinal.
+
+O conjunto TCR + CD3 + correceptor + MHC + peptídeo, montado no ponto de contato entre o linfócito T e a outra célula, chama-se **sinapse imunológica**.
+
+### De onde vem a diversidade do TCR {#diversidade-tcr}
+
+Cada linfócito T tem um TCR diferente porque, durante sua formação no timo, os genes das cadeias α e β são **montados por sorteio** a partir de segmentos **V, D e J** — a **recombinação V(D)J**, feita pelas enzimas **RAG-1 e RAG-2**, com nucleotídeos extras acrescentados nas emendas pela enzima TdT. Assim surgem milhões de TCRs diferentes antes de qualquer infecção, e o timo depois seleciona os úteis e elimina os perigosos (veja [timo](#/imunologia/orgaos-linfoides-hematopoese#timo) e [diversidade](#/imunologia/visao-geral-sistema-imune#diversidade)).
 
 ::: referencias
 Abbas, 10ª ed., cap. "Moléculas do MHC e apresentação de antígenos aos linfócitos T".
@@ -97,6 +121,8 @@ Abbas, 10ª ed., cap. "Moléculas do MHC e apresentação de antígenos aos linf
 
 O encontro ocorre no **paracórtex do linfonodo**, entre a dendrítica que trouxe o antígeno e o T naïve recirculante.
 
+**Por que são necessários três sinais?** Um linfócito T ativado é uma arma poderosa: ele se multiplica milhares de vezes e libera citocinas que inflamam tecidos ou mata células. Ativá-lo por engano — por exemplo, contra uma proteína própria — causaria autoimunidade. Exigir vários sinais simultâneos funciona como um sistema de segurança: o linfócito só é ativado quando (1) reconhece seu antígeno específico **e** (2) esse antígeno vem acompanhado de um sinal de perigo dado pela imunidade inata, e ainda (3) recebe instruções sobre que tipo de resposta montar.
+
 | Sinal | O que é | Se faltar |
 |---|---|---|
 | **1 – Antígeno** | TCR (+ CD3, que transmite o sinal) reconhece **peptídeo-MHC**; CD4 ou CD8 ligam-se ao MHC como correceptores | Sem reconhecimento, nada acontece |
@@ -118,7 +144,27 @@ O **abatacepte** (CTLA-4-Ig) faz o contrário: bloqueia o B7 e impede a coestimu
 Abbas, 10ª ed., cap. "Ativação dos linfócitos T" · Goodman & Gilman, 13ª ed., cap. "Imunossupressores, tolerógenos e imunoestimulantes".
 :::
 
+### Uma resposta T do começo ao fim {#resposta-t-narrativa}
+
+Para juntar as peças, acompanhe a resposta a um vírus respiratório que infecta células do epitélio brônquico:
+
+1. **Infecção e alarme (horas).** As células infectadas produzem interferons tipo I, que protegem as vizinhas, e as células NK matam algumas células infectadas. Células dendríticas da mucosa capturam restos de células infectadas e partículas virais, detectam o RNA viral pelos seus receptores e **amadurecem**.
+2. **Viagem ao linfonodo (1 dia).** Guiadas pelo CCR7, as dendríticas chegam ao linfonodo mediastinal levando peptídeos virais em **MHC II** e, por apresentação cruzada, em **MHC I**.
+3. **Seleção (1–2 dias).** Entre milhões de linfócitos T naïve que passam pelo linfonodo, alguns poucos CD4⁺ e CD8⁺ reconhecem os peptídeos virais. Recebem os sinais 1 e 2 e citocinas como a IL-12.
+4. **Expansão clonal (3–7 dias).** Os clones selecionados produzem **IL-2** e se dividem muitas vezes por dia; os CD4⁺ se tornam **Th1** e ajudam os CD8⁺ a se ativarem plenamente. Ao mesmo tempo, linfócitos Tfh ajudam linfócitos B a produzir anticorpos neutralizantes.
+5. **Migração para o pulmão.** Os linfócitos T efetores perdem o CCR7 e a L-selectina e ganham receptores que os levam aos tecidos inflamados. Saem do linfonodo, entram no sangue e chegam ao brônquio.
+6. **Ação efetora.** Os **CD8⁺ citotóxicos** inspecionam o MHC I das células epiteliais e matam as que exibem peptídeos virais; os **Th1** liberam IFN-γ, que ativa macrófagos e aumenta o MHC nas células do tecido.
+7. **Resolução e memória (semanas).** Eliminado o vírus, a maioria dos efetores morre por apoptose (contração). Ficam **linfócitos T de memória** — alguns circulando, outros residentes no próprio pulmão — prontos para responder em poucas horas numa reinfecção.
+
 ### Subtipos de linfócitos T CD4⁺ {#subtipos-cd4}
+
+Ao ser ativado, o linfócito T CD4⁺ naïve pode se tornar diferentes tipos de "especialista", dependendo das **citocinas do ambiente** (sinal 3), que por sua vez dependem do micróbio que a imunidade inata detectou. Cada subtipo liga um **fator de transcrição** principal (uma proteína que "programa" a célula) e passa a produzir um conjunto próprio de citocinas, recrutando a arma certa para cada tipo de agressor:
+
+- **Th1** — contra micróbios que vivem **dentro dos macrófagos** (micobactérias, *Leishmania*, alguns fungos). O IFN-γ que produzem "liga" os macrófagos, que passam a destruir o que tinham fagocitado mas não conseguiam matar.
+- **Th2** — contra **helmintos**, grandes demais para serem fagocitados. Suas citocinas aumentam a produção de IgE, recrutam eosinófilos, aumentam o muco e a motilidade intestinal para expulsar os vermes. Quando a resposta Th2 é dirigida contra substâncias inofensivas (pólen, ácaros), surge a **alergia**.
+- **Th17** — contra **bactérias extracelulares e fungos** nas barreiras (pele, mucosas). A IL-17 recruta muitos neutrófilos e induz peptídeos antimicrobianos. Em excesso, participa de doenças como a psoríase.
+- **Tfh** (auxiliares foliculares) — ficam nos folículos do linfonodo e **ajudam os linfócitos B** a formar centros germinativos, trocar de classe e produzir anticorpos de alta afinidade.
+- **Treg** (reguladores) — **freiam** as respostas e mantêm a tolerância ao próprio, por meio de IL-10, TGF-β e CTLA-4.
 
 ```mermaid
 flowchart LR
@@ -150,14 +196,14 @@ Abbas, 10ª ed., cap. "Diferenciação e funções dos linfócitos T CD4⁺ efet
 
 ### Linfócitos T CD8⁺ citotóxicos {#cd8-citotoxicos}
 
-O CD8⁺ naïve, ativado pela dendrítica (frequentemente por apresentação cruzada e com ajuda de CD4⁺), torna-se **CTL** e mata qualquer célula que apresente o peptídeo-alvo em MHC I:
+O CD8⁺ naïve, ativado pela dendrítica (frequentemente por apresentação cruzada e com ajuda de CD4⁺), torna-se **CTL** (linfócito T citotóxico, do inglês *cytotoxic T lymphocyte*). Uma vez ativado, ele **não precisa mais de coestimulação**: mata qualquer célula do corpo que apresente o peptídeo-alvo em MHC I — o que é essencial, porque a célula epitelial infectada não tem B7. A morte acontece assim:
 
 1. Forma uma **sinapse imunológica** com a célula-alvo.
-2. Libera **perforina** (abre poros) e **granzimas** (proteases que ativam **caspases** → **apoptose**).
+2. Libera, de forma dirigida, o conteúdo de seus grânulos: a **perforina** forma poros na membrana da célula-alvo, e as **granzimas** (proteases) entram por esses poros e ativam as **caspases**, enzimas que executam a **apoptose** (morte celular programada).
 3. Usa também a via **Fas-ligante (FasL) → Fas** na célula-alvo (apoptose pela via extrínseca).
 4. Secreta **IFN-γ** (ativa macrófagos e aumenta o MHC I).
 
-A morte por **apoptose**, e não por necrose, é vantajosa: o conteúdo celular (incluindo vírus) não é liberado de forma inflamatória, e os restos são fagocitados.
+Um único CTL pode matar várias células-alvo em sequência, desprendendo-se de uma e passando para a próxima. A morte por **apoptose**, e não por necrose, é vantajosa: o conteúdo celular (incluindo vírus) não é liberado de forma inflamatória, e os restos são fagocitados.
 
 ### Memória {#memoria}
 
