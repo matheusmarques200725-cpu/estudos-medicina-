@@ -6,9 +6,11 @@ semestre: 2
 ordem: 3
 modulos: [ase6]
 tags: [complemento, via clássica, via das lectinas, via alternativa, C3, C5a, MAC, opsonização, angioedema hereditário, HPN, C1-INH]
-relacionados: [imunidade-inata, imunidade-humoral-anticorpos, inflamacao-aguda, hipersensibilidades, imunodeficiencias, orgaos-linfoides-hematopoese]
-atualizado: 2026-11-18
+relacionados: [visao-geral-sistema-imune, imunidade-inata, imunidade-humoral-anticorpos, inflamacao-aguda, hipersensibilidades, imunodeficiencias, orgaos-linfoides-hematopoese]
+atualizado: 2026-11-19
 ---
+
+> **Pré-requisito:** a via clássica do complemento depende de anticorpos. Se a estrutura e as classes de anticorpos ainda forem novas, leia antes a [visão geral do sistema imune](#/imunologia/visao-geral-sistema-imune#linfocitos-b).
 
 ## Objetivos do tópico {#objetivos}
 
@@ -35,6 +37,16 @@ O complemento é um conjunto de **mais de 30 proteínas plasmáticas e de membra
 - Ao ser clivado, um componente gera um fragmento menor (**"a"**) e um maior (**"b"**). Ex.: C3 → **C3a** (pequeno, solúvel, inflamatório) + **C3b** (grande, liga-se a superfícies, opsoniza).
 - **Exceção histórica:** no C2, o fragmento maior era chamado C2a; textos mais recentes renomearam-no C2b. Por isso você encontrará a C3 convertase clássica escrita como **C4b2a** (livros mais antigos) ou **C4b2b** (mais recentes) — é a mesma enzima.
 
+### Pré-requisitos para entender o complemento {#pre-requisitos}
+
+Alguns conceitos aparecem o tempo todo neste tópico:
+
+- **Proteases e zimogênios.** Uma **protease** é uma enzima que corta outras proteínas. Muitas proteases circulam no sangue numa forma **inativa**, chamada **zimogênio**, e só passam a funcionar quando são cortadas por outra protease. A coagulação funciona assim, e o complemento também.
+- **Cascata.** Quando uma protease ativa corta e ativa várias moléculas da protease seguinte, que por sua vez ativam várias da próxima, o sinal se **amplifica** a cada etapa — como uma fileira de dominós em que cada peça derruba várias outras. Assim, poucos micróbios detectados geram milhões de moléculas ativas na superfície deles em minutos.
+- **Anticorpos.** São proteínas em forma de Y produzidas pelos plasmócitos. Os braços do Y (**Fab**) se prendem ao antígeno; a haste (**Fc**) é a parte que outras moléculas reconhecem — inclusive o primeiro componente do complemento, o **C1q**. As classes que mais ativam o complemento são a **IgM** (a primeira produzida numa infecção, formada por cinco unidades em Y unidas) e a **IgG**.
+- **Fagócitos e opsonização.** Neutrófilos e macrófagos engolem micróbios (fagocitose). Fazem isso muito melhor quando o micróbio está "recoberto" por moléculas que eles reconhecem — as **opsoninas**. O fragmento **C3b** do complemento é uma das opsoninas mais importantes.
+- **Mastócitos.** Células dos tecidos cheias de grânulos de **histamina**. Quando degranulam, a histamina dilata os vasos e aumenta sua permeabilidade — parte da inflamação.
+
 ### A peça central: C3 {#c3-central}
 
 Todas as vias convergem para a **clivagem de C3** pela **C3 convertase**. O C3b gerado faz duas coisas: liga-se covalentemente à superfície do micróbio (via uma **ligação tioéster** reativa) e **participa da formação de mais convertase** — uma alça de **amplificação**. É por isso que C3 é a proteína mais abundante do sistema e que sua deficiência é a mais grave.
@@ -46,6 +58,39 @@ Abbas, 10ª ed., cap. "Mecanismos efetores da imunidade humoral".
 ## Explicação detalhada {#explicacao}
 
 ### As três vias de ativação {#vias-ativacao}
+
+O complemento pode ser "ligado" de três maneiras diferentes. Elas diferem no **início** (o que detecta o micróbio), mas todas chegam ao mesmo ponto: formar uma enzima chamada **C3 convertase**, que corta o C3. A partir daí, o caminho é comum.
+
+**Via clássica — iniciada por anticorpos:**
+
+1. Anticorpos **IgM ou IgG** já produzidos contra o micróbio se prendem à superfície dele.
+2. O **C1q**, uma proteína em forma de "buquê" com seis cabeças, reconhece as hastes (Fc) dos anticorpos. Ele só é ativado quando se liga a **pelo menos duas hastes próximas** — por isso basta uma IgM (que tem cinco hastes juntas), enquanto é preciso várias IgG lado a lado.
+3. A ligação ativa as proteases associadas ao C1q, **C1r e C1s**.
+4. O C1s corta o **C4** e o **C2**; os fragmentos maiores (C4b e o fragmento grande de C2) se unem na superfície do micróbio e formam a **C3 convertase clássica (C4b2a, ou C4b2b na nomenclatura nova)**.
+
+A via clássica também pode ser iniciada pela **proteína C-reativa (PCR)**, uma proteína de fase aguda que se liga a micróbios e é reconhecida pelo C1q.
+
+**Via das lectinas — iniciada por açúcares dos micróbios:**
+
+1. A **lectina ligadora de manose (MBL)** e as ficolinas, proteínas do plasma, reconhecem **açúcares** (como a manose) arranjados de um jeito típico da superfície de bactérias e fungos — e que não aparece nas células humanas.
+2. Ligadas ao micróbio, ativam proteases associadas (**MASP-1 e MASP-2**), que fazem o mesmo papel do C1s: cortam C4 e C2.
+3. Forma-se a **mesma C3 convertase** da via clássica. É uma via **inata**: não precisa de anticorpos.
+
+**Via alternativa — sempre ligada em baixo nível:**
+
+1. O C3 do plasma se quebra **espontaneamente**, em pequena quantidade, o tempo todo (o "tick-over").
+2. O C3b formado se prende a qualquer superfície próxima. Se a superfície for de uma **célula humana**, proteínas reguladoras o inativam imediatamente. Se for de um **micróbio**, que não tem esses reguladores, o C3b permanece.
+3. No micróbio, o C3b se associa ao **fator B**, que é cortado pelo **fator D**, formando a **C3 convertase alternativa (C3bBb)**. A **properdina** estabiliza essa enzima.
+4. Essa convertase corta mais C3, gerando mais C3b, que forma mais convertase: é a **alça de amplificação**, que também reforça as outras duas vias.
+
+**Fase comum — de C3 ao complexo de ataque à membrana:**
+
+1. As C3 convertases cortam enormes quantidades de **C3** em **C3a** (pequeno, se difunde e inflama) e **C3b** (grande, recobre o micróbio).
+2. Quando um C3b se junta a uma C3 convertase, ela passa a cortar o **C5** — vira uma **C5 convertase**.
+3. O **C5** é cortado em **C5a** (a anafilatoxina mais potente e atraente de neutrófilos) e **C5b**.
+4. O C5b recruta, em sequência, **C6, C7, C8** e várias moléculas de **C9**, que se inserem na membrana e formam um **poro**: o **complexo de ataque à membrana (MAC)**. Água e íons entram pelo poro, e a célula estoura (lise osmótica).
+
+O diagrama resume o caminho:
 
 ```mermaid
 flowchart TD
@@ -114,6 +159,12 @@ Abbas, 10ª ed., cap. "Mecanismos efetores da imunidade humoral" · Harrison –
 ## Correlação clínica {#correlacao-clinica}
 
 ### Deficiências do complemento {#deficiencias}
+
+O padrão de infecção ou de doença de cada deficiência decorre diretamente da função da peça que falta:
+
+- **Falta C1q, C2 ou C4 (início da via clássica):** as infecções costumam ser menos graves, porque as vias das lectinas e alternativa ainda geram C3b. O problema principal é outro: a via clássica é essencial para **remover imunocomplexos e restos de células apoptóticas**. Sem ela, esse material se acumula, estimula a produção de autoanticorpos contra componentes do núcleo e se deposita em pele, rins e articulações — por isso essas deficiências causam **lúpus**.
+- **Falta C3:** todas as vias convergem em C3. Sem ele, não há opsonização eficiente nem formação do MAC. O resultado são **infecções piogênicas graves e de repetição** (pneumococo, *Haemophilus*), muito parecidas com as de quem não produz anticorpos.
+- **Falta C5, C6, C7, C8 ou C9 (via terminal):** a opsonização por C3b continua funcionando, então a maioria das bactérias é eliminada normalmente. O que falta é o **MAC**, e só há um grupo de bactérias que depende tanto dele: as **Neisseria** (meningococo, gonococo), com parede fina e sensível ao poro. Daí as **infecções meningocócicas de repetição**.
 
 ```mermaid
 flowchart LR
