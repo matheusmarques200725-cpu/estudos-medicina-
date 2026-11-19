@@ -10,7 +10,9 @@ npm run validate   # valida todo o conteúdo — rode SEMPRE após criar/editar 
 npm run build      # validate + build estático em dist/
 ```
 
-Deploy: GitHub Actions (`.github/workflows/deploy.yml`) publica no GitHub Pages a cada push na `main`.
+Deploy: GitHub Actions (`.github/workflows/deploy.yml`) publica no GitHub Pages a cada push na `main` → https://matheusmarques200725-cpu.github.io/estudos-medicina-/ (o usuário estuda por esse link no PC, iPad e celular).
+
+**Fluxo de atualização:** trabalhar na branch de desenvolvimento da sessão; ao concluir uma entrega aprovada, rodar `npm run build`, fazer commit e enviar também para a `main` (fast-forward) para publicar. O usuário não precisa baixar ZIP nem rodar `npm`.
 
 ## Estrutura
 
