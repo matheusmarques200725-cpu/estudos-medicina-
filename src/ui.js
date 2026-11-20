@@ -1,4 +1,4 @@
-import { renderInline } from './markdown.js';
+import { renderInline, figuraHtml } from './markdown.js';
 import { topicById, topicUrl, materiaById } from './content.js';
 import { NIVEL_LABEL, STATUS_LABEL } from './lib/parse.js';
 import { getAnswers, allAnswers } from './store.js';
@@ -50,6 +50,7 @@ export function questionCard(q, { index, total } = {}) {
         <span class="muted small">${esc(materiaById[q.materia]?.nome)} · ${esc(t?.titulo)}</span>
       </div>
       <div class="q-stem">${inline(q.enunciado).replace(/\n/g, '<br>')}</div>
+      ${q.imagem ? `<div class="q-img">${figuraHtml(q.imagem.src, q.imagem.legenda ? inline(q.imagem.legenda) : '', q.imagem.alt || '')}</div>` : ''}
       <ol class="alts">
         ${q.alternativas.map((a) => `
           <li><button class="alt" data-letra="${a.letra}">

@@ -1,0 +1,156 @@
+{
+  "img/morfo/sangue/esfregaco-rotulado.jpg": {
+    "titulo": "Blood smear labelled",
+    "autor": "RWhitwam",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Blood_smear_labelled.png",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/hematopoese-medula-openstax.jpg": {
+    "titulo": "2204 The Hematopoietic System of the Bone Marrow new",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2204_The_Hematopoietic_System_of_the_Bone_Marrow_new.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/medula-vermelha-amarela-openstax.jpg": {
+    "titulo": "619 Red and Yellow Bone Marrow",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:619_Red_and_Yellow_Bone_Marrow.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/megacariocitos.jpg": {
+    "titulo": "Megakaryocyte",
+    "autor": "Simon Caulton",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Megakaryocyte.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/monocito.jpg": {
+    "titulo": "Blood-monocyte",
+    "autor": "Echinaceapallida",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Blood-monocyte.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/linfocito.jpg": {
+    "titulo": "Blood-lymphocyte1",
+    "autor": "Echinaceapallida",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Blood-lymphocyte1.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/neutrofilo-bastonete.jpg": {
+    "titulo": "Band form neutrophil in Wright stained PBS microscopy",
+    "autor": "Ajay Kumar Chaurasiya",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Band_form_neutrophil_in_Wright_stained_PBS_microscopy.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/timo/timo-openstax.jpg": {
+    "titulo": "2206 The Location Structure and Histology of the Thymus",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2206_The_Location_Structure_and_Histology_of_the_Thymus.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/timo/diferenciacao-t-openstax.jpg": {
+    "titulo": "2217 Differentiation of T Cells Within the Thymus",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2217_Differentiation_of_T_Cells_Within_the_Thymus.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/linfonodo/linfonodo-openstax.jpg": {
+    "titulo": "2207 Structure and Histology of a Lymph Node",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2207_Structure_and_Histology_of_a_Lymph_Node.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/linfonodo/linfonodo-normal.jpg": {
+    "titulo": "Normal Lymph Node",
+    "autor": "Ed Uthman, MD",
+    "licenca": "CC BY-SA 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Normal_Lymph_Node.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/linfonodo/placas-peyer.jpg": {
+    "titulo": "Peyer's patch (improved color)",
+    "autor": "User:Plainpaper",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Peyer%27s_patch_%28improved_color%29.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/linfonodo/tonsilas-anatomia.png": {
+    "titulo": "Blausen 0861 Tonsils&Throat Anatomy2-esp",
+    "autor": "Modificado de Blausen",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Blausen_0861_Tonsils%26Throat_Anatomy2-esp.png",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/baco/baco-openstax.jpg": {
+    "titulo": "2208 Spleen",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2208_Spleen.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/baco/baco-gray1188.png": {
+    "titulo": "Gray1188",
+    "autor": "Henry Vandyke Carter (1831–1897)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Gray1188.png",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/drenagem/sistema-linfatico-openstax.jpg": {
+    "titulo": "2201 Anatomy of the Lymphatic System",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/drenagem/troncos-ductos-openstax.jpg": {
+    "titulo": "2203 Lymphatic Trunks and Ducts System",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2203_Lymphatic_Trunks_and_Ducts_System.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/drenagem/regioes-linfonodais.png": {
+    "titulo": "Lymph node regions",
+    "autor": "Lymph_node_regions.jpg: http://training.seer.cancer.gov/ss_module08_lymph_leuk/lymph_unit02_sec02_reg_lns.html\nderivative work: Fred the Oyster",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Lymph_node_regions.svg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/sangue/leucocitos-openstax.jpg": {
+    "titulo": "1916 Leukocyte Key",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:1916_Leukocyte_Key.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/timo/timo-gray1178.png": {
+    "titulo": "Gray1178",
+    "autor": "Henry Vandyke Carter (1831–1897)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Gray1178.png",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/timo/corpusculo-hassall.jpg": {
+    "titulo": "Thymic corpuscle",
+    "autor": "Nephron",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Thymic_corpuscle.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/timo/timo-gray1179.jpg": {
+    "titulo": "Gray1179",
+    "autor": "Henry Vandyke Carter (1831–1897)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Gray1179.png",
+    "modificacao": "redimensionada e comprimida para o site"
+  }
+}

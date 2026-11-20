@@ -17,7 +17,7 @@ export function topicRow(t, { moduloAtual } = {}) {
   const secundario = moduloAtual && t.modulos?.[0] !== moduloAtual;
   return `<li>
     <a href="${topicUrl(t)}" class="topic-link">${esc(t.titulo)}</a>
-    ${statusChip(getStatus(t.id))}
+    ${statusChip(getStatus(t.id))}${t.tipo === 'morfo' ? '<span class="chip chip-morfo">🔬 Morfo</span>' : ''}
     <span class="topic-stats small muted">${materiaChip(t.materia)}
       ${st.answered}/${st.total} questões${st.pct != null ? ` · ${st.pct}%` : ''}
       ${secundario ? ` · também em ${esc(moduloById[t.modulos[0]]?.sigla)}` : ''}</span>
@@ -89,10 +89,12 @@ export function moduloView(main, moduloId) {
     <div class="actions">
       ${st.total ? `<a class="btn btn-primary" href="#/simulado?modulo=${m.id}">⏱️ Simulado do ${esc(m.sigla)}</a>` : ''}
     </div>
-    <section class="card">
-      <h2>Tópicos</h2>
-      ${ts.length ? `<ul class="topic-list">${ts.map((t) => topicRow(t, { moduloAtual: m.id })).join('')}</ul>` : '<p class="muted">Em breve.</p>'}
-    </section>
+    ${ts.length ? [['Tutoria', ts.filter((t) => t.tipo !== 'morfo')], ['🔬 Morfofuncional (anatomia e histologia)', ts.filter((t) => t.tipo === 'morfo')]]
+      .filter(([, l]) => l.length).map(([nome, l]) => `
+      <section class="card">
+        <h2>${nome}</h2>
+        <ul class="topic-list">${l.map((t) => topicRow(t, { moduloAtual: m.id })).join('')}</ul>
+      </section>`).join('') : '<section class="card"><p class="muted">Em breve.</p></section>'}
     ${m.ementa ? `<details class="card"><summary><strong>Ementa (plano de ensino UEPA)</strong></summary><p>${esc(m.ementa)}</p></details>` : ''}
     ${m.objetivos?.length ? `<details class="card"><summary><strong>Objetivos do módulo</strong></summary><ul>${m.objetivos.map((o) => `<li>${esc(o)}</li>`).join('')}</ul></details>` : ''}
     ${m.bibliografia?.length ? `<div class="callout callout-referencias"><div class="callout-title">📚 Bibliografia básica do módulo</div><ul>${m.bibliografia.map((r) => `<li>${esc(r)}</li>`).join('')}</ul></div>` : ''}`;

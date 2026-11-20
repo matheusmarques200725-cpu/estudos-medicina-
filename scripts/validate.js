@@ -17,6 +17,16 @@ const warn = (f, msg) => warnings.push(`${path.relative(root, f)}: ${msg}`);
 const materiasFile = path.join(contentDir, 'materias.json');
 const catalog = JSON.parse(fs.readFileSync(materiasFile, 'utf8'));
 const materiaIds = new Set(catalog.materias.map((m) => m.id));
+const creditos = JSON.parse(fs.readFileSync(path.join(contentDir, 'imagens.json'), 'utf8'));
+const publicDir = path.join(root, 'public');
+const usedImgs = new Set();
+function checkImg(f, src, where) {
+  usedImgs.add(src);
+  if (!fs.existsSync(path.join(publicDir, src))) err(f, `${where}: imagem não encontrada em public/${src}`);
+  const c = creditos[src];
+  if (!c) err(f, `${where}: imagem ${src} sem crédito em content/imagens.json`);
+  else for (const k of ['titulo', 'autor', 'licenca', 'fonte']) if (!c[k]) err(f, `${where}: crédito de ${src} sem "${k}"`);
+}
 const moduloById = Object.fromEntries((catalog.modulos || []).map((m) => [m.id, m]));
 
 function walk(dir) {
@@ -51,6 +61,8 @@ for (const f of mdFiles) {
   }
   for (const s of SECOES_OBRIGATORIAS) if (!anchors.has(s)) err(f, `seção obrigatória ausente: {#${s}}`);
   if (!/:::\s*referencias/.test(body)) warn(f, 'nenhum bloco ::: referencias encontrado');
+  if (meta.tipo && meta.tipo !== 'morfo') err(f, `tipo "${meta.tipo}" inválido (use "morfo" ou omita)`);
+  for (const m of body.matchAll(/^:::\s*figura\s+(\S+)/gm)) checkImg(f, m[1], 'figura');
   topics.set(meta.id, { file: f, meta, body, anchors });
 }
 
@@ -96,8 +108,11 @@ for (const f of qFiles) {
     if (!q.secao) err(f, `${where}: sem "secao"`);
     else if (!t.anchors.has(q.secao)) err(f, `${where}: secao "#${q.secao}" não existe no tópico`);
     if (!q.referencia) err(f, `${where}: sem referência`);
+    if (q.imagem) { if (!q.imagem.src) err(f, `${where}: imagem sem src`); else checkImg(f, q.imagem.src, where); }
   }
 }
+
+for (const src of Object.keys(creditos)) if (!usedImgs.has(src)) warn(materiasFile, `imagem com crédito mas não usada: ${src}`);
 
 for (const w of warnings) console.warn('⚠️  ' + w);
 for (const e of errors) console.error('❌ ' + e);

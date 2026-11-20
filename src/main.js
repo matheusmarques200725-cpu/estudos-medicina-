@@ -5,6 +5,7 @@ import { questoesTopicoView, revisaoView } from './views/estudo.js';
 import { simuladoView, stopSimulado } from './views/simulado.js';
 import { desempenhoView } from './views/desempenho.js';
 import { buscaView } from './views/busca.js';
+import { creditosView } from './views/creditos.js';
 import { dueIds, onChange } from './store.js';
 
 const main = document.getElementById('app-main');
@@ -59,6 +60,7 @@ function route() {
   else if (parts[0] === 'revisao') revisaoView(main);
   else if (parts[0] === 'desempenho') desempenhoView(main);
   else if (parts[0] === 'busca') buscaView(main, params);
+  else if (parts[0] === 'creditos') creditosView(main);
   else if (parts.length === 3 && parts[2] === 'questoes') questoesTopicoView(main, parts[0], parts[1]);
   else if (parts.length === 2) { topicoView(main, parts[0], parts[1], secao); return; }
   else main.innerHTML = '<p>Página não encontrada. <a href="#/">Início</a></p>';
@@ -68,6 +70,24 @@ function route() {
 // Atalho: "/" abre a busca
 addEventListener('keydown', (e) => {
   if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); location.hash = '#/busca'; }
+});
+
+// Ampliar imagens (figuras e questões): toque abre em tela cheia; toque de novo alterna tamanho real
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.fig-zoom');
+  if (!btn) return;
+  e.preventDefault();
+  const box = document.createElement('div');
+  box.className = 'lightbox';
+  box.innerHTML = `<button class="lightbox-close" aria-label="Fechar">✕</button><img src="${btn.dataset.src}" alt="">`;
+  const close = () => { box.remove(); removeEventListener('keydown', onKey); };
+  const onKey = (ev) => { if (ev.key === 'Escape') close(); };
+  box.addEventListener('click', (ev) => {
+    if (ev.target.tagName === 'IMG') box.classList.toggle('real');
+    else close();
+  });
+  addEventListener('keydown', onKey);
+  document.body.appendChild(box);
 });
 
 addEventListener('hashchange', route);

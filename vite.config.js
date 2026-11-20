@@ -24,7 +24,7 @@ export default defineConfig({
         globPatterns: ['index.html', 'icon.svg', 'assets/index-*.{js,css}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
         runtimeCaching: [{
-          urlPattern: ({ url }) => url.pathname.includes('/assets/'),
+          urlPattern: ({ url }) => url.pathname.includes('/assets/') || url.pathname.includes('/img/'),
           handler: 'CacheFirst',
           options: { cacheName: 'assets', expiration: { maxEntries: 200 } },
         }],

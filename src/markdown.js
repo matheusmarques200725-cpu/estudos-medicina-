@@ -1,6 +1,7 @@
 import MarkdownIt from 'markdown-it';
 import attrs from 'markdown-it-attrs';
 import container from 'markdown-it-container';
+import creditos from '../content/imagens.json';
 
 // Caixas especiais: ::: tipo Título opcional
 export const CALLOUTS = {
@@ -26,6 +27,42 @@ for (const [name, label] of Object.entries(CALLOUTS)) {
     },
   });
 }
+
+/** Crédito curto de uma imagem (autor · licença), a partir de content/imagens.json. */
+export function creditoImagem(src) {
+  const c = creditos[src];
+  if (!c) return '';
+  return `Imagem: ${md.utils.escapeHtml(c.autor)} · ${md.utils.escapeHtml(c.licenca)}`;
+}
+
+/** HTML de uma imagem ampliável com crédito (usado nas figuras e nas questões). */
+export function figuraHtml(src, legendaHtml = '', alt = '') {
+  const esc = md.utils.escapeHtml;
+  return `<figure class="fig"><button type="button" class="fig-zoom" data-src="${esc(src)}" aria-label="Ampliar imagem">`
+    + `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></button>`
+    + `<figcaption>${legendaHtml}<span class="fig-credito">${creditoImagem(src)} — <a href="#/creditos">créditos</a></span></figcaption></figure>`;
+}
+
+// Figuras: ::: figura img/caminho.jpg  (conteúdo = legenda em Markdown)
+md.use(container, 'figura', {
+  render(tokens, idx) {
+    const t = tokens[idx];
+    if (t.nesting === 1) {
+      const src = t.info.trim().slice('figura'.length).trim();
+      const esc = md.utils.escapeHtml;
+      return `<figure class="fig"><button type="button" class="fig-zoom" data-src="${esc(src)}" aria-label="Ampliar imagem">`
+        + `<img src="${esc(src)}" alt="" loading="lazy"></button><figcaption>`
+        + `<!--credito:${esc(src)}-->`;
+    }
+    return '</figcaption></figure>\n';
+  },
+});
+// Insere o crédito no fim da legenda (o container só conhece a fonte na abertura)
+const renderOriginal = md.render.bind(md);
+md.render = (src, env) => renderOriginal(src, env).replace(
+  /<!--credito:([^>]*?)-->([\s\S]*?)<\/figcaption>/g,
+  (_, s, cap) => `${cap}<span class="fig-credito">${creditoImagem(md.utils.unescapeAll(s))} — <a href="#/creditos">créditos</a></span></figcaption>`,
+);
 
 // ```mermaid → <div class="mermaid">
 const defaultFence = md.renderer.rules.fence;

@@ -64,6 +64,7 @@ export function topicoView(main, materiaId, topicId, secao) {
             <ul>${relacionados.map((r) => `<li><a href="${topicUrl(r)}">${esc(r.titulo)}</a> <span class="muted small">(${esc(materiaById[r.materia]?.nome)})</span></li>`).join('')}
             ${pendentes.map((p) => `<li class="muted">${esc(p)} <span class="small">(em breve)</span></li>`).join('')}</ul>
           </section>` : ''}
+        ${t.body.includes('::: figura') ? '<p class="small muted">📷 Imagens com licença livre — veja os <a href="#/creditos">créditos das imagens</a>. Toque numa imagem para ampliar.</p>' : ''}
         <section class="card notes">
           <h2>✍️ Minhas anotações</h2>
           <textarea id="notes" rows="6" placeholder="Suas anotações sobre este tópico (salvas automaticamente neste aparelho)…">${esc(getNote(t.id))}</textarea>
