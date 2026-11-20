@@ -1,0 +1,166 @@
+{
+  "topico": "morfo-drenagem-linfatica",
+  "questoes": [
+    {
+      "id": "md-001",
+      "nivel": "medio",
+      "enunciado": "Onde o ducto torácico desemboca no sistema venoso?",
+      "alternativas": [
+        { "letra": "A", "texto": "No ângulo venoso esquerdo, na junção da veia jugular interna esquerda com a veia subclávia esquerda", "explicacao": "Correta. Depois de subir pelo mediastino, o **ducto torácico** faz um arco na base do pescoço e desemboca no **ângulo venoso esquerdo**, formado pela **jugular interna esquerda** e pela **subclávia esquerda**." },
+        { "letra": "B", "texto": "No átrio direito do coração", "explicacao": "Os ductos linfáticos desembocam nas grandes veias do pescoço, e não diretamente no coração." },
+        { "letra": "C", "texto": "Na veia cava inferior, no abdome", "explicacao": "O ducto torácico nasce no abdome (cisterna do quilo), mas sobe até o pescoço para desembocar." },
+        { "letra": "D", "texto": "No ângulo venoso direito, na junção da jugular interna direita com a subclávia direita", "explicacao": "Esse é o local de desembocadura do **ducto linfático direito**." },
+        { "letra": "E", "texto": "Na veia porta hepática", "explicacao": "A veia porta leva sangue do tubo digestivo ao fígado; não recebe os ductos linfáticos." }
+      ],
+      "gabarito": "A",
+      "secao": "ducto-toracico",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed., cap. 'Tórax'",
+      "tags": ["ducto torácico", "ângulo venoso"]
+    },
+    {
+      "id": "md-002",
+      "nivel": "medio",
+      "enunciado": "Quais troncos linfáticos drenam para a cisterna do quilo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Troncos jugulares e subclávios", "explicacao": "Os troncos jugulares e subclávios ficam no pescoço e drenam para os ductos linfático direito e torácico (ou diretamente nos ângulos venosos)." },
+        { "letra": "B", "texto": "Troncos broncomediastinais direito e esquerdo", "explicacao": "Os broncomediastinais drenam as vísceras torácicas e chegam aos ductos na base do pescoço." },
+        { "letra": "C", "texto": "Troncos lombares direito e esquerdo e tronco intestinal", "explicacao": "Correta. A **cisterna do quilo**, anterior a **L1–L2**, recebe os **troncos lombares** (membros inferiores, pelve, rins, suprarrenais, gônadas, parede abdominal inferior) e o **tronco intestinal** (tubo digestivo abdominal, fígado, baço, pâncreas — trazendo o quilo)." },
+        { "letra": "D", "texto": "Somente o tronco jugular esquerdo", "explicacao": "O tronco jugular drena cabeça e pescoço e não chega à cisterna do quilo, que fica no abdome." },
+        { "letra": "E", "texto": "Os ductos linfático direito e torácico", "explicacao": "O ducto torácico **começa** na cisterna do quilo; o ducto linfático direito fica no pescoço." }
+      ],
+      "gabarito": "C",
+      "secao": "cisterna-quilo",
+      "referencia": "Moore, 8ª ed., cap. 'Abdome'",
+      "tags": ["cisterna do quilo", "troncos linfáticos"]
+    },
+    {
+      "id": "md-003",
+      "nivel": "medio",
+      "enunciado": "Para qual grupo de linfonodos vai a maior parte (cerca de 75%) da linfa da mama?",
+      "alternativas": [
+        { "letra": "A", "texto": "Paraesternais", "explicacao": "Os paraesternais recebem principalmente a linfa dos **quadrantes mediais**, uma fração menor do total." },
+        { "letra": "B", "texto": "Cervicais profundos superiores", "explicacao": "Os cervicais profundos drenam a cabeça e o pescoço." },
+        { "letra": "C", "texto": "Inguinais superficiais", "explicacao": "Os inguinais superficiais drenam o membro inferior, a parede abdominal abaixo do umbigo e o períneo." },
+        { "letra": "D", "texto": "Mediastinais posteriores", "explicacao": "Os mediastinais posteriores drenam esôfago e estruturas posteriores do mediastino." },
+        { "letra": "E", "texto": "Axilares, principalmente o grupo peitoral (anterior)", "explicacao": "Correta. Cerca de **75%** da linfa da mama vai para os **linfonodos axilares**, sobretudo os **peitorais**, ao longo dos vasos torácicos laterais. Por isso a axila é o primeiro local de metástase do câncer de mama e onde se pesquisa o linfonodo sentinela." }
+      ],
+      "gabarito": "E",
+      "secao": "linfonodos-membro-superior",
+      "referencia": "Moore, 8ª ed., cap. 'Membro superior' (mama)",
+      "tags": ["mama", "linfonodos axilares"]
+    },
+    {
+      "id": "md-004",
+      "nivel": "medio",
+      "enunciado": "Observe a figura. Qual território é drenado pelo ducto linfático direito (região destacada à esquerda do observador)?",
+      "imagem": { "src": "img/morfo/drenagem/troncos-ductos-openstax.jpg", "legenda": "Territórios de drenagem dos ductos linfáticos (rótulos em inglês)." },
+      "alternativas": [
+        { "letra": "A", "texto": "Toda a metade direita do corpo, incluindo o membro inferior direito", "explicacao": "O membro inferior direito, como todo o corpo abaixo do diafragma, drena para o **ducto torácico**." },
+        { "letra": "B", "texto": "O quadrante superior direito: lado direito da cabeça, do pescoço e do tórax e o membro superior direito", "explicacao": "Correta. O **ducto linfático direito**, formado pelos troncos jugular, subclávio e broncomediastinal **direitos**, drena apenas o **quadrante superior direito**: lado direito da cabeça, do pescoço e do tórax e o membro superior direito. Desemboca no ângulo venoso direito." },
+        { "letra": "C", "texto": "Todo o corpo abaixo do diafragma", "explicacao": "Esse território é do **ducto torácico**." },
+        { "letra": "D", "texto": "Apenas o pulmão direito", "explicacao": "O território é mais amplo que o pulmão direito." },
+        { "letra": "E", "texto": "Apenas o membro superior direito", "explicacao": "Além do membro superior direito, o ducto linfático direito drena o lado direito da cabeça, do pescoço e do tórax." }
+      ],
+      "gabarito": "B",
+      "secao": "ducto-linfatico-direito",
+      "referencia": "Moore, 8ª ed., caps. 'Introdução' e 'Pescoço'",
+      "tags": ["ducto linfático direito", "território", "identificação"]
+    },
+    {
+      "id": "md-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 63 anos com emagrecimento, saciedade precoce e anemia apresenta um linfonodo endurecido e indolor palpável acima da clavícula esquerda. Qual é a explicação anatômica para esse achado?",
+      "alternativas": [
+        { "letra": "A", "texto": "O linfonodo drena a pele do ombro esquerdo, indicando infecção cutânea", "explicacao": "Infecção cutânea causaria linfonodo doloroso e não explicaria emagrecimento, saciedade precoce e anemia." },
+        { "letra": "B", "texto": "O linfonodo recebe a linfa do coração e indica insuficiência cardíaca", "explicacao": "Insuficiência cardíaca não causa linfonodo supraclavicular endurecido." },
+        { "letra": "C", "texto": "O linfonodo drena a tireoide e indica hipotireoidismo", "explicacao": "Hipotireoidismo não causa linfonodomegalia endurecida nem explica o quadro." },
+        { "letra": "D", "texto": "O linfonodo supraclavicular esquerdo (de Virchow) fica perto da desembocadura do ducto torácico, que traz a linfa do abdome; um câncer abdominal, como o gástrico, pode metastatizar para ele (sinal de Troisier)", "explicacao": "Correta. O **ducto torácico** drena **todo o abdome** e desemboca no **ângulo venoso esquerdo**, junto ao qual fica o **linfonodo supraclavicular esquerdo (de Virchow)**. Células de tumores abdominais, sobretudo **gástricos**, podem chegar a ele pelo ducto. O achado de um linfonodo endurecido ali é o **sinal de Troisier**." },
+        { "letra": "E", "texto": "O linfonodo drena a mama e indica câncer de mama, comum em homens dessa idade", "explicacao": "O câncer de mama masculino é raro e costuma se manifestar com nódulo mamário e metástase axilar; o quadro digestivo aponta para tumor abdominal." }
+      ],
+      "gabarito": "D",
+      "secao": "virchow",
+      "referencia": "Moore, 8ª ed., cap. 'Pescoço'; Harrison – Medicina Interna, 21ª ed., cap. 'Câncer gástrico'",
+      "tags": ["linfonodo de Virchow", "sinal de Troisier", "ducto torácico"]
+    },
+    {
+      "id": "md-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 28 anos tem um tumor no testículo direito. Ao estadiar o câncer, em qual grupo de linfonodos se espera encontrar as primeiras metástases, e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfonodos lombares (para-aórticos), porque o testículo se forma no abdome e, ao descer, leva consigo sua drenagem linfática, que acompanha os vasos testiculares", "explicacao": "Correta. O testículo se desenvolve na parede abdominal posterior, perto dos rins, e **desce** para o escroto levando seus **vasos testiculares** e linfáticos. Por isso drena para os **linfonodos lombares (para-aórticos)**, perto da aorta, na altura dos rins. A **pele do escroto**, por outro lado, drena para os **inguinais superficiais**." },
+        { "letra": "B", "texto": "Linfonodos inguinais superficiais, porque drenam todo o escroto e seu conteúdo", "explicacao": "Os inguinais superficiais drenam a **pele do escroto**, mas **não** o testículo." },
+        { "letra": "C", "texto": "Linfonodos poplíteos, porque recebem a linfa do períneo", "explicacao": "Os poplíteos drenam parte da perna e do pé, e não o testículo." },
+        { "letra": "D", "texto": "Linfonodos axilares, pela via do ducto torácico", "explicacao": "Os axilares drenam membro superior, mama e parede torácica, e não o testículo." },
+        { "letra": "E", "texto": "Linfonodos mesentéricos superiores, porque recebem toda a linfa do abdome", "explicacao": "Os mesentéricos superiores drenam o intestino delgado e parte do cólon, e não as gônadas." }
+      ],
+      "gabarito": "A",
+      "secao": "metastases-drenagem",
+      "referencia": "Moore, 8ª ed., cap. 'Abdome' (testículo e escroto)",
+      "tags": ["testículo", "linfonodos lombares", "metástase"]
+    },
+    {
+      "id": "md-007",
+      "nivel": "dificil",
+      "enunciado": "Um paciente tem uma lesão ulcerada na ponta (ápice) da língua. Qual grupo de linfonodos é o primeiro a receber a linfa dessa região?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfonodos occipitais", "explicacao": "Os occipitais drenam o couro cabeludo da região occipital." },
+        { "letra": "B", "texto": "Linfonodos parotídeos", "explicacao": "Os parotídeos drenam fronte, região temporal, pálpebras laterais, parótida e orelha." },
+        { "letra": "C", "texto": "Linfonodos submentuais", "explicacao": "Correta. Os **submentuais**, no trígono submentual, abaixo do queixo, drenam o **ápice da língua**, a parte central do lábio inferior, o queixo, o assoalho anterior da boca e os incisivos inferiores. As partes laterais da língua drenam para os submandibulares, e a parte posterior para os cervicais profundos superiores." },
+        { "letra": "D", "texto": "Linfonodos mastoideos", "explicacao": "Os mastoideos drenam o couro cabeludo parietal posterior e a face posterior da orelha." },
+        { "letra": "E", "texto": "Linfonodos paraesternais", "explicacao": "Os paraesternais ficam no tórax e drenam a parede torácica anterior e a parte medial da mama." }
+      ],
+      "gabarito": "C",
+      "secao": "linfonodos-pescoco",
+      "referencia": "Moore, 8ª ed., cap. 'Cabeça' e 'Pescoço'",
+      "tags": ["língua", "linfonodos submentuais"]
+    },
+    {
+      "id": "md-008",
+      "nivel": "dificil",
+      "enunciado": "Um trabalhador rural tem uma ferida infectada na face lateral do calcanhar e na parte posterolateral da perna. Qual grupo de linfonodos tende a aumentar primeiro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Inguinais superficiais, diretamente, sem passar por outros linfonodos", "explicacao": "A pele do território da veia safena parva drena primeiro para os **poplíteos**; os inguinais são atingidos depois." },
+        { "letra": "B", "texto": "Ilíacos internos", "explicacao": "Os ilíacos internos drenam vísceras pélvicas, períneo profundo e região glútea." },
+        { "letra": "C", "texto": "Lombares", "explicacao": "Os lombares ficam ao redor da aorta e recebem a linfa já filtrada pelos ilíacos." },
+        { "letra": "D", "texto": "Axilares", "explicacao": "Os axilares drenam o membro superior." },
+        { "letra": "E", "texto": "Poplíteos, na fossa poplítea, que recebem os vasos que acompanham a veia safena parva", "explicacao": "Correta. A pele da face **posterolateral da perna e do pé** é drenada por linfáticos que acompanham a **veia safena parva** até os **linfonodos poplíteos**, atrás do joelho. Deles, a linfa segue para os inguinais profundos. A maior parte do restante do membro inferior superficial drena para os **inguinais superficiais**, ao longo da safena magna." }
+      ],
+      "gabarito": "E",
+      "secao": "linfonodos-membro-inferior",
+      "referencia": "Moore, 8ª ed., cap. 'Membro inferior'",
+      "tags": ["linfonodos poplíteos", "veia safena parva", "membro inferior"]
+    },
+    {
+      "id": "md-009",
+      "nivel": "aprofundado",
+      "enunciado": "Após uma esofagectomia, um paciente desenvolve derrame pleural de aspecto leitoso, rico em triglicerídeos e linfócitos, no hemitórax direito. Qual lesão explica o derrame e por que ele está à direita?",
+      "alternativas": [
+        { "letra": "A", "texto": "Lesão da veia ázigo, que transporta quilo", "explicacao": "A veia ázigo transporta sangue venoso, não quilo." },
+        { "letra": "B", "texto": "Lesão do ducto torácico abaixo de T4–T6, onde ele ainda está à direita da linha média (entre a aorta e a ázigo), antes de cruzar para a esquerda", "explicacao": "Correta. O derrame leitoso, rico em triglicerídeos (quilomícrons) e linfócitos, é um **quilotórax**, causado por lesão do **ducto torácico**. O ducto sobe pelo mediastino posterior **à direita**, entre a aorta e a veia ázigo, e só **cruza para a esquerda em T4–T6**. Lesões **abaixo** desse nível tendem a causar quilotórax **direito**; acima, **esquerdo**." },
+        { "letra": "C", "texto": "Lesão do ducto linfático direito, que drena o abdome", "explicacao": "O ducto linfático direito drena apenas o quadrante superior direito e não transporta o quilo intestinal." },
+        { "letra": "D", "texto": "Lesão da cisterna do quilo no tórax", "explicacao": "A cisterna do quilo fica no **abdome** (L1–L2), e não no tórax." },
+        { "letra": "E", "texto": "Lesão da artéria torácica interna direita", "explicacao": "A lesão arterial causaria hemotórax, e não um derrame leitoso rico em triglicerídeos." }
+      ],
+      "gabarito": "B",
+      "secao": "quilotorax",
+      "referencia": "Moore, 8ª ed., cap. 'Tórax'",
+      "tags": ["quilotórax", "ducto torácico", "trajeto"]
+    },
+    {
+      "id": "md-010",
+      "nivel": "aprofundado",
+      "enunciado": "A linfa coletada do ducto torácico duas horas após uma refeição gordurosa tem aspecto leitoso e contém muitos linfócitos. Qual alternativa explica corretamente essa composição?",
+      "alternativas": [
+        { "letra": "A", "texto": "O aspecto leitoso se deve a hemácias destruídas, e os linfócitos vêm da medula óssea diretamente para os linfáticos", "explicacao": "A linfa quase não tem hemácias, e o aspecto leitoso não vem delas; os linfócitos vêm sobretudo dos linfonodos." },
+        { "letra": "B", "texto": "O aspecto leitoso se deve a proteínas plasmáticas em concentração maior que a do sangue", "explicacao": "Em geral, a linfa tem **menos** proteína que o plasma, e proteínas não deixam o líquido leitoso." },
+        { "letra": "C", "texto": "O aspecto leitoso se deve a bactérias do intestino que entram nos linfáticos", "explicacao": "Bactérias não são responsáveis pelo aspecto leitoso normal da linfa intestinal após as refeições." },
+        { "letra": "D", "texto": "A gordura absorvida no intestino entra nos vasos quilíferos na forma de quilomícrons e chega ao ducto torácico pelo tronco intestinal e pela cisterna do quilo; os linfócitos são adicionados à linfa ao passar pelos linfonodos e pela recirculação", "explicacao": "Correta. Os lipídios da dieta são empacotados pelos enterócitos em **quilomícrons**, grandes demais para entrar nos capilares sanguíneos, e entram nos **vasos quilíferos** das vilosidades. Pelos linfonodos mesentéricos, pelo **tronco intestinal** e pela **cisterna do quilo**, chegam ao **ducto torácico**, deixando a linfa leitosa (**quilo**). A linfa que sai dos linfonodos é rica em **linfócitos**, que recirculam do sangue para os linfonodos e voltam ao sangue pelos ductos." },
+        { "letra": "E", "texto": "O aspecto leitoso se deve à glicose absorvida, que se concentra na linfa", "explicacao": "A glicose é absorvida para os capilares **sanguíneos** e dissolve-se sem deixar o líquido leitoso." }
+      ],
+      "gabarito": "D",
+      "secao": "composicao-linfa",
+      "referencia": "Guyton & Hall – Tratado de Fisiologia Médica, 14ª ed., caps. 'A microcirculação e o sistema linfático' e 'Digestão e absorção'",
+      "tags": ["composição da linfa", "quilo", "quilomícrons"]
+    }
+  ]
+}

@@ -133,6 +133,26 @@ O usuário prefere **textos longos, completos e didáticos** a textos resumidos.
 - **Sem limite de tamanho.** Use exemplos concretos e analogias quando ajudarem.
 - Ao começar um ASE que dependa de vocabulário novo, crie primeiro um **tópico introdutório/panorama** (como `visao-geral-sistema-imune` no ASE6).
 
+## Morfofuncional (anatomia e histologia) e imagens
+
+Cada ASE tem **tópicos da tutoria** e **tópicos de morfofuncional**, que seguem os roteiros do laboratório morfofuncional da UEPA (o usuário envia os PDFs).
+
+- Frontmatter: `tipo: morfo` (a página do ASE separa "Tutoria" e "Morfofuncional"); id com prefixo `morfo-`; disciplina `histologia-embriologia` ou `anatomia`; `ordem` a partir de 10.
+- No início, um bloco `>` com as **questões do roteiro** que o tópico cobre e link para o tópico da tutoria correspondente.
+- Conteúdo: roteiro de identificação de lâminas (coloração, aumento, o que procurar, diagnóstico diferencial entre lâminas parecidas), anatomia (localização, relações, faces), **vascularização** (irrigação, drenagem venosa e linfática, em texto + diagrama mermaid) e tabelas no formato do roteiro (ex.: localização × drenagem).
+- **Imagens**: somente com **licença livre** (CC0, CC BY, CC BY-SA, domínio público), da **Wikimedia Commons** — boas fontes: ilustrações do OpenStax Anatomy & Physiology (CC BY), pranchas do Gray's Anatomy (domínio público), fotos de lâminas com licença livre. **Nunca** usar imagens de atlas/livros com direitos autorais (o site é público).
+  - Arquivo em `public/img/morfo/<assunto>/<nome>.jpg|png`, redimensionado (≤1280 px) e comprimido.
+  - Crédito obrigatório em `content/imagens.json`: `{ "img/...": { titulo, autor, licenca, fonte, modificacao } }` (o validador confere arquivo e crédito; a página `#/creditos` lista tudo).
+  - Uso no Markdown (legenda em Markdown, explicando o que observar; rótulos em inglês devem ser traduzidos na legenda):
+    ```
+    ::: figura img/morfo/timo/corpusculo-hassall.jpg
+    **Corpúsculo de Hassall** na medula tímica (H&E). ...
+    :::
+    ```
+  - Questões podem ter imagem: `"imagem": { "src": "img/...", "legenda": "..." }` — usar em questões de identificação (~2–3 por tópico de morfo).
+  - Para buscar imagens: páginas HTML da Commons (`Special:MediaSearch`, página `File:` para licença/autor) e download por `Special:FilePath/<arquivo>?width=960` (larguras padronizadas evitam bloqueio por limite de acesso; espaçar os downloads). O ambiente precisa liberar `commons.wikimedia.org`, `upload.wikimedia.org` e `thumb.wikimedia.org`.
+- Esquemas originais (mermaid) dispensam crédito.
+
 ## Regras de conteúdo (obrigatórias)
 
 1. **Nível:** graduação avançada, com raciocínio **fisiopatológico** (o porquê, não só o quê). Didático, em português claro.
@@ -157,6 +177,12 @@ MED1 (1º semestre) = ASE1–ASE3; MED2 (2º semestre) = ASE4–ASE6. Ementas, o
   - Lote 2: `imunidade-humoral-anticorpos` (imunologia; aprofunda o que o panorama introduz); `lesao-celular-estresse-oxidativo` (isquemia/hipóxia, agentes físicos/químicos/biológicos), `necrose-apoptose`, `inflamacao-aguda` (sinais cardinais, mediadores) — patologia
   - Lote 3: `inflamacao-cronica-reparo`, `hemostasia-coagulacao`, `febre-dor-resposta-neuroendocrina`, `agressoes-fisicas-quimicas` (trauma, radiação, frio/calor, intoxicações)
   - Lote 4: `hipersensibilidades`, `autoimunidade-tolerancia`, `imunodeficiencias`, `resposta-imune-agentes-infecciosos` (vírus, bactérias, fungos, protozoários, helmintos)
+  - **Morfofuncional** (roteiros P1–P4 do laboratório):
+    - M1 ✔ (P1 – sistema linfático): `morfo-sangue-medula-ossea` (ms-), `morfo-timo` (mt-), `morfo-linfonodos-malt-tonsilas` (ml-), `morfo-baco` (mb-), `morfo-drenagem-linfatica` (md-, anatomia)
+    - M2 (P2/P3 – micro): vírus (Baltimore, morfologia, replicação, HIV, coronavírus, tropismo); fungos (micoses, leveduras × hifas, célula fúngica); bactérias (célula bacteriana, Gram, Ziehl-Neelsen/BAAR, formas e arranjos, metabolismo, exemplos por sistema)
+    - M3 (P3 – parasito): helmintos (ovos, larvas, adultos; ciclos de Schistosoma, Taenia/cisticerco, Ascaris, ancilostomídeos, Strongyloides, Enterobius, Trichuris); protozoários (cisto × trofozoíto; Giardia, Entamoeba, Trichomonas)
+    - M4 (P4 – lesão celular): lâminas de necrose (coagulação e outros tipos), apoptose × necrose ao MO e ME, isquemia-reperfusão, TVP, cicatrização, radicais livres
+    - Imunoglobulinas/MHC/linfócito B do roteiro 3 → tópico da tutoria `imunidade-humoral-anticorpos`
 - **ASE4 – Funções Biológicas II:** organização do SN; potencial de membrana e de ação; sinapses e neurotransmissores; junção neuromuscular; reflexos; SN autônomo; eixo hipotálamo-hipófise e controle neuroendócrino; formação da urina (✔ `filtracao-glomerular`; reabsorção/secreção tubular); SRAA e controle da PA; equilíbrio hidroeletrolítico; estresse/fatores ambientais.
 - **ASE5 – Metabolismo e Nutrição:** motilidade e secreção digestivas; digestão e absorção; glândulas anexas; metabolismo de carboidratos (glicólise, glicogênio, gliconeogênese, Cori); lipídios; proteínas/ciclo da ureia; bioenergética; insulina, glucagon e incretinas; tireoide; adrenais; fome/saciedade; obesidade, DM, dislipidemia, síndrome metabólica; desnutrição e terapia nutricional; erros inatos; farmacocinética; fármacos do TGI e antieméticos; álcool.
 - **ASE3 – Funções Biológicas I:** ciclo cardíaco; atividade elétrica; regulação da PA; circulação; mecânica ventilatória; V/Q; transporte de gases; ✔ `equilibrio-acido-base`; músculos; esqueleto.
