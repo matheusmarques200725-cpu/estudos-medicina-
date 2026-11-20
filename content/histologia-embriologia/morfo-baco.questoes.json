@@ -1,0 +1,166 @@
+{
+  "topico": "morfo-baco",
+  "questoes": [
+    {
+      "id": "mb-001",
+      "nivel": "medio",
+      "enunciado": "A imagem mostra a face visceral de um órgão abdominal com vasos entrando e saindo por uma região central. Qual é o órgão e como se chamam as áreas marcadas pelos órgãos vizinhos?",
+      "imagem": { "src": "img/morfo/baco/baco-gray1188.png", "legenda": "Ilustração clássica de Gray (rótulos em inglês)." },
+      "alternativas": [
+        { "letra": "A", "texto": "Rim esquerdo; impressões hepática e duodenal", "explicacao": "O rim tem forma de feijão com hilo medial onde entram artéria e saem veia e ureter; as impressões indicadas são gástrica, renal, cólica e pancreática." },
+        { "letra": "B", "texto": "Fígado; impressões gástrica e cólica", "explicacao": "O fígado é muito maior, tem lobos e porta hepática com veia porta, artéria hepática e ducto biliar." },
+        { "letra": "C", "texto": "Pâncreas; impressões esplênica e gástrica", "explicacao": "O pâncreas é alongado (cabeça, colo, corpo, cauda) e não tem faces com impressões desse tipo." },
+        { "letra": "D", "texto": "Baço; impressões gástrica, renal, cólica e pancreática, com o hilo por onde passam os vasos esplênicos", "explicacao": "Correta. É a **face visceral do baço**, com o **hilo** (vasos esplênicos) e as impressões **gástrica** (a maior, anterior ao hilo), **renal** (posterior ao hilo), **cólica** (flexura esquerda do cólon) e **pancreática** (cauda do pâncreas, junto ao hilo)." },
+        { "letra": "E", "texto": "Estômago; impressões esplênica e pancreática", "explicacao": "O estômago é um órgão oco com curvaturas maior e menor; não tem hilo nem essas impressões." }
+      ],
+      "gabarito": "D",
+      "secao": "faces-bordas",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed., cap. 'Abdome'",
+      "tags": ["baço", "face visceral", "identificação", "anatomia"]
+    },
+    {
+      "id": "mb-002",
+      "nivel": "medio",
+      "enunciado": "De qual artéria se origina a artéria esplênica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tronco celíaco, do qual é o maior ramo", "explicacao": "Correta. A **artéria esplênica** é o **maior ramo do tronco celíaco** (ao lado da gástrica esquerda e da hepática comum). Segue tortuosa ao longo da **borda superior do pâncreas** até o hilo esplênico." },
+        { "letra": "B", "texto": "Artéria mesentérica superior", "explicacao": "A mesentérica superior irriga intestino delgado e parte do cólon; não origina a artéria esplênica." },
+        { "letra": "C", "texto": "Artéria renal esquerda", "explicacao": "A renal esquerda irriga o rim; o baço apenas se relaciona com ele pelo ligamento esplenorrenal." },
+        { "letra": "D", "texto": "Artéria mesentérica inferior", "explicacao": "A mesentérica inferior irriga o cólon descendente, o sigmoide e o reto superior." },
+        { "letra": "E", "texto": "Artéria gástrica esquerda", "explicacao": "A gástrica esquerda é outro ramo do tronco celíaco, que irriga a curvatura menor do estômago e o esôfago distal." }
+      ],
+      "gabarito": "A",
+      "secao": "vascularizacao-baco",
+      "referencia": "Moore, 8ª ed., cap. 'Abdome'; Netter – Atlas de Anatomia Humana, 7ª ed.",
+      "tags": ["artéria esplênica", "tronco celíaco"]
+    },
+    {
+      "id": "mb-003",
+      "nivel": "medio",
+      "enunciado": "Em um corte histológico de baço, a polpa vermelha aparece intensamente eosinófila, enquanto a polpa branca aparece basófila. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "A polpa vermelha tem muitas fibras colágenas, e a branca tem muita gordura", "explicacao": "A cor da polpa vermelha não se deve a colágeno, e a polpa branca não é formada por gordura." },
+        { "letra": "B", "texto": "A polpa vermelha contém músculo liso, e a branca, cartilagem", "explicacao": "Não há músculo liso nem cartilagem formando as polpas." },
+        { "letra": "C", "texto": "A polpa vermelha tem pouca vascularização, e a branca é muito vascularizada", "explicacao": "É o contrário: a polpa vermelha é repleta de sangue." },
+        { "letra": "D", "texto": "A polpa vermelha tem predomínio de linfócitos, e a branca, de hemácias", "explicacao": "A relação está invertida." },
+        { "letra": "E", "texto": "A polpa vermelha é repleta de hemácias (hemoglobina, eosinófila); a branca é formada por linfócitos agrupados, cujos núcleos são basófilos", "explicacao": "Correta. A **polpa vermelha** (cordões de Billroth e sinusoides) está cheia de **hemácias**, cuja **hemoglobina** cora pela **eosina**. A **polpa branca** é tecido linfoide denso (bainha periarteriolar e nódulos), com muitos **núcleos** de linfócitos, que coram pela **hematoxilina** (basófilos)." }
+      ],
+      "gabarito": "E",
+      "secao": "polpa-vermelha",
+      "referencia": "Ross & Pawlina – Histologia: Texto e Atlas, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["polpa vermelha", "polpa branca", "eosinofilia"]
+    },
+    {
+      "id": "mb-004",
+      "nivel": "medio",
+      "enunciado": "Qual é a zona timo-dependente do baço?",
+      "alternativas": [
+        { "letra": "A", "texto": "O centro germinativo dos nódulos", "explicacao": "O centro germinativo é região de linfócitos B em proliferação, e não a zona timo-dependente." },
+        { "letra": "B", "texto": "A bainha linfoide periarteriolar (PALS), um manguito de linfócitos T em volta da arteríola central", "explicacao": "Correta. A **PALS** é formada por **linfócitos T** em torno da **arteríola central** da polpa branca — a **zona timo-dependente** do baço, equivalente ao paracórtex do linfonodo." },
+        { "letra": "C", "texto": "Os cordões de Billroth da polpa vermelha", "explicacao": "Os cordões esplênicos contêm hemácias, macrófagos e plasmócitos e são responsáveis pela filtração." },
+        { "letra": "D", "texto": "A cápsula e as trabéculas", "explicacao": "Cápsula e trabéculas são estroma de tecido conjuntivo." },
+        { "letra": "E", "texto": "Os sinusoides esplênicos", "explicacao": "Os sinusoides são vasos que recolhem o sangue filtrado." }
+      ],
+      "gabarito": "B",
+      "secao": "polpa-branca",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["PALS", "zona timo-dependente", "baço"]
+    },
+    {
+      "id": "mb-005",
+      "nivel": "dificil",
+      "enunciado": "Na prova prática, você observa um nódulo linfático com uma pequena artéria situada dentro dele, em posição excêntrica. A partir desse achado, em qual órgão o nódulo provavelmente está?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfonodo, pois seus nódulos sempre contêm uma artéria central", "explicacao": "Os nódulos do linfonodo **não** têm uma arteríola atravessando seu interior." },
+        { "letra": "B", "texto": "Timo, pois seus nódulos têm uma artéria em volta do corpúsculo de Hassall", "explicacao": "O timo normal não tem nódulos linfáticos." },
+        { "letra": "C", "texto": "Baço, pois os nódulos da polpa branca se formam junto à bainha periarteriolar e contêm a arteríola central, geralmente excêntrica", "explicacao": "Correta. Os nódulos do baço se desenvolvem junto à **PALS**, de modo que a **arteríola central** aparece **dentro** do nódulo, deslocada para a periferia (**excêntrica**). Esse é o detalhe que identifica um nódulo esplênico." },
+        { "letra": "D", "texto": "Tonsila palatina, pois a artéria fica no fundo das criptas", "explicacao": "Os nódulos tonsilares ficam ao redor das criptas, sem artéria central característica." },
+        { "letra": "E", "texto": "Placa de Peyer, pois a artéria vem da submucosa intestinal", "explicacao": "Os nódulos das placas de Peyer ficam na mucosa e submucosa, sem arteríola central dentro deles." }
+      ],
+      "gabarito": "C",
+      "secao": "polpa-branca",
+      "referencia": "Junqueira & Carneiro – Histologia Básica, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["nódulo esplênico", "arteríola central", "diagnóstico diferencial"]
+    },
+    {
+      "id": "mb-006",
+      "nivel": "dificil",
+      "enunciado": "Um homem com cirrose hepática avançada e hipertensão portal apresenta baço muito aumentado e plaquetopenia. Qual relação anatômica explica a esplenomegalia?",
+      "alternativas": [
+        { "letra": "A", "texto": "A artéria esplênica nasce da artéria hepática e recebe mais sangue na cirrose", "explicacao": "A artéria esplênica nasce do tronco celíaco, e a esplenomegalia da cirrose decorre do represamento venoso, e não do aumento do fluxo arterial." },
+        { "letra": "B", "texto": "O fígado cirrótico comprime diretamente o baço", "explicacao": "O fígado cirrótico costuma estar reduzido e não comprime o baço." },
+        { "letra": "C", "texto": "A veia esplênica drena para a veia cava inferior, que fica obstruída", "explicacao": "A veia esplênica não drena diretamente para a cava inferior; ela contribui para formar a veia porta." },
+        { "letra": "D", "texto": "A veia esplênica se une à mesentérica superior para formar a veia porta; com a resistência aumentada no fígado, o sangue represa e congestiona o baço", "explicacao": "Correta. A **veia esplênica** (atrás do pâncreas) une-se à **veia mesentérica superior** para formar a **veia porta**. Na cirrose, a resistência hepática eleva a pressão portal, o sangue **represa** na veia esplênica e o baço fica **congestionado e aumentado**. O baço grande retém e destrói plaquetas em excesso (**hiperesplenismo**), explicando a plaquetopenia." },
+        { "letra": "E", "texto": "Os linfáticos do baço drenam para o fígado e ficam obstruídos", "explicacao": "A linfa do baço vai para os linfonodos esplênicos, pancreaticoesplênicos e celíacos; a esplenomegalia da cirrose é congestiva venosa." }
+      ],
+      "gabarito": "D",
+      "secao": "vascularizacao-baco",
+      "referencia": "Moore, 8ª ed., cap. 'Abdome'; Harrison – Medicina Interna, 21ª ed., cap. 'Cirrose e suas complicações'",
+      "tags": ["veia esplênica", "veia porta", "hipertensão portal", "esplenomegalia"]
+    },
+    {
+      "id": "mb-007",
+      "nivel": "dificil",
+      "enunciado": "Ao microscópio eletrônico, os sinusoides da polpa vermelha apresentam células endoteliais alongadas em forma de bastão, dispostas paralelamente com fendas entre si, e lâmina basal descontínua em forma de anéis. Qual é a importância funcional dessa estrutura?",
+      "alternativas": [
+        { "letra": "A", "texto": "Impedir a saída de linfócitos do baço", "explicacao": "A estrutura do sinusoide não tem como função reter linfócitos." },
+        { "letra": "B", "texto": "Obrigar as hemácias a se deformarem para passar pelas fendas ao voltar dos cordões, retendo as rígidas ou envelhecidas para fagocitose (hemocaterese)", "explicacao": "Correta. Na **circulação aberta**, o sangue chega aos **cordões** e precisa atravessar as **fendas** (2–3 µm) entre as células endoteliais em bastão para entrar nos sinusoides. A hemácia (7–8 µm) normal se deforma e passa; a **rígida ou envelhecida fica retida** e é fagocitada pelos macrófagos dos cordões — a **hemocaterese**." },
+        { "letra": "C", "texto": "Permitir a troca gasosa entre o sangue e a linfa", "explicacao": "O baço não realiza trocas gasosas especiais, e não há linfa nos sinusoides." },
+        { "letra": "D", "texto": "Formar uma barreira semelhante à hematotímica, impedindo antígenos de chegar à polpa branca", "explicacao": "O baço justamente expõe a polpa branca aos antígenos do sangue, especialmente na zona marginal." },
+        { "letra": "E", "texto": "Produzir hemácias novas a partir das células endoteliais", "explicacao": "As células endoteliais não produzem hemácias." }
+      ],
+      "gabarito": "B",
+      "secao": "sinusoides-baco",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["sinusoides esplênicos", "microscopia eletrônica", "hemocaterese"]
+    },
+    {
+      "id": "mb-008",
+      "nivel": "dificil",
+      "enunciado": "Um motociclista sofre trauma no flanco esquerdo com fratura das costelas 9, 10 e 11. Na emergência está hipotenso, com dor abdominal e dor no ombro esquerdo. Qual é a explicação mais provável para o conjunto dos achados?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ruptura do baço, com hemorragia intraperitoneal; o sangue irrita o diafragma e causa dor referida no ombro esquerdo (sinal de Kehr), pela inervação frênica (C3–C5)", "explicacao": "Correta. O baço fica protegido pelas **costelas 9–11**, e fraturas nessa região devem levantar suspeita de **ruptura esplênica**, o órgão abdominal mais lesado no trauma fechado. A **hemorragia** causa hipotensão; o sangue sob o diafragma irrita o peritônio diafragmático, inervado pelo **nervo frênico (C3–C5)**, que compartilha segmentos com a pele do ombro → **dor referida no ombro esquerdo (sinal de Kehr)**." },
+        { "letra": "B", "texto": "Infarto agudo do miocárdio desencadeado pela dor", "explicacao": "O contexto de trauma com fraturas costais à esquerda e hipotensão aponta para hemorragia abdominal." },
+        { "letra": "C", "texto": "Luxação do ombro esquerdo associada", "explicacao": "A dor no ombro sem trauma direto do ombro, com hipotensão, sugere dor referida, e não lesão local." },
+        { "letra": "D", "texto": "Ruptura do fígado, que fica sob as costelas 9–11 esquerdas", "explicacao": "O fígado fica predominantemente no hipocôndrio **direito**." },
+        { "letra": "E", "texto": "Pneumotórax isolado, sem relação com o abdome", "explicacao": "Um pneumotórax pode acompanhar fraturas costais, mas não explica a dor abdominal nem a dor referida no ombro pela irritação diafragmática." }
+      ],
+      "gabarito": "A",
+      "secao": "ruptura-baco",
+      "referencia": "Moore, 8ª ed., cap. 'Abdome'",
+      "tags": ["trauma esplênico", "sinal de Kehr", "costelas 9–11"]
+    },
+    {
+      "id": "mb-009",
+      "nivel": "aprofundado",
+      "enunciado": "No baço humano, parte do sangue que sai dos capilares embainhados não entra diretamente num vaso, e sim no tecido dos cordões da polpa vermelha. Qual é o nome desse arranjo e qual é sua consequência funcional?",
+      "alternativas": [
+        { "letra": "A", "texto": "Circulação portal; o sangue passa por dois leitos capilares antes de voltar ao coração", "explicacao": "A circulação portal (veia porta) existe entre baço/intestino e fígado, mas não descreve o trajeto do sangue dentro do baço." },
+        { "letra": "B", "texto": "Circulação fechada; o sangue nunca sai dos vasos", "explicacao": "Na circulação fechada, o capilar se liga diretamente ao sinusoide, sem passar pelos cordões — o oposto do descrito." },
+        { "letra": "C", "texto": "Anastomose arteriovenosa; o sangue desvia do baço sem ser filtrado", "explicacao": "O arranjo descrito favorece a filtragem, e não o desvio." },
+        { "letra": "D", "texto": "Circulação colateral; serve para irrigar o estômago em caso de obstrução", "explicacao": "A circulação colateral é outra coisa, sem relação com o trajeto intraesplênico do sangue." },
+        { "letra": "E", "texto": "Circulação aberta; o sangue percorre lentamente os cordões, em contato com macrófagos, e precisa atravessar as fendas dos sinusoides, o que permite inspecionar e remover hemácias defeituosas", "explicacao": "Correta. Na **circulação aberta**, que predomina em humanos, o sangue sai dos capilares embainhados diretamente nos **cordões de Billroth**, fluindo devagar em contato com **macrófagos**. Para voltar à circulação, as hemácias precisam se deformar e passar pelas **fendas** dos sinusoides. Isso permite reter e fagocitar as defeituosas (hemocaterese) e remover inclusões." }
+      ],
+      "gabarito": "E",
+      "secao": "circulacao-baco",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["circulação aberta", "cordões de Billroth", "baço"]
+    },
+    {
+      "id": "mb-010",
+      "nivel": "aprofundado",
+      "enunciado": "Uma criança com esferocitose hereditária tem hemácias esféricas e pouco deformáveis. Ela apresenta anemia, icterícia e esplenomegalia, que melhoram após esplenectomia, mas, depois da cirurgia, passam a aparecer corpúsculos de Howell-Jolly no esfregaço. Qual alternativa explica corretamente esses achados?",
+      "alternativas": [
+        { "letra": "A", "texto": "Os esferócitos são destruídos por anticorpos no sangue; o baço não participa", "explicacao": "Na esferocitose hereditária, a destruição é extravascular, sobretudo no baço, por causa da rigidez das hemácias, e não por anticorpos." },
+        { "letra": "B", "texto": "A esplenectomia aumenta a produção de esferócitos pela medula", "explicacao": "A esplenectomia não altera a forma das hemácias produzidas; ela apenas deixa de destruí-las." },
+        { "letra": "C", "texto": "As hemácias rígidas ficam retidas nos cordões e são fagocitadas (hemocaterese excessiva, com bilirrubina elevada e baço hipertrofiado); sem o baço, elas sobrevivem mais, e as inclusões nucleares que o baço removeria passam a circular", "explicacao": "Correta. Os **esferócitos** não conseguem se deformar para passar pelas **fendas dos sinusoides**, ficam retidos nos **cordões** e são destruídos pelos macrófagos. Daí a **anemia**, a **icterícia** (mais heme → **bilirrubina**) e a **esplenomegalia** (trabalho aumentado). Após a esplenectomia, as hemácias vivem mais. Mas o baço também removia **inclusões** sem destruir as hemácias, e por isso surgem os **corpúsculos de Howell-Jolly**, restos de núcleo." },
+        { "letra": "D", "texto": "Os corpúsculos de Howell-Jolly são esferócitos que se desmancharam após a cirurgia", "explicacao": "Corpúsculos de Howell-Jolly são **restos de DNA nuclear** dentro das hemácias, e não esferócitos fragmentados." },
+        { "letra": "E", "texto": "A icterícia ocorre porque o baço produz bilirrubina diretamente a partir do colesterol", "explicacao": "A bilirrubina vem da degradação do **heme** da hemoglobina, e não do colesterol." }
+      ],
+      "gabarito": "C",
+      "secao": "hemocaterese",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'; Hoffbrand – Fundamentos em Hematologia, 7ª ed.",
+      "tags": ["hemocaterese", "esferocitose", "Howell-Jolly", "esplenectomia"]
+    }
+  ]
+}
