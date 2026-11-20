@@ -1,0 +1,167 @@
+{
+  "topico": "morfo-linfonodos-malt-tonsilas",
+  "questoes": [
+    {
+      "id": "ml-001",
+      "nivel": "medio",
+      "enunciado": "A imagem mostra um órgão linfoide em pequeno aumento, envolto por tecido adiposo. Qual é o órgão, e qual achado ajuda a identificá-lo?",
+      "imagem": { "src": "img/morfo/linfonodo/linfonodo-normal.jpg", "legenda": "Corte corado por H&E, pequeno aumento." },
+      "alternativas": [
+        { "letra": "A", "texto": "Timo, pela presença de corpúsculos de Hassall", "explicacao": "Não há corpúsculos de Hassall visíveis, e o padrão de nódulos arredondados na periferia não é típico do timo, que não tem nódulos com centro germinativo." },
+        { "letra": "B", "texto": "Baço, pela presença de polpa vermelha abundante", "explicacao": "O baço é muito maior, tem polpa vermelha difusa e não fica envolto por gordura mesentérica dessa forma." },
+        { "letra": "C", "texto": "Linfonodo, pela cápsula com seio subcapsular logo abaixo e nódulos linfáticos na periferia do córtex", "explicacao": "Correta. É um **linfonodo** (aqui, do mesentério do cólon): órgão pequeno, encapsulado, com o **seio subcapsular** como faixa clara sob a cápsula, **nódulos linfáticos** no córtex superficial e regiões mais frouxas da **medula** no centro." },
+        { "letra": "D", "texto": "Tonsila palatina, pela presença de criptas revestidas por epitélio", "explicacao": "Não há epitélio de superfície nem criptas; o órgão está totalmente encapsulado e cercado por gordura." },
+        { "letra": "E", "texto": "Placa de Peyer, pela presença de vilosidades intestinais", "explicacao": "Não há parede intestinal (vilosidades, glândulas, camada muscular) na imagem." }
+      ],
+      "gabarito": "C",
+      "secao": "histologia-linfonodo",
+      "referencia": "Junqueira & Carneiro – Histologia Básica, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["linfonodo", "identificação", "lâmina"]
+    },
+    {
+      "id": "ml-002",
+      "nivel": "medio",
+      "enunciado": "Na biópsia de um linfonodo cervical de um paciente com faringite, muitos nódulos linfáticos apresentam uma região central clara cercada por um anel de linfócitos pequenos. O que essa região clara representa?",
+      "alternativas": [
+        { "letra": "A", "texto": "Centro germinativo de um nódulo secundário: resposta humoral ativa, com proliferação de linfócitos B, maturação de afinidade e troca de classe", "explicacao": "Correta. A região clara é o **centro germinativo**: centroblastos (proliferação e mutação), centrócitos (selecionados pela afinidade nas células dendríticas foliculares, com ajuda de Tfh), macrófagos de corpos tingíveis. Ele indica uma **resposta humoral dependente de T** em andamento, gerando plasmócitos e linfócitos B de memória." },
+        { "letra": "B", "texto": "Área de necrose causada pela infecção", "explicacao": "A necrose apareceria com restos celulares, perda da arquitetura e células inflamatórias, e não como centro organizado com anel de linfócitos." },
+        { "letra": "C", "texto": "Zona de linfócitos T em repouso (paracórtex)", "explicacao": "O paracórtex não forma nódulos; é uma faixa difusa entre os nódulos e a medula." },
+        { "letra": "D", "texto": "Seio medular cheio de linfa", "explicacao": "Os seios medulares ficam na medula, entre os cordões, e não no centro dos nódulos corticais." },
+        { "letra": "E", "texto": "Nódulo primário em repouso", "explicacao": "O nódulo primário é homogêneo e escuro, sem centro claro." }
+      ],
+      "gabarito": "A",
+      "secao": "nodulos-linfaticos",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'; Abbas, 10ª ed., cap. 'Ativação dos linfócitos B e produção de anticorpos'",
+      "tags": ["centro germinativo", "nódulo secundário"]
+    },
+    {
+      "id": "ml-003",
+      "nivel": "medio",
+      "enunciado": "Qual região do linfonodo é chamada de 'zona timo-dependente' e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "O córtex superficial, porque contém os nódulos de linfócitos B", "explicacao": "O córtex superficial, com os nódulos B, é a zona **timo-independente**." },
+        { "letra": "B", "texto": "A medula, porque contém plasmócitos", "explicacao": "Os plasmócitos derivam de linfócitos B; os cordões medulares não são a zona timo-dependente." },
+        { "letra": "C", "texto": "O seio subcapsular, porque recebe linfócitos vindos do timo pela linfa", "explicacao": "O seio subcapsular recebe a linfa aferente dos tecidos, não linfócitos diretamente do timo." },
+        { "letra": "D", "texto": "A cápsula, porque é formada por células epiteliais tímicas", "explicacao": "A cápsula do linfonodo é tecido conjuntivo denso; células epiteliais reticulares são exclusivas do timo." },
+        { "letra": "E", "texto": "O paracórtex, porque é ocupado por linfócitos T, que amadurecem no timo", "explicacao": "Correta. O **paracórtex** (córtex profundo) é a região dos **linfócitos T** e das células dendríticas, com as **vênulas de endotélio alto**. Como os linfócitos T dependem do timo para amadurecer, essa área fica **atrofiada** em quem não tem timo (como na síndrome de DiGeorge)." }
+      ],
+      "gabarito": "E",
+      "secao": "histologia-linfonodo",
+      "referencia": "Ross & Pawlina – Histologia: Texto e Atlas, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["paracórtex", "zona timo-dependente"]
+    },
+    {
+      "id": "ml-004",
+      "nivel": "medio",
+      "enunciado": "Qual é a sequência correta do trajeto da linfa dentro de um linfonodo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Vaso eferente → seios medulares → seios trabeculares → seio subcapsular → vasos aferentes", "explicacao": "A sequência está invertida: a linfa entra pelos aferentes e sai pelo eferente." },
+        { "letra": "B", "texto": "Vasos aferentes (borda convexa) → seio subcapsular → seios trabeculares → seios medulares → vaso eferente (hilo)", "explicacao": "Correta. A linfa entra pelos **vasos aferentes** na **borda convexa**, chega ao **seio subcapsular**, percorre os **seios trabeculares** pelo córtex, passa aos **seios medulares** entre os cordões e sai pelo **vaso eferente** no **hilo** (borda côncava). Em todo o trajeto, macrófagos filtram a linfa." },
+        { "letra": "C", "texto": "Artéria hilar → vênulas de endotélio alto → seio subcapsular → veia hilar", "explicacao": "Esse é um trajeto misturado com a circulação **sanguínea**, que é separada da linfática." },
+        { "letra": "D", "texto": "Vasos aferentes → paracórtex → nódulos linfáticos → cápsula", "explicacao": "A linfa percorre os **seios**, e não atravessa diretamente os nódulos e o paracórtex até a cápsula." },
+        { "letra": "E", "texto": "Seios medulares → seio subcapsular → hilo → vasos aferentes", "explicacao": "A ordem está incorreta, e os aferentes não saem pelo hilo." }
+      ],
+      "gabarito": "B",
+      "secao": "caminho-linfa",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["linfa", "seios", "linfonodo"]
+    },
+    {
+      "id": "ml-005",
+      "nivel": "dificil",
+      "enunciado": "Observe a imagem. A estrutura circulada fica na parede de um órgão tubular que tem vilosidades em sua superfície interna. Qual é a estrutura e onde ela é mais desenvolvida?",
+      "imagem": { "src": "img/morfo/linfonodo/placas-peyer.jpg", "legenda": "Corte da parede de um órgão do trato digestório, H&E." },
+      "alternativas": [
+        { "letra": "A", "texto": "Linfonodo mesentérico aderido à parede do cólon", "explicacao": "Um linfonodo seria um órgão separado, com cápsula e seios, fora da parede; a estrutura está dentro da mucosa e submucosa." },
+        { "letra": "B", "texto": "Glândula de Brunner do duodeno", "explicacao": "As glândulas de Brunner são glândulas mucosas da submucosa duodenal, e não agregados de linfócitos." },
+        { "letra": "C", "texto": "Tonsila lingual na base da língua", "explicacao": "A língua não tem vilosidades intestinais nem glândulas como as da imagem." },
+        { "letra": "D", "texto": "Nódulos linfáticos agregados formando placas de Peyer, mais desenvolvidas no íleo", "explicacao": "Correta. São **placas de Peyer**: **agregados de nódulos linfáticos** na mucosa e na submucosa, típicos do **íleo**, geralmente na parede oposta à inserção do mesentério. A mucosa acima forma uma cúpula com **células M**, que transportam antígenos do lúmen aos nódulos." },
+        { "letra": "E", "texto": "Corpúsculo de Hassall na parede intestinal", "explicacao": "Corpúsculos de Hassall são exclusivos da medula do timo." }
+      ],
+      "gabarito": "D",
+      "secao": "galt",
+      "referencia": "Ross & Pawlina, 8ª ed., caps. 'Sistema linfático' e 'Sistema digestório II'",
+      "tags": ["placas de Peyer", "GALT", "identificação"]
+    },
+    {
+      "id": "ml-006",
+      "nivel": "dificil",
+      "enunciado": "No paracórtex do linfonodo, encontram-se vênulas com endotélio cúbico (alto), em vez do endotélio achatado habitual. Qual é a principal função desses vasos?",
+      "alternativas": [
+        { "letra": "A", "texto": "Permitir a entrada de linfócitos circulantes no linfonodo: eles aderem pelo receptor L-selectina, são atraídos por quimiocinas via CCR7 e atravessam a parede, o que sustenta a recirculação", "explicacao": "Correta. São as **vênulas de endotélio alto (HEV)**. Suas células expressam ligantes da **L-selectina** e apresentam as quimiocinas **CCL19 e CCL21**, reconhecidas pelo **CCR7** dos linfócitos naïve. Os linfócitos do sangue aderem e atravessam a parede, entrando no paracórtex; se não encontram antígeno, saem pela linfa eferente e voltam ao sangue — a **recirculação**." },
+        { "letra": "B", "texto": "Levar a linfa aferente para dentro do linfonodo", "explicacao": "As HEV são vasos **sanguíneos**; a linfa chega pelos vasos linfáticos aferentes." },
+        { "letra": "C", "texto": "Secretar anticorpos para o sangue", "explicacao": "Quem secreta anticorpos são os plasmócitos, sobretudo nos cordões medulares." },
+        { "letra": "D", "texto": "Impedir a passagem de antígenos para o linfonodo, formando uma barreira semelhante à hematotímica", "explicacao": "A barreira hematotímica é do timo; as HEV fazem o contrário, facilitando a entrada de células." },
+        { "letra": "E", "texto": "Produzir linfócitos a partir de células-tronco", "explicacao": "Linfócitos não são produzidos nos linfonodos a partir de células-tronco; isso ocorre na medula óssea." }
+      ],
+      "gabarito": "A",
+      "secao": "vascularizacao-linfonodo",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'; Abbas, 10ª ed., cap. 'Migração de leucócitos para os tecidos'",
+      "tags": ["vênulas de endotélio alto", "recirculação", "L-selectina"]
+    },
+    {
+      "id": "ml-007",
+      "nivel": "dificil",
+      "enunciado": "Duas lâminas de tonsilas são comparadas. A tonsila X é revestida por epitélio estratificado pavimentoso não queratinizado, com 10 a 20 criptas profundas e ramificadas, e tem cápsula na face profunda. A tonsila Y é revestida principalmente por epitélio pseudoestratificado cilíndrico ciliado e apresenta pregas, sem criptas verdadeiras. Quais são as tonsilas X e Y?",
+      "alternativas": [
+        { "letra": "A", "texto": "X = lingual; Y = palatina", "explicacao": "A tonsila lingual tem **uma** cripta por tonsila e glândulas mucosas associadas; a palatina tem epitélio estratificado pavimentoso, não respiratório." },
+        { "letra": "B", "texto": "X = faríngea; Y = lingual", "explicacao": "A faríngea tem epitélio respiratório e pregas, e não muitas criptas; a lingual tem epitélio estratificado pavimentoso." },
+        { "letra": "C", "texto": "X = tubária; Y = palatina", "explicacao": "A tubária tem epitélio respiratório e não tem as numerosas criptas descritas." },
+        { "letra": "D", "texto": "X = lingual; Y = tubária", "explicacao": "A descrição de X (10–20 criptas ramificadas e cápsula) corresponde à palatina." },
+        { "letra": "E", "texto": "X = palatina; Y = faríngea (adenoide)", "explicacao": "Correta. A **tonsila palatina** tem epitélio **estratificado pavimentoso não queratinizado** (como o da orofaringe), **10–20 criptas** profundas e **cápsula** na face profunda. A **faríngea (adenoide)** fica na nasofaringe, tem epitélio **respiratório** (pseudoestratificado cilíndrico ciliado) e **pregas**, sem criptas verdadeiras." }
+      ],
+      "gabarito": "E",
+      "secao": "tonsilas",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["tonsilas", "anel de Waldeyer", "epitélio"]
+    },
+    {
+      "id": "ml-008",
+      "nivel": "dificil",
+      "enunciado": "No epitélio que recobre as placas de Peyer, existem células sem as microvilosidades típicas dos enterócitos, cuja face basal forma um bolsão ocupado por linfócitos e células dendríticas. Qual é a função dessas células?",
+      "alternativas": [
+        { "letra": "A", "texto": "Absorver nutrientes com mais eficiência que os enterócitos", "explicacao": "A ausência de microvilosidades reduz a superfície de absorção; essas células não são especializadas em absorver nutrientes." },
+        { "letra": "B", "texto": "Secretar muco para proteger a mucosa", "explicacao": "Quem secreta muco são as células caliciformes." },
+        { "letra": "C", "texto": "Células M: capturam antígenos e micro-organismos do lúmen e os transportam através da célula (transcitose) até as células imunes do bolsão, iniciando respostas de IgA secretora", "explicacao": "Correta. As **células M** (*microfold*) amostram o conteúdo intestinal por **transcitose**, entregando antígenos intactos a linfócitos, macrófagos e células dendríticas do bolsão basolateral, que os levam aos nódulos. Isso gera respostas de **IgA secretora** e tolerância. Alguns patógenos, como *Salmonella* e *Shigella*, usam as células M como porta de entrada." },
+        { "letra": "D", "texto": "Produzir enzimas digestivas, como a lactase", "explicacao": "Enzimas da borda em escova são dos enterócitos, que têm microvilosidades." },
+        { "letra": "E", "texto": "Produzir hormônios intestinais, como a secretina", "explicacao": "Hormônios intestinais são produzidos por células enteroendócrinas." }
+      ],
+      "gabarito": "C",
+      "secao": "celulas-m",
+      "referencia": "Ross & Pawlina, 8ª ed., caps. 'Sistema linfático' e 'Sistema digestório II'",
+      "tags": ["células M", "MALT", "IgA"]
+    },
+    {
+      "id": "ml-009",
+      "nivel": "aprofundado",
+      "enunciado": "Um lactente com síndrome de DiGeorge (aplasia tímica) morre por infecção, e a necropsia examina seus linfonodos. Qual é o achado histológico esperado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ausência completa de folículos linfáticos e de linfócitos B", "explicacao": "Os linfócitos B se desenvolvem na **medula óssea**, independentemente do timo; os folículos primários estão presentes (embora centros germinativos possam ser escassos pela falta de ajuda T)." },
+        { "letra": "B", "texto": "Paracórtex hipocelular (depletado de linfócitos T), com folículos de linfócitos B presentes no córtex superficial", "explicacao": "Correta. O **paracórtex** é a **zona timo-dependente**, ocupada por linfócitos T. Sem timo, quase não há linfócitos T maduros, e o paracórtex fica **depletado**. Os **folículos B** do córtex superficial persistem, porque os linfócitos B amadurecem na medula óssea — embora os centros germinativos sejam escassos, por falta de ajuda T." },
+        { "letra": "C", "texto": "Seios medulares obstruídos por corpúsculos de Hassall", "explicacao": "Corpúsculos de Hassall existem apenas no timo, que nesse caso está ausente." },
+        { "letra": "D", "texto": "Cordões medulares repletos de plasmócitos produzindo grandes quantidades de IgG", "explicacao": "Sem ajuda T, a troca de classe para IgG e a formação de plasmócitos de vida longa ficam prejudicadas." },
+        { "letra": "E", "texto": "Linfonodo histologicamente normal, pois os linfonodos independem do timo", "explicacao": "O paracórtex depende diretamente da chegada de linfócitos T vindos do timo." }
+      ],
+      "gabarito": "B",
+      "secao": "histologia-linfonodo",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'; Abbas, 10ª ed., cap. 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["DiGeorge", "paracórtex", "zona timo-dependente"]
+    },
+    {
+      "id": "ml-010",
+      "nivel": "aprofundado",
+      "enunciado": "Na cirurgia de uma paciente com câncer de mama, o cirurgião retira o linfonodo sentinela da axila para pesquisar metástases. Em qual região desse linfonodo o patologista tem maior chance de encontrar as primeiras células tumorais, e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "No hilo, porque as células chegam pela artéria", "explicacao": "As metástases linfonodais chegam pela **linfa**, e não pela artéria; e o hilo é a saída do eferente." },
+        { "letra": "B", "texto": "No centro germinativo, porque as células tumorais se ligam às células dendríticas foliculares", "explicacao": "As células tumorais não são direcionadas aos centros germinativos; elas seguem o fluxo da linfa pelos seios." },
+        { "letra": "C", "texto": "No paracórtex, porque entram pelas vênulas de endotélio alto", "explicacao": "As HEV são porta de entrada de linfócitos vindos do sangue, e não da linfa que traz células do tumor." },
+        { "letra": "D", "texto": "No seio subcapsular, porque as células tumorais chegam pela linfa dos vasos aferentes, que desemboca primeiro nesse seio", "explicacao": "Correta. As células tumorais que entram nos linfáticos do tumor são levadas pelos **vasos aferentes**, que desembocam no **seio subcapsular**, a primeira parada da linfa. Por isso as micrometástases costumam ser encontradas ali. O **linfonodo sentinela** é o primeiro a receber a drenagem do tumor; se estiver livre, os demais provavelmente também estão." },
+        { "letra": "E", "texto": "Na cápsula, porque as células tumorais se depositam no tecido conjuntivo denso", "explicacao": "As células chegam pela linfa e se alojam inicialmente nos seios, e não na cápsula." }
+      ],
+      "gabarito": "D",
+      "secao": "linfonodo-clinica",
+      "referencia": "Robbins – Patologia Básica, 10ª ed., cap. 'Neoplasia'; Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["linfonodo sentinela", "metástase", "seio subcapsular"]
+    }
+  ]
+}
