@@ -1,0 +1,165 @@
+{
+  "topico": "lesao-celular-estresse-oxidativo",
+  "questoes": [
+    {
+      "id": "lc-001",
+      "nivel": "medio",
+      "enunciado": "Nos primeiros minutos de isquemia, as células do túbulo renal aumentam de volume e o citoplasma fica pálido. Qual mecanismo explica essa primeira alteração?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ativação de endonucleases pelo cálcio, fragmentando o DNA", "explicacao": "A fragmentação do DNA é um evento mais tardio, ligado à morte celular, e não explica o aumento de volume." },
+        { "letra": "B", "texto": "Acúmulo de triglicerídeos no citoplasma (esteatose)", "explicacao": "A esteatose é outra forma de lesão reversível, mas ocorre em órgãos que metabolizam gordura e mais lentamente; não é a primeira resposta à isquemia." },
+        { "letra": "C", "texto": "Falha da bomba de sódio e potássio por falta de ATP, com entrada de sódio e água na célula (tumefação celular)", "explicacao": "Correta. Sem O₂, a produção de ATP cai, e a **Na⁺/K⁺-ATPase** para de funcionar. O sódio se acumula dentro da célula e puxa **água** por osmose → **tumefação celular** (degeneração hidrópica), a **primeira** e **reversível** manifestação da lesão." },
+        { "letra": "D", "texto": "Ruptura da membrana plasmática com perda do conteúdo celular", "explicacao": "A ruptura da membrana é sinal de lesão **irreversível**, posterior à tumefação." },
+        { "letra": "E", "texto": "Aumento da síntese de proteínas para reparar o dano", "explicacao": "Na isquemia, os ribossomos se soltam do retículo endoplasmático e a síntese de proteínas **diminui**." }
+      ],
+      "gabarito": "C",
+      "secao": "tumefacao",
+      "referencia": "Kumar, Abbas & Aster – Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["tumefação celular", "ATP", "bomba de sódio"]
+    },
+    {
+      "id": "lc-002",
+      "nivel": "medio",
+      "enunciado": "Por que a isquemia lesa os tecidos mais rapidamente e com mais gravidade do que a hipóxia isolada (por exemplo, por anemia)?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque, na isquemia, além da falta de oxigênio, faltam substratos para a glicólise e os metabólitos tóxicos se acumulam, enquanto na hipóxia a glicólise anaeróbia continua com a glicose que segue chegando", "explicacao": "Correta. **Isquemia** é a redução do **fluxo** de sangue: falta O₂, **falta glicose** (a glicólise anaeróbia também para) e os **metabólitos** (ácido lático, CO₂) não são removidos. Na **hipóxia** com fluxo preservado, a célula ainda produz algum ATP por glicólise anaeróbia." },
+        { "letra": "B", "texto": "Porque a isquemia só afeta neurônios, que são mais sensíveis", "explicacao": "A isquemia pode atingir qualquer tecido; a sensibilidade varia, mas não é exclusiva dos neurônios." },
+        { "letra": "C", "texto": "Porque a hipóxia aumenta a produção de ATP pelas mitocôndrias", "explicacao": "Sem oxigênio, a fosforilação oxidativa mitocondrial diminui." },
+        { "letra": "D", "texto": "Porque a isquemia não altera o cálcio intracelular", "explicacao": "A isquemia aumenta o cálcio intracelular, que ativa enzimas destrutivas." },
+        { "letra": "E", "texto": "Porque na hipóxia não há produção de radicais livres", "explicacao": "Essa não é a explicação principal da diferença, e a hipóxia também pode gerar espécies reativas." }
+      ],
+      "gabarito": "A",
+      "secao": "hipoxia-isquemia",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["isquemia", "hipóxia", "glicólise anaeróbia"]
+    },
+    {
+      "id": "lc-003",
+      "nivel": "medio",
+      "enunciado": "Qual enzima antioxidante converte o ânion superóxido em peróxido de hidrogênio?",
+      "alternativas": [
+        { "letra": "A", "texto": "Catalase", "explicacao": "A catalase decompõe o **peróxido de hidrogênio** em água e oxigênio, a etapa seguinte." },
+        { "letra": "B", "texto": "Glutationa peroxidase", "explicacao": "A glutationa peroxidase também atua sobre o **H₂O₂** e os peróxidos lipídicos, usando glutationa reduzida." },
+        { "letra": "C", "texto": "Mieloperoxidase", "explicacao": "A mieloperoxidase dos neutrófilos usa H₂O₂ e cloreto para formar ácido hipocloroso; é uma arma, e não uma defesa antioxidante." },
+        { "letra": "D", "texto": "Xantina oxidase", "explicacao": "A xantina oxidase **produz** superóxido, especialmente na reperfusão." },
+        { "letra": "E", "texto": "Superóxido dismutase (SOD)", "explicacao": "Correta. A **superóxido dismutase** converte o **superóxido (O₂•⁻)** em **H₂O₂**, que depois é decomposto pela **catalase** ou pela **glutationa peroxidase** em água." }
+      ],
+      "gabarito": "E",
+      "secao": "antioxidantes",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["superóxido dismutase", "antioxidantes"]
+    },
+    {
+      "id": "lc-004",
+      "nivel": "medio",
+      "enunciado": "Na biópsia brônquica de um tabagista de longa data, o epitélio pseudoestratificado cilíndrico ciliado foi substituído por epitélio estratificado pavimentoso. Como se chama essa alteração e qual é sua consequência funcional?",
+      "alternativas": [
+        { "letra": "A", "texto": "Hiperplasia; aumenta a produção de muco e a eliminação de partículas", "explicacao": "Hiperplasia é aumento do número de células do mesmo tipo; aqui houve troca do tipo de epitélio." },
+        { "letra": "B", "texto": "Metaplasia escamosa; o novo epitélio resiste melhor à agressão, mas perde cílios e células produtoras de muco, prejudicando a limpeza das vias aéreas", "explicacao": "Correta. **Metaplasia** é a substituição de um tipo de célula diferenciada por outro mais resistente ao estresse. O epitélio **escamoso** aguenta melhor a fumaça, mas não tem **cílios** nem **células caliciformes**, prejudicando o clearance mucociliar. A metaplasia pode evoluir para displasia e carcinoma escamoso se o estímulo persistir." },
+        { "letra": "C", "texto": "Atrofia; as células diminuem de tamanho e de função", "explicacao": "Atrofia é redução do tamanho celular, sem troca de tipo de epitélio." },
+        { "letra": "D", "texto": "Hipertrofia; as células aumentam de tamanho para suportar a agressão", "explicacao": "Hipertrofia é aumento do tamanho celular, sem troca de tipo de epitélio." },
+        { "letra": "E", "texto": "Necrose de coagulação; as células morreram e foram substituídas por cicatriz", "explicacao": "O epitélio descrito está vivo e é estratificado pavimentoso, e não tecido necrótico ou cicatricial." }
+      ],
+      "gabarito": "B",
+      "secao": "adaptacoes",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["metaplasia", "adaptação", "tabagismo"]
+    },
+    {
+      "id": "lc-005",
+      "nivel": "dificil",
+      "enunciado": "Na lesão celular isquêmica, o aumento da concentração de cálcio no citoplasma contribui decisivamente para o dano. Por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque o cálcio inibe a glicólise anaeróbia e impede a produção de lactato", "explicacao": "O cálcio não tem esse papel; a glicólise anaeróbia aumenta na isquemia, enquanto houver glicose." },
+        { "letra": "B", "texto": "Porque o cálcio se liga à hemoglobina e reduz o transporte de oxigênio", "explicacao": "Esse não é o mecanismo de ação do cálcio intracelular na lesão." },
+        { "letra": "C", "texto": "Porque o cálcio aumenta a atividade da bomba de sódio e potássio, desidratando a célula", "explicacao": "O que ocorre é a falha da bomba Na⁺/K⁺ por falta de ATP, com edema, e não desidratação." },
+        { "letra": "D", "texto": "Porque o cálcio ativa fosfolipases, proteases, endonucleases e ATPases e favorece a abertura dos poros mitocondriais", "explicacao": "Correta. O cálcio em excesso no citoplasma ativa **fosfolipases** (degradam membranas), **proteases** (quebram o citoesqueleto), **endonucleases** (fragmentam o DNA) e **ATPases** (consomem ainda mais ATP). Também favorece a abertura do **poro de transição de permeabilidade mitocondrial**, com perda da produção de ATP e liberação de ativadores da apoptose." },
+        { "letra": "E", "texto": "Porque o cálcio neutraliza os radicais livres e impede a defesa antioxidante", "explicacao": "O cálcio não neutraliza radicais livres." }
+      ],
+      "gabarito": "D",
+      "secao": "calcio",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["cálcio", "mecanismos de lesão"]
+    },
+    {
+      "id": "lc-006",
+      "nivel": "dificil",
+      "enunciado": "Jovem de 19 anos ingere 30 comprimidos de paracetamol 500 mg numa tentativa de suicídio. Em 48 horas, as transaminases chegam a 6.000 U/L. A biópsia mostraria necrose principalmente ao redor das veias centrolobulares. Qual é o mecanismo da lesão e o tratamento específico?",
+      "alternativas": [
+        { "letra": "A", "texto": "O citocromo P450 transforma o paracetamol em NAPQI, que esgota a glutationa e lesa os hepatócitos por estresse oxidativo e ligação a proteínas; o antídoto é a N-acetilcisteína, que repõe a glutationa", "explicacao": "Correta. Em doses altas, sobra paracetamol para a via do **citocromo P450**, que gera o metabólito reativo **NAPQI**. Ele é normalmente neutralizado pela **glutationa (GSH)**; quando ela se esgota, o NAPQI se liga a proteínas e causa estresse oxidativo → **necrose centrolobular** (onde o P450 é mais abundante). A **N-acetilcisteína** repõe a glutationa e é mais eficaz quanto mais cedo for dada." },
+        { "letra": "B", "texto": "O paracetamol obstrui as artérias hepáticas, causando infarto do fígado; o tratamento é anticoagulação", "explicacao": "A lesão é tóxica e metabólica, e não por obstrução arterial." },
+        { "letra": "C", "texto": "O paracetamol desencadeia hepatite autoimune; o tratamento é corticoide", "explicacao": "A hepatotoxicidade do paracetamol é dose-dependente e previsível, e não autoimune." },
+        { "letra": "D", "texto": "O paracetamol se acumula como gordura nos hepatócitos; o tratamento é dieta pobre em lipídios", "explicacao": "A lesão é necrose por metabólito reativo, e não esteatose simples." },
+        { "letra": "E", "texto": "O paracetamol causa hemólise maciça e a bilirrubina lesa o fígado; o tratamento é transfusão", "explicacao": "Esse não é o mecanismo da hepatotoxicidade do paracetamol." }
+      ],
+      "gabarito": "A",
+      "secao": "paracetamol",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'; Harrison – Medicina Interna, 21ª ed., cap. 'Hepatite tóxica e induzida por fármacos'",
+      "tags": ["paracetamol", "NAPQI", "glutationa", "N-acetilcisteína"]
+    },
+    {
+      "id": "lc-007",
+      "nivel": "dificil",
+      "enunciado": "Paciente com infarto agudo do miocárdio é submetido a angioplastia com reabertura da artéria após 3 horas. Parte das células que estavam no limite da viabilidade morre logo após a reperfusão. Qual mecanismo contribui para essa lesão de reperfusão?",
+      "alternativas": [
+        { "letra": "A", "texto": "A falta persistente de oxigênio após a angioplastia", "explicacao": "Após a reperfusão, o oxigênio volta a chegar; o dano adicional decorre justamente dessa volta em células lesadas." },
+        { "letra": "B", "texto": "A redução do cálcio intracelular, que paralisa as miofibrilas", "explicacao": "Na reperfusão ocorre **sobrecarga** de cálcio, que hipercontrai as miofibrilas (bandas de contração)." },
+        { "letra": "C", "texto": "A produção de superóxido pela xantina oxidase, que se formou durante a isquemia, a partir da hipoxantina acumulada quando o oxigênio volta, somada às mitocôndrias lesadas, à sobrecarga de cálcio e aos neutrófilos", "explicacao": "Correta. Durante a isquemia, o ATP é degradado até **hipoxantina**, e a xantina desidrogenase se converte em **xantina oxidase**. Com a volta do O₂, essa enzima produz grandes quantidades de **superóxido**. Somam-se as **mitocôndrias lesadas** (que vazam elétrons), a **entrada maciça de cálcio**, a chegada de **neutrófilos** e a ativação do **complemento**. No miocárdio aparecem **bandas de contração** e hemorragia." },
+        { "letra": "D", "texto": "O excesso de glicose trazido pelo sangue, que causa esteatose", "explicacao": "A glicose não é a causa do dano de reperfusão." },
+        { "letra": "E", "texto": "A destruição das células pelo próprio cateter da angioplastia", "explicacao": "O dano de reperfusão é bioquímico e inflamatório, e não mecânico pelo cateter." }
+      ],
+      "gabarito": "C",
+      "secao": "isquemia-reperfusao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["isquemia-reperfusão", "xantina oxidase", "radicais livres"]
+    },
+    {
+      "id": "lc-008",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 34 anos, em uso de anticoncepcional oral combinado, fez uma viagem de ônibus de 18 horas. Dois dias depois, apresenta dor, edema, calor e vermelhidão na panturrilha esquerda. Qual alternativa explica o quadro e a complicação mais temida?",
+      "alternativas": [
+        { "letra": "A", "texto": "Trombose arterial por placa de aterosclerose; a complicação mais temida é o infarto do miocárdio", "explicacao": "O quadro de dor e edema da panturrilha após imobilidade sugere trombose **venosa**, e não arterial." },
+        { "letra": "B", "texto": "Celulite bacteriana; a complicação mais temida é a sepse", "explicacao": "Celulite pode causar calor e rubor, mas o contexto (imobilidade prolongada e estrogênio) aponta para TVP." },
+        { "letra": "C", "texto": "Insuficiência cardíaca direita; a complicação mais temida é o edema agudo de pulmão", "explicacao": "A insuficiência cardíaca causa edema bilateral, e não unilateral e doloroso de instalação súbita." },
+        { "letra": "D", "texto": "Linfedema por filariose; a complicação mais temida é a elefantíase", "explicacao": "O linfedema é crônico e indolor, sem calor e rubor agudos." },
+        { "letra": "E", "texto": "Trombose venosa profunda, favorecida pela tríade de Virchow (estase pela imobilidade e hipercoagulabilidade pelo estrogênio), iniciada nas veias profundas da panturrilha; a complicação mais temida é a embolia pulmonar", "explicacao": "Correta. A imobilidade prolongada causa **estase**, e o estrogênio aumenta a **coagulabilidade** — dois componentes da **tríade de Virchow** (o terceiro é a lesão endotelial). A TVP costuma começar nas **veias profundas da panturrilha** e pode estender-se às veias poplítea, femoral e ilíacas. O bloqueio do retorno venoso causa **edema** e dor. O trombo pode se soltar e causar **tromboembolismo pulmonar**." }
+      ],
+      "gabarito": "E",
+      "secao": "trombose-venosa-profunda",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Distúrbios hemodinâmicos, tromboembolismo e choque'",
+      "tags": ["trombose venosa profunda", "tríade de Virchow", "embolia pulmonar"]
+    },
+    {
+      "id": "lc-009",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 50 anos com hemocromatose hereditária desenvolve cirrose, diabetes e insuficiência cardíaca. Qual mecanismo bioquímico explica a lesão de órgãos pelo excesso de ferro?",
+      "alternativas": [
+        { "letra": "A", "texto": "O ferro bloqueia diretamente a bomba de sódio e potássio, causando tumefação", "explicacao": "Esse não é o mecanismo principal da lesão pelo ferro." },
+        { "letra": "B", "texto": "O ferro livre catalisa a reação de Fenton, convertendo peróxido de hidrogênio em radical hidroxila, que causa peroxidação lipídica e dano a proteínas e DNA", "explicacao": "Correta. O excesso de ferro supera a capacidade das proteínas que o sequestram (transferrina, ferritina). O **Fe²⁺ livre** participa da **reação de Fenton** (Fe²⁺ + H₂O₂ → **•OH**). O **radical hidroxila**, o mais reativo, causa **peroxidação lipídica** das membranas, oxidação de proteínas e dano ao DNA, levando à lesão e à fibrose de fígado, pâncreas e coração." },
+        { "letra": "C", "texto": "O ferro se liga à glicose e forma cristais que obstruem os vasos", "explicacao": "O ferro não forma cristais com a glicose." },
+        { "letra": "D", "texto": "O ferro aumenta a atividade da superóxido dismutase, reduzindo as defesas do organismo", "explicacao": "A SOD é uma defesa antioxidante; o problema é a produção excessiva de radicais, e não o aumento da SOD." },
+        { "letra": "E", "texto": "O ferro desencadeia uma resposta autoimune contra os hepatócitos", "explicacao": "A lesão da hemocromatose é tóxica e oxidativa, e não autoimune." }
+      ],
+      "gabarito": "B",
+      "secao": "fontes-radicais",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. 'Lesão e morte celulares' e 'Fígado e vias biliares'",
+      "tags": ["reação de Fenton", "radical hidroxila", "hemocromatose"]
+    },
+    {
+      "id": "lc-010",
+      "nivel": "aprofundado",
+      "enunciado": "Ao microscópio eletrônico, dois hepatócitos lesados por isquemia são comparados. O primeiro mostra tumefação, mitocôndrias inchadas com pequenas densidades amorfas, retículo endoplasmático dilatado e bolhas na membrana. O segundo mostra mitocôndrias com grandes densidades floculentas, ruptura da membrana plasmática e dos lisossomos e núcleo fragmentado. Como interpretar?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ambos estão em lesão reversível, em fases diferentes", "explicacao": "As alterações do segundo hepatócito são marcas de irreversibilidade." },
+        { "letra": "B", "texto": "O primeiro está em apoptose e o segundo em lesão reversível", "explicacao": "A tumefação com bolhas e organelas inchadas é típica de lesão reversível, e não de apoptose (que causa encolhimento celular)." },
+        { "letra": "C", "texto": "Ambos estão necróticos, pois qualquer tumefação indica morte celular", "explicacao": "A tumefação é a primeira manifestação da lesão e é **reversível**." },
+        { "letra": "D", "texto": "O primeiro está em lesão reversível; o segundo, em lesão irreversível (necrose), marcada pelas densidades floculentas mitocondriais e pela ruptura de membranas", "explicacao": "Correta. **Tumefação**, mitocôndrias inchadas com **pequenas** densidades, retículo dilatado e bolhas na membrana caracterizam a **lesão reversível**. A **irreversibilidade** é marcada pela falha mitocondrial persistente, com **grandes densidades floculentas** (cálcio e proteínas desnaturadas), e pela **ruptura das membranas plasmática e lisossomais**, com alterações nucleares (cariorrexe)." },
+        { "letra": "E", "texto": "O primeiro está em lesão irreversível e o segundo em adaptação", "explicacao": "A interpretação está invertida, e nenhum dos dois mostra adaptação." }
+      ],
+      "gabarito": "D",
+      "secao": "irreversibilidade",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. 'Lesão e morte celulares'",
+      "tags": ["lesão reversível", "lesão irreversível", "microscopia eletrônica"]
+    }
+  ]
+}
