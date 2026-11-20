@@ -174,7 +174,7 @@ MED1 (1º semestre) = ASE1–ASE3; MED2 (2º semestre) = ASE4–ASE6. Ementas, o
 
 - **ASE6 – Mecanismos de Agressão e Defesa** (cursando)
   - Lote 1 ✔: `visao-geral-sistema-imune` (vg-, panorama: antígeno, B/T, BCR/TCR, MHC, seleção clonal), `orgaos-linfoides-hematopoese` (lh-), `imunidade-inata` (ii-), `sistema-complemento` (co-), `imunidade-celular-mhc-linfocitos-t` (tc-) — imunologia
-  - Lote 2: `imunidade-humoral-anticorpos` (imunologia; aprofunda o que o panorama introduz); `lesao-celular-estresse-oxidativo` (isquemia/hipóxia, agentes físicos/químicos/biológicos), `necrose-apoptose`, `inflamacao-aguda` (sinais cardinais, mediadores) — patologia
+  - Lote 2 ✔: `imunidade-humoral-anticorpos` (ih-, imunologia), `lesao-celular-estresse-oxidativo` (lc-), `necrose-apoptose` (na-), `inflamacao-aguda` (ia-) — patologia
   - Lote 3: `inflamacao-cronica-reparo`, `hemostasia-coagulacao`, `febre-dor-resposta-neuroendocrina`, `agressoes-fisicas-quimicas` (trauma, radiação, frio/calor, intoxicações)
   - Lote 4: `hipersensibilidades`, `autoimunidade-tolerancia`, `imunodeficiencias`, `resposta-imune-agentes-infecciosos` (vírus, bactérias, fungos, protozoários, helmintos)
   - **Morfofuncional** (roteiros P1–P4 do laboratório):

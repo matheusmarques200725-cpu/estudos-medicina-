@@ -1,0 +1,165 @@
+{
+  "topico": "inflamacao-aguda",
+  "questoes": [
+    {
+      "id": "ia-001",
+      "nivel": "medio",
+      "enunciado": "Estudante de 20 anos fere o dedo com uma farpa. Doze horas depois, o dedo está vermelho, quente, doloroso e visivelmente inchado. Qual mecanismo é o principal responsável pelo **inchaço**?",
+      "alternativas": [
+        { "letra": "A", "texto": "Vasodilatação arteriolar, que aumenta o volume de sangue no local", "explicacao": "A vasodilatação explica o rubor e o calor e contribui aumentando a pressão nos capilares, mas sem o aumento da permeabilidade não haveria saída de líquido rico em proteínas suficiente para o edema inflamatório." },
+        { "letra": "B", "texto": "Obstrução dos vasos linfáticos pela farpa", "explicacao": "Na inflamação, o fluxo linfático aumenta para drenar o edema; não há obstrução linfática como mecanismo principal." },
+        { "letra": "C", "texto": "Queda da pressão oncótica do plasma", "explicacao": "A queda da pressão oncótica (hipoalbuminemia) gera transudato generalizado, não edema localizado inflamatório." },
+        { "letra": "D", "texto": "Aumento da permeabilidade das vênulas pós-capilares, com saída de exsudato rico em proteínas", "explicacao": "Correta. O tumor (inchaço) resulta do edema por exsudato: histamina, bradicinina, leucotrienos e citocinas fazem as células endoteliais das vênulas pós-capilares se contraírem e abrirem fendas, deixando sair líquido e proteínas para o interstício. As proteínas no interstício ainda puxam mais água." },
+        { "letra": "E", "texto": "Proliferação de fibroblastos e deposição de colágeno", "explicacao": "A deposição de colágeno faz parte do reparo e da inflamação crônica, semanas depois, e não explica o inchaço das primeiras horas." }
+      ],
+      "gabarito": "D",
+      "secao": "sinais-cardinais",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["sinais cardinais", "edema"]
+    },
+    {
+      "id": "ia-002",
+      "nivel": "medio",
+      "enunciado": "Dois pacientes têm derrame pleural. O paciente 1 tem pneumonia, e o líquido tem proteína elevada, muitos neutrófilos e densidade de 1,025. O paciente 2 tem insuficiência cardíaca descompensada, e o líquido é claro, pobre em proteínas e células, com densidade de 1,008. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ambos são exsudatos, pois todo derrame pleural envolve inflamação", "explicacao": "Derrames por insuficiência cardíaca são tipicamente transudatos, formados sem inflamação, por aumento da pressão hidrostática." },
+        { "letra": "B", "texto": "O paciente 1 tem exsudato, por aumento da permeabilidade vascular; o paciente 2 tem transudato, por aumento da pressão hidrostática com vaso íntegro", "explicacao": "Correta. O exsudato é rico em proteínas e células porque a inflamação aumentou a permeabilidade dos vasos (pneumonia). O transudato é pobre em proteínas porque sai de vasos íntegros apenas por desequilíbrio de pressões — na insuficiência cardíaca, pela pressão venosa aumentada." },
+        { "letra": "C", "texto": "O paciente 1 tem transudato, pois a febre aumenta a filtração capilar", "explicacao": "A febre não transforma o derrame em transudato; proteína elevada e muitos leucócitos definem exsudato." },
+        { "letra": "D", "texto": "O paciente 2 tem exsudato, pois a congestão lesa o endotélio", "explicacao": "Líquido pobre em proteínas e células, com baixa densidade, caracteriza transudato, não exsudato." },
+        { "letra": "E", "texto": "A diferença entre os dois líquidos se deve apenas ao volume de líquido acumulado", "explicacao": "O que diferencia exsudato e transudato é a composição (proteínas, células, densidade), que reflete o mecanismo de formação — não o volume." }
+      ],
+      "gabarito": "B",
+      "secao": "exsudato-transudato",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["exsudato", "transudato"]
+    },
+    {
+      "id": "ia-003",
+      "nivel": "medio",
+      "enunciado": "Na fase inicial do recrutamento de neutrófilos para um foco infeccioso, observa-se por microscopia intravital que os leucócitos desaceleram e 'rolam' sobre o endotélio das vênulas, aderindo e soltando-se repetidamente. Quais moléculas medeiam essa etapa?",
+      "alternativas": [
+        { "letra": "A", "texto": "Integrinas LFA-1 do leucócito e ICAM-1 do endotélio", "explicacao": "A ligação integrina–ICAM-1 é a de alta afinidade, responsável pela adesão firme que vem depois do rolamento." },
+        { "letra": "B", "texto": "PECAM-1 (CD31) presente no leucócito e nas junções endoteliais", "explicacao": "A PECAM-1 participa da transmigração (diapedese) entre as células endoteliais, não do rolamento." },
+        { "letra": "C", "texto": "C5a e leucotrieno B₄", "explicacao": "C5a e LTB₄ são quimiotáticos que guiam e ativam o leucócito; não são as moléculas de adesão do rolamento." },
+        { "letra": "D", "texto": "Receptores Fc do leucócito e IgG ligada ao endotélio", "explicacao": "Receptores Fc ligam IgG que opsoniza micróbios, facilitando a fagocitose; não medeiam o rolamento." },
+        { "letra": "E", "texto": "E-selectina e P-selectina do endotélio ligadas a açúcares como o sialyl-Lewis X do leucócito", "explicacao": "Correta. O endotélio ativado por histamina, TNF e IL-1 expõe P-selectina (liberada de grânulos em minutos) e E-selectina. Elas se ligam com baixa afinidade a carboidratos sialilados (como o sialyl-Lewis X) da superfície do leucócito; as ligações se formam e se desfazem, produzindo o rolamento." }
+      ],
+      "gabarito": "E",
+      "secao": "rolamento",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["selectinas", "recrutamento de leucócitos"]
+    },
+    {
+      "id": "ia-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 62 anos com doença coronariana usa ácido acetilsalicílico em dose baixa diariamente. Por que um único comprimido tem efeito antiagregante que dura vários dias?",
+      "alternativas": [
+        { "letra": "A", "texto": "A aspirina inibe irreversivelmente a COX das plaquetas, que, sem núcleo, não sintetizam nova enzima e deixam de produzir tromboxano A₂ pelo resto de sua vida", "explicacao": "Correta. O ácido acetilsalicílico acetila a COX de modo irreversível. As células endoteliais, que têm núcleo, voltam a produzir COX e prostaciclina; as plaquetas, anucleadas, ficam sem produzir TXA₂ (agregante e vasoconstritor) durante seus cerca de 7–10 dias de vida. O efeito só some à medida que novas plaquetas são liberadas pela medula." },
+        { "letra": "B", "texto": "A aspirina inibe a 5-lipoxigenase, reduzindo os leucotrienos que agregam plaquetas", "explicacao": "A aspirina inibe a COX, não a lipoxigenase; os leucotrienos não são os principais agregantes plaquetários." },
+        { "letra": "C", "texto": "A aspirina aumenta a produção de tromboxano A₂ pelo endotélio", "explicacao": "O tromboxano A₂ é produzido pelas plaquetas e promove agregação; a aspirina reduz sua produção." },
+        { "letra": "D", "texto": "A aspirina tem meia-vida plasmática de vários dias", "explicacao": "O ácido acetilsalicílico tem meia-vida plasmática curta (minutos); o efeito prolongado decorre da inibição irreversível da enzima na plaqueta, não da permanência do fármaco no sangue." },
+        { "letra": "E", "texto": "A aspirina bloqueia a fosfolipase A₂, impedindo a liberação de ácido araquidônico", "explicacao": "A inibição da liberação de ácido araquidônico (via fosfolipase A₂) é um efeito associado aos corticoides; a aspirina age um passo depois, na COX." }
+      ],
+      "gabarito": "A",
+      "secao": "eicosanoides",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Farmacoterapia da inflamação, febre, dor e gota\"",
+      "tags": ["ácido acetilsalicílico", "tromboxano", "COX"]
+    },
+    {
+      "id": "ia-005",
+      "nivel": "dificil",
+      "enunciado": "Lactente de 4 semanas é trazido porque o coto umbilical ainda não caiu e há onfalite (infecção ao redor do umbigo). Não há secreção purulenta, apesar da infecção evidente. O hemograma mostra leucocitose acentuada (55.000/mm³) com predomínio de neutrófilos. Qual defeito é o mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ausência da NADPH oxidase dos fagócitos", "explicacao": "Na doença granulomatosa crônica, os neutrófilos chegam ao local e formam pus e granulomas, mas não matam bem bactérias catalase-positivas; não explica a ausência de pus nem a queda tardia do coto." },
+        { "letra": "B", "texto": "Deficiência de mieloperoxidase", "explicacao": "A deficiência de MPO costuma ser assintomática ou causar candidíase; não impede a saída dos neutrófilos dos vasos." },
+        { "letra": "C", "texto": "Defeito na cadeia β2 das integrinas (CD18) — deficiência de adesão leucocitária tipo 1", "explicacao": "Correta. Sem as integrinas β2 (LFA-1, Mac-1), os neutrófilos rolam mas não aderem firmemente ao endotélio e não transmigram. Eles se acumulam no sangue (neutrofilia acentuada) e não chegam ao foco — por isso não há pus. A separação do coto umbilical depende da chegada de neutrófilos, o que explica sua queda tardia." },
+        { "letra": "D", "texto": "Defeito na fusão de fagossomos com lisossomos", "explicacao": "A síndrome de Chédiak-Higashi cursa com grânulos gigantes, albinismo parcial e neuropatia; a migração ao foco não é o defeito principal." },
+        { "letra": "E", "texto": "Deficiência do componente C3 do complemento", "explicacao": "A falta de C3 prejudica a opsonização e a quimiotaxia (via C5a), mas não produz o quadro clássico de queda tardia do coto com leucocitose extrema e ausência de pus." }
+      ],
+      "gabarito": "C",
+      "secao": "defeitos-leucocitos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\" · Abbas, 10ª ed., cap. \"Imunodeficiências congênitas e adquiridas\"",
+      "tags": ["LAD-1", "integrinas", "imunodeficiência"]
+    },
+    {
+      "id": "ia-006",
+      "nivel": "dificil",
+      "enunciado": "Menino de 6 anos tem histórico de abscessos cutâneos e hepáticos por *Staphylococcus aureus* e uma pneumonia por *Aspergillus*. Os neutrófilos estão em número normal e migram normalmente até os focos. O teste da di-hidrorrodamina (DHR) por citometria de fluxo não mostra aumento de fluorescência após estímulo. Qual etapa da defesa está comprometida?",
+      "alternativas": [
+        { "letra": "A", "texto": "Produção de espécies reativas de oxigênio pela explosão respiratória, por defeito da NADPH oxidase", "explicacao": "Correta. Na doença granulomatosa crônica, a NADPH oxidase não gera superóxido e, portanto, nem H₂O₂ nem HOCl. O teste da DHR mede essa produção (sem oxidação, não há fluorescência). Micro-organismos catalase-positivos (S. aureus, Aspergillus) destroem o próprio H₂O₂ que produzem, e o fagócito fica sem arma; os catalase-negativos fornecem H₂O₂ que o neutrófilo aproveita. A persistência dos micróbios leva a granulomas." },
+        { "letra": "B", "texto": "Rolamento dos neutrófilos por falta do sialyl-Lewis X", "explicacao": "A deficiência de adesão tipo 2 impede o rolamento e a chegada ao foco, o que não acontece aqui (a migração é normal)." },
+        { "letra": "C", "texto": "Opsonização por anticorpos IgG", "explicacao": "Defeitos de anticorpos causam infecções por bactérias encapsuladas, sem relação com o teste da DHR, que avalia a explosão respiratória." },
+        { "letra": "D", "texto": "Produção de quimiocinas como a IL-8", "explicacao": "Sem quimiocinas, os neutrófilos não chegariam ao foco; aqui a migração é normal e o defeito está na morte do micróbio." },
+        { "letra": "E", "texto": "Contração das células endoteliais induzida pela histamina", "explicacao": "A contração endotelial causa aumento da permeabilidade; não explica infecções por catalase-positivos nem o teste da DHR alterado." }
+      ],
+      "gabarito": "A",
+      "secao": "fagocitose",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\" · Abbas, 10ª ed., cap. \"Imunodeficiências congênitas e adquiridas\"",
+      "tags": ["doença granulomatosa crônica", "NADPH oxidase", "explosão respiratória"]
+    },
+    {
+      "id": "ia-007",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 55 anos iniciou enalapril para hipertensão há três semanas. Procura o pronto-socorro com inchaço súbito dos lábios e da língua, sem urticária nem prurido. Qual mediador está mais diretamente envolvido?",
+      "alternativas": [
+        { "letra": "A", "texto": "Histamina liberada por mastócitos ativados por IgE", "explicacao": "O angioedema alérgico mediado por histamina costuma vir com urticária e prurido e responde a anti-histamínicos; não é o mecanismo dos inibidores da ECA." },
+        { "letra": "B", "texto": "Leucotrieno B₄ produzido por neutrófilos", "explicacao": "O LTB₄ é principalmente quimiotático para neutrófilos; não é o mediador do angioedema causado por inibidores da ECA." },
+        { "letra": "C", "texto": "Tromboxano A₂ das plaquetas", "explicacao": "O TXA₂ causa agregação plaquetária e vasoconstrição, não aumento da permeabilidade com angioedema." },
+        { "letra": "D", "texto": "Bradicinina, que se acumula porque a ECA participa de sua degradação", "explicacao": "Correta. A enzima conversora de angiotensina (também chamada cininase II) degrada a bradicinina. Ao inibi-la, o enalapril aumenta a bradicinina, que dilata vasos e aumenta a permeabilidade, causando angioedema (e, mais frequentemente, tosse seca). Por não depender de histamina, não há urticária e os anti-histamínicos não resolvem." },
+        { "letra": "E", "texto": "Interleucina-6 produzida por macrófagos", "explicacao": "A IL-6 estimula a produção de proteínas de fase aguda pelo fígado; não causa angioedema localizado." }
+      ],
+      "gabarito": "D",
+      "secao": "cininas",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\" · Goodman & Gilman, 13ª ed., cap. \"Renina e angiotensina\"",
+      "tags": ["bradicinina", "IECA", "angioedema"]
+    },
+    {
+      "id": "ia-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 40 anos com pneumonia bacteriana apresenta febre de 39,2 °C, leucocitose de 18.000/mm³ com 12% de bastonetes, proteína C-reativa muito elevada e VHS aumentada. Ele recebe ibuprofeno e a febre cede, embora a infecção persista. Qual explicação integra esses achados?",
+      "alternativas": [
+        { "letra": "A", "texto": "As bactérias produzem PGE₂ diretamente no hipotálamo; os AINEs matam as bactérias", "explicacao": "A PGE₂ é produzida pelas células do próprio hospedeiro no hipotálamo, e os AINEs não têm ação antibacteriana." },
+        { "letra": "B", "texto": "IL-1, TNF e IL-6 induzem PGE₂ no hipotálamo (febre), liberação de neutrófilos da medula (leucocitose com desvio à esquerda) e síntese hepática de proteínas de fase aguda; o AINE bloqueia a COX e, com ela, a PGE₂", "explicacao": "Correta. As citocinas (pirógenos endógenos) induzem a COX-2 no hipotálamo, e a PGE₂ eleva o ponto de ajuste da temperatura. Também aceleram a saída de neutrófilos da medula, incluindo formas jovens (bastonetes), e — sobretudo a IL-6 — estimulam o fígado a produzir PCR e fibrinogênio (este aumenta a VHS). O AINE reduz a febre por inibir a COX, sem tratar a causa." },
+        { "letra": "C", "texto": "A febre é causada pela histamina, e a VHS aumenta pela leucocitose", "explicacao": "A febre é mediada por citocinas via PGE₂; a VHS aumenta principalmente pelo fibrinogênio, que favorece o empilhamento das hemácias." },
+        { "letra": "D", "texto": "Os bastonetes indicam infecção viral associada", "explicacao": "O desvio à esquerda (bastonetes) é típico de infecções bacterianas; infecções virais costumam causar linfocitose." },
+        { "letra": "E", "texto": "A PCR é produzida pelos neutrófilos e indica a quantidade de pus no pulmão", "explicacao": "A PCR é sintetizada pelo fígado sob estímulo da IL-6; é um marcador inespecífico de inflamação, não uma medida de pus." }
+      ],
+      "gabarito": "B",
+      "secao": "fase-aguda",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["resposta de fase aguda", "febre", "PCR"]
+    },
+    {
+      "id": "ia-009",
+      "nivel": "aprofundado",
+      "enunciado": "Mulher de 38 anos com asma e polipose nasal apresenta broncoespasmo grave e congestão nasal cerca de uma hora após tomar ibuprofeno para cefaleia. Qual mecanismo explica essa reação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Reação alérgica mediada por IgE contra o ibuprofeno", "explicacao": "A reação ocorre com diferentes AINEs inibidores da COX-1, de estruturas químicas distintas, o que indica um mecanismo farmacológico, e não alergia IgE a uma molécula específica." },
+        { "letra": "B", "texto": "Aumento da prostaglandina E₂ broncodilatadora", "explicacao": "O AINE reduz, e não aumenta, a PGE₂; a perda desse efeito protetor contribui para a crise." },
+        { "letra": "C", "texto": "Ativação direta da via clássica do complemento pelo fármaco", "explicacao": "Não é o mecanismo da doença respiratória exacerbada por AINEs; o que ocorre é o desvio do metabolismo do ácido araquidônico." },
+        { "letra": "D", "texto": "Inibição da fosfolipase A₂, com acúmulo de ácido araquidônico na membrana", "explicacao": "Os AINEs inibem a COX, não a fosfolipase A₂; o ácido araquidônico liberado é que passa a ser desviado." },
+        { "letra": "E", "texto": "A inibição da COX desvia o ácido araquidônico para a via da 5-lipoxigenase, aumentando os cisteinil-leucotrienos (LTC₄, LTD₄, LTE₄), que causam broncoconstrição e aumento da permeabilidade", "explicacao": "Correta. Na doença respiratória exacerbada por aspirina/AINEs, o bloqueio da COX-1 reduz a PGE₂ (que normalmente freia a produção de leucotrienos e os mastócitos) e deixa mais ácido araquidônico disponível para a 5-lipoxigenase. Os cisteinil-leucotrienos provocam broncoespasmo intenso e edema da mucosa nasal. Antileucotrienos ajudam no tratamento." }
+      ],
+      "gabarito": "E",
+      "secao": "eicosanoides",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\" · Goodman & Gilman, 13ª ed., cap. \"Farmacoterapia da inflamação, febre, dor e gota\"",
+      "tags": ["leucotrienos", "AINEs", "asma"]
+    },
+    {
+      "id": "ia-010",
+      "nivel": "aprofundado",
+      "enunciado": "Em dois experimentos com pele de animal, mede-se o extravasamento de um corante ligado à albumina. No experimento 1, injeta-se histamina: o vazamento começa em minutos, ocorre nas vênulas e cessa em cerca de 30 minutos. No experimento 2, aplica-se uma queimadura térmica grave: o vazamento começa imediatamente, ocorre em vênulas, capilares e arteríolas e persiste por muitas horas. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Nos dois casos, o mecanismo é a transcitose aumentada pelas células endoteliais", "explicacao": "A transcitose contribui para o vazamento, mas não explica o padrão rápido e transitório da histamina nem o vazamento extenso e prolongado da queimadura." },
+        { "letra": "B", "texto": "No 1, há necrose endotelial; no 2, contração das células endoteliais", "explicacao": "A interpretação está invertida: a histamina contrai as células endoteliais, e a queimadura grave as lesa diretamente." },
+        { "letra": "C", "texto": "No 1, contração endotelial (resposta imediata transitória, restrita às vênulas); no 2, lesão endotelial direta, que atinge vasos de vários calibres e dura até o reparo ou trombose dos vasos", "explicacao": "Correta. A histamina age em receptores H1 das células endoteliais das vênulas pós-capilares, que se contraem e abrem fendas — vazamento rápido e de curta duração. A queimadura grave causa necrose e descolamento das células endoteliais em todos os segmentos da microcirculação, com vazamento imediato e prolongado, que só cessa quando os vasos são reparados ou trombosam." },
+        { "letra": "D", "texto": "No 2, o vazamento se deve só à vasodilatação, sem alteração da permeabilidade", "explicacao": "A vasodilatação isolada não causa saída de albumina; o extravasamento do corante ligado à proteína indica aumento de permeabilidade." },
+        { "letra": "E", "texto": "No 1, o vazamento cessa porque a histamina provoca trombose das vênulas", "explicacao": "O vazamento cessa porque a histamina tem ação breve (é degradada rapidamente) e as células endoteliais relaxam; a histamina não causa trombose." }
+      ],
+      "gabarito": "C",
+      "secao": "permeabilidade",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["permeabilidade vascular", "histamina", "queimadura"]
+    }
+  ]
+}
