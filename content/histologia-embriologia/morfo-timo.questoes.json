@@ -1,0 +1,166 @@
+{
+  "topico": "morfo-timo",
+  "questoes": [
+    {
+      "id": "mt-001",
+      "nivel": "medio",
+      "enunciado": "Na lâmina de um órgão linfoide, encontra-se a estrutura rosada central mostrada na imagem, cercada por núcleos pequenos e escuros. Que estrutura é essa e em qual órgão e região ela se encontra?",
+      "imagem": { "src": "img/morfo/timo/corpusculo-hassall.jpg", "legenda": "Corte histológico corado por H&E." },
+      "alternativas": [
+        { "letra": "A", "texto": "Centro germinativo de um folículo linfoide do linfonodo", "explicacao": "O centro germinativo é uma região **clara** com linfócitos B grandes em proliferação e macrófagos; não é formado por células achatadas concêntricas e queratinizadas." },
+        { "letra": "B", "texto": "Corpúsculo de Hassall, na medula do timo", "explicacao": "Correta. O **corpúsculo de Hassall** é formado por **células epiteliais reticulares achatadas** em camadas concêntricas, com centro às vezes **queratinizado**, intensamente **eosinófilo**. Fica apenas na **medula do timo** e é exclusivo desse órgão — a 'assinatura' da lâmina de timo." },
+        { "letra": "C", "texto": "Arteríola central da polpa branca do baço", "explicacao": "A arteríola central tem luz e parede muscular, cercada pela bainha de linfócitos T; não tem camadas concêntricas de células epiteliais queratinizadas." },
+        { "letra": "D", "texto": "Megacariócito da medula óssea", "explicacao": "O megacariócito é uma célula gigante com núcleo multilobulado roxo, e não um agregado de células achatadas eosinófilas." },
+        { "letra": "E", "texto": "Cripta de tonsila palatina com restos de queratina", "explicacao": "As criptas tonsilares são invaginações do epitélio de superfície, alongadas, com epitélio estratificado na parede; não formam estruturas concêntricas isoladas no meio do tecido linfoide." }
+      ],
+      "gabarito": "B",
+      "secao": "corpusculos-hassall",
+      "referencia": "Junqueira & Carneiro – Histologia Básica, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["timo", "corpúsculo de Hassall", "identificação"]
+    },
+    {
+      "id": "mt-002",
+      "nivel": "medio",
+      "enunciado": "O estroma da maioria dos órgãos linfoides é formado por células e fibras reticulares. Qual é a particularidade do estroma do timo?",
+      "alternativas": [
+        { "letra": "A", "texto": "É formado por tecido adiposo desde o nascimento", "explicacao": "O tecido adiposo substitui o parênquima com a **involução** após a puberdade; não é o estroma típico do órgão." },
+        { "letra": "B", "texto": "É formado por fibras elásticas que permitem a expansão do órgão", "explicacao": "Fibras elásticas não caracterizam o estroma tímico." },
+        { "letra": "C", "texto": "É formado por músculo liso que contrai e expulsa os linfócitos", "explicacao": "Não há músculo liso formando o estroma do timo; os linfócitos saem pelas vênulas e linfáticos eferentes." },
+        { "letra": "D", "texto": "É formado por células epiteliais reticulares, de origem endodérmica, unidas por desmossomos, que também participam da seleção dos timócitos", "explicacao": "Correta. No timo, a rede de sustentação é feita de **células epiteliais reticulares** (derivadas do endoderma da 3ª bolsa faríngea), com prolongamentos unidos por **desmossomos** e filamentos de queratina. Além de sustentar, elas apresentam MHC próprio (seleção positiva), expressam AIRE (seleção negativa), formam a barreira hematotímica e produzem hormônios tímicos." },
+        { "letra": "E", "texto": "É formado por cartilagem hialina, que mantém a forma bilobada", "explicacao": "O timo não contém cartilagem." }
+      ],
+      "gabarito": "D",
+      "secao": "estroma-parenquima",
+      "referencia": "Ross & Pawlina – Histologia: Texto e Atlas, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["estroma", "células epiteliais reticulares", "timo"]
+    },
+    {
+      "id": "mt-003",
+      "nivel": "medio",
+      "enunciado": "Qual alternativa classifica corretamente os órgãos linfáticos?",
+      "alternativas": [
+        { "letra": "A", "texto": "Primários: medula óssea e timo. Secundários: linfonodos, baço, tonsilas e MALT (placas de Peyer, apêndice, tecido linfoide brônquico)", "explicacao": "Correta. **Órgãos primários (centrais)** são onde os linfócitos são produzidos e amadurecem: **medula óssea** (todos nascem ali; os B amadurecem ali) e **timo** (maturação dos T). **Secundários (periféricos)** são onde os linfócitos maduros encontram antígenos e são ativados: **linfonodos, baço, tonsilas e MALT**." },
+        { "letra": "B", "texto": "Primários: linfonodos e baço. Secundários: medula óssea e timo", "explicacao": "A classificação está invertida." },
+        { "letra": "C", "texto": "Primários: timo e baço. Secundários: medula óssea e linfonodos", "explicacao": "O baço é órgão secundário, e a medula óssea é primária." },
+        { "letra": "D", "texto": "Primários: tonsilas e apêndice. Secundários: timo e linfonodos", "explicacao": "Tonsilas e apêndice fazem parte do tecido linfoide secundário associado às mucosas; o timo é primário." },
+        { "letra": "E", "texto": "Todos os órgãos linfáticos são primários, pois todos produzem linfócitos", "explicacao": "Os secundários não produzem linfócitos a partir de células-tronco; eles abrigam a **proliferação** de linfócitos já maduros após a ativação." }
+      ],
+      "gabarito": "A",
+      "secao": "primarios-secundarios",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["órgãos primários", "órgãos secundários"]
+    },
+    {
+      "id": "mt-004",
+      "nivel": "medio",
+      "enunciado": "Para qual veia drenam principalmente as veias tímicas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Veia porta hepática", "explicacao": "A veia porta drena o tubo digestivo abdominal, o baço e o pâncreas; o timo é uma estrutura torácica." },
+        { "letra": "B", "texto": "Veia cava inferior", "explicacao": "A veia cava inferior recebe o sangue das estruturas abaixo do diafragma." },
+        { "letra": "C", "texto": "Veia ázigo", "explicacao": "A veia ázigo drena principalmente a parede torácica posterior; não é a principal drenagem do timo." },
+        { "letra": "D", "texto": "Veia jugular externa", "explicacao": "A jugular externa drena regiões superficiais da cabeça e do pescoço." },
+        { "letra": "E", "texto": "Veia braquiocefálica esquerda, que passa logo atrás do timo", "explicacao": "Correta. As **veias tímicas** drenam sobretudo para a **veia braquiocefálica esquerda**, que cruza o mediastino superior imediatamente **posterior** ao timo; drenam também para as veias torácicas internas e tireóideas inferiores." }
+      ],
+      "gabarito": "E",
+      "secao": "vascularizacao-timo",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed., cap. 'Tórax'",
+      "tags": ["timo", "drenagem venosa", "anatomia"]
+    },
+    {
+      "id": "mt-005",
+      "nivel": "dificil",
+      "enunciado": "Em pequeno aumento, cada lóbulo do timo apresenta uma periferia escura e um centro claro. Qual é a explicação histológica para essa diferença?",
+      "alternativas": [
+        { "letra": "A", "texto": "A periferia contém muitos vasos com hemácias, e o centro é avascular", "explicacao": "A diferença de cor não se deve a hemácias; a medula também é vascularizada." },
+        { "letra": "B", "texto": "A periferia é rica em fibras colágenas coradas pela eosina", "explicacao": "Fibras colágenas ficam rosadas (eosinófilas), não roxo-escuras; e a periferia não é dominada por fibras." },
+        { "letra": "C", "texto": "O córtex tem grande densidade de timócitos pequenos (quase só núcleo, basófilo); a medula tem menos timócitos e mais células epiteliais reticulares grandes de núcleo claro", "explicacao": "Correta. O **córtex** está repleto de **timócitos imaturos** empacotados; como cada um é quase só núcleo, e o núcleo é **basófilo** (hematoxilina), a região fica **escura**. A **medula** tem **menos timócitos** e **mais células epiteliais reticulares**, com núcleo claro e mais citoplasma, além dos corpúsculos de Hassall — por isso é **clara**." },
+        { "letra": "D", "texto": "O centro está preenchido por gordura dissolvida durante o preparo", "explicacao": "Os adipócitos da involução aparecem como espaços vazios espalhados, mas não explicam o padrão córtex escuro × medula clara presente mesmo no timo jovem." },
+        { "letra": "E", "texto": "A periferia contém nódulos linfáticos com centros germinativos", "explicacao": "O timo normal **não tem** nódulos com centro germinativo — característica que o diferencia do linfonodo e do baço." }
+      ],
+      "gabarito": "C",
+      "secao": "cortex-escuro",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'; Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["córtex", "medula", "timo", "basofilia"]
+    },
+    {
+      "id": "mt-006",
+      "nivel": "dificil",
+      "enunciado": "Durante uma cirurgia de mediastino anterior em uma criança, o cirurgião precisa ligar as artérias que irrigam o timo. De quais artérias se originam principalmente os ramos tímicos?",
+      "alternativas": [
+        { "letra": "A", "texto": "Artérias torácicas internas e artérias tireóideas inferiores", "explicacao": "Correta. O timo é irrigado principalmente por ramos das **artérias torácicas internas** (ramos da subclávia que descem atrás das cartilagens costais) e das **artérias tireóideas inferiores**; pequenos ramos podem vir das pericardicofrênicas." },
+        { "letra": "B", "texto": "Artérias coronárias direita e esquerda", "explicacao": "As coronárias irrigam o miocárdio, e não o timo." },
+        { "letra": "C", "texto": "Artérias intercostais posteriores e artéria ázigo", "explicacao": "As intercostais posteriores irrigam a parede torácica; não existe 'artéria ázigo'." },
+        { "letra": "D", "texto": "Tronco celíaco e artéria esplênica", "explicacao": "São ramos da aorta abdominal, que irrigam vísceras abdominais, incluindo o baço." },
+        { "letra": "E", "texto": "Artérias pulmonares", "explicacao": "As artérias pulmonares levam sangue pouco oxigenado aos pulmões para as trocas gasosas." }
+      ],
+      "gabarito": "A",
+      "secao": "vascularizacao-timo",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed., cap. 'Tórax'; Netter – Atlas de Anatomia Humana, 7ª ed.",
+      "tags": ["timo", "irrigação arterial", "anatomia"]
+    },
+    {
+      "id": "mt-007",
+      "nivel": "dificil",
+      "enunciado": "Antígenos estranhos que circulam no sangue praticamente não alcançam os timócitos em maturação no córtex tímico. Qual estrutura explica essa proteção e qual alternativa a descreve corretamente?",
+      "alternativas": [
+        { "letra": "A", "texto": "Barreira hematotímica, presente na medula e formada por vênulas de endotélio alto", "explicacao": "A barreira existe no **córtex**, e não na medula; as vênulas da junção corticomedular são justamente os locais de entrada e saída de células." },
+        { "letra": "B", "texto": "Cápsula fibrosa espessa, que impede a entrada de vasos sanguíneos no córtex", "explicacao": "O córtex é vascularizado; a proteção é feita pela estrutura da parede dos capilares e pelos tecidos ao redor." },
+        { "letra": "C", "texto": "Corpúsculos de Hassall, que filtram o sangue do córtex", "explicacao": "Os corpúsculos de Hassall ficam na medula e não filtram sangue." },
+        { "letra": "D", "texto": "Camada de adipócitos ao redor de cada capilar", "explicacao": "Adipócitos não formam barreira; eles aumentam com a involução." },
+        { "letra": "E", "texto": "Barreira hematotímica cortical: endotélio contínuo com junções oclusivas, lâminas basais endotelial e epitelial, macrófagos perivasculares e células epiteliais reticulares", "explicacao": "Correta. A **barreira hematotímica** existe no **córtex** e tem várias camadas: **endotélio contínuo** com junções oclusivas, **lâmina basal** endotelial, **espaço perivascular com macrófagos** (que capturam o que atravessa), **lâmina basal** das células epiteliais e as próprias **células epiteliais reticulares**. Assim, a seleção acontece apenas com antígenos próprios apresentados no timo." }
+      ],
+      "gabarito": "E",
+      "secao": "barreira-hematotimica",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Sistema linfático'",
+      "tags": ["barreira hematotímica", "córtex", "timo"]
+    },
+    {
+      "id": "mt-008",
+      "nivel": "dificil",
+      "enunciado": "Na prova prática, você recebe uma lâmina com um órgão linfoide encapsulado que apresenta região periférica escura e região central clara. Qual achado confirma que se trata de um timo, e não de um linfonodo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Presença de cápsula de tecido conjuntivo", "explicacao": "Linfonodo e timo têm cápsula; esse achado não os diferencia." },
+        { "letra": "B", "texto": "Presença de corpúsculos de Hassall na região clara e ausência de seios linfáticos e de folículos com centro germinativo", "explicacao": "Correta. Os **corpúsculos de Hassall** são exclusivos do timo. Além disso, o timo **não tem seios linfáticos** (não recebe linfa aferente) nem **folículos com centro germinativo**, estruturas típicas do linfonodo." },
+        { "letra": "C", "texto": "Presença de muitos linfócitos", "explicacao": "Ambos os órgãos são ricos em linfócitos." },
+        { "letra": "D", "texto": "Presença de vasos sanguíneos", "explicacao": "Todos os órgãos linfoides são vascularizados." },
+        { "letra": "E", "texto": "Presença de seio subcapsular logo abaixo da cápsula", "explicacao": "O **seio subcapsular** é característico do **linfonodo**, por onde chega a linfa aferente." }
+      ],
+      "gabarito": "B",
+      "secao": "visao-lamina-timo",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Sistema imune e órgãos linfoides'",
+      "tags": ["timo", "linfonodo", "diagnóstico diferencial", "lâmina"]
+    },
+    {
+      "id": "mt-009",
+      "nivel": "aprofundado",
+      "enunciado": "Mulher de 48 anos apresenta ptose palpebral e visão dupla que pioram no fim do dia e melhoram com repouso. A dosagem de anticorpos antirreceptor de acetilcolina é positiva, e a tomografia mostra uma massa no mediastino anterior. Qual é a relação mais provável entre a massa e a doença?",
+      "alternativas": [
+        { "letra": "A", "texto": "A massa é um bócio mergulhante que comprime o nervo oculomotor", "explicacao": "O bócio mergulhante não comprime o nervo oculomotor (intracraniano/orbital) e não explica os anticorpos antirreceptor de acetilcolina." },
+        { "letra": "B", "texto": "A massa é um linfoma que destrói a junção neuromuscular por infiltração", "explicacao": "Linfomas mediastinais não infiltram junções neuromusculares; o quadro é autoimune." },
+        { "letra": "C", "texto": "A massa é um teratoma que produz acetilcolinesterase em excesso", "explicacao": "O excesso de acetilcolinesterase não é o mecanismo da miastenia, e teratomas não se associam caracteristicamente a ela." },
+        { "letra": "D", "texto": "A massa é um timoma, tumor das células epiteliais tímicas que pode falhar na seleção negativa e favorecer linfócitos autorreativos, associado à miastenia gravis", "explicacao": "Correta. O **timoma** origina-se das **células epiteliais tímicas**, as mesmas que fazem a seleção dos linfócitos T. O tumor pode falhar na **tolerância central**, liberando linfócitos T autorreativos que ajudam a produzir **anticorpos contra o receptor de acetilcolina** → **miastenia gravis** (fraqueza flutuante, ptose, diplopia). A **timectomia** faz parte do tratamento." },
+        { "letra": "E", "texto": "A massa é um aneurisma de aorta que reduz o fluxo sanguíneo para os músculos oculares", "explicacao": "Um aneurisma não explicaria os anticorpos nem o padrão de fadiga muscular." }
+      ],
+      "gabarito": "D",
+      "secao": "timoma-miastenia",
+      "referencia": "Harrison – Medicina Interna, 21ª ed., cap. 'Miastenia gravis e outras doenças da junção neuromuscular'",
+      "tags": ["timoma", "miastenia gravis", "mediastino anterior"]
+    },
+    {
+      "id": "mt-010",
+      "nivel": "aprofundado",
+      "enunciado": "Um timoma volumoso no mediastino anterior e superior cresce em direção posterior. Qual estrutura vascular, por sua relação anatômica imediata com o timo, tem maior chance de ser comprimida, e qual seria a manifestação esperada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Artéria renal esquerda, causando hipertensão renovascular", "explicacao": "A artéria renal fica no abdome, longe do mediastino." },
+        { "letra": "B", "texto": "Veia porta, causando hipertensão portal e ascite", "explicacao": "A veia porta é abdominal e não se relaciona com o timo." },
+        { "letra": "C", "texto": "Veia braquiocefálica esquerda e veia cava superior, causando edema de face, pescoço e membros superiores com circulação colateral na parede torácica (síndrome da veia cava superior)", "explicacao": "Correta. O timo fica **imediatamente anterior** à **veia braquiocefálica esquerda**, à **veia cava superior** e ao arco da aorta. As veias, de parede fina e baixa pressão, são facilmente comprimidas, o que dificulta o retorno venoso da cabeça, do pescoço e dos membros superiores → **síndrome da veia cava superior**: edema facial e cervical, cianose, turgência jugular e veias colaterais dilatadas no tórax." },
+        { "letra": "D", "texto": "Artéria femoral, causando isquemia de membro inferior", "explicacao": "A artéria femoral está na coxa, sem relação com o mediastino." },
+        { "letra": "E", "texto": "Veia ázigo, causando edema dos membros inferiores", "explicacao": "A veia ázigo está no mediastino posterior; edema de membros inferiores sugere obstrução da veia cava inferior, e não de estruturas relacionadas ao timo." }
+      ],
+      "gabarito": "C",
+      "secao": "localizacao-timo",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed., cap. 'Tórax'; Harrison, 21ª ed., cap. 'Massas mediastinais'",
+      "tags": ["relações anatômicas", "veia braquiocefálica", "síndrome da veia cava superior"]
+    }
+  ]
+}
