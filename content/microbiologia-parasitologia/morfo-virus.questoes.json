@@ -1,0 +1,167 @@
+{
+  "topico": "morfo-virus",
+  "questoes": [
+    {
+      "id": "mv-001",
+      "nivel": "medio",
+      "enunciado": "Observe o esquema de um vírus respiratório envelopado, de RNA de fita simples positiva. A estrutura que forma a 'coroa' de projeções na superfície é a que se liga ao receptor da célula. Qual é essa estrutura e qual é seu receptor no SARS-CoV-2?",
+      "imagem": { "src": "img/morfo/virus/coronavirus-estrutura.png", "legenda": "Esquema de um coronavírus (rótulos em inglês)." },
+      "alternativas": [
+        { "letra": "A", "texto": "Glicoproteína S (spike), que se liga à ECA2", "explicacao": "Correta. A proteína S forma as espículas que lembram uma coroa. Sua subunidade S1 liga-se à enzima conversora de angiotensina 2 (ECA2) e a S2 faz a fusão, após ativação por proteases como a TMPRSS2. Por estar exposta e ser essencial à entrada, é o principal alvo dos anticorpos neutralizantes e das vacinas." },
+        { "letra": "B", "texto": "Proteína N, que se liga ao CD4", "explicacao": "A proteína N fica dentro do vírion, envolvendo o RNA (nucleocapsídeo); o CD4 é o receptor do HIV." },
+        { "letra": "C", "texto": "Proteína M, que se liga ao ácido siálico", "explicacao": "A proteína M é estrutural, organiza o envelope e a montagem; o ácido siálico é o receptor do influenza." },
+        { "letra": "D", "texto": "Proteína E, que se liga ao ICAM-1", "explicacao": "A proteína E é pequena e participa da montagem e liberação; o ICAM-1 é receptor da maioria dos rinovírus." },
+        { "letra": "E", "texto": "Hemaglutinina, que se liga ao CD21", "explicacao": "A hemaglutinina é glicoproteína do influenza, e o CD21 é o receptor do vírus Epstein-Barr; nenhum dos dois se aplica ao coronavírus." }
+      ],
+      "gabarito": "A",
+      "secao": "coronavirus",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Coronavírus\"",
+      "tags": ["coronavírus", "proteína S", "ECA2"]
+    },
+    {
+      "id": "mv-002",
+      "nivel": "medio",
+      "enunciado": "Um surto de gastroenterite atinge passageiros de um navio de cruzeiro, apesar da distribuição de álcool gel em todos os ambientes. O agente identificado é o norovírus, um vírus de RNA sem envelope. Qual característica estrutural explica a persistência do surto?",
+      "alternativas": [
+        { "letra": "A", "texto": "O envelope lipídico do norovírus é mais espesso que o de outros vírus", "explicacao": "O norovírus não tem envelope; justamente por isso resiste ao álcool." },
+        { "letra": "B", "texto": "Vírus sem envelope têm apenas capsídeo proteico, resistente a álcool, detergentes, ressecamento e ácido gástrico, e sobrevivem em superfícies", "explicacao": "Correta. O álcool e o sabão inativam vírus envelopados por dissolverem a bicamada lipídica. Vírus nus, protegidos só pelo capsídeo de proteína, resistem mais a esses agentes e ao ambiente, o que favorece a transmissão fecal-oral e por superfícies. A lavagem das mãos com água e sabão (remoção mecânica) e o hipoclorito são mais eficazes." },
+        { "letra": "C", "texto": "O norovírus tem genoma de DNA, mais estável que o RNA", "explicacao": "O norovírus é um vírus de RNA; a resistência se deve à ausência de envelope, não ao tipo de ácido nucleico." },
+        { "letra": "D", "texto": "O norovírus se replica fora das células, nas superfícies do navio", "explicacao": "Todo vírus é parasita intracelular obrigatório; no ambiente ele apenas sobrevive, sem se multiplicar." },
+        { "letra": "E", "texto": "O norovírus é transmitido apenas por gotículas respiratórias", "explicacao": "A transmissão típica do norovírus é fecal-oral e por superfícies e alimentos contaminados, coerente com um vírus resistente ao ambiente." }
+      ],
+      "gabarito": "B",
+      "secao": "envelope",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Classificação, estrutura e replicação viral\"",
+      "tags": ["vírus nus", "envelope", "norovírus"]
+    },
+    {
+      "id": "mv-003",
+      "nivel": "medio",
+      "enunciado": "Pesquisadores extraem o RNA genômico puro de um vírus influenza (RNA de fita simples negativa) e o injetam em células em cultura. Nenhuma proteína viral é produzida. Já o RNA purificado de um poliovírus, injetado da mesma forma, produz infecção. Qual a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "O RNA do influenza é degradado mais rapidamente porque é segmentado", "explicacao": "A segmentação não explica a falta de tradução; o problema é a polaridade do genoma." },
+        { "letra": "B", "texto": "O poliovírus tem genoma de DNA, que é transcrito pela célula", "explicacao": "O poliovírus tem genoma de RNA de fita simples positiva (grupo IV), não de DNA." },
+        { "letra": "C", "texto": "O RNA negativo não pode ser lido pelos ribossomos; precisa ser copiado em RNAm por uma RNA polimerase dependente de RNA que o vírus traz dentro do vírion e que a célula não possui", "explicacao": "Correta. No grupo V de Baltimore, o genoma é complementar ao RNAm. A célula humana não tem enzima que copie RNA a partir de RNA, então o vírion precisa trazer sua própria polimerase; o RNA purificado, sem ela, não é infeccioso. O RNA positivo do poliovírus (grupo IV) já funciona como mensageiro e é traduzido diretamente." },
+        { "letra": "D", "texto": "O influenza precisa de transcriptase reversa para integrar seu genoma", "explicacao": "Transcriptase reversa e integração são características dos retrovírus (grupo VI), como o HIV, não do influenza." },
+        { "letra": "E", "texto": "As células em cultura não têm ribossomos funcionais para vírus envelopados", "explicacao": "Os ribossomos da célula traduzem RNAm de qualquer vírus; o envelope é irrelevante quando o RNA é injetado diretamente." }
+      ],
+      "gabarito": "C",
+      "secao": "baltimore",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Classificação, estrutura e replicação viral\"",
+      "tags": ["Baltimore", "RNA negativo", "RNA positivo"]
+    },
+    {
+      "id": "mv-004",
+      "nivel": "medio",
+      "enunciado": "Anticorpos neutralizantes induzidos por uma vacina impedem que o vírus infecte as células. Em qual etapa da replicação viral eles agem principalmente, e por que essa etapa também determina quais células o vírus pode infectar?",
+      "alternativas": [
+        { "letra": "A", "texto": "Desnudamento, porque os anticorpos entram na célula e estabilizam o capsídeo", "explicacao": "Os anticorpos neutralizantes agem principalmente fora da célula, impedindo a ligação ao receptor; o desnudamento não define o tropismo." },
+        { "letra": "B", "texto": "Síntese, porque os anticorpos bloqueiam os ribossomos da célula infectada", "explicacao": "Anticorpos não bloqueiam ribossomos; a síntese ocorre dentro da célula, fora do alcance deles." },
+        { "letra": "C", "texto": "Montagem, porque os anticorpos impedem a ligação do genoma ao capsídeo", "explicacao": "A montagem é intracelular; não é a etapa-alvo dos anticorpos neutralizantes nem a que define o tropismo." },
+        { "letra": "D", "texto": "Adsorção, porque é a ligação específica da proteína de superfície viral ao receptor da célula, e só células com o receptor podem ser infectadas", "explicacao": "Correta. Na adsorção, uma glicoproteína do envelope ou proteína do capsídeo se liga a um receptor específico da membrana. Ao cobrir essas proteínas, os anticorpos impedem a fixação. Como só células que expressam o receptor (e, às vezes, o correceptor) permitem a fixação, essa etapa é o principal determinante do tropismo." },
+        { "letra": "E", "texto": "Liberação, porque os anticorpos impedem a lise da célula", "explicacao": "Alguns anticorpos podem agregar vírions liberados, mas a neutralização clássica bloqueia a entrada, e a liberação não define o tropismo." }
+      ],
+      "gabarito": "D",
+      "secao": "replicacao",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed. · Abbas, 10ª ed., cap. \"Mecanismos efetores da imunidade humoral\"",
+      "tags": ["adsorção", "neutralização", "tropismo"]
+    },
+    {
+      "id": "mv-005",
+      "nivel": "dificil",
+      "enunciado": "Observe o esquema do vírion do HIV. Um homem de 28 anos teve relação sexual desprotegida há 18 dias e agora tem febre, faringite e linfonodomegalia. O teste de 4ª geração é reagente, embora o teste que pesquisa apenas anticorpos seja não reagente. Qual componente do vírion explica o resultado positivo precoce do teste de 4ª geração?",
+      "imagem": { "src": "img/morfo/virus/hiv-virion.png", "legenda": "Esquema do vírion do HIV (rótulos em inglês)." },
+      "alternativas": [
+        { "letra": "A", "texto": "A gp120 do envelope, que só aparece no sangue após a soroconversão", "explicacao": "A gp120 é uma glicoproteína do envelope que liga o CD4; os testes de 4ª geração não se baseiam em detectá-la como antígeno." },
+        { "letra": "B", "texto": "A transcriptase reversa, detectada por PCR", "explicacao": "A transcriptase reversa é uma enzima do vírion; o teste de 4ª geração é imunológico e não detecta essa enzima." },
+        { "letra": "C", "texto": "Proteínas da célula hospedeira presentes no envelope", "explicacao": "Proteínas da célula hospedeira não são específicas do HIV e não servem de marcador diagnóstico." },
+        { "letra": "D", "texto": "A proteína de matriz p17, que forma o capsídeo cônico", "explicacao": "A p17 forra o envelope por dentro (matriz); o capsídeo cônico é formado pela p24." },
+        { "letra": "E", "texto": "O antígeno p24, proteína do capsídeo cônico, detectável antes de os anticorpos surgirem", "explicacao": "Correta. O capsídeo cônico do HIV é formado pela proteína p24, que circula em grande quantidade na infecção aguda, quando a replicação viral é intensa e os anticorpos ainda não se formaram. Os testes de 4ª geração detectam anticorpos e também o antígeno p24, reduzindo a janela diagnóstica — por isso positivam antes dos testes só de anticorpos." }
+      ],
+      "gabarito": "E",
+      "secao": "hiv",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Retrovírus\" · Ministério da Saúde – Manual Técnico para o Diagnóstico da Infecção pelo HIV",
+      "tags": ["HIV", "p24", "diagnóstico"]
+    },
+    {
+      "id": "mv-006",
+      "nivel": "dificil",
+      "enunciado": "Um homem com exposições repetidas e comprovadas ao HIV permanece não infectado. A análise genética mostra homozigose para uma deleção de 32 pares de bases em um gene que codifica uma proteína da membrana dos linfócitos T CD4⁺. Qual é o mecanismo da proteção?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ausência do correceptor CCR5, impedindo a entrada das cepas R5, que predominam na transmissão", "explicacao": "Correta. Além do CD4, a gp120 precisa de um correceptor de quimiocina para que a gp41 promova a fusão. As cepas transmitidas costumam usar o CCR5 (cepas R5). Homozigotos para CCR5-Δ32 não expressam CCR5 funcional na membrana, e a adsorção/fusão não se completa — um exemplo de tropismo determinado pelo correceptor, explorado também pelo fármaco maraviroque." },
+        { "letra": "B", "texto": "Ausência de CD4 em todos os linfócitos T", "explicacao": "A deleção descrita não afeta o CD4; sem CD4, haveria imunodeficiência grave, e não proteção isolada contra o HIV." },
+        { "letra": "C", "texto": "Produção de uma integrase humana que inativa a integrase viral", "explicacao": "Não existe integrase humana com essa função; a deleção afeta uma proteína de membrana usada na entrada." },
+        { "letra": "D", "texto": "Excesso de anticorpos neutralizantes contra a gp41", "explicacao": "A proteção é genética e independe de anticorpos; o paciente nem sequer foi infectado." },
+        { "letra": "E", "texto": "Falta de ECA2 nos linfócitos T", "explicacao": "A ECA2 é o receptor do SARS-CoV-2, não do HIV." }
+      ],
+      "gabarito": "A",
+      "secao": "tropismo",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Retrovírus\" · Abbas, 10ª ed., cap. \"Imunodeficiências congênitas e adquiridas\"",
+      "tags": ["HIV", "CCR5", "tropismo"]
+    },
+    {
+      "id": "mv-007",
+      "nivel": "dificil",
+      "enunciado": "Um estudante afirma que o vírus da hepatite B é um retrovírus de RNA, porque o tenofovir (inibidor da transcriptase reversa) é usado tanto no HIV quanto na hepatite B. Qual é a classificação correta do vírus da hepatite B e o que justifica o uso desse fármaco?",
+      "alternativas": [
+        { "letra": "A", "texto": "Grupo IV (+ssRNA); o tenofovir inibe a RNA polimerase dependente de RNA", "explicacao": "O HBV não é vírus de RNA positivo; e o tenofovir age sobre a transcriptase reversa, não sobre RNA polimerases dependentes de RNA." },
+        { "letra": "B", "texto": "Grupo VII: genoma de DNA parcialmente de fita dupla que se replica por meio de um RNA intermediário, copiado em DNA por transcriptase reversa", "explicacao": "Correta. O HBV tem genoma de DNA, mas, ao contrário dos outros vírus de DNA, replica-se transcrevendo um RNA pré-genômico, que é copiado de volta em DNA pela sua polimerase com atividade de transcriptase reversa. Por isso, inibidores da transcriptase reversa como o tenofovir são eficazes contra ele e contra o HIV." },
+        { "letra": "C", "texto": "Grupo VI (retrovírus); seu genoma de RNA é integrado obrigatoriamente no DNA do hepatócito", "explicacao": "O grupo VI é o dos retrovírus, como o HIV, cujo genoma é de RNA; o HBV tem genoma de DNA e a integração não é etapa obrigatória do seu ciclo." },
+        { "letra": "D", "texto": "Grupo I (dsDNA); o tenofovir inibe a DNA polimerase da célula", "explicacao": "O tenofovir age seletivamente sobre a transcriptase reversa viral; o HBV não é um vírus de dsDNA típico, pois depende de transcrição reversa." },
+        { "letra": "E", "texto": "Grupo V (−ssRNA); o tenofovir bloqueia a polimerase trazida no vírion", "explicacao": "O HBV não tem genoma de RNA negativo." }
+      ],
+      "gabarito": "B",
+      "secao": "baltimore",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Vírus das hepatites\"",
+      "tags": ["Baltimore", "hepatite B", "transcriptase reversa"]
+    },
+    {
+      "id": "mv-008",
+      "nivel": "dificil",
+      "enunciado": "Um vírus responsável por arboviroses no Brasil tem genoma de RNA de fita simples que, ao entrar na célula, é traduzido imediatamente pelos ribossomos em uma única poliproteína, posteriormente clivada por proteases. Em que grupo de Baltimore ele se encaixa e qual é um exemplo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Grupo V; vírus da raiva", "explicacao": "No grupo V o genoma é de RNA negativo e não pode ser traduzido diretamente; a raiva não é arbovirose." },
+        { "letra": "B", "texto": "Grupo III; rotavírus", "explicacao": "O rotavírus tem RNA de fita dupla e causa diarreia, não é arbovírus." },
+        { "letra": "C", "texto": "Grupo IV; vírus da dengue", "explicacao": "Correta. Genoma de RNA de fita simples traduzido diretamente pelos ribossomos é RNA de sentido positivo (grupo IV). Os flavivírus — dengue, zika, febre amarela — são transmitidos por mosquitos e têm genoma +ssRNA traduzido em uma poliproteína, clivada por proteases virais e celulares." },
+        { "letra": "D", "texto": "Grupo VI; HTLV-1", "explicacao": "O HTLV-1 é retrovírus (usa transcriptase reversa), transmitido por sangue, sexo e amamentação, não por mosquitos." },
+        { "letra": "E", "texto": "Grupo II; parvovírus B19", "explicacao": "O parvovírus B19 tem DNA de fita simples e não é arbovírus." }
+      ],
+      "gabarito": "C",
+      "secao": "baltimore",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., caps. \"Classificação, estrutura e replicação viral\" e \"Flavivírus\"",
+      "tags": ["Baltimore", "+ssRNA", "dengue"]
+    },
+    {
+      "id": "mv-009",
+      "nivel": "aprofundado",
+      "enunciado": "Uma pessoa vivendo com HIV inicia esquema contendo dolutegravir. Mesmo que a transcriptase reversa já tenha copiado o RNA viral em DNA dentro de linfócitos recém-infectados, o fármaco impede que essas células se tornem fontes permanentes de vírus. Em que etapa o dolutegravir age e por que isso é importante?",
+      "alternativas": [
+        { "letra": "A", "texto": "Na adsorção, bloqueando a ligação da gp120 ao CD4", "explicacao": "O dolutegravir não age na adsorção; o fármaco que bloqueia uma etapa de entrada (o correceptor CCR5) é o maraviroque." },
+        { "letra": "B", "texto": "Na fusão, ligando-se à gp41", "explicacao": "O fármaco que se liga à gp41 e bloqueia a fusão é a enfuvirtida." },
+        { "letra": "C", "texto": "Na maturação, inibindo a protease que corta as poliproteínas", "explicacao": "A inibição da protease (atazanavir, darunavir) impede a maturação dos vírions; não é o mecanismo do dolutegravir." },
+        { "letra": "D", "texto": "Na integração, inibindo a integrase e impedindo que o DNA viral seja inserido no cromossomo da célula como provírus", "explicacao": "Correta. Depois da transcrição reversa, a integrase insere o DNA viral no genoma da célula, formando o provírus, que passa a ser transcrito pela maquinaria celular e é copiado a cada divisão — inclusive em células de memória que formam o reservatório latente. O dolutegravir bloqueia essa inserção; o DNA viral não integrado é degradado e não sustenta produção duradoura de vírus." },
+        { "letra": "E", "texto": "Na liberação, inibindo a neuraminidase", "explicacao": "A inibição da neuraminidase (oseltamivir) é estratégia contra o influenza, não contra o HIV." }
+      ],
+      "gabarito": "D",
+      "secao": "antivirais",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Agentes antirretrovirais e tratamento da infecção pelo HIV\"",
+      "tags": ["HIV", "integrase", "antivirais"]
+    },
+    {
+      "id": "mv-010",
+      "nivel": "aprofundado",
+      "enunciado": "Em uma curva de crescimento viral em uma única etapa, células são infectadas ao mesmo tempo e o número de vírus infecciosos dentro delas é medido ao longo do tempo. Logo após a entrada, por algumas horas, praticamente não se detectam partículas infecciosas dentro das células, embora o vírus esteja presente. Depois, o número de vírions aumenta rapidamente. Como se explica a fase inicial?",
+      "alternativas": [
+        { "letra": "A", "texto": "Os vírus foram destruídos pelos lisossomos e a infecção recomeçou com outros vírions", "explicacao": "Se os vírus fossem destruídos, não haveria aumento posterior a partir das mesmas células; a ausência de partículas infecciosas faz parte do ciclo normal." },
+        { "letra": "B", "texto": "Os vírus permaneceram aderidos à membrana, aguardando a adsorção", "explicacao": "A fase descrita ocorre após a entrada; vírus apenas aderidos ainda seriam infecciosos e detectáveis." },
+        { "letra": "C", "texto": "A célula entrou em apoptose e parou de produzir partículas", "explicacao": "Se a célula morresse, não haveria a produção maciça de vírions que se segue." },
+        { "letra": "D", "texto": "O sistema complemento neutralizou os vírus dentro das células", "explicacao": "O complemento age no meio extracelular e não explica uma fase intracelular presente em todas as infecções virais." },
+        { "letra": "E", "texto": "É o período de eclipse: após o desnudamento, o vírus existe apenas como genoma e proteínas em síntese, sem partículas completas, até a montagem dos novos vírions", "explicacao": "Correta. Com o desnudamento, o capsídeo é desmontado e o vírion deixa de existir como partícula infecciosa; o genoma comanda a síntese de proteínas precoces, a replicação e as proteínas tardias. Só após a montagem surgem novas partículas, e o número de vírus infecciosos sobe abruptamente." }
+      ],
+      "gabarito": "E",
+      "secao": "replicacao",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Classificação, estrutura e replicação viral\"",
+      "tags": ["replicação viral", "eclipse", "desnudamento"]
+    }
+  ]
+}

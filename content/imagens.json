@@ -152,5 +152,159 @@
     "licenca": "Domínio público",
     "fonte": "https://commons.wikimedia.org/wiki/File:Gray1179.png",
     "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/virus/classificacao-baltimore.png": {
+    "titulo": "Baltimore Classification",
+    "autor": "Graham Beards (original); versão vetorial",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Baltimore_Classification.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/virus/hiv-virion.png": {
+    "titulo": "HI-virion-structure en",
+    "autor": "Thomas Splettstoesser (www.scistyle.com)",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:HI-virion-structure_en.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/virus/coronavirus-estrutura.png": {
+    "titulo": "Coronavirus virion structure",
+    "autor": "SPQR10",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Coronavirus_virion_structure.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/virus/sars-cov-2-me.jpg": {
+    "titulo": "Novel Coronavirus SARS-CoV-2 (49597020648)",
+    "autor": "NIAID (National Institute of Allergy and Infectious Diseases)",
+    "licenca": "CC BY 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Novel_Coronavirus_SARS-CoV-2_%2849597020648%29.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/virus/ciclo-litico-lisogenico.png": {
+    "titulo": "Lysogenic and lytic cycle",
+    "autor": "Suly12 e Adenosine (Wikimedia Commons)",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Lysogenic_and_lytic_cycle.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/virus/openstax-21-3.jpg": {
+    "titulo": "Figure 21 03 01",
+    "autor": "OpenStax (Biology)",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Figure_21_03_01.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/candida-levedura-hifa.jpg": {
+    "titulo": "Candida albicans growing as yeast cells and filamentous (hypha) cells",
+    "autor": "Garnhami",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Candida_albicans_growing_as_yeast_cells_and_filamentous_%28hypha%29_cells.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/candida-pseudo-hifas-gram.jpg": {
+    "titulo": "Candida spores and pseudohyphae",
+    "autor": "Dr Graham Beards",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Candida_spores_and_pseudohyphae.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/hifas-koh-pele.jpg": {
+    "titulo": "Fungal hyphae in KOH mount of Skin scrapping",
+    "autor": "Ajay Kumar Chaurasiya",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Fungal_hyphae_in_KOH_mount_of_Skin_scrapping.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/tinea-corporis.jpg": {
+    "titulo": "Tinea corporis",
+    "autor": "Mohammad3021",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Tinea_corporis.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/bacterias/morfologia-bacteriana.png": {
+    "titulo": "Bacterial morphology diagram-pt",
+    "autor": "Mariana Ruiz (LadyofHats); tradução para o português",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Bacterial_morphology_diagram-pt.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/bacterias/celula-procarionte.png": {
+    "titulo": "Prokaryote cell diagram",
+    "autor": "Mariana Ruiz LadyofHats",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Prokaryote_cell_diagram.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/bacterias/parede-gram.png": {
+    "titulo": "Gram-Cell-wall",
+    "autor": "Graevemoore",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Gram-Cell-wall.svg",
+    "modificacao": "convertida para PNG, redimensionada"
+  },
+  "img/morfo/bacterias/gram-misto.jpg": {
+    "titulo": "Gram stain 01",
+    "autor": "Y tambe",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Gram_stain_01.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/bacterias/staphylococcus-gram.jpg": {
+    "titulo": "Staphylococcus aureus Gram stain",
+    "autor": "Dr Graham Beards",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_Gram_stain.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/bacterias/ecoli-gram.jpg": {
+    "titulo": "Escherichia coli Gram Stain",
+    "autor": "Dr Graham Beards",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Escherichia_coli_Gram_Stain.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/bacterias/baar-ziehl-cdc.jpg": {
+    "titulo": "Mycobacterium tuberculosis Ziehl-Neelsen stain 02",
+    "autor": "CDC/Dr. George P. Kubica",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Mycobacterium_tuberculosis_Ziehl-Neelsen_stain_02.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/bacterias/baar-ziehl-lba.jpg": {
+    "titulo": "Acid fast bacilli of Mycobacterium tuberculosis",
+    "autor": "Ajay Kumar Chaurasiya",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Acid_fast_bacilli_of_Mycobacterium_tuberculosis.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/bacterias/corynebacterium-gram.jpg": {
+    "titulo": "Corynebacterium diphtheriae Gram stain",
+    "autor": "CDC (Public Health Image Library)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Corynebacterium_diphtheriae_Gram_stain.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/aspergillus-lpcb.jpg": {
+    "titulo": "Conidia, Strigma, Vesicle, and Conidiophores of Aspergillus in LPCB Tease Mount Microscopy",
+    "autor": "Ajay Kumar Chaurasiya",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Conidia%2C_Strigma%2C_Vesicle%2C_and_Conidiophores_of_Aspergillus_in_LPCB_Tease_Mount_Microscopy.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/mucormicose-histologia.jpg": {
+    "titulo": "Histopathology of pulmonary mucormycosis",
+    "autor": "Lee JH, Hyun JS, Kang DY, Lee HJ, Park SG",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pulmonary_mucormycosis.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/fungos/criptococo-liquor-nanquim.jpg": {
+    "titulo": "Cryptococcus in cerebrospinal fluid, India ink prep. (49623531757)",
+    "autor": "Ed Uthman from Houston, TX, USA",
+    "licenca": "CC BY 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Cryptococcus_in_cerebrospinal_fluid%2C_India_ink_prep._%2849623531757%29.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
   }
 }
