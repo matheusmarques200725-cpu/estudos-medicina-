@@ -1,0 +1,165 @@
+{
+  "topico": "necrose-apoptose",
+  "questoes": [
+    {
+      "id": "na-001",
+      "nivel": "medio",
+      "enunciado": "Homem de 68 anos com fibrilação atrial sem anticoagulação morre de causa não relacionada. Na necropsia, o rim esquerdo apresenta área pálida, firme, em forma de cunha com base voltada para a cápsula. Ao microscópio, nota-se intensa eosinofilia, com o contorno de túbulos e glomérulos ainda reconhecível, mas sem núcleos nas células, e um halo de neutrófilos na periferia. Qual o padrão de necrose?",
+      "alternativas": [
+        { "letra": "A", "texto": "Necrose liquefativa", "explicacao": "A necrose liquefativa destrói a arquitetura, transformando o tecido em massa líquida (pus ou cavidade). Aqui a arquitetura está preservada." },
+        { "letra": "B", "texto": "Necrose caseosa", "explicacao": "A necrose caseosa forma material amorfo granuloso, sem contorno celular, cercado por granuloma; é típica da tuberculose, não de embolia." },
+        { "letra": "C", "texto": "Necrose de coagulação", "explicacao": "Correta. Um êmbolo vindo do átrio (fibrilação atrial) ocluiu um ramo da artéria renal, causando infarto. A isquemia em órgão sólido (exceto SNC) desnatura proteínas estruturais e enzimas, retardando a autodigestão: a arquitetura fica preservada, com células 'fantasmas' sem núcleo, e os neutrófilos se acumulam na borda viva. A forma de cunha segue o território arterial." },
+        { "letra": "D", "texto": "Necrose gordurosa", "explicacao": "A necrose gordurosa ocorre no tecido adiposo por ação de lipases (pancreatite) ou trauma, com saponificação; não descreve o parênquima renal." },
+        { "letra": "E", "texto": "Necrose fibrinoide", "explicacao": "A necrose fibrinoide é restrita à parede dos vasos (imunocomplexos e fibrina) e só é vista ao microscópio; não produz uma área em cunha do parênquima." }
+      ],
+      "gabarito": "C",
+      "secao": "necrose-coagulacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["necrose de coagulação", "infarto"]
+    },
+    {
+      "id": "na-002",
+      "nivel": "medio",
+      "enunciado": "Mulher de 45 anos, etilista, é internada com dor epigástrica intensa irradiada para o dorso e lipase sérica 15 vezes acima do normal. No terceiro dia, apresenta cálcio sérico baixo. Na tomografia e, depois, na cirurgia, observam-se manchas esbranquiçadas, firmes, semelhantes a giz, no tecido adiposo peripancreático e no omento. Qual processo explica as manchas e a hipocalcemia?",
+      "alternativas": [
+        { "letra": "A", "texto": "Necrose gordurosa enzimática, com ácidos graxos combinando-se ao cálcio (saponificação)", "explicacao": "Correta. Na pancreatite aguda, lipases ativadas escapam e quebram os triglicerídeos dos adipócitos em ácidos graxos, que se ligam ao cálcio formando sabões — as manchas brancas de giz. Esse consumo de cálcio contribui para a hipocalcemia das pancreatites graves." },
+        { "letra": "B", "texto": "Calcificação metastática do tecido adiposo por hipercalcemia", "explicacao": "A calcificação metastática ocorre em tecidos normais quando o cálcio sanguíneo está alto; a paciente tem cálcio baixo, e o depósito está em tecido necrótico." },
+        { "letra": "C", "texto": "Necrose caseosa do tecido adiposo", "explicacao": "A necrose caseosa está ligada a infecções granulomatosas como a tuberculose, não à ação de enzimas pancreáticas." },
+        { "letra": "D", "texto": "Apoptose maciça dos adipócitos", "explicacao": "A apoptose afeta células isoladas, sem inflamação e sem depósitos de cálcio visíveis macroscopicamente; o quadro é de necrose por digestão enzimática." },
+        { "letra": "E", "texto": "Necrose de coagulação por isquemia do omento", "explicacao": "A necrose de coagulação resulta de isquemia e preserva a arquitetura; não explica as lesões de giz associadas à liberação de lipases." }
+      ],
+      "gabarito": "A",
+      "secao": "necrose-gordurosa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["necrose gordurosa", "pancreatite"]
+    },
+    {
+      "id": "na-003",
+      "nivel": "medio",
+      "enunciado": "Biópsia de linfonodo cervical de um homem de 30 anos com febre vespertina e perda de peso mostra áreas centrais de material eosinófilo, amorfo e granuloso, sem nenhum contorno celular reconhecível, cercadas por macrófagos epitelioides, células gigantes multinucleadas com núcleos dispostos em ferradura e um halo de linfócitos. Qual o tipo de necrose e o agente mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Necrose liquefativa; *Staphylococcus aureus*", "explicacao": "O estafilococo forma abscessos com necrose liquefativa e muitos neutrófilos, sem granulomas com células gigantes." },
+        { "letra": "B", "texto": "Necrose de coagulação; infarto do linfonodo", "explicacao": "A necrose de coagulação preserva o contorno das células e da arquitetura, o que não ocorre aqui; também não se associa a granulomas." },
+        { "letra": "C", "texto": "Necrose fibrinoide; vasculite", "explicacao": "A necrose fibrinoide se restringe à parede vascular e não forma áreas centrais amorfas cercadas por granuloma." },
+        { "letra": "D", "texto": "Necrose gordurosa; trauma", "explicacao": "A necrose gordurosa ocorre no tecido adiposo, com saponificação, e não é cercada por granuloma epitelioide." },
+        { "letra": "E", "texto": "Necrose caseosa; *Mycobacterium tuberculosis*", "explicacao": "Correta. O material amorfo e granuloso, com perda total da arquitetura (aspecto de queijo à macroscopia), circundado por granuloma com células gigantes de Langhans e linfócitos, é a necrose caseosa — característica da tuberculose, coerente com febre vespertina e emagrecimento." }
+      ],
+      "gabarito": "E",
+      "secao": "necrose-caseosa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["necrose caseosa", "tuberculose", "granuloma"]
+    },
+    {
+      "id": "na-004",
+      "nivel": "medio",
+      "enunciado": "Durante a involução do endométrio no fim do ciclo menstrual, a queda de progesterona leva à morte de células epiteliais e estromais. Ao microscópio, veem-se células isoladas, encolhidas, com citoplasma muito eosinófilo e fragmentos nucleares, sem reação inflamatória. Qual característica explica a ausência de inflamação nesse tipo de morte?",
+      "alternativas": [
+        { "letra": "A", "texto": "As células morrem sem gastar ATP, o que impede a produção de citocinas", "explicacao": "A apoptose depende de energia (ATP); a falta de inflamação não se deve à ausência de gasto energético." },
+        { "letra": "B", "texto": "A membrana permanece íntegra e os corpos apoptóticos são fagocitados antes de vazar conteúdo", "explicacao": "Correta. Na apoptose, as caspases fragmentam a célula em corpos envoltos por membrana, que expõem fosfatidilserina ('me coma') e são engolidos rapidamente por macrófagos. Como não há vazamento de conteúdo intracelular (DAMPs), não há estímulo inflamatório; os macrófagos ainda liberam sinais anti-inflamatórios ao fagocitar." },
+        { "letra": "C", "texto": "As enzimas lisossômicas são desnaturadas, impedindo a digestão do tecido", "explicacao": "A desnaturação de enzimas é o mecanismo da necrose de coagulação, que é acompanhada de inflamação." },
+        { "letra": "D", "texto": "A morte ocorre em grandes grupos de células ao mesmo tempo", "explicacao": "Morte de grupos de células é característica da necrose; a apoptose atinge células isoladas." },
+        { "letra": "E", "texto": "A cromatina sofre cariólise, sem liberação de DNA", "explicacao": "A cariólise (desbotamento da cromatina por DNases) é uma alteração nuclear da necrose, não o motivo da ausência de inflamação." }
+      ],
+      "gabarito": "B",
+      "secao": "morfologia-apoptose",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["apoptose", "inflamação"]
+    },
+    {
+      "id": "na-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 72 anos teve AVC isquêmico extenso no território da artéria cerebral média. Morre três semanas depois por pneumonia. Na necropsia, qual achado é esperado na área infartada do cérebro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Área firme e pálida em cunha, com arquitetura preservada e células 'fantasmas'", "explicacao": "Esse é o aspecto da necrose de coagulação dos infartos de órgãos sólidos como coração e rim, mas não do cérebro." },
+        { "letra": "B", "texto": "Material branco-amarelado de aspecto de queijo, cercado por granulomas", "explicacao": "É a necrose caseosa, própria de infecções granulomatosas, sem relação com isquemia cerebral." },
+        { "letra": "C", "texto": "Manchas brancas de giz por saponificação", "explicacao": "A saponificação caracteriza a necrose gordurosa do tecido adiposo, sobretudo na pancreatite." },
+        { "letra": "D", "texto": "Tecido amolecido e liquefeito, com macrófagos carregados de lipídios, evoluindo para cavidade", "explicacao": "Correta. O infarto do SNC produz necrose liquefativa: o tecido cerebral tem pouca matriz de sustentação e muitos lipídios e enzimas, e a área morta se amolece e liquefaz. Macrófagos fagocitam os restos (ficando espumosos de lipídios) e, com semanas a meses, forma-se uma cavidade cística cercada por gliose." },
+        { "letra": "E", "texto": "Parede das arteríolas com material rosa-brilhante de fibrina e imunocomplexos", "explicacao": "Essa é a necrose fibrinoide das vasculites; não descreve o parênquima cerebral infartado." }
+      ],
+      "gabarito": "D",
+      "secao": "necrose-liquefativa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["necrose liquefativa", "AVC"]
+    },
+    {
+      "id": "na-006",
+      "nivel": "dificil",
+      "enunciado": "Linfócitos em cultura são irradiados, sofrendo dano extenso e irreparável ao DNA. Ocorre ativação do p53, aumento das proteínas Puma e Noxa e morte celular por apoptose. Qual sequência de eventos é a mais provável após o aumento dessas proteínas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ativação de Bax/Bak → saída do citocromo c da mitocôndria → apoptossomo com Apaf-1 → caspase-9 → caspase-3", "explicacao": "Correta. Puma e Noxa são proteínas 'BH3-only' (sensoras), induzidas pelo p53 após dano ao DNA. Elas neutralizam as antiapoptóticas e ativam Bax e Bak, que formam canais na membrana externa mitocondrial. O citocromo c sai, liga-se ao Apaf-1 formando o apoptossomo, que ativa a caspase-9 (iniciadora da via intrínseca), que por sua vez ativa a caspase-3 (executora)." },
+        { "letra": "B", "texto": "Ligação do FasL ao Fas → FADD → caspase-8 → caspase-3", "explicacao": "Essa é a via extrínseca (receptores de morte), disparada por um sinal externo, e não por dano ao DNA via p53 e proteínas BH3-only." },
+        { "letra": "C", "texto": "Aumento de Bcl-2 → abertura de canais mitocondriais → caspase-1", "explicacao": "A Bcl-2 é antiapoptótica (protege a mitocôndria), e a caspase-1 está ligada ao inflamassoma e à piroptose, não à apoptose intrínseca." },
+        { "letra": "D", "texto": "Perforina e granzima B → ativação direta das caspases", "explicacao": "Perforina e granzima B são entregues por linfócitos T CD8⁺ e células NK à célula-alvo; não são produzidas em resposta ao dano ao DNA da própria célula." },
+        { "letra": "E", "texto": "RIPK1/RIPK3 → MLKL → ruptura da membrana", "explicacao": "Esse é o caminho da necroptose, uma necrose programada com ruptura de membrana; a questão descreve apoptose mediada por p53." }
+      ],
+      "gabarito": "A",
+      "secao": "vias-apoptose",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["apoptose", "via intrínseca", "p53"]
+    },
+    {
+      "id": "na-007",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 58 anos apresenta linfonodomegalias generalizadas indolores, de crescimento lento. A biópsia mostra linfoma folicular, e a citogenética revela t(14;18). Qual é a consequência funcional dessa translocação que explica o acúmulo das células tumorais?",
+      "alternativas": [
+        { "letra": "A", "texto": "Perda de função do p53, impedindo a parada do ciclo celular", "explicacao": "Mutações do p53 são comuns em muitos cânceres, mas a t(14;18) não afeta o p53." },
+        { "letra": "B", "texto": "Ativação constitutiva da caspase-8 pela via do Fas", "explicacao": "A ativação da caspase-8 levaria à morte das células, não ao seu acúmulo." },
+        { "letra": "C", "texto": "Superexpressão de Bax, aumentando a permeabilidade mitocondrial", "explicacao": "Bax é pró-apoptótica; seu excesso favoreceria a apoptose, não a sobrevivência das células tumorais." },
+        { "letra": "D", "texto": "Proliferação acelerada por ativação do oncogene MYC", "explicacao": "A ativação do MYC está associada à t(8;14) do linfoma de Burkitt, um tumor de crescimento muito rápido, diferente do linfoma folicular." },
+        { "letra": "E", "texto": "Excesso da proteína antiapoptótica Bcl-2, prolongando a sobrevida dos linfócitos B", "explicacao": "Correta. A t(14;18) coloca o gene BCL2 sob o controle do potente promotor/amplificador do gene da cadeia pesada das imunoglobulinas (cromossomo 14). Os linfócitos B produzem Bcl-2 em excesso, que bloqueia Bax/Bak e a liberação do citocromo c. As células não morrem quando deveriam e se acumulam — por isso o tumor é indolente: cresce mais por sobrevida prolongada do que por proliferação rápida." }
+      ],
+      "gabarito": "E",
+      "secao": "cancer-apoptose",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Lesão e morte celulares\" e \"Neoplasia\"",
+      "tags": ["Bcl-2", "linfoma folicular", "câncer"]
+    },
+    {
+      "id": "na-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 60 anos teve infarto agudo do miocárdio, foi tratado e recebeu alta. No quinto dia após o evento, apresenta dor torácica súbita, hipotensão e abafamento de bulhas, evoluindo para óbito por tamponamento cardíaco. Qual achado histológico predomina na área infartada nesse momento e explica a complicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Cicatriz densa de colágeno, pouco elástica", "explicacao": "A cicatriz colagenosa só se completa em torno de dois meses e, ao contrário, dá resistência à parede (embora possa formar aneurisma)." },
+        { "letra": "B", "texto": "Fibras miocárdicas onduladas, sem infiltrado inflamatório", "explicacao": "Fibras onduladas são alterações das primeiras horas, antes da chegada dos leucócitos." },
+        { "letra": "C", "texto": "Macrófagos removendo o tecido necrótico, com parede amolecida antes da deposição de colágeno", "explicacao": "Correta. Entre o 3º e o 7º dia, os neutrófilos morrem e os macrófagos fagocitam o miocárdio necrótico; o tecido de granulação e o colágeno ainda não se formaram. A parede está em seu momento mais frágil, o que explica a ruptura da parede livre com hemopericárdio e tamponamento." },
+        { "letra": "D", "texto": "Tecido de granulação maduro, rico em fibroblastos e colágeno", "explicacao": "O tecido de granulação aparece por volta de 7–14 dias e começa a reforçar a parede; não é o achado predominante no 5º dia." },
+        { "letra": "E", "texto": "Calcificação distrófica extensa", "explicacao": "A calcificação distrófica é tardia em áreas necróticas antigas e não explica a ruptura no 5º dia." }
+      ],
+      "gabarito": "C",
+      "secao": "evolucao-infarto",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Coração\"",
+      "tags": ["infarto do miocárdio", "evolução temporal"]
+    },
+    {
+      "id": "na-009",
+      "nivel": "aprofundado",
+      "enunciado": "Em um estudo com hepatócitos expostos a duas toxinas diferentes, a microscopia eletrônica mostra: com a toxina X, células encolhidas, membrana plasmática íntegra com múltiplas bolhas, mitocôndrias de aspecto normal e cromatina condensada em massas densas junto ao envelope nuclear; com a toxina Y, células aumentadas de volume, mitocôndrias inchadas com densidades floculentas, figuras de mielina e soluções de continuidade na membrana plasmática. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "X causa necrose e Y causa apoptose; só a necrose depende de caspases", "explicacao": "A interpretação está invertida: encolhimento com membrana íntegra e bolhas é apoptose, e a apoptose — não a necrose — é executada por caspases." },
+        { "letra": "B", "texto": "X causa apoptose (dependente de ATP e de caspases, sem inflamação) e Y causa necrose (com vazamento de conteúdo e inflamação)", "explicacao": "Correta. Encolhimento, bolhas (blebs), organelas preservadas e cromatina condensada em crescentes junto ao envelope são marcas ultraestruturais da apoptose, processo ativo que consome ATP e não provoca inflamação. Tumefação, densidades floculentas mitocondriais (marca de lesão irreversível), figuras de mielina e ruptura de membrana caracterizam a necrose, com vazamento de conteúdo e inflamação." },
+        { "letra": "C", "texto": "Ambas causam lesão reversível; as alterações regrediriam com a retirada das toxinas", "explicacao": "Densidades floculentas mitocondriais e ruptura de membrana indicam lesão irreversível; a condensação e fragmentação da apoptose também são um ponto sem retorno." },
+        { "letra": "D", "texto": "X causa necroptose e Y causa piroptose", "explicacao": "A necroptose tem morfologia de necrose (tumefação e ruptura de membrana), não de células encolhidas com membrana íntegra; e não há dados de inflamassoma para afirmar piroptose." },
+        { "letra": "E", "texto": "X e Y causam o mesmo tipo de morte, apenas em fases diferentes", "explicacao": "As alterações são opostas em volume celular, integridade de membrana e organelas; não representam fases de um mesmo processo." }
+      ],
+      "gabarito": "B",
+      "secao": "apoptose-me",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["microscopia eletrônica", "apoptose", "necrose"]
+    },
+    {
+      "id": "na-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 55 anos, assintomático, faz radiografia de tórax admissional que mostra nódulo calcificado no lobo superior direito e um linfonodo hilar calcificado. Relata tratamento de tuberculose há 20 anos. Cálcio e fósforo séricos normais, PTH normal. Qual a explicação para a calcificação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Calcificação metastática por hiperparatireoidismo", "explicacao": "A calcificação metastática exige hipercalcemia (como no hiperparatireoidismo) e atinge tecidos normais; os exames do paciente são normais." },
+        { "letra": "B", "texto": "Saponificação de tecido adiposo pulmonar", "explicacao": "Saponificação é a combinação de ácidos graxos com cálcio na necrose gordurosa enzimática, sem relação com tuberculose pulmonar." },
+        { "letra": "C", "texto": "Metástase óssea de tumor oculto", "explicacao": "Não há dados sugestivos de neoplasia; a história de tuberculose tratada explica as lesões calcificadas estáveis." },
+        { "letra": "D", "texto": "Calcificação distrófica de áreas antigas de necrose caseosa", "explicacao": "Correta. A tuberculose deixou focos de necrose caseosa no pulmão e no linfonodo hilar (complexo de Ghon/Ranke). Tecidos necróticos antigos acumulam sais de cálcio mesmo com cálcio sérico normal — é a calcificação distrófica, que torna as lesões visíveis na radiografia." },
+        { "letra": "E", "texto": "Apoptose de pneumócitos com acúmulo de corpos apoptóticos calcificados", "explicacao": "Os corpos apoptóticos são fagocitados rapidamente, sem se acumular nem calcificar em nódulos visíveis." }
+      ],
+      "gabarito": "D",
+      "secao": "calcificacao-distrofica",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["calcificação distrófica", "tuberculose"]
+    }
+  ]
+}
