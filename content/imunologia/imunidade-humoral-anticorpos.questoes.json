@@ -1,0 +1,165 @@
+{
+  "topico": "imunidade-humoral-anticorpos",
+  "questoes": [
+    {
+      "id": "ih-001",
+      "nivel": "medio",
+      "enunciado": "Qual região da molécula de imunoglobulina forma o sítio que reconhece o epítopo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Os domínios CH2 e CH3 das cadeias pesadas (porção Fc)", "explicacao": "A porção Fc não liga o antígeno; ela interage com receptores Fc das células e com o complemento." },
+        { "letra": "B", "texto": "Os domínios variáveis da cadeia pesada e da cadeia leve (VH e VL), por meio das regiões hipervariáveis (CDRs)", "explicacao": "Correta. Na ponta de cada braço do Y, **VH e VL** se juntam e formam o **sítio de ligação ao antígeno**. A superfície que toca o epítopo é formada pelas **seis CDRs** (três de cada cadeia), as regiões hipervariáveis." },
+        { "letra": "C", "texto": "A região da dobradiça", "explicacao": "A dobradiça dá **flexibilidade** aos braços, mas não reconhece o antígeno." },
+        { "letra": "D", "texto": "A cadeia J", "explicacao": "A cadeia J une os monômeros da IgM e da IgA polimérica; não participa do reconhecimento do antígeno." },
+        { "letra": "E", "texto": "O componente secretor", "explicacao": "O componente secretor acompanha a IgA secretada e a protege das enzimas; não reconhece antígeno." }
+      ],
+      "gabarito": "B",
+      "secao": "regioes-variaveis",
+      "referencia": "Abbas, Lichtman & Pillai – Imunologia Celular e Molecular, 10ª ed., cap. 'Anticorpos e antígenos'",
+      "tags": ["CDR", "região variável", "sítio de ligação"]
+    },
+    {
+      "id": "ih-002",
+      "nivel": "medio",
+      "enunciado": "A imunoglobulina predominante na saliva, nas lágrimas e no colostro tem uma estrutura especial que a protege das enzimas das secreções. Qual é essa estrutura?",
+      "alternativas": [
+        { "letra": "A", "texto": "IgG monomérica com quatro subclasses", "explicacao": "A IgG predomina no **sangue**, não nas secreções, e não tem componente secretor." },
+        { "letra": "B", "texto": "IgM pentamérica com cadeia J", "explicacao": "A IgM é pentamérica no soro, mas não é a principal imunoglobulina das secreções." },
+        { "letra": "C", "texto": "IgE monomérica ligada a mastócitos", "explicacao": "A IgE fica presa a mastócitos e basófilos; existe em quantidades mínimas e não é a Ig das secreções." },
+        { "letra": "D", "texto": "IgA dimérica, unida pela cadeia J e acompanhada do componente secretor", "explicacao": "Correta. A **IgA secretora** é um **dímero** unido pela **cadeia J**. Ao atravessar o epitélio pelo receptor poli-Ig, ela leva consigo um pedaço desse receptor, o **componente secretor**, que a protege da degradação pelas enzimas das secreções. Neutraliza micróbios nas mucosas sem causar inflamação." },
+        { "letra": "E", "texto": "IgD monomérica de membrana", "explicacao": "A IgD funciona sobretudo como receptor de membrana dos linfócitos B naïve." }
+      ],
+      "gabarito": "D",
+      "secao": "polimeros",
+      "referencia": "Abbas, 10ª ed., caps. 'Anticorpos e antígenos' e 'Mecanismos efetores da imunidade humoral'",
+      "tags": ["IgA secretora", "cadeia J", "componente secretor"]
+    },
+    {
+      "id": "ih-003",
+      "nivel": "medio",
+      "enunciado": "Durante uma resposta imune, um clone de linfócitos B que produzia IgM passa a produzir IgG contra o mesmo antígeno. O que permanece igual e o que muda na molécula?",
+      "alternativas": [
+        { "letra": "A", "texto": "A região variável (e a especificidade) se mantém; muda a região constante da cadeia pesada", "explicacao": "Correta. Na **troca de classe**, o mesmo gene VDJ passa a ser unido a outro gene de **região constante** (Cγ em vez de Cμ), após a deleção do DNA intermediário pela ação da AID nas regiões switch. A **especificidade** é preservada, mas mudam as **funções efetoras** (agora a molécula atravessa a placenta, opsoniza via FcγR etc.)." },
+        { "letra": "B", "texto": "A cadeia leve passa de κ para λ, e a cadeia pesada se mantém", "explicacao": "A troca de classe envolve a **cadeia pesada**; o tipo de cadeia leve não muda nesse processo." },
+        { "letra": "C", "texto": "Mudam as regiões variável e constante, gerando um anticorpo contra outro antígeno", "explicacao": "A troca de classe não altera o antígeno reconhecido." },
+        { "letra": "D", "texto": "A região constante se mantém; muda a região variável", "explicacao": "É o contrário: a região constante muda e a variável se mantém." },
+        { "letra": "E", "texto": "Nada muda na molécula; apenas a quantidade secretada aumenta", "explicacao": "A classe é definida pela região constante da cadeia pesada, que muda de μ para γ." }
+      ],
+      "gabarito": "A",
+      "secao": "troca-classe",
+      "referencia": "Abbas, 10ª ed., cap. 'Ativação dos linfócitos B e produção de anticorpos'",
+      "tags": ["troca de classe", "região constante"]
+    },
+    {
+      "id": "ih-004",
+      "nivel": "medio",
+      "enunciado": "Um homem com ferimento profundo por prego enferrujado, sem vacinação antitetânica comprovada, recebe imunoglobulina antitetânica. Qual é o principal mecanismo pelo qual esses anticorpos o protegem?",
+      "alternativas": [
+        { "letra": "A", "texto": "Opsonização do Clostridium tetani, facilitando sua fagocitose", "explicacao": "A doença é causada pela **toxina** que se liga aos neurônios; a proteção principal vem de bloquear essa toxina." },
+        { "letra": "B", "texto": "Ativação do complemento com lise da bactéria", "explicacao": "O dano do tétano é causado pela toxina, e não diretamente pela bactéria no tecido." },
+        { "letra": "C", "texto": "ADCC mediada por células NK contra os neurônios afetados", "explicacao": "Destruir neurônios não seria protetor; o objetivo é impedir que a toxina chegue até eles." },
+        { "letra": "D", "texto": "Ativação de mastócitos com liberação de histamina", "explicacao": "Esse é o mecanismo da IgE, sem papel na proteção contra o tétano." },
+        { "letra": "E", "texto": "Neutralização da toxina tetânica: os anticorpos se ligam a ela e impedem sua ligação aos neurônios", "explicacao": "Correta. A **neutralização** depende apenas do **Fab**: o anticorpo se liga à toxina na região que ela usa para se prender aos neurônios e a bloqueia. É imunização **passiva** (anticorpos prontos, efeito imediato e temporário), por isso se associa a **vacina** para gerar memória." }
+      ],
+      "gabarito": "E",
+      "secao": "mecanismos-acao",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'; Ministério da Saúde – Manual de Normas e Procedimentos para Vacinação",
+      "tags": ["neutralização", "tétano", "imunização passiva"]
+    },
+    {
+      "id": "ih-005",
+      "nivel": "dificil",
+      "enunciado": "Menino de 2 anos tem pneumonias bacterianas de repetição e uma pneumonia por *Pneumocystis jirovecii*. Exames: IgM elevada, IgG, IgA e IgE muito baixas; linfócitos B circulantes presentes; ausência de centros germinativos na biópsia de linfonodo. Qual defeito explica o quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Mutação em BTK, impedindo a maturação dos linfócitos B na medula", "explicacao": "Na agamaglobulinemia de Bruton (BTK) **não há linfócitos B** circulantes, e todas as classes estão baixas, inclusive a IgM." },
+        { "letra": "B", "texto": "Deficiência seletiva de IgA", "explicacao": "Na deficiência de IgA, as outras classes são normais e a doença costuma ser leve." },
+        { "letra": "C", "texto": "Defeito no CD40L dos linfócitos T, impedindo a troca de classe e a formação de centros germinativos (síndrome de hiper-IgM)", "explicacao": "Correta. A interação **CD40L (T) – CD40 (B)** é indispensável para a **troca de classe** e os **centros germinativos**. Sem ela, os linfócitos B só produzem **IgM** (normal ou alta), com IgG, IgA e IgE muito baixas. Como o CD40L também ativa **macrófagos**, há infecções oportunistas como *Pneumocystis*. A forma mais comum é ligada ao X." },
+        { "letra": "D", "texto": "Mutação nos genes RAG, impedindo a recombinação V(D)J", "explicacao": "Defeitos de RAG impedem a formação de linfócitos B **e** T (SCID); não haveria linfócitos B circulantes nem IgM elevada." },
+        { "letra": "E", "texto": "Deficiência do componente C3 do complemento", "explicacao": "A deficiência de C3 causa infecções piogênicas, mas não altera o padrão das imunoglobulinas." }
+      ],
+      "gabarito": "C",
+      "secao": "imunodeficiencias-humorais",
+      "referencia": "Abbas, 10ª ed., cap. 'Imunodeficiências congênitas e adquiridas'",
+      "tags": ["hiper-IgM", "CD40L", "troca de classe"]
+    },
+    {
+      "id": "ih-006",
+      "nivel": "dificil",
+      "enunciado": "Linfócitos B maduros naïve expressam na membrana, ao mesmo tempo, IgM e IgD com exatamente a mesma especificidade antigênica. Qual mecanismo permite isso?",
+      "alternativas": [
+        { "letra": "A", "texto": "Splicing alternativo de um transcrito primário que contém o gene VDJ seguido dos genes Cμ e Cδ", "explicacao": "Correta. O linfócito B naïve transcreve um RNA longo com **VDJ + Cμ + Cδ**. Conforme o processamento (**splicing alternativo**), o RNA mensageiro final contém VDJ unido a Cμ (cadeia μ, IgM) ou a Cδ (cadeia δ, IgD). Como a região variável é a mesma, a especificidade é idêntica. Não há deleção de DNA, ao contrário da troca de classe." },
+        { "letra": "B", "texto": "Troca de classe por deleção do DNA entre Cμ e Cδ", "explicacao": "Não há região switch antes de Cδ, e a coexpressão de IgM e IgD não envolve deleção de DNA." },
+        { "letra": "C", "texto": "Hipermutação somática que transforma IgM em IgD", "explicacao": "A hipermutação altera a região **variável** e ocorre após a ativação, nos centros germinativos." },
+        { "letra": "D", "texto": "Expressão dos dois alelos da cadeia pesada, um para IgM e outro para IgD", "explicacao": "Pela **exclusão alélica**, cada linfócito B expressa apenas um alelo da cadeia pesada; a IgM e a IgD vêm do mesmo alelo rearranjado." },
+        { "letra": "E", "texto": "Recombinação V(D)J diferente para cada classe", "explicacao": "Se a recombinação fosse diferente, as especificidades também seriam." }
+      ],
+      "gabarito": "A",
+      "secao": "splicing-alternativo",
+      "referencia": "Abbas, 10ª ed., caps. 'Desenvolvimento dos linfócitos' e 'Anticorpos e antígenos'",
+      "tags": ["splicing alternativo", "IgM", "IgD"]
+    },
+    {
+      "id": "ih-007",
+      "nivel": "dificil",
+      "enunciado": "Num esfregaço de medula óssea, observa-se uma célula oval com núcleo excêntrico, cromatina em grumos dispostos como raios de uma roda, citoplasma intensamente azulado e uma área clara junto ao núcleo. Qual é a célula e o que explica o citoplasma azulado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócito T citotóxico; o citoplasma é azulado por causa dos grânulos de perforina", "explicacao": "O linfócito T em repouso tem pouco citoplasma e núcleo central; a morfologia descrita é típica do plasmócito." },
+        { "letra": "B", "texto": "Mastócito; o citoplasma é azulado pela heparina", "explicacao": "O mastócito tem grânulos metacromáticos grosseiros que cobrem o núcleo, não um citoplasma liso basófilo com halo." },
+        { "letra": "C", "texto": "Monócito; o citoplasma é azulado por causa de lisossomos", "explicacao": "O monócito tem núcleo reniforme e citoplasma acinzentado, sem a cromatina em roda de carroça." },
+        { "letra": "D", "texto": "Megacariócito; o citoplasma é azulado pelas plaquetas em formação", "explicacao": "O megacariócito é gigante, com núcleo multilobulado." },
+        { "letra": "E", "texto": "Plasmócito; o citoplasma é basófilo por causa do retículo endoplasmático rugoso abundante, e a área clara corresponde ao complexo de Golgi", "explicacao": "Correta. O **plasmócito**, linfócito B diferenciado para secretar anticorpos, tem **núcleo excêntrico** com cromatina em **roda de carroça**. Seu citoplasma está repleto de **retículo endoplasmático rugoso** (ribossomos, RNA → **basofilia**), e o **halo claro perinuclear** é o **Golgi**, que processa as imunoglobulinas antes da secreção." }
+      ],
+      "gabarito": "E",
+      "secao": "plasmocito-morfologia",
+      "referencia": "Junqueira & Carneiro – Histologia Básica, 13ª ed., cap. 'Tecido conjuntivo'; Abbas, 10ª ed.",
+      "tags": ["plasmócito", "morfologia", "basofilia"]
+    },
+    {
+      "id": "ih-008",
+      "nivel": "dificil",
+      "enunciado": "Por que a doença hemolítica do recém-nascido por incompatibilidade Rh tende a ser mais grave que a por incompatibilidade ABO, e por que geralmente não ocorre na primeira gestação Rh incompatível?",
+      "alternativas": [
+        { "letra": "A", "texto": "Os anticorpos anti-Rh são IgE, que degranulam mastócitos fetais; na primeira gestação não há mastócitos", "explicacao": "Os anticorpos anti-D são IgG, e o mecanismo é a destruição das hemácias fetais." },
+        { "letra": "B", "texto": "Na doença Rh, a mãe se sensibiliza geralmente no parto da primeira gestação e, nas seguintes, produz IgG anti-D, que atravessa a placenta via FcRn; já os anticorpos naturais anti-A e anti-B são principalmente IgM, que não atravessa a placenta", "explicacao": "Correta. A mãe Rh negativo costuma entrar em contato com hemácias fetais Rh positivo **no parto** (ou em sangramentos). A resposta primária gera memória; numa nova gestação, a **resposta secundária** produz **IgG anti-D**, que **atravessa a placenta** pelo FcRn e opsoniza as hemácias fetais. Os anticorpos **anti-A e anti-B naturais** são principalmente **IgM**, que não atravessa a placenta — por isso a doença ABO costuma ser mais branda. A **imunoglobulina anti-D** dada à mãe previne a sensibilização." },
+        { "letra": "C", "texto": "A IgM anti-Rh atravessa a placenta em grande quantidade desde a primeira gestação", "explicacao": "A IgM não atravessa a placenta." },
+        { "letra": "D", "texto": "O antígeno Rh ativa o complemento fetal diretamente, sem anticorpos", "explicacao": "A destruição depende de anticorpos maternos." },
+        { "letra": "E", "texto": "A incompatibilidade ABO não existe em fetos", "explicacao": "A incompatibilidade ABO existe e pode causar doença hemolítica, geralmente leve." }
+      ],
+      "gabarito": "B",
+      "secao": "doenca-hemolitica",
+      "referencia": "Abbas, 10ª ed., cap. 'Mecanismos efetores da imunidade humoral'; Ministério da Saúde – Manual de Gestação de Alto Risco",
+      "tags": ["doença hemolítica do recém-nascido", "IgG", "FcRn", "anti-D"]
+    },
+    {
+      "id": "ih-009",
+      "nivel": "aprofundado",
+      "enunciado": "Em uma gestante com IgG e IgM positivas para toxoplasmose, o laboratório realiza o teste de avidez da IgG, que vem alto. Esse teste se baseia no fato de que a força de ligação dos anticorpos IgG aumenta com o tempo após a infecção. Qual mecanismo explica esse aumento?",
+      "alternativas": [
+        { "letra": "A", "texto": "Troca de classe de IgM para IgG, que por si só aumenta a afinidade", "explicacao": "A troca de classe muda a região constante, mas não altera a afinidade do sítio de ligação." },
+        { "letra": "B", "texto": "Aumento do número de cadeias J nos anticorpos IgG", "explicacao": "A IgG é monomérica e não tem cadeia J." },
+        { "letra": "C", "texto": "Produção de IgM pentamérica, que tem mais sítios de ligação", "explicacao": "O teste mede a avidez da **IgG**, e a mudança ocorre na própria IgG ao longo do tempo." },
+        { "letra": "D", "texto": "Maturação de afinidade: hipermutação somática das regiões variáveis nos centros germinativos e seleção dos linfócitos B que ligam o antígeno com mais força", "explicacao": "Correta. Nos **centros germinativos**, a enzima **AID** introduz mutações pontuais nas regiões variáveis (**hipermutação somática**). Os centrócitos com receptores de maior afinidade capturam mais antígeno das células dendríticas foliculares, recebem ajuda dos Tfh e sobrevivem. Com semanas a meses, a IgG produzida tem **afinidade (e avidez) maior**. **Avidez alta** indica infecção ocorrida há mais de 3–4 meses, provavelmente antes da gestação." },
+        { "letra": "E", "texto": "Recombinação V(D)J repetida a cada nova exposição ao antígeno", "explicacao": "A recombinação V(D)J ocorre na formação do linfócito B na medula, e não durante a resposta ao antígeno." }
+      ],
+      "gabarito": "D",
+      "secao": "maturacao-afinidade",
+      "referencia": "Abbas, 10ª ed., cap. 'Ativação dos linfócitos B e produção de anticorpos'; Ministério da Saúde – Protocolo de toxoplasmose na gestação",
+      "tags": ["maturação de afinidade", "hipermutação somática", "avidez", "toxoplasmose"]
+    },
+    {
+      "id": "ih-010",
+      "nivel": "aprofundado",
+      "enunciado": "Sobre a estrutura das moléculas de MHC, qual alternativa está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "O MHC de classe II é formado por uma cadeia α associada à β2-microglobulina, com fenda fechada para peptídeos de 8–10 aminoácidos", "explicacao": "Essa descrição corresponde ao **MHC de classe I**." },
+        { "letra": "B", "texto": "A β2-microglobulina é codificada no lócus MHC do cromossomo 6 e forma a fenda do MHC de classe I", "explicacao": "A β2-microglobulina é codificada **fora** do MHC (cromossomo 15) e não forma a fenda; a fenda é formada pelos domínios α1 e α2." },
+        { "letra": "C", "texto": "No MHC de classe I, a fenda que aloja o peptídeo é formada pelos domínios α1 e α2, fechada nas pontas (peptídeos de 8–10 aminoácidos), e o domínio α3 se liga ao CD8", "explicacao": "Correta. O **MHC I** tem uma cadeia α com **α1, α2 e α3** mais a **β2-microglobulina**. A fenda, formada por **α1 e α2**, é **fechada nas pontas** e acomoda peptídeos curtos (**8–10 aminoácidos**). O domínio **α3** interage com o correceptor **CD8**. No **MHC II**, a fenda é formada por **α1 e β1**, aberta nas pontas (13–25 aminoácidos), e o **β2** liga o **CD4**." },
+        { "letra": "D", "texto": "O MHC de classe I está presente apenas em células apresentadoras de antígeno profissionais", "explicacao": "O MHC I está em **todas as células nucleadas**; o MHC II é que fica restrito às APCs." },
+        { "letra": "E", "texto": "Moléculas de MHC reconhecem antígenos intactos, como os anticorpos", "explicacao": "O MHC **apresenta peptídeos** processados aos linfócitos T; quem reconhece antígenos intactos são os anticorpos e o BCR." }
+      ],
+      "gabarito": "C",
+      "secao": "estrutura-mhc",
+      "referencia": "Abbas, 10ª ed., cap. 'Moléculas do MHC e apresentação de antígenos aos linfócitos T'",
+      "tags": ["MHC", "estrutura", "β2-microglobulina", "CD8"]
+    }
+  ]
+}
