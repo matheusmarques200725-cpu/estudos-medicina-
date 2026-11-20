@@ -1,0 +1,168 @@
+{
+  "topico": "morfo-fungos",
+  "questoes": [
+    {
+      "id": "mf-001",
+      "nivel": "medio",
+      "enunciado": "Em uma região rural, várias pessoas que consumiam amendoim armazenado em local quente e úmido desenvolvem lesão hepática; anos depois, há aumento da incidência de carcinoma hepatocelular. Não se isola nenhum fungo dos pacientes. Como se classifica esse tipo de doença fúngica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Micose sistêmica endêmica, adquirida por inalação", "explicacao": "Micoses sistêmicas são infecções após inalação de esporos, com o fungo presente nos tecidos — o que não ocorre aqui." },
+        { "letra": "B", "texto": "Micotoxicose, por ingestão de aflatoxina produzida por *Aspergillus flavus* no alimento", "explicacao": "Correta. Na micotoxicose não há infecção: a doença decorre da ingestão de toxinas produzidas pelo fungo no alimento mal armazenado. As aflatoxinas lesam o fígado e são carcinogênicas, associadas ao carcinoma hepatocelular — por isso nenhum fungo é isolado dos pacientes." },
+        { "letra": "C", "texto": "Micose oportunista em imunodeprimidos", "explicacao": "Micoses oportunistas exigem invasão do fungo em hospedeiro com defesas alteradas; aqui pessoas comuns adoecem sem infecção." },
+        { "letra": "D", "texto": "Alergia a esporos, com pneumonite de hipersensibilidade", "explicacao": "As alergias fúngicas decorrem da inalação de esporos e acometem as vias aéreas, não o fígado após ingestão." },
+        { "letra": "E", "texto": "Micose cutânea por dermatófitos", "explicacao": "Dermatófitos infectam pele, pelos e unhas e não produzem toxinas hepatotóxicas em alimentos." }
+      ],
+      "gabarito": "B",
+      "secao": "tipos-doenca",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micotoxinas e micotoxicoses\"",
+      "tags": ["micotoxicose", "aflatoxina"]
+    },
+    {
+      "id": "mf-002",
+      "nivel": "medio",
+      "enunciado": "Homem de 34 anos com aids (CD4⁺ = 45/mm³) apresenta cefaleia progressiva há três semanas, febre e confusão. A punção lombar mostra pressão de abertura elevada. A preparação do líquor com tinta nanquim mostra o aspecto da imagem. Qual estrutura explica os halos claros ao redor das células?",
+      "imagem": { "src": "img/morfo/fungos/criptococo-liquor-nanquim.jpg", "legenda": "Líquor, preparação com tinta nanquim." },
+      "alternativas": [
+        { "letra": "A", "texto": "Parede rica em quitina das hifas de *Aspergillus*", "explicacao": "O *Aspergillus* forma hifas, não leveduras arredondadas com halo; e a parede não produz halo na tinta nanquim." },
+        { "letra": "B", "texto": "Endósporos dentro de esférulas de *Coccidioides*", "explicacao": "Esférulas são vistas em tecido (histologia), não como halos claros no nanquim do líquor." },
+        { "letra": "C", "texto": "Cápsula de polissacarídeo do *Cryptococcus neoformans*, que exclui as partículas de tinta", "explicacao": "Correta. O *Cryptococcus* é uma levedura com cápsula polissacarídica espessa, seu principal fator de virulência (dificulta a fagocitose). No nanquim, o fundo fica escuro e a cápsula aparece como halo claro. Na aids com CD4⁺ baixo, causa meningite com hipertensão intracraniana; adquire-se por inalação de partículas de fezes de pombos." },
+        { "letra": "D", "texto": "Pseudo-hifas de *Candida albicans*", "explicacao": "Pseudo-hifas são filamentos com estrangulamentos, não células arredondadas com halo; a *Candida* não tem cápsula." },
+        { "letra": "E", "texto": "Membrana com ergosterol, que repele a tinta", "explicacao": "Todos os fungos têm ergosterol, e ele não produz halo; o halo corresponde à cápsula, estrutura externa à parede." }
+      ],
+      "gabarito": "C",
+      "secao": "exames-micologicos",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micoses oportunistas\"",
+      "tags": ["Cryptococcus", "tinta nanquim", "cápsula"]
+    },
+    {
+      "id": "mf-003",
+      "nivel": "medio",
+      "enunciado": "Mulher de 26 anos, após uso de amoxicilina por sinusite, apresenta prurido vulvar intenso e corrimento branco grumoso. O esfregaço vaginal corado pelo Gram está na imagem. Qual a interpretação?",
+      "imagem": { "src": "img/morfo/fungos/candida-pseudo-hifas-gram.jpg", "legenda": "Esfregaço vaginal corado pelo Gram." },
+      "alternativas": [
+        { "letra": "A", "texto": "Bacilos Gram-negativos de *Gardnerella* aderidos às células (células-guia)", "explicacao": "As células-guia da vaginose bacteriana mostram pequenos bacilos/cocobacilos aderidos; aqui há estruturas maiores, ovais e filamentosas Gram-positivas." },
+        { "letra": "B", "texto": "Hifas cenocíticas largas de *Mucorales*", "explicacao": "*Mucorales* causam doença angioinvasiva grave em diabéticos e neutropênicos, não vulvovaginite; e suas hifas são largas e sem septos." },
+        { "letra": "C", "texto": "Cocos Gram-positivos em cachos de estafilococo", "explicacao": "Estafilococos são cocos de ~1 µm em cachos, sem formas filamentosas alongadas." },
+        { "letra": "D", "texto": "Leveduras e pseudo-hifas Gram-positivas de *Candida*, compatíveis com candidíase vulvovaginal favorecida pelo antibiótico", "explicacao": "Correta. A *Candida* cora-se como Gram-positiva; as células ovais são blastoconídios e os filamentos com estrangulamentos são pseudo-hifas, a forma invasiva. O antibiótico reduziu os lactobacilos que competem com a *Candida* da microbiota, permitindo sua proliferação." },
+        { "letra": "E", "texto": "Trofozoítos de *Trichomonas vaginalis*", "explicacao": "O *Trichomonas* é um protozoário flagelado móvel, identificado melhor no exame a fresco; não forma pseudo-hifas Gram-positivas." }
+      ],
+      "gabarito": "D",
+      "secao": "leveduras-hifas",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micoses oportunistas\"",
+      "tags": ["Candida", "pseudo-hifas", "Gram"]
+    },
+    {
+      "id": "mf-004",
+      "nivel": "medio",
+      "enunciado": "Veterinária de 38 anos foi arranhada por um gato com feridas ulceradas no focinho. Três semanas depois, surge um nódulo no dorso da mão que ulcera, seguido de outros nódulos em fila subindo pelo antebraço. Como se classifica essa micose?",
+      "alternativas": [
+        { "letra": "A", "texto": "Superficial, por acometer apenas a camada córnea", "explicacao": "Micoses superficiais não causam nódulos nem ulceração; limitam-se à camada mais externa, sem inflamação importante." },
+        { "letra": "B", "texto": "Sistêmica endêmica, adquirida por inalação", "explicacao": "A porta de entrada foi a pele, por trauma, e a disseminação seguiu os linfáticos do membro; não houve inalação nem doença pulmonar." },
+        { "letra": "C", "texto": "Oportunista, que só ocorre em imunodeprimidos", "explicacao": "A paciente não tem imunodepressão; a doença decorreu da implantação traumática do fungo." },
+        { "letra": "D", "texto": "Cutânea, causada por dermatófitos que digerem queratina", "explicacao": "Dermatófitos ficam na camada queratinizada e produzem lesões descamativas em anel, não nódulos ao longo dos linfáticos." },
+        { "letra": "E", "texto": "Subcutânea — esporotricose linfocutânea, por implantação traumática do *Sporothrix*", "explicacao": "Correta. Nas micoses subcutâneas, o fungo é implantado na derme e no subcutâneo por trauma. A esporotricose forma nódulos que ulceram e se dispõem ao longo do trajeto linfático. No Brasil, a transmissão por arranhadura e mordedura de gatos doentes (*Sporothrix brasiliensis*) tornou-se muito frequente." }
+      ],
+      "gabarito": "E",
+      "secao": "micoses-subcutaneas",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micoses subcutâneas\"",
+      "tags": ["esporotricose", "micoses subcutâneas"]
+    },
+    {
+      "id": "mf-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 52 anos com diabetes mal controlado é internado em cetoacidose com dor facial, edema periorbitário e uma escara negra no palato. A biópsia mostra o aspecto da imagem. Qual o agente e a característica morfológica que o identifica?",
+      "imagem": { "src": "img/morfo/fungos/mucormicose-histologia.jpg", "legenda": "Biópsia corada por H&E (a seta indica uma ramificação)." },
+      "alternativas": [
+        { "letra": "A", "texto": "*Mucorales* (como *Rhizopus*): hifas largas, em fita, sem septos, ramificadas em ângulo reto", "explicacao": "Correta. A mucormicose rinocerebral é típica da cetoacidose diabética: a acidose aumenta o ferro livre disponível para o fungo e prejudica os neutrófilos. As hifas cenocíticas, largas e irregulares, com ramificação em ângulo reto, invadem os vasos e causam necrose — daí a escara negra. O tratamento exige desbridamento cirúrgico e anfotericina B." },
+        { "letra": "B", "texto": "*Aspergillus*: hifas finas, septadas, ramificadas em ângulo agudo", "explicacao": "O *Aspergillus* também é angioinvasivo, mas suas hifas são finas, de largura uniforme, septadas e com ramificação em ângulo agudo; o contexto de cetoacidose e o aspecto em fita apontam para *Mucorales*." },
+        { "letra": "C", "texto": "*Candida*: leveduras com pseudo-hifas", "explicacao": "A *Candida* forma leveduras e pseudo-hifas com estrangulamentos, não hifas largas em fita." },
+        { "letra": "D", "texto": "*Cryptococcus*: leveduras encapsuladas", "explicacao": "O *Cryptococcus* aparece como leveduras com cápsula, não como hifas." },
+        { "letra": "E", "texto": "*Paracoccidioides*: levedura com múltiplos brotamentos em roda de leme", "explicacao": "O *Paracoccidioides* aparece no tecido como levedura com brotamentos múltiplos, não como hifas, e não causa escara negra aguda em cetoacidose." }
+      ],
+      "gabarito": "A",
+      "secao": "hifas",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micoses oportunistas\" · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["mucormicose", "hifas cenocíticas", "cetoacidose"]
+    },
+    {
+      "id": "mf-006",
+      "nivel": "dificil",
+      "enunciado": "Lavrador de 50 anos, tabagista, apresenta lesões ulceradas de aspecto granuloso na mucosa oral, tosse e linfonodos cervicais aumentados. Na biópsia, há leveduras grandes com vários brotos ao redor da célula-mãe. Na cultura a 25 °C, porém, cresce um fungo filamentoso. Qual conceito explica a diferença entre o tecido e a cultura?",
+      "alternativas": [
+        { "letra": "A", "texto": "Contaminação da cultura por um fungo ambiental", "explicacao": "O crescimento filamentoso a 25 °C é esperado para esse agente; não indica contaminação." },
+        { "letra": "B", "texto": "Formação de pseudo-hifas pela *Candida*", "explicacao": "A *Candida* forma pseudo-hifas no tecido, não brotamentos múltiplos ao redor de uma célula grande; o quadro é de micose sistêmica endêmica." },
+        { "letra": "C", "texto": "Dimorfismo térmico: o *Paracoccidioides brasiliensis* cresce como bolor (hifas) a 25 °C e como levedura com brotamentos múltiplos ('roda de leme') a 37 °C", "explicacao": "Correta. Os agentes das micoses sistêmicas são dimórficos: no ambiente (e na cultura a 25 °C), formam hifas e esporos infectantes; inalados, convertem-se em leveduras no corpo (37 °C). A levedura com múltiplos brotos é característica da paracoccidioidomicose, a micose sistêmica mais importante do Brasil, típica de trabalhadores rurais." },
+        { "letra": "D", "texto": "Transformação das leveduras em esporos de resistência pela ação dos antifúngicos", "explicacao": "A mudança de forma depende da temperatura, não do uso de antifúngicos." },
+        { "letra": "E", "texto": "Cápsula que se perde na cultura", "explicacao": "A presença ou ausência de cápsula não transforma leveduras em hifas; cápsula é característica do *Cryptococcus*." }
+      ],
+      "gabarito": "C",
+      "secao": "dimorfismo",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micoses sistêmicas causadas por fungos dimórficos\"",
+      "tags": ["dimorfismo", "paracoccidioidomicose"]
+    },
+    {
+      "id": "mf-007",
+      "nivel": "dificil",
+      "enunciado": "Paciente em UTI, com cateter venoso central e nutrição parenteral, desenvolve candidemia. Inicia-se micafungina, escolhida também por sua baixa toxicidade para as células humanas. Qual é o alvo do fármaco e por que ele é pouco tóxico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Liga-se ao ergosterol e forma poros; é pouco tóxico porque não se liga ao colesterol", "explicacao": "Esse é o mecanismo dos polienos (anfotericina B), que se ligam em parte ao colesterol e são nefrotóxicos." },
+        { "letra": "B", "texto": "Inibe a 14-α-desmetilase, impedindo a síntese de ergosterol", "explicacao": "Esse é o mecanismo dos azóis (fluconazol, voriconazol), não das equinocandinas." },
+        { "letra": "C", "texto": "Inibe os ribossomos 80S do fungo", "explicacao": "Os ribossomos fúngicos são 80S como os humanos; atingi-los seria tóxico, e não é o mecanismo da micafungina." },
+        { "letra": "D", "texto": "Inibe a síntese de β-1,3-glucana da parede celular, estrutura que as células humanas não possuem", "explicacao": "Correta. As equinocandinas (caspofungina, micafungina, anidulafungina) inibem a enzima que sintetiza β-1,3-glucana, principal componente estrutural da parede fúngica. Sem ela, a parede enfraquece e a célula sofre lise osmótica. Como as células humanas não têm parede nem β-glucana, a toxicidade é baixa." },
+        { "letra": "E", "texto": "Converte-se em 5-fluoruracil e bloqueia a síntese de DNA", "explicacao": "Esse é o mecanismo da flucitosina, usada em associação com a anfotericina B na criptococose." }
+      ],
+      "gabarito": "D",
+      "secao": "antifungicos",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Agentes antifúngicos\"",
+      "tags": ["equinocandinas", "parede celular", "antifúngicos"]
+    },
+    {
+      "id": "mf-008",
+      "nivel": "dificil",
+      "enunciado": "Paciente de 45 anos em quimioterapia para leucemia mieloide aguda, com neutrófilos abaixo de 100/mm³ há duas semanas, apresenta febre persistente apesar de antibióticos, dor pleurítica e hemoptise. A tomografia mostra nódulos com halo de vidro fosco. A galactomanana sérica está elevada. Qual é o agente e o mecanismo da lesão?",
+      "alternativas": [
+        { "letra": "A", "texto": "*Cryptococcus*, por meningite após inalação de fezes de pombos", "explicacao": "O *Cryptococcus* afeta sobretudo pacientes com imunidade celular baixa e causa meningite; não explica nódulos hemorrágicos na neutropenia com galactomanana elevada." },
+        { "letra": "B", "texto": "*Pneumocystis jirovecii*, por pneumonia intersticial difusa", "explicacao": "A pneumocistose ocorre com CD4⁺ baixo (aids) e produz infiltrado difuso, não nódulos com hemoptise na neutropenia." },
+        { "letra": "C", "texto": "Dermatófitos, por disseminação a partir das unhas", "explicacao": "Dermatófitos ficam restritos à queratina e não causam doença pulmonar invasiva." },
+        { "letra": "D", "texto": "*Malassezia*, por fungemia relacionada a cateter", "explicacao": "A *Malassezia* causa pitiríase versicolor e raramente fungemia; não produz nódulos angioinvasivos com galactomanana positiva." },
+        { "letra": "E", "texto": "*Aspergillus fumigatus*, cujas hifas invadem os vasos pulmonares causando infarto hemorrágico, favorecidas pela falta de neutrófilos", "explicacao": "Correta. Os conídios inalados germinam em hifas; sem neutrófilos, principal defesa contra hifas, elas invadem os vasos (angioinvasão), causando trombose, infarto e hemorragia — os nódulos com halo e a hemoptise. A galactomanana é componente da parede do *Aspergillus*, usada como marcador de aspergilose invasiva." }
+      ],
+      "gabarito": "E",
+      "secao": "fungos-imunidade",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Micoses oportunistas\" · Harrison, 21ª ed., cap. \"Aspergilose\"",
+      "tags": ["aspergilose invasiva", "neutropenia", "galactomanana"]
+    },
+    {
+      "id": "mf-009",
+      "nivel": "aprofundado",
+      "enunciado": "Leveduras de *Saccharomyces* são cultivadas em meio com glicose, primeiro com aeração e depois em recipiente fechado, sem oxigênio. No segundo caso, o crescimento é muito mais lento, o consumo de glicose aumenta muito e acumulam-se etanol e CO₂. Qual explicação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sem oxigênio, a levedura faz fermentação alcoólica: apenas a glicólise gera ATP (2 por glicose), e o piruvato é convertido em etanol e CO₂ para regenerar o NAD⁺", "explicacao": "Correta. Leveduras são anaeróbias facultativas. Com oxigênio, oxidam completamente a glicose pela glicólise, ciclo de Krebs e cadeia respiratória nas mitocôndrias, gerando muito mais ATP. Sem oxigênio, só a glicólise produz ATP; para que ela continue, o NADH precisa ser reoxidado, o que ocorre ao reduzir o acetaldeído (derivado do piruvato, com liberação de CO₂) a etanol. O baixo rendimento obriga a consumir muito mais glicose para crescer." },
+        { "letra": "B", "texto": "Sem oxigênio, a levedura passa a fazer fotossíntese, liberando CO₂", "explicacao": "Fungos são heterotróficos e não fazem fotossíntese." },
+        { "letra": "C", "texto": "Sem oxigênio, a levedura usa nitrato como aceptor final na cadeia respiratória e produz etanol", "explicacao": "A respiração anaeróbica com nitrato ocorre em algumas bactérias; a levedura fermenta, e o etanol é produto da fermentação, não de cadeia respiratória." },
+        { "letra": "D", "texto": "Sem oxigênio, a levedura degrada suas reservas de amido em etanol", "explicacao": "Fungos armazenam glicogênio e trealose, não amido; e o etanol vem da glicose do meio." },
+        { "letra": "E", "texto": "O crescimento é mais lento porque o etanol bloqueia a síntese de ergosterol", "explicacao": "O fator principal é o baixo rendimento energético da fermentação; o etanol acumulado pode inibir o crescimento em concentrações altas, mas não por esse mecanismo." }
+      ],
+      "gabarito": "A",
+      "secao": "energia-fungos",
+      "referencia": "Tortora, Microbiologia, 12ª ed., cap. \"Metabolismo microbiano\"",
+      "tags": ["fermentação", "metabolismo energético", "leveduras"]
+    },
+    {
+      "id": "mf-010",
+      "nivel": "aprofundado",
+      "enunciado": "Criança de 7 anos tem candidíase recorrente de boca, unhas e pele desde o primeiro ano de vida, sem infecções bacterianas graves e sem candidíase invasiva. A investigação revela um defeito genético na via da IL-17. Qual relação entre a estrutura da célula fúngica e a resposta imune explica o quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "O ergosterol da membrana é reconhecido por anticorpos IgE, e a falta de IL-17 impede a produção de IgE", "explicacao": "O ergosterol é alvo de antifúngicos, não o principal padrão reconhecido pela imunidade inata; a IL-17 não é a citocina da produção de IgE." },
+        { "letra": "B", "texto": "β-glucanas e mananas da parede são reconhecidas como PAMPs (por exemplo, pela dectina-1), induzindo resposta Th17; a IL-17 recruta neutrófilos e estimula defesas das mucosas, essenciais contra a *Candida* nas superfícies", "explicacao": "Correta. Componentes da parede fúngica ativam receptores da imunidade inata (dectina-1, receptor de manose) em células dendríticas e macrófagos, que direcionam a diferenciação de linfócitos Th17. A IL-17 induz quimiocinas que recrutam neutrófilos e peptídeos antimicrobianos no epitélio. Defeitos nessa via causam candidíase mucocutânea crônica, enquanto a defesa contra a candidíase invasiva, dependente sobretudo dos neutrófilos sanguíneos, fica relativamente preservada." },
+        { "letra": "C", "texto": "A quitina da parede ativa a via clássica do complemento, e a IL-17 é um componente do complemento", "explicacao": "A IL-17 é uma citocina produzida por linfócitos Th17, não um componente do complemento." },
+        { "letra": "D", "texto": "A cápsula da *Candida* impede a fagocitose, e a IL-17 dissolve a cápsula", "explicacao": "A *Candida* não tem cápsula (característica do *Cryptococcus*), e a IL-17 não age dissolvendo estruturas fúngicas." },
+        { "letra": "E", "texto": "A *Candida* tem peptidoglicano reconhecido por TLR2, e a falta de IL-17 impede a ação da penicilina", "explicacao": "Fungos não têm peptidoglicano, e a ação de antibióticos não depende de IL-17." }
+      ],
+      "gabarito": "B",
+      "secao": "parede-fungica",
+      "referencia": "Abbas, 10ª ed., cap. \"Imunidade aos micróbios\" · Murray, Microbiologia Médica, 9ª ed.",
+      "tags": ["parede fúngica", "Th17", "candidíase mucocutânea"]
+    }
+  ]
+}
