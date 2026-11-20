@@ -180,8 +180,8 @@ MED1 (1º semestre) = ASE1–ASE3; MED2 (2º semestre) = ASE4–ASE6. Ementas, o
   - **Morfofuncional** (roteiros P1–P4 do laboratório):
     - M1 ✔ (P1 – sistema linfático): `morfo-sangue-medula-ossea` (ms-), `morfo-timo` (mt-), `morfo-linfonodos-malt-tonsilas` (ml-), `morfo-baco` (mb-), `morfo-drenagem-linfatica` (md-, anatomia)
     - M2 ✔ (P2/P3 – micro): `morfo-virus` (mv-), `morfo-fungos` (mf-), `morfo-bacterias` (mbc-) — microbiologia-parasitologia
-    - M3 (P3 – parasito): helmintos (ovos, larvas, adultos; ciclos de Schistosoma, Taenia/cisticerco, Ascaris, ancilostomídeos, Strongyloides, Enterobius, Trichuris); protozoários (cisto × trofozoíto; Giardia, Entamoeba, Trichomonas)
-    - M4 (P4 – lesão celular): lâminas de necrose (coagulação e outros tipos), apoptose × necrose ao MO e ME, isquemia-reperfusão, TVP, cicatrização, radicais livres
+    - M3 ✔ (P3 – parasito): `morfo-helmintos` (mh-), `morfo-protozoarios` (mp-) — microbiologia-parasitologia
+    - M4 ✔ (P4 – lesão celular): `morfo-lesao-celular` (mlc-), `morfo-trombose-cicatrizacao` (mtc-) — patologia
     - Imunoglobulinas/MHC/linfócito B do roteiro 3 → tópico da tutoria `imunidade-humoral-anticorpos`
 - **ASE4 – Funções Biológicas II:** organização do SN; potencial de membrana e de ação; sinapses e neurotransmissores; junção neuromuscular; reflexos; SN autônomo; eixo hipotálamo-hipófise e controle neuroendócrino; formação da urina (✔ `filtracao-glomerular`; reabsorção/secreção tubular); SRAA e controle da PA; equilíbrio hidroeletrolítico; estresse/fatores ambientais.
 - **ASE5 – Metabolismo e Nutrição:** motilidade e secreção digestivas; digestão e absorção; glândulas anexas; metabolismo de carboidratos (glicólise, glicogênio, gliconeogênese, Cori); lipídios; proteínas/ciclo da ureia; bioenergética; insulina, glucagon e incretinas; tireoide; adrenais; fome/saciedade; obesidade, DM, dislipidemia, síndrome metabólica; desnutrição e terapia nutricional; erros inatos; farmacocinética; fármacos do TGI e antieméticos; álcool.

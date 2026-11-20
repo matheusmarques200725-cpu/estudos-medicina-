@@ -1,0 +1,169 @@
+{
+  "topico": "morfo-lesao-celular",
+  "questoes": [
+    {
+      "id": "mlc-001",
+      "nivel": "medio",
+      "enunciado": "Na aula prática, você recebe a lâmina da imagem: rim de paciente com endocardite que teve embolia. Na metade direita/inferior, o tecido está pálido e rosado, com contornos de túbulos e glomérulos reconhecíveis, mas sem núcleos. Qual é o diagnóstico e a justificativa?",
+      "imagem": { "src": "img/morfo/lesao/necrose-coagulacao-rim.jpg", "legenda": "Rim, H&E, pequeno aumento." },
+      "alternativas": [
+        { "letra": "A", "texto": "Necrose liquefativa, porque há perda completa da arquitetura", "explicacao": "Na necrose liquefativa, a arquitetura desaparece e há pus ou cavidade; aqui os contornos de túbulos e glomérulos persistem." },
+        { "letra": "B", "texto": "Necrose caseosa, porque há material amorfo e granulomas", "explicacao": "Não há material amorfo granuloso nem granulomas; a estrutura do tecido está preservada." },
+        { "letra": "C", "texto": "Apoptose, porque as células estão isoladas e encolhidas", "explicacao": "A apoptose atinge células isoladas, sem formar uma área extensa de tecido morto; aqui toda uma região do córtex morreu." },
+        { "letra": "D", "texto": "Necrose de coagulação (infarto), porque a arquitetura está preservada com células 'fantasmas' sem núcleo, efeito da desnaturação de proteínas e enzimas pela isquemia", "explicacao": "Correta. O êmbolo ocluiu um ramo arterial e causou infarto. A isquemia desnatura as proteínas estruturais e as enzimas, retardando a autodigestão: o tecido morto mantém o desenho de túbulos e glomérulos, mas os núcleos desaparecem e o citoplasma fica eosinofílico. Na transição com o tecido viável, há congestão e, nos primeiros dias, infiltrado de neutrófilos." },
+        { "letra": "E", "texto": "Necrose fibrinoide, porque há material rosa-brilhante na parede dos vasos", "explicacao": "A necrose fibrinoide é restrita à parede vascular; aqui toda uma área de parênquima está necrótica." }
+      ],
+      "gabarito": "D",
+      "secao": "lamina-coagulacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["necrose de coagulação", "lâmina", "infarto"]
+    },
+    {
+      "id": "mlc-002",
+      "nivel": "medio",
+      "enunciado": "Lâmina de linfonodo cervical de paciente com febre vespertina e emagrecimento (imagem). As áreas centrais são de material rosa, amorfo e granuloso, sem contornos celulares, cercadas por faixas de células. Qual é o tipo de necrose e o que se espera encontrar nas faixas ao redor?",
+      "imagem": { "src": "img/morfo/lesao/necrose-caseosa-linfonodo.jpg", "legenda": "Linfonodo, H&E, pequeno aumento." },
+      "alternativas": [
+        { "letra": "A", "texto": "Necrose de coagulação; neutrófilos na borda do infarto", "explicacao": "A necrose de coagulação preserva os contornos celulares, o que não ocorre no material amorfo descrito." },
+        { "letra": "B", "texto": "Necrose gordurosa; adipócitos com sabões de cálcio", "explicacao": "A necrose gordurosa ocorre no tecido adiposo, com saponificação, e não forma áreas amorfas cercadas por granulomas em linfonodo." },
+        { "letra": "C", "texto": "Necrose fibrinoide; vasculite", "explicacao": "A necrose fibrinoide é restrita à parede dos vasos." },
+        { "letra": "D", "texto": "Necrose liquefativa; pus com cápsula fibrosa", "explicacao": "O abscesso tem pus com neutrófilos abundantes, não material amorfo granuloso cercado por granulomas." },
+        { "letra": "E", "texto": "Necrose caseosa; granuloma com macrófagos epitelioides, células gigantes de Langhans e halo de linfócitos — compatível com tuberculose", "explicacao": "Correta. O material eosinófilo amorfo e granuloso, sem nenhuma estrutura celular, é a necrose caseosa ('de queijo' na macroscopia). Ao redor, a resposta imune celular forma o granuloma: macrófagos epitelioides, células gigantes multinucleadas com núcleos em ferradura e linfócitos. O quadro clínico sugere tuberculose ganglionar." }
+      ],
+      "gabarito": "E",
+      "secao": "lamina-caseosa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Lesão e morte celulares\" e \"Inflamação e reparo\"",
+      "tags": ["necrose caseosa", "granuloma", "tuberculose"]
+    },
+    {
+      "id": "mlc-003",
+      "nivel": "medio",
+      "enunciado": "A lâmina da imagem é de uma lesão drenada da pele de um paciente com furúnculo que evoluiu com coleção. No centro, a arquitetura do tecido desapareceu e há um aglomerado denso de células de núcleos pequenos, escuros e segmentados, com restos celulares. Qual é o diagnóstico?",
+      "imagem": { "src": "img/morfo/lesao/abscesso-histologia.jpg", "legenda": "H&E." },
+      "alternativas": [
+        { "letra": "A", "texto": "Abscesso — necrose liquefativa, com predomínio da digestão enzimática pelas enzimas dos neutrófilos", "explicacao": "Correta. Bactérias piogênicas (como o *S. aureus* do furúnculo) atraem grande número de neutrófilos, cujas enzimas digerem o tecido e os próprios leucócitos mortos. O resultado é pus — neutrófilos vivos e mortos com restos celulares — sem nenhuma arquitetura residual. Abscessos maduros são envoltos por tecido de granulação e fibrose e, em geral, precisam ser drenados." },
+        { "letra": "B", "texto": "Necrose de coagulação com arquitetura preservada", "explicacao": "A descrição é de perda total da arquitetura e neutrófilos abundantes, o oposto da necrose de coagulação." },
+        { "letra": "C", "texto": "Granuloma com necrose caseosa", "explicacao": "Não há macrófagos epitelioides, células gigantes nem material amorfo granuloso; predominam neutrófilos." },
+        { "letra": "D", "texto": "Tecido de granulação maduro", "explicacao": "O tecido de granulação tem capilares novos, fibroblastos e edema, e participa do reparo, não do centro da coleção purulenta." },
+        { "letra": "E", "texto": "Apoptose de linfócitos", "explicacao": "A apoptose não forma uma coleção de células inflamatórias com destruição do tecido." }
+      ],
+      "gabarito": "A",
+      "secao": "lamina-liquefativa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["necrose liquefativa", "abscesso"]
+    },
+    {
+      "id": "mlc-004",
+      "nivel": "medio",
+      "enunciado": "Numa lâmina de infarto do miocárdio corada pela hematoxilina-eosina, as fibras da área infartada aparecem mais rosadas que as do miocárdio normal. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "As células mortas acumulam hematoxilina no citoplasma", "explicacao": "A hematoxilina cora em azul estruturas ácidas, como o DNA e o RNA; o aumento é da coloração rosa (eosina)." },
+        { "letra": "B", "texto": "As células perdem RNA citoplasmático (basófilo) e suas proteínas desnaturadas ligam mais eosina", "explicacao": "Correta. A eosina cora proteínas em rosa, e a hematoxilina cora ácidos nucleicos em azul. Na célula necrótica, o RNA citoplasmático é degradado (perde-se o tom azulado) e as proteínas desnaturadas expõem mais grupamentos que se ligam à eosina — daí a hipereosinofilia, um dos primeiros sinais de necrose ao microscópio óptico." },
+        { "letra": "C", "texto": "Há deposição de cálcio, que cora em rosa", "explicacao": "O cálcio cora em roxo-azulado pela hematoxilina, não em rosa." },
+        { "letra": "D", "texto": "Há acúmulo de gordura, que cora intensamente pela eosina", "explicacao": "A gordura é dissolvida no processamento e aparece como vacúolos claros, não como rosa intenso." },
+        { "letra": "E", "texto": "Os núcleos aumentam e se tornam rosados", "explicacao": "Os núcleos da célula necrótica encolhem e escurecem (picnose), fragmentam-se ou desaparecem; não se tornam rosados." }
+      ],
+      "gabarito": "B",
+      "secao": "como-ler-lamina",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\" · Junqueira & Carneiro, 13ª ed.",
+      "tags": ["H&E", "eosinofilia", "necrose"]
+    },
+    {
+      "id": "mlc-005",
+      "nivel": "dificil",
+      "enunciado": "Duas eletromicrografias de transmissão mostram hepatócitos lesados. Na célula A, o volume está aumentado, o citoplasma é claro, a membrana plasmática tem descontinuidades e as mitocôndrias (setas) estão inchadas, com densidades floculentas. Na célula B, a célula está retraída, com membrana íntegra formando bolhas, citoplasma denso, mitocôndrias de aspecto compacto e cromatina condensada junto ao envelope nuclear. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ambas estão em apoptose, em fases diferentes", "explicacao": "Tumefação, ruptura de membrana e densidades floculentas mitocondriais não fazem parte da apoptose." },
+        { "letra": "B", "texto": "A está em apoptose e B em necrose", "explicacao": "A interpretação está invertida: retração com membrana íntegra e bolhas é apoptose; tumefação e ruptura de membrana são necrose." },
+        { "letra": "C", "texto": "A está em necrose (tumefação, membrana rota, densidades floculentas mitocondriais) e B em apoptose (retração, bolhas com membrana íntegra, mitocôndrias preservadas, cromatina condensada)", "explicacao": "Correta. As densidades floculentas nas mitocôndrias inchadas indicam lesão irreversível, e a ruptura da membrana com extravasamento do conteúdo caracteriza a necrose, que provoca inflamação. Na apoptose, processo ativo regulado por caspases, a célula encolhe, as organelas permanecem compactas até tarde, a cromatina se condensa em crescentes junto ao envelope e a membrana forma bolhas que se destacam como corpos apoptóticos." },
+        { "letra": "D", "texto": "A está em lesão reversível e B em necrose", "explicacao": "Densidades floculentas e ruptura da membrana indicam lesão irreversível; e a célula B tem aspecto de apoptose." },
+        { "letra": "E", "texto": "Não é possível diferenciar apoptose de necrose à microscopia eletrônica", "explicacao": "A microscopia eletrônica é justamente o método que melhor mostra as diferenças ultraestruturais entre os dois processos." }
+      ],
+      "gabarito": "C",
+      "secao": "eletromicrografias",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["microscopia eletrônica", "apoptose", "necrose"]
+    },
+    {
+      "id": "mlc-006",
+      "nivel": "dificil",
+      "enunciado": "Em réplicas de criofratura do envelope nuclear, a célula controle mostra complexos de poro nuclear numerosos e distribuídos de modo uniforme. Na célula tratada com um indutor de apoptose, os poros aparecem agrupados em algumas regiões, com áreas extensas do envelope sem poros. Qual mecanismo explica essa alteração?",
+      "alternativas": [
+        { "letra": "A", "texto": "A ruptura da membrana plasmática faz o núcleo inchar e os poros se afastarem", "explicacao": "Na apoptose a membrana plasmática permanece íntegra; ruptura e tumefação são características da necrose." },
+        { "letra": "B", "texto": "A cariólise dissolve as nucleoporinas, e os poros remanescentes se juntam", "explicacao": "A cariólise é a dissolução da cromatina na necrose, não o mecanismo descrito." },
+        { "letra": "C", "texto": "O excesso de ATP promove a síntese de novos poros em regiões específicas", "explicacao": "A alteração decorre da clivagem de proteínas estruturais, não da síntese de novos poros." },
+        { "letra": "D", "texto": "As caspases clivam as láminas e nucleoporinas; a cromatina condensada se encosta no envelope, e os poros se aglomeram fora dessas áreas", "explicacao": "Correta. As caspases executoras degradam as láminas (rede que sustenta o envelope nuclear) e algumas proteínas dos poros. Com a cromatina condensada aderida ao envelope, os complexos de poro são deslocados e se agrupam nas regiões livres, e o envelope depois se fragmenta junto com o núcleo, indo para os corpos apoptóticos." },
+        { "letra": "E", "texto": "Os radicais livres perfuram o envelope, criando poros artificiais agrupados", "explicacao": "A lesão direta por radicais tende a romper membranas, característica de necrose; não explica o agrupamento ordenado dos complexos de poro." }
+      ],
+      "gabarito": "D",
+      "secao": "poros-nucleares",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\" · Alberts – Biologia Molecular da Célula, 6ª ed.",
+      "tags": ["poros nucleares", "apoptose", "caspases"]
+    },
+    {
+      "id": "mlc-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 58 anos com infarto agudo do miocárdio é submetido a angioplastia com reabertura da artéria após 4 horas de oclusão. Ele morre dias depois por outra causa. Na necropsia, a área infartada é vermelho-escura e, ao microscópio, as fibras mostram faixas transversais densas e intensamente eosinofílicas, além de hemorragia intersticial. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Infarto sem reperfusão, que é sempre hemorrágico", "explicacao": "O infarto do miocárdio sem reperfusão costuma ser pálido; a hemorragia e as bandas de contração são típicas da reperfusão." },
+        { "letra": "B", "texto": "Necrose caseosa por infecção secundária", "explicacao": "Não há granuloma nem material caseoso; as faixas transversais nas fibras não são necrose caseosa." },
+        { "letra": "C", "texto": "Fibras normais em contração fisiológica no momento da morte", "explicacao": "Faixas transversais densas e hipereosinofílicas associadas a hemorragia em área infartada indicam lesão, não contração fisiológica." },
+        { "letra": "D", "texto": "Calcificação distrófica precoce", "explicacao": "A calcificação aparece em roxo-azulado e é tardia; não explica as bandas eosinofílicas e a hemorragia." },
+        { "letra": "E", "texto": "Lesão de isquemia-reperfusão: o influxo de cálcio em células com membranas lesadas causa hipercontração (bandas de necrose de contração), e os vasos lesados sangram quando o fluxo retorna", "explicacao": "Correta. A reperfusão salva parte do miocárdio, mas provoca lesão própria: o oxigênio que retorna gera radicais livres; as células com membranas e bombas lesadas recebem um influxo maciço de cálcio, que provoca hipercontração dos sarcômeros (bandas de contração); neutrófilos chegam rapidamente; e os vasos lesados pela isquemia extravasam sangue, deixando o infarto hemorrágico." }
+      ],
+      "gabarito": "E",
+      "secao": "lamina-reperfusao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Lesão e morte celulares\" e \"Coração\"",
+      "tags": ["isquemia-reperfusão", "bandas de contração"]
+    },
+    {
+      "id": "mlc-008",
+      "nivel": "dificil",
+      "enunciado": "Eletromicrografias de neurônios do córtex de ratos 16 a 24 horas após isquemia mostram núcleos com cromatina condensada e fragmentada, corpos apoptóticos e núcleos em 'meia-lua', mas, no mesmo neurônio, citoplasma com grandes vacúolos, desaparecimento das organelas e membranas colapsadas. Qual interpretação é a mais adequada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Apoptose e necrose coexistem num contínuo: a isquemia dispara o programa apoptótico, mas a queda de ATP e a lesão de membranas fazem a célula evoluir com características necróticas", "explicacao": "Correta. A apoptose é um processo ativo que consome energia. Na isquemia, o mesmo estímulo ativa as vias apoptóticas (alterações nucleares típicas), mas a falta de ATP, a sobrecarga de cálcio e o estresse oxidativo lesam membranas e organelas, levando a alterações necróticas no citoplasma — inclusive por formas reguladas de necrose, como a necroptose. Por isso o mesmo neurônio exibe sinais dos dois processos." },
+        { "letra": "B", "texto": "Trata-se de artefato de fixação, pois uma célula não pode ter sinais dos dois processos", "explicacao": "A coexistência de alterações apoptóticas e necróticas é bem documentada na isquemia e reflete a biologia real da lesão." },
+        { "letra": "C", "texto": "São neurônios em lesão reversível, que se recuperariam", "explicacao": "Fragmentação nuclear, corpos apoptóticos e membranas colapsadas são sinais de morte celular, não de lesão reversível." },
+        { "letra": "D", "texto": "É apoptose fisiológica de renovação neuronal", "explicacao": "Neurônios maduros não se renovam por apoptose fisiológica dessa forma, e as alterações necróticas do citoplasma indicam lesão patológica." },
+        { "letra": "E", "texto": "É necrose caseosa por infecção do tecido nervoso", "explicacao": "Não há granuloma nem material caseoso; trata-se de lesão isquêmica." }
+      ],
+      "gabarito": "A",
+      "secao": "neuronios-isquemia",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["AVC isquêmico", "apoptose", "necrose", "microscopia eletrônica"]
+    },
+    {
+      "id": "mlc-009",
+      "nivel": "aprofundado",
+      "enunciado": "Pacientes com sobrecarga de ferro apresentam lesão oxidativa importante em fígado, coração e pâncreas. Ao mesmo tempo, neutrófilos usam derivados de oxigênio para matar bactérias. Qual afirmação integra corretamente esses dois fatos?",
+      "alternativas": [
+        { "letra": "A", "texto": "O ferro neutraliza o superóxido, e os neutrófilos não produzem radicais", "explicacao": "O ferro favorece, e não neutraliza, a formação de radicais; e os neutrófilos produzem radicais na explosão respiratória." },
+        { "letra": "B", "texto": "O ferro livre catalisa a formação do radical hidroxila a partir do H₂O₂ (reação de Fenton), que peroxida lipídios e lesa DNA e proteínas; os neutrófilos geram superóxido pela NADPH oxidase e HOCl pela mieloperoxidase para matar micróbios", "explicacao": "Correta. O radical hidroxila, o mais reativo, forma-se quando o ferro ferroso reage com o peróxido de hidrogênio. Ele inicia a peroxidação lipídica das membranas e oxida proteínas e DNA — daí a lesão nos órgãos com depósito de ferro. Nos fagócitos, a mesma química é usada como arma: a NADPH oxidase gera superóxido, que vira H₂O₂, e a mieloperoxidase forma ácido hipocloroso. Os radicais são, assim, armas de defesa e agentes de lesão." },
+        { "letra": "C", "texto": "Os radicais livres são exclusivamente produzidos por agentes externos, como radiação", "explicacao": "Radicais livres são produzidos continuamente pelo próprio metabolismo (cadeia respiratória) e pelos fagócitos." },
+        { "letra": "D", "texto": "A catalase produz radical hidroxila nos neutrófilos", "explicacao": "A catalase é antioxidante: decompõe H₂O₂ em água e oxigênio." },
+        { "letra": "E", "texto": "O óxido nítrico é sempre protetor e nunca forma espécies lesivas", "explicacao": "O óxido nítrico reage com o superóxido formando peroxinitrito, uma espécie muito lesiva." }
+      ],
+      "gabarito": "B",
+      "secao": "radicais-livres-morfo",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Lesão e morte celulares\"",
+      "tags": ["radicais livres", "reação de Fenton", "explosão respiratória"]
+    },
+    {
+      "id": "mlc-010",
+      "nivel": "aprofundado",
+      "enunciado": "Biópsia hepática de um homem de 50 anos, etilista, mostra o aspecto da imagem. Após 6 meses de abstinência, nova biópsia mostra fígado praticamente normal. Como classificar a alteração, usando a questão 13 do roteiro (adaptação, necrose, apoptose e infiltrado)?",
+      "imagem": { "src": "img/morfo/lesao/esteatose-hepatica.jpg", "legenda": "Fígado, H&E." },
+      "alternativas": [
+        { "letra": "A", "texto": "Necrose de coagulação extensa, que regrediu", "explicacao": "A necrose é irreversível; tecido necrótico não volta ao normal, é removido e substituído." },
+        { "letra": "B", "texto": "Infiltrado inflamatório agudo de neutrófilos", "explicacao": "Os vacúolos claros dentro dos hepatócitos não são células inflamatórias; o infiltrado inflamatório seria de leucócitos no tecido." },
+        { "letra": "C", "texto": "Infiltração gordurosa (esteatose): acúmulo intracelular de triglicerídeos nos hepatócitos, uma lesão reversível", "explicacao": "Correta. Os vacúolos claros, que empurram o núcleo para a periferia, correspondem à gordura dissolvida no processamento. O álcool aumenta a síntese hepática de ácidos graxos e reduz sua oxidação e exportação, acumulando triglicerídeos nos hepatócitos. Sem a causa, a gordura é metabolizada e o fígado se normaliza — o que a distingue da necrose. Diferente do infiltrado inflamatório, é um acúmulo dentro das células." },
+        { "letra": "D", "texto": "Metaplasia escamosa dos hepatócitos", "explicacao": "Metaplasia é a troca de um tipo de epitélio diferenciado por outro, o que não ocorre aqui." },
+        { "letra": "E", "texto": "Apoptose maciça com corpos apoptóticos", "explicacao": "Corpos apoptóticos são fragmentos densos e eosinófilos, não vacúolos claros, e a apoptose não regride." }
+      ],
+      "gabarito": "C",
+      "secao": "infiltrado",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Lesão e morte celulares\" e \"Fígado\"",
+      "tags": ["esteatose", "infiltração gordurosa", "lesão reversível"]
+    }
+  ]
+}

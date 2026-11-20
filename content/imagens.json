@@ -306,5 +306,320 @@
     "licenca": "CC BY 2.0",
     "fonte": "https://commons.wikimedia.org/wiki/File:Cryptococcus_in_cerebrospinal_fluid%2C_India_ink_prep._%2849623531757%29.jpg",
     "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/schistosoma-ovo.jpg": {
+    "titulo": "Schistosoma mansoni egg 4841 lores",
+    "autor": "CDC (Public Health Image Library)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni_egg_4841_lores.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/schistosoma-ciclo.png": {
+    "titulo": "Schistosomiasis Life Cycle",
+    "autor": "CDC (Centers for Disease Control and Prevention)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Schistosomiasis_Life_Cycle.png",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/schistosoma-adultos.jpg": {
+    "titulo": "Schistosoma mansoni trematodes",
+    "autor": "CDC (Public Health Image Library)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni_trematodes.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/taenia-solium-escolex.jpg": {
+    "titulo": "Taenia solium tapeworm scolex with its four suckers and two rows of hooks 5262 lores",
+    "autor": "CDC (Public Health Image Library)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Taenia_solium_tapeworm_scolex_with_its_four_suckers_and_two_rows_of_hooks_5262_lores.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/taenia-proglote-gravida.jpg": {
+    "titulo": "Tapeworm Gravid Proglottid Taenia 41",
+    "autor": "The Other 95%",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Tapeworm_Gravid_Proglottid_Taenia_41.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/taenia-ciclo.png": {
+    "titulo": "Taenia saginata LifeCycle",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Taenia_saginata_LifeCycle.gif",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/neurocisticercose-tc.jpg": {
+    "titulo": "Neurocysticercosis brain CT",
+    "autor": "Innocent Lule Segamwenge",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Neurocysticercosis_brain_CT.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/ascaris-ovo.jpg": {
+    "titulo": "Fertilized egg of Ascaris lumbricoides PHIL 410 lores",
+    "autor": "CDC/ Dr. Mae Melvin",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Fertilized_egg_of_Ascaris_lumbricoides_PHIL_410_lores.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/ascaris-adultos.jpg": {
+    "titulo": "Ascaris lumbricoides adult worms",
+    "autor": "SuSanA Secretariat",
+    "licenca": "CC BY 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Ascaris_lumbricoides_adult_worms.png",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/ancilostomideo-ciclo.png": {
+    "titulo": "Hookworm LifeCycle",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Hookworm_LifeCycle.gif",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/larvas-ancilostomideo-strongyloides.jpg": {
+    "titulo": "Hookworm left, Strongyloides right",
+    "autor": "CDC (Public Health Image Library)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Hookworm_left%2C_Strongyloides_right.tif",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/strongyloides-ciclo.jpg": {
+    "titulo": "Strongyloides Storcoralis Lifecycle Diagram",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Strongyloides_Storcoralis_Lifecycle_Diagram.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/enterobius-ovo.jpg": {
+    "titulo": "Egg of Enterobius vermicularis",
+    "autor": "Ajay Kumar Chaurasiya",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Egg_of_Enterobius_vermicularis.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/enterobius-ciclo.png": {
+    "titulo": "Enterobius vermicularis LifeCycle",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Enterobius_vermicularis_LifeCycle.gif",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/trichuris-ovos.jpg": {
+    "titulo": "Trichuris trichiura eggs",
+    "autor": "Kerstin Fischer et al.",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Trichuris_trichiura_eggs.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/trichuris-ciclo.jpg": {
+    "titulo": "Trichuriasis lifecycle",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Trichuriasis_lifecycle.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/giardia-trofozoito.jpg": {
+    "titulo": "Giardia intestinalis - trophozoite",
+    "autor": "Stefan Walkowski",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Giardia_intestinalis_-_trophozoite.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/giardia-mev.jpg": {
+    "titulo": "Giardia lamblia SEM 8698 lores",
+    "autor": "CDC / Dr. Stan Erlandsen",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Giardia_lamblia_SEM_8698_lores.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/giardia-cistos-lugol.jpg": {
+    "titulo": "Cysts of Giardia in Iodine wet mount",
+    "autor": "Ajay Kumar Chaurasiya",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Cysts_of_Giardia_in_Iodine_wet_mount.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/giardia-ciclo.png": {
+    "titulo": "Giardia LifeCycle",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Giardia_LifeCycle.gif",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/entamoeba-trofozoitos-hemacias.jpg": {
+    "titulo": "Trophozoites of Entamoeba histolytica with ingested erythrocytes",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Trophozoites_of_Entamoeba_histolytica_with_ingested_erythrocytes.JPG",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/entamoeba-ciclo.png": {
+    "titulo": "Entamoeba histolytica life cycle-en",
+    "autor": "Mariana Ruiz Villarreal (LadyofHats)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Entamoeba_histolytica_life_cycle-en.svg",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/protozoarios/trichomonas-giemsa.jpg": {
+    "titulo": "Trichomonas Giemsa DPDx",
+    "autor": "CDC – DPDx",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Trichomonas_Giemsa_DPDx.JPG",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/necrose-coagulacao-rim.jpg": {
+    "titulo": "Renal cortical infarction showing coagulative necrosis 4X",
+    "autor": "Department of Pathology, Calicut Medical College",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Renal_cortical_infarction_showing_coagulative_necrosis_4X.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/necrose-coagulacao-miocardio.jpg": {
+    "titulo": "Histopathology of coagulative necrosis of cardiomyocytes",
+    "autor": "Katarzyna Michaud et al.",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Histopathology_of_coagulative_necrosis_of_cardiomyocytes.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/infarto-miocardio-fases.jpg": {
+    "titulo": "Histological features of myocardial infarction at different stages",
+    "autor": "Katarzyna Michaud et al.",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Histological_features_of_myocardial_infarction_at_different_stages.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/necrose-caseosa-linfonodo.jpg": {
+    "titulo": "Tuberculous lymph node with caseating granuloma 4X",
+    "autor": "Department of Pathology, Calicut Medical College",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Tuberculous_lymph_node_with_caseating_granuloma_4X.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/abscesso-histologia.jpg": {
+    "titulo": "Histopathology of abscess",
+    "autor": "Department of Pathology, Calicut Medical College",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Histopathology_of_abscess.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/abscesso-pulmonar.jpg": {
+    "titulo": "Lung abscess (7468374496)",
+    "autor": "Yale Rosen from USA",
+    "licenca": "CC BY-SA 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Lung_abscess_%287468374496%29.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/necrose-gordurosa.jpg": {
+    "titulo": "Fat necrosis - high mag",
+    "autor": "Nephron",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Fat_necrosis_-_high_mag.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/necrose-fibrinoide.jpg": {
+    "titulo": "Fibrinoid necrosis",
+    "autor": "Angela Xue et al.",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Fibrinoid_necrosis.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/gangrena-seca.jpg": {
+    "titulo": "Dry gangrene of the foot Wellcome L0062216",
+    "autor": "Thomas Godart (Wellcome Collection)",
+    "licenca": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Dry_gangrene_of_the_foot_Wellcome_L0062216.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/neutrofilo-apoptotico.jpg": {
+    "titulo": "Apoptotic neutrophil with nuclear fragmentation",
+    "autor": "Mikael Häggström, M.D.",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Apoptotic_neutrophil_with_nuclear_fragmentation.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/infarto-reperfusao.jpg": {
+    "titulo": "Histological features of myocardial infarction with reperfusion",
+    "autor": "Katarzyna Michaud et al.",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Histological_features_of_myocardial_infarction_with_reperfusion.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/esteatose-hepatica.jpg": {
+    "titulo": "Liver steatosis fatty change",
+    "autor": "Laboratory of Experimental Pathology, NIEHS (governo dos EUA)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Liver_steatosis_fatty_change.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/lesao/hipertrofia-ventricular.jpg": {
+    "titulo": "Gross pathology of left ventricular hypertrophy",
+    "autor": "Mikael Häggström, M.D.",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Gross_pathology_of_left_ventricular_hypertrophy.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/tvp-perna.jpg": {
+    "titulo": "Deep vein thrombosis of the right leg",
+    "autor": "James Heilman, MD",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Deep_vein_thrombosis_of_the_right_leg.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/tvp-ultrassom.jpg": {
+    "titulo": "Ultrasonography of deep vein thrombosis of the femoral vein -annotated",
+    "autor": "Mikael Häggström, M.D.",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_deep_vein_thrombosis_of_the_femoral_vein_-annotated.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/trombo-laminado.jpg": {
+    "titulo": "Laminations in a thrombus - low mag",
+    "autor": "Nephron",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Laminations_in_a_thrombus_-_low_mag.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/tromboembolo-pulmonar.jpg": {
+    "titulo": "Pulmonary thromboembolus, recent (3626658803)",
+    "autor": "Yale Rosen from USA",
+    "licenca": "CC BY-SA 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pulmonary_thromboembolus%2C_recent_%283626658803%29.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/veias-membro-inferior.jpg": {
+    "titulo": "2136ab Lower Limb Veins Anterior Posterior",
+    "autor": "OpenStax College",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:2136ab_Lower_Limb_Veins_Anterior_Posterior.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/tecido-granulacao.jpg": {
+    "titulo": "Histopathology of edematous granulation tissue, high magnification",
+    "autor": "Mikael Häggström, M.D.",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Histopathology_of_edematous_granulation_tissue%2C_high_magnification.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/trombose/queloide.jpg": {
+    "titulo": "Keloid, Post Surgical",
+    "autor": "Htirgan",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Keloid%2C_Post_Surgical.JPG",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/ancilostomideo-ovo.jpg": {
+    "titulo": "Hookworm egg",
+    "autor": "Microrao",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Hookworm_egg.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/helmintos/enterobius-cabeca.jpg": {
+    "titulo": "Head of Enterobius vermicularis human pinworm 5230 lores",
+    "autor": "CDC (Public Health Image Library)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Head_of_Enterobius_vermicularis_human_pinworm_5230_lores.tif",
+    "modificacao": "convertida, redimensionada e comprimida para o site"
   }
 }

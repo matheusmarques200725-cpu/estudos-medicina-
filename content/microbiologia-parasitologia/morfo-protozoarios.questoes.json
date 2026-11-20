@@ -1,0 +1,168 @@
+{
+  "topico": "morfo-protozoarios",
+  "questoes": [
+    {
+      "id": "mp-001",
+      "nivel": "medio",
+      "enunciado": "Estudante de 22 anos voltou de um acampamento onde bebeu água de riacho. Há três semanas tem diarreia volumosa, fezes claras, gordurosas e fétidas, distensão, flatulência e perda de 4 kg, sem sangue nas fezes. O exame de fezes mostra a forma da imagem. Qual é o parasita e o mecanismo da diarreia?",
+      "imagem": { "src": "img/morfo/protozoarios/giardia-trofozoito.jpg", "legenda": "Forma encontrada no exame de fezes (coloração permanente)." },
+      "alternativas": [
+        { "letra": "A", "texto": "*Entamoeba histolytica*, por invasão da mucosa do cólon", "explicacao": "A *E. histolytica* é uma ameba com pseudópodes, um núcleo, e invade o cólon causando disenteria com sangue — quadro diferente do descrito." },
+        { "letra": "B", "texto": "*Trichomonas vaginalis*, por inflamação intestinal", "explicacao": "O *Trichomonas vaginalis* coloniza o trato urogenital, não o intestino." },
+        { "letra": "C", "texto": "*Giardia lamblia*, cujos trofozoítos aderidos ao duodeno e jejuno pelo disco ventral lesam as microvilosidades e causam má absorção", "explicacao": "Correta. O trofozoíto em pera, com dois núcleos (aspecto de 'rosto'), axonemas e flagelos, é da *Giardia*. Ingeridos na água, os cistos (resistentes ao cloro) liberam trofozoítos que se fixam à mucosa do delgado sem invadi-la, causando atrofia das vilosidades e perda das enzimas da borda em escova — daí a esteatorreia, a distensão e a perda de peso, sem sangue." },
+        { "letra": "D", "texto": "*Cryptosporidium*, por invasão de hemácias", "explicacao": "O *Cryptosporidium* infecta as microvilosidades intestinais, não as hemácias, e tem outra morfologia (oocistos pequenos)." },
+        { "letra": "E", "texto": "*Ascaris lumbricoides*, por obstrução intestinal", "explicacao": "O *Ascaris* é um helminto; a imagem mostra um protozoário flagelado unicelular." }
+      ],
+      "gabarito": "C",
+      "secao": "giardia-morfologia",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Giardia\"",
+      "tags": ["Giardia", "trofozoíto", "má absorção"]
+    },
+    {
+      "id": "mp-002",
+      "nivel": "medio",
+      "enunciado": "Uma creche tem surto de diarreia por *Giardia*, embora a água da rede pública seja clorada. Qual característica da forma infectante explica a transmissão?",
+      "alternativas": [
+        { "letra": "A", "texto": "O trofozoíto é a forma infectante e resiste ao ácido gástrico", "explicacao": "O trofozoíto é frágil, morre rapidamente fora do corpo e é destruído pelo ácido gástrico; não é a forma infectante dos protozoários intestinais." },
+        { "letra": "B", "texto": "A *Giardia* se multiplica na água tratada, fora do hospedeiro", "explicacao": "Os protozoários intestinais não se multiplicam no ambiente; o cisto apenas sobrevive até ser ingerido." },
+        { "letra": "C", "texto": "A transmissão ocorre pela picada de insetos que frequentam a creche", "explicacao": "A giardíase é transmitida pela via fecal-oral, não por vetores." },
+        { "letra": "D", "texto": "O cisto tem parede espessa, sobrevive semanas no ambiente e resiste à cloração habitual; poucos cistos ingeridos (fecal-oral, mãos, objetos) bastam para infectar", "explicacao": "Correta. O cisto é a forma de resistência e transmissão: imóvel, com parede espessa, sobrevive na água e em superfícies e não é inativado pelas concentrações habituais de cloro. Cerca de dez cistos causam infecção, e a transmissão pessoa a pessoa (mãos, fraldas, brinquedos) é comum em creches." },
+        { "letra": "E", "texto": "Os cistos penetram ativamente na pele das crianças", "explicacao": "Cistos são imóveis e precisam ser ingeridos; a penetração na pele é própria de larvas de alguns helmintos e de cercárias." }
+      ],
+      "gabarito": "D",
+      "secao": "cisto-trofozoito",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Giardia\"",
+      "tags": ["cisto", "forma infectante", "Giardia"]
+    },
+    {
+      "id": "mp-003",
+      "nivel": "medio",
+      "enunciado": "Mulher de 28 anos tem corrimento vaginal abundante, amarelo-esverdeado, bolhoso e com odor fétido, prurido e dor na relação. O pH vaginal é 6,0 e o colo tem pontos hemorrágicos. O exame da secreção mostra os organismos da imagem, que se movem ativamente no exame a fresco. Qual é a conduta mais adequada?",
+      "imagem": { "src": "img/morfo/protozoarios/trichomonas-giemsa.jpg", "legenda": "Secreção vaginal corada pelo Giemsa." },
+      "alternativas": [
+        { "letra": "A", "texto": "Tratar com fluconazol, pois são leveduras de *Candida*", "explicacao": "A candidíase causa corrimento branco grumoso, com pH normal (ácido); as formas da imagem são protozoários flagelados com núcleo único." },
+        { "letra": "B", "texto": "Tratar apenas a paciente, pois o parceiro não transmite", "explicacao": "O homem costuma ser portador assintomático e reinfecta a parceira; deve ser tratado." },
+        { "letra": "C", "texto": "Pesquisar cistos nas fezes da paciente", "explicacao": "O *Trichomonas vaginalis* não forma cistos nem vive no intestino; a transmissão é sexual." },
+        { "letra": "D", "texto": "Tratar com albendazol, pois se trata de helminto", "explicacao": "O agente é um protozoário flagelado; o albendazol é usado em helmintíases." },
+        { "letra": "E", "texto": "Tratar com metronidazol a paciente e o(s) parceiro(s) sexual(is), pois se trata de *Trichomonas vaginalis*, de transmissão sexual", "explicacao": "Correta. Trofozoítos ovais com núcleo anterior, flagelos e axóstilo, móveis no exame a fresco, com corrimento espumoso esverdeado, pH acima de 4,5 e colo 'em framboesa', indicam tricomoníase. Como o parasita só existe como trofozoíto e é transmitido sexualmente, o tratamento com metronidazol deve incluir os parceiros para evitar reinfecção." }
+      ],
+      "gabarito": "E",
+      "secao": "trichomonas",
+      "referencia": "Ministério da Saúde – PCDT para Atenção Integral às Pessoas com IST · Neves – Parasitologia Humana, 14ª ed.",
+      "tags": ["Trichomonas", "tricomoníase"]
+    },
+    {
+      "id": "mp-004",
+      "nivel": "medio",
+      "enunciado": "Garimpeiro de 35 anos, que trabalha no sudoeste do Pará, apresenta febre alta com calafrios a cada 48 horas, sudorese intensa após os picos, cefaleia e anemia. O exame da gota espessa mostra parasitas dentro das hemácias. Qual é o protozoário e como ele foi transmitido?",
+      "alternativas": [
+        { "letra": "A", "texto": "*Plasmodium*, transmitido pela picada da fêmea do mosquito *Anopheles*", "explicacao": "Correta. Na malária, os esporozoítos inoculados pelo *Anopheles* passam pelo fígado e depois os merozoítos invadem as hemácias, multiplicam-se e as rompem em ciclos sincronizados — o que causa a febre periódica (a cada 48 h no *P. vivax* e, classicamente, no *P. falciparum*) e a anemia. A malária é endêmica na Amazônia, inclusive no Pará." },
+        { "letra": "B", "texto": "*Trypanosoma cruzi*, transmitido pelo barbeiro", "explicacao": "O *T. cruzi* causa a doença de Chagas; na fase aguda circula como tripomastigota no sangue, mas não parasita hemácias nem causa febre a cada 48 horas." },
+        { "letra": "C", "texto": "*Leishmania infantum*, transmitida pelo flebotomíneo", "explicacao": "A leishmaniose visceral causa febre prolongada e hepatoesplenomegalia, com amastigotas nos macrófagos, não nas hemácias." },
+        { "letra": "D", "texto": "*Toxoplasma gondii*, adquirido por fezes de gato", "explicacao": "O toxoplasma não parasita hemácias e não causa febre periódica com hemólise." },
+        { "letra": "E", "texto": "*Giardia lamblia*, adquirida pela água", "explicacao": "A *Giardia* é intestinal e não causa doença sanguínea." }
+      ],
+      "gabarito": "A",
+      "secao": "protozoarios-por-sistema",
+      "referencia": "Ministério da Saúde – Guia de Tratamento da Malária no Brasil · Neves – Parasitologia Humana, 14ª ed.",
+      "tags": ["malária", "Plasmodium", "Anopheles"]
+    },
+    {
+      "id": "mp-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 30 anos, morador de área sem saneamento, tem há cinco dias evacuações frequentes com muco e sangue, cólica e tenesmo. No exame das fezes frescas, observam-se os organismos da imagem. Qual achado morfológico confirma o agente patogênico e o diferencia de uma espécie comensal idêntica?",
+      "imagem": { "src": "img/morfo/protozoarios/entamoeba-trofozoitos-hemacias.jpg", "legenda": "Fezes frescas, coloração permanente." },
+      "alternativas": [
+        { "letra": "A", "texto": "A presença de 8 núcleos no cisto, que indica *Entamoeba histolytica*", "explicacao": "Cistos com até 8 núcleos são de *Entamoeba coli*, comensal; o cisto maduro da *E. histolytica* tem até 4 núcleos." },
+        { "letra": "B", "texto": "Hemácias fagocitadas no citoplasma do trofozoíto, que indicam *Entamoeba histolytica* invasiva e a diferenciam da *E. dispar*", "explicacao": "Correta. A *E. histolytica* e a *E. dispar* são morfologicamente idênticas, mas só a primeira invade a mucosa e fagocita hemácias. Trofozoítos com hemácias no citoplasma, em paciente com disenteria, confirmam a amebíase invasiva; sem esse achado, o laudo é 'complexo *E. histolytica/E. dispar*', e a diferenciação exige antígeno específico ou PCR." },
+        { "letra": "C", "texto": "A presença de disco adesivo ventral, que indica amebíase", "explicacao": "O disco adesivo é estrutura da *Giardia*, não das amebas." },
+        { "letra": "D", "texto": "A presença de membrana ondulante e axóstilo", "explicacao": "Membrana ondulante e axóstilo caracterizam o *Trichomonas*." },
+        { "letra": "E", "texto": "A presença de dois núcleos em forma de 'rosto'", "explicacao": "Dois núcleos simétricos em forma de 'rosto' são do trofozoíto de *Giardia*." }
+      ],
+      "gabarito": "B",
+      "secao": "entamoeba-morfologia",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Amebíase\"",
+      "tags": ["Entamoeba histolytica", "hematofagia", "disenteria"]
+    },
+    {
+      "id": "mp-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 38 anos tem febre há dez dias e dor no hipocôndrio direito. Teve diarreia com sangue há quatro meses, que melhorou espontaneamente. A ultrassonografia mostra lesão cística única no lobo direito do fígado; a punção drena material espesso, achocolatado, inodoro, com poucos neutrófilos. Qual é o mecanismo de chegada do agente ao fígado e por que o material tem poucos neutrófilos?",
+      "alternativas": [
+        { "letra": "A", "texto": "Cistos de *Giardia* subiram pelo colédoco; os neutrófilos foram consumidos pela bile", "explicacao": "A *Giardia* não invade tecidos nem causa abscesso hepático." },
+        { "letra": "B", "texto": "Larvas de *Ascaris* migraram pelo fígado e morreram ali", "explicacao": "A migração larvária do *Ascaris* não forma abscesso achocolatado; a história de disenteria aponta para amebíase." },
+        { "letra": "C", "texto": "Trofozoítos de *Entamoeba histolytica* invadiram a mucosa do cólon e foram levados pela veia porta até o fígado; a ameba mata os neutrófilos e o material é necrose de parênquima, não pus", "explicacao": "Correta. Os trofozoítos invasivos atravessam a parede do cólon, entram nos ramos da veia porta e chegam ao fígado (mais ao lobo direito, que recebe mais sangue da mesentérica superior). Lá destroem o parênquima com amebaporos e proteases e induzem a morte de neutrófilos e hepatócitos. O resultado é uma cavidade com material necrótico achocolatado ('pasta de anchova'), com poucos neutrófilos, que pode surgir meses após a diarreia." },
+        { "letra": "D", "texto": "Bactérias anaeróbias da flora intestinal formaram pus por via linfática", "explicacao": "O abscesso bacteriano piogênico tem pus rico em neutrófilos, frequentemente fétido; o material descrito e a história indicam abscesso amebiano." },
+        { "letra": "E", "texto": "*Trichomonas* alcançou o fígado por via sexual ascendente", "explicacao": "O *Trichomonas* fica restrito ao trato urogenital." }
+      ],
+      "gabarito": "C",
+      "secao": "entamoeba-ciclo",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Amebíase\" · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["abscesso hepático amebiano", "Entamoeba histolytica"]
+    },
+    {
+      "id": "mp-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 25 anos tem episódios repetidos de giardíase, com diarreia crônica e perda de peso, apesar de tratamentos corretos, além de sinusites de repetição. Qual alteração imunológica é a mais provável e por que ela favorece a giardíase?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de IgE, que impede a resposta a protozoários", "explicacao": "A IgE participa da defesa contra helmintos e das alergias; sua deficiência não é causa clássica de giardíase recorrente." },
+        { "letra": "B", "texto": "Deficiência de complemento C5–C9, que impede a lise da *Giardia*", "explicacao": "Deficiências do complexo de ataque à membrana predispõem a infecções por *Neisseria*, não a giardíase." },
+        { "letra": "C", "texto": "Neutropenia, que impede a fagocitose dos cistos", "explicacao": "A *Giardia* vive na luz intestinal, aderida à mucosa sem invadi-la; a neutropenia não é o principal fator de giardíase recorrente." },
+        { "letra": "D", "texto": "Deficiência de IgA (ou hipogamaglobulinemia), pois a IgA secretora da mucosa intestinal é a principal defesa contra a adesão dos trofozoítos", "explicacao": "Correta. A *Giardia* não invade os tecidos: a defesa ocorre na superfície da mucosa, onde a IgA secretora impede a adesão dos trofozoítos ao epitélio. Pessoas com deficiência de IgA ou imunodeficiência comum variável têm giardíase grave e recorrente, e também infecções sinopulmonares de repetição, pois a IgA protege as mucosas respiratórias." },
+        { "letra": "E", "texto": "Deficiência de linfócitos T CD8⁺, que matam os trofozoítos intracelulares", "explicacao": "A *Giardia* não é intracelular; os linfócitos T CD8⁺ não são a principal defesa contra ela." }
+      ],
+      "gabarito": "D",
+      "secao": "giardia-ciclo",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Giardia\" · Abbas, 10ª ed., cap. \"Imunidade regional\"",
+      "tags": ["Giardia", "IgA", "imunodeficiência"]
+    },
+    {
+      "id": "mp-008",
+      "nivel": "dificil",
+      "enunciado": "Em exame admissional, um homem assintomático tem o laudo de fezes: 'cistos do complexo *Entamoeba histolytica/Entamoeba dispar*'. Qual é a interpretação correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Confirma amebíase invasiva e indica investigação de abscesso hepático", "explicacao": "O laudo não confirma a espécie patogênica; o paciente está assintomático e não há hemácias fagocitadas descritas." },
+        { "letra": "B", "texto": "Indica infecção por *Giardia*, pois os cistos são semelhantes", "explicacao": "Os cistos de *Giardia* são ovais, com 4 núcleos e axonemas; o laudo se refere a amebas." },
+        { "letra": "C", "texto": "Indica um helminto com ovos tetranucleados", "explicacao": "Cistos de amebas não são ovos de helmintos." },
+        { "letra": "D", "texto": "Os cistos encontrados não são infectantes, pois a forma infectante é o trofozoíto", "explicacao": "O cisto maduro é justamente a forma infectante das amebas intestinais." },
+        { "letra": "E", "texto": "Os cistos são idênticos ao microscópio; como a *E. dispar* (comensal) é muito mais frequente, é preciso teste de antígeno específico ou PCR para saber se há *E. histolytica*, que justificaria tratamento", "explicacao": "Correta. *E. histolytica* e *E. dispar* têm cistos e trofozoítos morfologicamente iguais; apenas a primeira é patogênica. Como a *E. dispar* predomina entre portadores assintomáticos, o achado do complexo exige confirmação da espécie (antígeno específico, PCR). O encontro de qualquer *Entamoeba* também indica exposição a material contaminado por fezes." }
+      ],
+      "gabarito": "E",
+      "secao": "entamoeba-morfologia",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Amebíase\"",
+      "tags": ["Entamoeba dispar", "diagnóstico"]
+    },
+    {
+      "id": "mp-009",
+      "nivel": "aprofundado",
+      "enunciado": "Em um município do Pará, várias pessoas de famílias diferentes, sem contato com barbeiros dentro de casa, apresentam febre prolongada, edema facial e de membros, e algumas desenvolvem miocardite aguda. Todas consumiram açaí do mesmo vendedor. O exame de sangue mostra tripomastigotas. Qual é o mecanismo de transmissão e o órgão-alvo mais grave?",
+      "alternativas": [
+        { "letra": "A", "texto": "Transmissão oral de *Trypanosoma cruzi* por alimento contaminado com triatomíneos ou suas fezes; o parasita se multiplica dentro das células, sobretudo no miocárdio", "explicacao": "Correta. Na Amazônia, a principal forma de transmissão da doença de Chagas é a oral: triatomíneos infectados (ou suas fezes) são triturados com o açaí ou caldo de cana. Os tripomastigotas atravessam a mucosa digestiva, invadem células e se multiplicam como amastigotas — com tropismo importante pelo músculo cardíaco. A infecção maciça por via oral causa surtos de doença aguda com miocardite, potencialmente grave." },
+        { "letra": "B", "texto": "Transmissão pela picada do *Anopheles*; o alvo são as hemácias", "explicacao": "O *Anopheles* transmite a malária, causada por *Plasmodium*, que parasita hemácias; tripomastigotas indicam *T. cruzi*." },
+        { "letra": "C", "texto": "Ingestão de cistos de *Entamoeba* no açaí; o alvo é o fígado", "explicacao": "A amebíase não produz tripomastigotas no sangue nem miocardite." },
+        { "letra": "D", "texto": "Transmissão pelo flebotomíneo; o alvo são os macrófagos da pele", "explicacao": "O flebotomíneo transmite as leishmanioses; a forma no sangue não é tripomastigota circulante." },
+        { "letra": "E", "texto": "Ingestão de oocistos de *Toxoplasma* em fezes de gato; o alvo é a retina", "explicacao": "A toxoplasmose não se apresenta com tripomastigotas no sangue." }
+      ],
+      "gabarito": "A",
+      "secao": "protozoarios-por-sistema",
+      "referencia": "Ministério da Saúde – Guia de Vigilância em Saúde: Doença de Chagas · Neves – Parasitologia Humana, 14ª ed.",
+      "tags": ["doença de Chagas", "transmissão oral", "açaí"]
+    },
+    {
+      "id": "mp-010",
+      "nivel": "aprofundado",
+      "enunciado": "O metronidazol é eficaz contra *Giardia*, *Entamoeba histolytica* e *Trichomonas vaginalis*, além de bactérias anaeróbias, mas não age em bactérias aeróbias. Um paciente em tratamento apresenta rubor, náuseas, palpitações e cefaleia após ingerir bebida alcoólica. Qual explicação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "O metronidazol inibe a síntese de parede celular, presente apenas em organismos anaeróbios; o álcool potencializa essa ação", "explicacao": "Protozoários não têm parede celular; e a reação com álcool não decorre de potencialização do efeito antimicrobiano." },
+        { "letra": "B", "texto": "O metronidazol é ativado por redução em organismos com metabolismo anaeróbio, formando radicais que danificam o DNA; e inibe a degradação do acetaldeído, causando reação semelhante à do dissulfiram", "explicacao": "Correta. O metronidazol é um pró-fármaco: proteínas de transferência de elétrons de baixo potencial, presentes em protozoários amitocondriais e bactérias anaeróbias, reduzem seu grupo nitro, gerando intermediários tóxicos que lesam o DNA. Organismos aeróbios não fazem essa ativação eficientemente. Com álcool, o acúmulo de acetaldeído causa rubor, náuseas e taquicardia (efeito tipo dissulfiram)." },
+        { "letra": "C", "texto": "O metronidazol se liga ao ergosterol da membrana dos protozoários; o álcool dissolve a membrana humana", "explicacao": "A ligação ao ergosterol é mecanismo dos polienos antifúngicos; não explica a ação do metronidazol." },
+        { "letra": "D", "texto": "O metronidazol inibe os ribossomos 70S; o álcool causa reação alérgica", "explicacao": "A inibição de ribossomos 70S é mecanismo de antibióticos como aminoglicosídeos e macrolídeos; a reação descrita não é alérgica." },
+        { "letra": "E", "texto": "O metronidazol bloqueia os microtúbulos dos parasitas; o álcool aumenta sua absorção", "explicacao": "O bloqueio de microtúbulos é o mecanismo dos benzimidazóis (albendazol) contra helmintos." }
+      ],
+      "gabarito": "B",
+      "secao": "metronidazol",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Quimioterapia das infecções por protozoários\"",
+      "tags": ["metronidazol", "anaeróbios", "efeito dissulfiram"]
+    }
+  ]
+}

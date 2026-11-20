@@ -1,0 +1,168 @@
+{
+  "topico": "morfo-helmintos",
+  "questoes": [
+    {
+      "id": "mh-001",
+      "nivel": "medio",
+      "enunciado": "Criança de 5 anos, de área sem saneamento, tem diarreia com muco e sangue, tenesmo, anemia e episódios de prolapso retal, com pequenos vermes aderidos à mucosa exteriorizada. O exame de fezes mostra os ovos da imagem. Qual é o parasita?",
+      "imagem": { "src": "img/morfo/helmintos/trichuris-ovos.jpg", "legenda": "Exame parasitológico de fezes." },
+      "alternativas": [
+        { "letra": "A", "texto": "*Trichuris trichiura*", "explicacao": "Correta. Ovos em forma de barril (ou limão), castanhos, com dois tampões polares transparentes, são típicos do *Trichuris*. Os adultos, em forma de chicote, vivem no ceco e no cólon com a extremidade fina inserida na mucosa; infecções intensas em crianças causam colite, tenesmo e prolapso retal. A infecção ocorre por ingestão de ovos embrionados no solo." },
+        { "letra": "B", "texto": "*Ascaris lumbricoides*", "explicacao": "O ovo do *Ascaris* é oval, castanho e tem camada externa mamilonada, sem tampões polares; os adultos vivem no intestino delgado." },
+        { "letra": "C", "texto": "*Enterobius vermicularis*", "explicacao": "O ovo do *Enterobius* é transparente e achatado de um lado (em 'D'), encontrado na fita adesiva perianal; não causa colite com prolapso." },
+        { "letra": "D", "texto": "Ancilostomídeo", "explicacao": "O ovo de ancilostomídeo tem casca fina e transparente com blastômeros, sem tampões polares; os adultos vivem no delgado." },
+        { "letra": "E", "texto": "*Taenia* sp.", "explicacao": "O ovo de *Taenia* é esférico, com casca radiada e oncosfera de seis ganchos." }
+      ],
+      "gabarito": "A",
+      "secao": "trichuris",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Trichuris trichiura\"",
+      "tags": ["Trichuris", "ovos", "prolapso retal"]
+    },
+    {
+      "id": "mh-002",
+      "nivel": "medio",
+      "enunciado": "Mulher de 32 anos, vegetariana há 15 anos (nunca comeu carne de porco), tem a primeira crise convulsiva. A tomografia mostra múltiplas lesões císticas e calcificações cerebrais, compatíveis com neurocisticercose. Como ela provavelmente se infectou?",
+      "alternativas": [
+        { "letra": "A", "texto": "Comendo carne bovina malpassada com cisticercos", "explicacao": "A carne bovina com cisticercos de *T. saginata* causa teníase, e a *T. saginata* praticamente não causa cisticercose humana; além disso, a paciente é vegetariana." },
+        { "letra": "B", "texto": "Ingerindo ovos de *Taenia solium* em água ou verduras contaminadas com fezes humanas", "explicacao": "Correta. Na cisticercose, o ser humano é hospedeiro intermediário acidental: ingere os ovos de *T. solium*, cujas oncosferas atravessam o intestino, caem no sangue e formam cisticercos em músculos, olhos e SNC. A fonte são fezes de portadores da tênia adulta, contaminando água, verduras cruas e mãos — sem relação com comer carne." },
+        { "letra": "C", "texto": "Pela penetração de larvas filarioides na pele", "explicacao": "A penetração de larvas na pele é a via dos ancilostomídeos e do *Strongyloides*, não da *Taenia*." },
+        { "letra": "D", "texto": "Pela penetração de cercárias durante banho de rio", "explicacao": "Cercárias que penetram na pele transmitem a esquistossomose." },
+        { "letra": "E", "texto": "Pela picada de inseto vetor", "explicacao": "A cisticercose não é transmitida por vetores; adquire-se por ingestão de ovos." }
+      ],
+      "gabarito": "B",
+      "secao": "cisticercose",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Cisticercose\"",
+      "tags": ["cisticercose", "Taenia solium"]
+    },
+    {
+      "id": "mh-003",
+      "nivel": "medio",
+      "enunciado": "Menina de 6 anos tem prurido anal intenso, principalmente à noite, sono agitado e irritabilidade. O irmão de 4 anos tem queixas semelhantes. Dois exames parasitológicos de fezes foram negativos. Qual é o exame mais adequado e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Método de Baermann-Moraes, para pesquisar larvas", "explicacao": "O Baermann-Moraes concentra larvas de *Strongyloides*, que não é o agente desse quadro." },
+        { "letra": "B", "texto": "Kato-Katz, para contar ovos por grama de fezes", "explicacao": "O Kato-Katz é usado para esquistossomose e geo-helmintos; os ovos do agente provável raramente estão nas fezes." },
+        { "letra": "C", "texto": "Fita adesiva (Graham) na região perianal pela manhã, porque as fêmeas de *Enterobius* põem os ovos na pele perianal, e não nas fezes", "explicacao": "Correta. As fêmeas de *Enterobius vermicularis* migram à noite do ceco para a região perianal, onde depositam os ovos e causam prurido. Como os ovos ficam na pele, o exame de fezes costuma ser negativo; a fita adesiva aplicada ao acordar, antes do banho, recolhe os ovos em forma de 'D'. É comum o acometimento familiar." },
+        { "letra": "D", "texto": "Sorologia para cisticercose", "explicacao": "A cisticercose não causa prurido anal noturno." },
+        { "letra": "E", "texto": "Tomografia de abdome", "explicacao": "A imagem não é necessária para a enterobíase, diagnosticada pela fita adesiva." }
+      ],
+      "gabarito": "C",
+      "secao": "enterobius",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Enterobius vermicularis\"",
+      "tags": ["Enterobius", "fita adesiva"]
+    },
+    {
+      "id": "mh-004",
+      "nivel": "medio",
+      "enunciado": "Lavrador de 40 anos, do interior de Minas Gerais, que trabalha em valas de irrigação, tem o ovo da imagem identificado no exame de fezes pelo método de Kato-Katz. Qual é o parasita e qual é seu hospedeiro intermediário?",
+      "imagem": { "src": "img/morfo/helmintos/schistosoma-ovo.jpg", "legenda": "Ovo encontrado nas fezes." },
+      "alternativas": [
+        { "letra": "A", "texto": "*Ascaris lumbricoides*; não tem hospedeiro intermediário", "explicacao": "O *Ascaris* tem ciclo monoxênico e ovo mamilonado, sem espícula." },
+        { "letra": "B", "texto": "*Taenia solium*; porco", "explicacao": "O ovo de *Taenia* é esférico e radiado, sem espícula; o porco é o intermediário da *T. solium*." },
+        { "letra": "C", "texto": "*Trichuris trichiura*; não tem hospedeiro intermediário", "explicacao": "O ovo do *Trichuris* tem forma de barril com tampões polares." },
+        { "letra": "D", "texto": "*Schistosoma mansoni*; caramujo do gênero *Biomphalaria*", "explicacao": "Correta. O ovo grande, oval, com espícula lateral, é característico do *S. mansoni*. O miracídio que sai do ovo na água doce penetra no caramujo *Biomphalaria*, onde se multiplica e gera milhares de cercárias, que penetram na pele de quem entra na água — como o trabalhador de valas de irrigação." },
+        { "letra": "E", "texto": "Ancilostomídeo; não tem hospedeiro intermediário", "explicacao": "O ovo de ancilostomídeo tem casca fina e transparente com blastômeros, sem espícula." }
+      ],
+      "gabarito": "D",
+      "secao": "schistosoma",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Schistosoma mansoni\"",
+      "tags": ["Schistosoma mansoni", "ovo", "Biomphalaria"]
+    },
+    {
+      "id": "mh-005",
+      "nivel": "dificil",
+      "enunciado": "Adolescente de 14 anos, de área rural, que anda descalço, apresenta palidez, cansaço, queda do rendimento escolar e edema leve de membros inferiores. Hemograma: hemoglobina 7,8 g/dL, VCM 68 fL, ferritina muito baixa; albumina 2,9 g/dL. Qual é o helminto mais provável e o mecanismo da anemia?",
+      "alternativas": [
+        { "letra": "A", "texto": "*Enterobius vermicularis*, por perda de sangue na região perianal", "explicacao": "O *Enterobius* causa prurido anal e não é hematófago; não leva a anemia ferropriva importante." },
+        { "letra": "B", "texto": "*Taenia saginata*, por competição pela vitamina B12", "explicacao": "A deficiência de B12 por helmintos está associada a outra tênia (*Diphyllobothrium*) e causa anemia macrocítica, não microcítica com ferritina baixa." },
+        { "letra": "C", "texto": "*Schistosoma mansoni*, por hemólise intravascular", "explicacao": "A esquistossomose não causa hemólise como mecanismo principal; seu quadro crônico é de fibrose periportal e hipertensão portal." },
+        { "letra": "D", "texto": "*Ascaris lumbricoides*, por obstrução intestinal", "explicacao": "O *Ascaris* pode causar desnutrição e obstrução, mas não é hematófago e não explica a anemia ferropriva com hipoalbuminemia." },
+        { "letra": "E", "texto": "Ancilostomídeo, cujos adultos fixados à mucosa do delgado sugam sangue, causando perda crônica de ferro e de proteínas", "explicacao": "Correta. A larva filarioide penetra na pele de quem anda descalço em solo contaminado; após o ciclo pulmonar, os adultos se prendem à mucosa duodenal e jejunal pela cápsula bucal, sugando sangue e secretando anticoagulantes. A perda crônica esgota o ferro (anemia microcítica, ferritina baixa) e as proteínas plasmáticas (hipoalbuminemia, edema) — o 'amarelão'." }
+      ],
+      "gabarito": "E",
+      "secao": "ancilostomideos",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Ancilostomídeos\"",
+      "tags": ["ancilostomíase", "anemia ferropriva"]
+    },
+    {
+      "id": "mh-006",
+      "nivel": "dificil",
+      "enunciado": "Criança de 4 anos apresenta tosse seca, sibilância e febre baixa há uma semana. A radiografia mostra infiltrados pulmonares que mudam de lugar em exames sucessivos, e o hemograma tem 22% de eosinófilos. Cerca de dois meses depois, a mãe vê um verme cilíndrico de 25 cm nas fezes da criança. Qual explicação integra os dois episódios?",
+      "alternativas": [
+        { "letra": "A", "texto": "Síndrome de Löffler pela passagem das larvas de *Ascaris* pelos pulmões (ciclo pulmonar), seguida do desenvolvimento dos adultos no intestino delgado", "explicacao": "Correta. Os ovos embrionados ingeridos liberam larvas no intestino; elas atravessam a parede, seguem pela circulação até os pulmões, rompem os capilares e entram nos alvéolos — causando infiltrados migratórios, tosse, sibilância e eosinofilia (síndrome de Löffler). Depois são deglutidas e se tornam adultas no intestino delgado em 2 a 3 meses; o verme de dezenas de centímetros é o *Ascaris lumbricoides*." },
+        { "letra": "B", "texto": "Pneumonia bacteriana seguida de teníase", "explicacao": "A eosinofilia e os infiltrados migratórios sugerem migração larvária, e a *Taenia* não tem fase pulmonar nem forma cilíndrica." },
+        { "letra": "C", "texto": "Cisticercose pulmonar seguida da eliminação do cisticerco", "explicacao": "Cisticercos não são eliminados como vermes cilíndricos nas fezes, e a cisticercose não causa esse quadro respiratório transitório." },
+        { "letra": "D", "texto": "Enterobíase com migração dos vermes para a traqueia", "explicacao": "O *Enterobius* não tem ciclo pulmonar e mede cerca de 1 cm." },
+        { "letra": "E", "texto": "Tricuríase com fase pulmonar", "explicacao": "O *Trichuris* não tem ciclo pulmonar, e seus adultos medem poucos centímetros." }
+      ],
+      "gabarito": "A",
+      "secao": "ascaris-ciclo",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Ascaris lumbricoides\"",
+      "tags": ["Ascaris", "síndrome de Löffler", "ciclo pulmonar"]
+    },
+    {
+      "id": "mh-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 60 anos, nascido em área rural da Bahia e morando há 30 anos em São Paulo, inicia prednisona em dose alta para doença pulmonar intersticial. Três semanas depois, tem dor abdominal, diarreia, infiltrados pulmonares bilaterais e hemocultura positiva para *Escherichia coli*. O exame de fezes recém-emitidas mostra larvas (e não ovos), e não há eosinofilia. Qual é o mecanismo do quadro?",
+      "imagem": { "src": "img/morfo/helmintos/larvas-ancilostomideo-strongyloides.jpg", "legenda": "Larvas rabditoides para comparação (CDC): a larva encontrada nas fezes do paciente tem cavidade bucal curta e primórdio genital evidente, como a da direita." },
+      "alternativas": [
+        { "letra": "A", "texto": "Reinfecção recente por ancilostomídeos em São Paulo", "explicacao": "Ancilostomídeos não se multiplicam no hospedeiro nem explicam a disseminação maciça com sepse; e o paciente não tem exposição recente." },
+        { "letra": "B", "texto": "Hiperinfecção por *Strongyloides stercoralis*: a autoinfecção, mantida por décadas, se descontrola com o corticoide, e as larvas que atravessam o intestino carregam bactérias para o sangue", "explicacao": "Correta. O *Strongyloides* é o helminto capaz de autoinfecção: larvas rabditoides viram filarioides no próprio intestino e reinfectam o hospedeiro, mantendo a infecção por décadas. Com corticoide (ou HTLV-1), o número de larvas explode; elas invadem pulmões e outros órgãos e levam bactérias intestinais ao sangue, causando sepse por Gram-negativos. O corticoide pode suprimir a eosinofilia, e encontrar larvas, não ovos, nas fezes é típico." },
+        { "letra": "C", "texto": "Neurocisticercose disseminada", "explicacao": "A cisticercose não causa larvas nas fezes nem sepse por bactérias intestinais." },
+        { "letra": "D", "texto": "Esquistossomose aguda", "explicacao": "A esquistossomose aguda ocorre semanas após o contato com água contaminada, com eosinofilia, e não envolve larvas nas fezes." },
+        { "letra": "E", "texto": "Ascaridíase com obstrução biliar", "explicacao": "A ascaridíase não causa autoinfecção nem larvas nas fezes; seus ovos é que aparecem no exame." }
+      ],
+      "gabarito": "B",
+      "secao": "strongyloides-ciclo",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Strongyloides stercoralis\" · Harrison, 21ª ed., cap. \"Infecções por nematódeos intestinais\"",
+      "tags": ["Strongyloides", "hiperinfecção", "corticoide"]
+    },
+    {
+      "id": "mh-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 45 anos, de área endêmica para esquistossomose, é internado por hematêmese volumosa por varizes de esôfago. Tem baço muito aumentado, albumina e tempo de protrombina normais e não tem ascite importante. Qual é a base fisiopatológica do quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Cirrose hepática pela ação tóxica dos vermes adultos sobre os hepatócitos", "explicacao": "Os vermes adultos vivem nas veias e não destroem os hepatócitos; a função hepática preservada fala contra cirrose." },
+        { "letra": "B", "texto": "Trombose da veia porta pelos vermes adultos mortos", "explicacao": "A obstrução do fluxo portal decorre da fibrose periportal induzida pelos ovos, não de trombose por vermes mortos." },
+        { "letra": "C", "texto": "Ovos presos nos espaços porta provocam granulomas e fibrose periportal (Symmers), causando hipertensão portal pré-sinusoidal com função hepática relativamente preservada", "explicacao": "Correta. Parte dos ovos postos nas veias mesentéricas é levada pelo sangue portal até o fígado. Os antígenos dos ovos induzem granulomas (resposta Th2) que evoluem para fibrose ao redor dos ramos portais. A obstrução ocorre antes dos sinusoides: aumenta a pressão portal (esplenomegalia, varizes), mas os hepatócitos são poupados — por isso albumina e coagulação ficam normais." },
+        { "letra": "D", "texto": "Insuficiência cardíaca direita por obstrução das artérias pulmonares", "explicacao": "A hipertensão pulmonar pode ocorrer em casos avançados, mas não explica a hipertensão portal com varizes e esplenomegalia." },
+        { "letra": "E", "texto": "Hemólise com hiperesplenismo primário", "explicacao": "A esplenomegalia é consequência da congestão portal, não a causa primária do quadro." }
+      ],
+      "gabarito": "C",
+      "secao": "schistosoma-ciclo",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Schistosoma mansoni\" · Robbins Patologia Básica, 10ª ed., cap. \"Fígado\"",
+      "tags": ["esquistossomose", "hipertensão portal", "fibrose periportal"]
+    },
+    {
+      "id": "mh-009",
+      "nivel": "aprofundado",
+      "enunciado": "Paciente traz ao ambulatório proglotes eliminadas nas fezes. No laboratório, a proglote grávida, comprimida entre lâminas e corada, mostra 9 ramificações uterinas de cada lado. O tratamento é iniciado e, depois, o escólex recuperado mostra quatro ventosas e um rostro com dupla coroa de ganchos. Qual a importância dessa identificação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Indica *Taenia saginata*, que não oferece risco de cisticercose", "explicacao": "Poucas ramificações uterinas e escólex com ganchos caracterizam a *T. solium*, não a *T. saginata* (muitas ramificações, escólex inerme)." },
+        { "letra": "B", "texto": "Indica *Taenia solium*, mas o portador não oferece risco a si nem aos contatos", "explicacao": "O portador de *T. solium* elimina ovos infectantes para humanos e pode se autoinfectar e infectar os contatos, causando cisticercose." },
+        { "letra": "C", "texto": "Os ovos permitiriam a mesma identificação, dispensando o estudo da proglote", "explicacao": "Os ovos de *T. solium* e *T. saginata* são morfologicamente indistinguíveis; a espécie é definida pelo escólex ou pelas ramificações uterinas." },
+        { "letra": "D", "texto": "Indica *Taenia solium*: o portador elimina ovos infectantes para humanos e pode causar cisticercose em si mesmo (autoinfecção) e nos contatos", "explicacao": "Correta. Proglote grávida com poucas ramificações uterinas (até cerca de 12) e escólex armado com ganchos identificam a *T. solium*. Seus ovos, ao serem ingeridos por humanos, formam cisticercos nos tecidos — inclusive no SNC. Por isso o portador deve ser tratado e os contatos domiciliares avaliados." },
+        { "letra": "E", "texto": "Indica *Schistosoma mansoni*, pois tem ventosas", "explicacao": "O *Schistosoma* é trematódeo, não forma proglotes nem tem rostro com ganchos." }
+      ],
+      "gabarito": "D",
+      "secao": "taenia-morfologia",
+      "referencia": "Neves – Parasitologia Humana, 14ª ed., cap. \"Taenia solium e Taenia saginata\"",
+      "tags": ["Taenia solium", "proglote", "escólex"]
+    },
+    {
+      "id": "mh-010",
+      "nivel": "aprofundado",
+      "enunciado": "Em um estudo, camundongos infectados por um nematódeo intestinal com fase tecidual desenvolvem eosinofilia e IgE elevada. Animais tratados com anticorpo que neutraliza uma citocina específica mantêm a IgE elevada, mas não desenvolvem eosinofilia e eliminam o parasita mais lentamente. Qual citocina foi neutralizada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Interferon-γ, produzido por linfócitos Th1", "explicacao": "O IFN-γ ativa macrófagos contra micróbios intracelulares e inibe a resposta Th2; neutralizá-lo não suprimiria a eosinofilia." },
+        { "letra": "B", "texto": "IL-4, que induz a troca de classe para IgE", "explicacao": "Sem IL-4, a produção de IgE cairia; o enunciado diz que a IgE continuou elevada." },
+        { "letra": "C", "texto": "IL-17, que recruta neutrófilos", "explicacao": "A IL-17 recruta neutrófilos e é importante contra fungos e bactérias extracelulares; não é a principal citocina dos eosinófilos." },
+        { "letra": "D", "texto": "TNF, que causa febre", "explicacao": "O TNF é uma citocina inflamatória geral; não é o fator específico de produção e ativação de eosinófilos." },
+        { "letra": "E", "texto": "IL-5, produzida por linfócitos Th2, que estimula a produção, a maturação e a ativação dos eosinófilos", "explicacao": "Correta. Na resposta Th2 contra helmintos, a IL-4 promove a troca de classe para IgE, a IL-13 aumenta o muco e a motilidade intestinal, e a IL-5 é a principal citocina da produção e ativação dos eosinófilos. Neutralizando a IL-5, a IgE se mantém (depende da IL-4), mas a eosinofilia desaparece e a defesa fica menos eficiente." }
+      ],
+      "gabarito": "E",
+      "secao": "eosinofilia",
+      "referencia": "Abbas, 10ª ed., cap. \"Imunidade aos micróbios\"",
+      "tags": ["eosinofilia", "IL-5", "Th2"]
+    }
+  ]
+}

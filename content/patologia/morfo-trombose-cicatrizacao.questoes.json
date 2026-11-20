@@ -1,0 +1,169 @@
+{
+  "topico": "morfo-trombose-cicatrizacao",
+  "questoes": [
+    {
+      "id": "mtc-001",
+      "nivel": "medio",
+      "enunciado": "Mulher de 62 anos, no 5º dia após prótese de quadril, tem edema da coxa e da perna esquerdas. A ultrassonografia com Doppler (imagem) mostra ausência de fluxo e não compressibilidade da 'veia femoral' (antigamente chamada de femoral superficial). Um colega diz que é apenas uma 'tromboflebite superficial'. Qual afirmação está correta?",
+      "imagem": { "src": "img/morfo/trombose/tvp-ultrassom.jpg", "legenda": "Ultrassonografia com Doppler da região femoral (rótulos em inglês)." },
+      "alternativas": [
+        { "letra": "A", "texto": "Está certo: a veia femoral é superficial e não emboliza", "explicacao": "A veia femoral pertence ao sistema profundo, apesar do nome antigo; trombose nela é TVP com risco de embolia." },
+        { "letra": "B", "texto": "A veia femoral é ramo da safena magna", "explicacao": "A safena magna é superficial e desemboca na femoral comum; a veia femoral é a continuação da poplítea." },
+        { "letra": "C", "texto": "A veia femoral drena para a veia poplítea", "explicacao": "O fluxo é o inverso: a poplítea continua como veia femoral ao passar pelo hiato dos adutores." },
+        { "letra": "D", "texto": "A trombose da veia femoral só é importante se houver varizes", "explicacao": "A presença de varizes não define a gravidade; a trombose de veia profunda proximal tem alto risco de embolia pulmonar." },
+        { "letra": "E", "texto": "A veia femoral é uma veia profunda (continuação da poplítea, acompanhando a artéria femoral); trombose nela é TVP proximal, com alto risco de embolia pulmonar", "explicacao": "Correta. O sistema profundo segue as artérias: tibiais e fibulares → poplítea → femoral (+ femoral profunda) → femoral comum → ilíacas → cava inferior. O termo 'femoral superficial' é enganoso e foi abandonado justamente para evitar esse erro. TVPs da poplítea para cima são as que mais causam embolia pulmonar e exigem anticoagulação." }
+      ],
+      "gabarito": "E",
+      "secao": "anatomia-veias",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed., cap. \"Membro inferior\"",
+      "tags": ["veia femoral", "TVP", "anatomia venosa"]
+    },
+    {
+      "id": "mtc-002",
+      "nivel": "medio",
+      "enunciado": "Mulher de 34 anos, tabagista, usuária de anticoncepcional oral combinado, faz um voo de 12 horas sem se levantar da poltrona. Dois dias depois, tem dor e edema na panturrilha direita, e a ultrassonografia confirma TVP. Como os fatores de risco dela se encaixam na tríade de Virchow?",
+      "alternativas": [
+        { "letra": "A", "texto": "A imobilidade no voo causou estase; o estrogênio do anticoncepcional causou hipercoagulabilidade", "explicacao": "Correta. Sentada por horas, sem contrair os músculos da panturrilha, a bomba muscular não funcionou e o sangue estagnou nos bolsos valvares e seios do sóleo (estase). O estrogênio aumenta a síntese hepática de fatores de coagulação e reduz inibidores como a antitrombina (hipercoagulabilidade); o tabagismo contribui para disfunção endotelial. A soma de fatores explica a trombose." },
+        { "letra": "B", "texto": "O voo causou lesão endotelial direta por trauma; o anticoncepcional causou estase", "explicacao": "A posição sentada prolongada causa principalmente estase, não trauma direto; e o efeito do estrogênio é sobre a coagulabilidade do sangue." },
+        { "letra": "C", "texto": "Apenas a hipercoagulabilidade importa, pois a estase não participa da trombose venosa", "explicacao": "A estase é justamente o fator mais importante na trombose venosa." },
+        { "letra": "D", "texto": "A trombose foi causada por aterosclerose da artéria poplítea", "explicacao": "A aterosclerose causa trombose arterial, não TVP." },
+        { "letra": "E", "texto": "O anticoncepcional reduz a produção de fatores de coagulação, e a trombose é coincidência", "explicacao": "O estrogênio aumenta, e não reduz, a produção de fatores pró-coagulantes." }
+      ],
+      "gabarito": "A",
+      "secao": "triade-virchow",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Distúrbios hemodinâmicos, tromboembolia e choque\"",
+      "tags": ["tríade de Virchow", "estase", "estrogênio"]
+    },
+    {
+      "id": "mtc-003",
+      "nivel": "medio",
+      "enunciado": "Na necropsia de um paciente com morte súbita, retira-se um trombo de veia ilíaca. Ao microscópio (imagem), observam-se faixas alternadas rosa-pálidas e vermelhas, e o material estava firmemente aderido à parede da veia. O que esses achados indicam?",
+      "imagem": { "src": "img/morfo/trombose/trombo-laminado.jpg", "legenda": "H&E, pequeno aumento." },
+      "alternativas": [
+        { "letra": "A", "texto": "Coágulo pós-morte, formado após a parada da circulação", "explicacao": "O coágulo pós-morte não tem laminações, é gelatinoso, elástico e solto, formando um molde do vaso." },
+        { "letra": "B", "texto": "Trombo formado em vida (linhas de Zahn: camadas de plaquetas e fibrina alternadas com hemácias), depositado com o sangue em circulação", "explicacao": "Correta. As linhas de Zahn resultam do crescimento do trombo em camadas sucessivas, com o sangue em movimento: faixas pálidas de plaquetas e fibrina alternam-se com faixas de hemácias presas na fibrina. Associadas à aderência à parede e à consistência seca e friável, indicam trombose em vida — compatível com a origem de uma embolia pulmonar fatal." },
+        { "letra": "C", "texto": "Tecido de granulação dentro da veia", "explicacao": "Tecido de granulação tem capilares novos e fibroblastos; aparece na organização de trombos antigos, não como faixas alternadas de fibrina e hemácias." },
+        { "letra": "D", "texto": "Êmbolo gorduroso", "explicacao": "Êmbolos de gordura aparecem como vacúolos de lipídio na microcirculação, não como laminações de fibrina e hemácias." },
+        { "letra": "E", "texto": "Necrose fibrinoide da parede venosa", "explicacao": "A necrose fibrinoide é um depósito na parede vascular, não uma massa laminada na luz." }
+      ],
+      "gabarito": "B",
+      "secao": "linhas-zahn",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Distúrbios hemodinâmicos, tromboembolia e choque\"",
+      "tags": ["linhas de Zahn", "trombo", "necropsia"]
+    },
+    {
+      "id": "mtc-004",
+      "nivel": "medio",
+      "enunciado": "Biópsia do leito de uma ferida aberta com 10 dias de evolução, de aspecto vermelho-vivo, granuloso e que sangra ao toque, mostra o tecido da imagem. Quais são seus componentes e qual fator estimula a formação dos seus vasos?",
+      "imagem": { "src": "img/morfo/trombose/tecido-granulacao.jpg", "legenda": "H&E, grande aumento." },
+      "alternativas": [
+        { "letra": "A", "texto": "Granuloma com macrófagos epitelioides e células gigantes, estimulado pelo IFN-γ", "explicacao": "Granuloma é um agregado de macrófagos epitelioides da inflamação crônica; não é o tecido vascular de reparo descrito." },
+        { "letra": "B", "texto": "Cicatriz madura com colágeno tipo I denso e poucos vasos", "explicacao": "A cicatriz madura é pobre em vasos e células, com colágeno denso, e é pálida — o oposto do tecido vermelho e granuloso." },
+        { "letra": "C", "texto": "Tecido de granulação: capilares novos de paredes finas, fibroblastos, edema e células inflamatórias; a angiogênese é estimulada principalmente pelo VEGF", "explicacao": "Correta. Na fase proliferativa, o VEGF (produzido principalmente por macrófagos e células em hipóxia) induz o brotamento de novos capilares, que são permeáveis (edema) e frágeis (sangram). Os fibroblastos, estimulados por PDGF e TGF-β, proliferam e depositam colágeno tipo III. Os grânulos vermelhos vistos a olho nu são tufos de capilares." },
+        { "letra": "D", "texto": "Tecido necrótico com necrose de coagulação", "explicacao": "O tecido necrótico não tem capilares proliferando nem fibroblastos ativos; o descrito é tecido vivo de reparo." },
+        { "letra": "E", "texto": "Epitélio escamoso regenerado", "explicacao": "A reepitelização ocorre na superfície; a imagem mostra o estroma com vasos e fibroblastos." }
+      ],
+      "gabarito": "C",
+      "secao": "fase-proliferacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["tecido de granulação", "angiogênese", "VEGF"]
+    },
+    {
+      "id": "mtc-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 70 anos com TVP de veia femoral não tratada tem dispneia súbita, dor torácica e hipotensão. A angiotomografia mostra êmbolo no tronco da artéria pulmonar. Qual foi o trajeto do êmbolo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Veia femoral → artéria femoral → aorta → artérias pulmonares", "explicacao": "O sangue venoso não passa para as artérias sistêmicas sem atravessar o coração e os pulmões; o êmbolo segue o fluxo venoso." },
+        { "letra": "B", "texto": "Veia femoral → veia porta → fígado → pulmão", "explicacao": "O sistema porta recebe sangue do trato digestivo, não dos membros inferiores." },
+        { "letra": "C", "texto": "Veia femoral → veia safena magna → átrio esquerdo → pulmão", "explicacao": "A safena magna desemboca na femoral comum, e o sangue venoso sistêmico chega ao átrio direito, não ao esquerdo." },
+        { "letra": "D", "texto": "Veia femoral → femoral comum → ilíacas externa e comum → veia cava inferior → átrio e ventrículo direitos → tronco pulmonar", "explicacao": "Correta. O êmbolo solto acompanha o retorno venoso pelas ilíacas e pela cava inferior até o coração direito e é ejetado para o tronco pulmonar, onde fica impactado ao encontrar vasos de calibre menor. Um êmbolo grande na bifurcação causa sobrecarga aguda do ventrículo direito, queda do débito do ventrículo esquerdo, hipotensão e pode levar à morte súbita." },
+        { "letra": "E", "texto": "Veia femoral → veia cava superior → átrio direito → pulmão", "explicacao": "Os membros inferiores drenam para a cava inferior, não para a superior." }
+      ],
+      "gabarito": "D",
+      "secao": "embolia-pulmonar",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Distúrbios hemodinâmicos, tromboembolia e choque\" · Moore, 8ª ed.",
+      "tags": ["embolia pulmonar", "trajeto venoso"]
+    },
+    {
+      "id": "mtc-006",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 28 anos, sem outros fatores de risco além de anticoncepcional oral, tem TVP extensa iliofemoral esquerda. A tomografia mostra a veia ilíaca comum esquerda comprimida. Qual estrutura anatômica comprime essa veia, explicando por que a TVP é mais frequente à esquerda?",
+      "alternativas": [
+        { "letra": "A", "texto": "O ligamento inguinal, que comprime a veia femoral comum", "explicacao": "O ligamento inguinal marca a transição entre femoral comum e ilíaca externa, mas não é a compressão clássica da ilíaca comum esquerda." },
+        { "letra": "B", "texto": "A artéria ilíaca interna esquerda", "explicacao": "A compressão clássica é feita pela artéria ilíaca comum direita, que cruza por cima da veia." },
+        { "letra": "C", "texto": "O músculo psoas maior direito", "explicacao": "O psoas não é a estrutura que comprime a veia ilíaca comum esquerda." },
+        { "letra": "D", "texto": "A veia cava inferior", "explicacao": "A veia ilíaca comum esquerda desemboca na cava; não é comprimida por ela." },
+        { "letra": "E", "texto": "A artéria ilíaca comum direita, que cruza sobre a veia ilíaca comum esquerda contra a coluna lombar", "explicacao": "Correta. A veia ilíaca comum esquerda passa entre a artéria ilíaca comum direita (que cruza à frente dela) e o corpo vertebral lombar. A compressão crônica favorece estase e espessamento da parede venosa; quando acentuada, configura a síndrome de May-Thurner, que predispõe à TVP iliofemoral esquerda, sobretudo associada a outros fatores, como o estrogênio." }
+      ],
+      "gabarito": "E",
+      "secao": "formacao-trombo",
+      "referencia": "Moore – Anatomia Orientada para a Clínica, 8ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["veia ilíaca comum", "May-Thurner", "TVP"]
+    },
+    {
+      "id": "mtc-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 55 anos teve TVP femoropoplítea direita há três anos. Agora tem edema crônico da perna direita no fim do dia, sensação de peso, pele escurecida em volta do tornozelo e uma úlcera rasa acima do maléolo medial. Qual é a base anatomopatológica do quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "A organização e recanalização do trombo destruíram as válvulas das veias profundas, causando refluxo e hipertensão venosa crônica (síndrome pós-trombótica)", "explicacao": "Correta. O trombo que não se dissolve é invadido por fibroblastos e capilares, organiza-se e é recanalizado, mas as válvulas ficam aderidas ou destruídas. Sem válvulas, a bomba muscular perde eficiência e o sangue reflui, mantendo pressão venosa alta: edema, extravasamento de hemácias (hemossiderina escurece a pele), fibrose do subcutâneo e úlceras perto do maléolo medial." },
+        { "letra": "B", "texto": "Isquemia arterial crônica por embolia do trombo para a artéria", "explicacao": "Trombos venosos não embolizam para artérias do membro (vão para o pulmão); e a úlcera arterial é dolorosa, em pontos de pressão, com pulsos diminuídos." },
+        { "letra": "C", "texto": "Necrose caseosa da pele por infecção micobacteriana", "explicacao": "Não há elementos de infecção granulomatosa; o quadro é típico de doença venosa crônica." },
+        { "letra": "D", "texto": "Linfedema primário congênito", "explicacao": "O linfedema primário não se associa a TVP prévia nem à hiperpigmentação por hemossiderina." },
+        { "letra": "E", "texto": "Queloide sobre a cicatriz da TVP", "explicacao": "A TVP não deixa cicatriz cutânea, e o queloide é uma cicatriz elevada, não uma úlcera com hiperpigmentação." }
+      ],
+      "gabarito": "A",
+      "secao": "sindrome-pos-trombotica",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Vasos sanguíneos\"",
+      "tags": ["síndrome pós-trombótica", "organização do trombo", "válvulas"]
+    },
+    {
+      "id": "mtc-008",
+      "nivel": "dificil",
+      "enunciado": "Duas feridas são comparadas: (1) incisão cirúrgica limpa, suturada; (2) ferida grande por queimadura, deixada aberta. Após semanas, a ferida 2 reduziu muito de tamanho antes de ser preenchida por epitélio, e a cicatriz final é larga e retraída. Que diferença celular explica esse comportamento?",
+      "alternativas": [
+        { "letra": "A", "texto": "Na ferida 2 há menos inflamação e menos tecido de granulação", "explicacao": "Na cicatrização por segunda intenção, a inflamação e o tecido de granulação são mais abundantes, não menores." },
+        { "letra": "B", "texto": "Na ferida 2 (segunda intenção), há abundante tecido de granulação e miofibroblastos, que contraem a ferida e aproximam as bordas, resultando em cicatriz larga e retraída", "explicacao": "Correta. Em feridas com grande perda de tecido e bordas afastadas, o defeito é preenchido de baixo para cima por tecido de granulação abundante, e fibroblastos se diferenciam em miofibroblastos (com actina, sob ação do TGF-β), que contraem a ferida, reduzindo bastante sua área. A cicatriz é mais larga e pode retrair; na incisão suturada (primeira intenção), há pouco tecido de granulação e mínima contração." },
+        { "letra": "C", "texto": "Na ferida 1 a regeneração é completa e não há cicatriz", "explicacao": "Mesmo na primeira intenção há reparo da derme com colágeno, deixando uma cicatriz fina." },
+        { "letra": "D", "texto": "Na ferida 2 os neutrófilos produzem colágeno tipo I", "explicacao": "O colágeno é produzido por fibroblastos, não por neutrófilos." },
+        { "letra": "E", "texto": "Na ferida 2 não há angiogênese", "explicacao": "A angiogênese é intensa na segunda intenção, formando o tecido de granulação." }
+      ],
+      "gabarito": "B",
+      "secao": "primeira-segunda-intencao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["segunda intenção", "miofibroblastos", "contração da ferida"]
+    },
+    {
+      "id": "mtc-009",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 68 anos, que vive só e se alimenta quase só de pão e café há meses, tem gengivas sangrantes, petéquias perifoliculares e uma ferida operatória que se abre (deiscência) no 8º dia. Qual mecanismo explica a falha da cicatrização?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de vitamina K, que impede a síntese de colágeno", "explicacao": "A vitamina K participa da carboxilação de fatores de coagulação, não da síntese de colágeno." },
+        { "letra": "B", "texto": "Excesso de VEGF, que destrói o colágeno", "explicacao": "O VEGF estimula a angiogênese; não destrói colágeno." },
+        { "letra": "C", "texto": "Deficiência de vitamina C (escorbuto): sem ela, as enzimas que hidroxilam prolina e lisina do pró-colágeno não funcionam, e o colágeno formado é fraco", "explicacao": "Correta. O ácido ascórbico é cofator das prolil e lisil hidroxilases, essenciais para formar a tripla hélice estável e as ligações cruzadas do colágeno. Sem ele, o colágeno é instável: vasos frágeis (gengivas sangrantes, petéquias perifoliculares) e baixa força tênsil da ferida, com deiscência. Desnutrição proteica e de zinco também prejudicam o reparo." },
+        { "letra": "D", "texto": "Excesso de corticoide endógeno, que aumenta a inflamação", "explicacao": "Os corticoides reduzem a inflamação e a síntese de colágeno; além disso, o quadro nutricional e as petéquias perifoliculares apontam para escorbuto." },
+        { "letra": "E", "texto": "Infecção por *Clostridium tetani*", "explicacao": "O tétano causa espasmos musculares por toxina, não sangramento gengival e falha de cicatrização." }
+      ],
+      "gabarito": "C",
+      "secao": "fatores-cicatrizacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Inflamação e reparo\" e \"Doenças nutricionais\"",
+      "tags": ["vitamina C", "escorbuto", "colágeno"]
+    },
+    {
+      "id": "mtc-010",
+      "nivel": "aprofundado",
+      "enunciado": "Mulher de 25 anos, negra, tem a lesão da imagem na cicatriz de uma cesariana feita há dois anos: elevada, endurecida, que se estende além dos limites da incisão. Foi retirada cirurgicamente uma vez e voltou maior. Qual é o diagnóstico e o mecanismo?",
+      "imagem": { "src": "img/morfo/trombose/queloide.jpg", "legenda": "Cicatriz abdominal." },
+      "alternativas": [
+        { "letra": "A", "texto": "Cicatriz hipertrófica, que permanece nos limites da ferida e tende a regredir", "explicacao": "A cicatriz hipertrófica fica restrita aos limites da ferida original e costuma regredir; a lesão descrita ultrapassa os limites e recidiva." },
+        { "letra": "B", "texto": "Tecido de granulação exuberante, por excesso de capilares", "explicacao": "A granulação exuberante é tecido vermelho e friável numa ferida aberta, não uma cicatriz endurecida de dois anos." },
+        { "letra": "C", "texto": "Deiscência da ferida operatória", "explicacao": "Deiscência é a abertura da ferida, não uma cicatriz elevada." },
+        { "letra": "D", "texto": "Queloide: produção excessiva e desorganizada de colágeno no remodelamento, que ultrapassa os limites da ferida, não regride e recidiva; há predisposição genética", "explicacao": "Correta. No queloide, o desequilíbrio entre síntese e degradação de matriz (com sinalização exagerada de TGF-β) gera feixes grossos e desorganizados de colágeno que invadem a pele além da ferida original. Não regride, tende a recidivar após a retirada e é mais comum em pessoas de pele negra e em certas regiões do corpo." },
+        { "letra": "E", "texto": "Necrose gordurosa do subcutâneo", "explicacao": "A necrose gordurosa forma nódulos com saponificação, não uma cicatriz elevada que ultrapassa a incisão." }
+      ],
+      "gabarito": "D",
+      "secao": "queloide",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["queloide", "remodelamento", "colágeno"]
+    }
+  ]
+}
