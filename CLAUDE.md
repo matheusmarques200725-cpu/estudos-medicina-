@@ -179,7 +179,7 @@ MED1 (1º semestre) = ASE1–ASE3; MED2 (2º semestre) = ASE4–ASE6. Ementas, o
   - Lote 4: `hipersensibilidades`, `autoimunidade-tolerancia`, `imunodeficiencias`, `resposta-imune-agentes-infecciosos` (vírus, bactérias, fungos, protozoários, helmintos)
   - **Morfofuncional** (roteiros P1–P4 do laboratório):
     - M1 ✔ (P1 – sistema linfático): `morfo-sangue-medula-ossea` (ms-), `morfo-timo` (mt-), `morfo-linfonodos-malt-tonsilas` (ml-), `morfo-baco` (mb-), `morfo-drenagem-linfatica` (md-, anatomia)
-    - M2 (P2/P3 – micro): vírus (Baltimore, morfologia, replicação, HIV, coronavírus, tropismo); fungos (micoses, leveduras × hifas, célula fúngica); bactérias (célula bacteriana, Gram, Ziehl-Neelsen/BAAR, formas e arranjos, metabolismo, exemplos por sistema)
+    - M2 ✔ (P2/P3 – micro): `morfo-virus` (mv-), `morfo-fungos` (mf-), `morfo-bacterias` (mbc-) — microbiologia-parasitologia
     - M3 (P3 – parasito): helmintos (ovos, larvas, adultos; ciclos de Schistosoma, Taenia/cisticerco, Ascaris, ancilostomídeos, Strongyloides, Enterobius, Trichuris); protozoários (cisto × trofozoíto; Giardia, Entamoeba, Trichomonas)
     - M4 (P4 – lesão celular): lâminas de necrose (coagulação e outros tipos), apoptose × necrose ao MO e ME, isquemia-reperfusão, TVP, cicatrização, radicais livres
     - Imunoglobulinas/MHC/linfócito B do roteiro 3 → tópico da tutoria `imunidade-humoral-anticorpos`

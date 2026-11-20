@@ -1,0 +1,168 @@
+{
+  "topico": "morfo-bacterias",
+  "questoes": [
+    {
+      "id": "mbc-001",
+      "nivel": "medio",
+      "enunciado": "No laboratório morfofuncional, você observa na objetiva de imersão o esfregaço da imagem, corado pelo método de Gram. Qual é a descrição correta?",
+      "imagem": { "src": "img/morfo/bacterias/gram-misto.jpg", "legenda": "Coloração de Gram (barra = 10 µm)." },
+      "alternativas": [
+        { "letra": "A", "texto": "Bacilos Gram-positivos em paliçada e cocos Gram-negativos aos pares", "explicacao": "As formas estão trocadas: os elementos roxos são esféricos (cocos) e os rosados são alongados (bacilos)." },
+        { "letra": "B", "texto": "BAAR vermelhos sobre fundo azul", "explicacao": "BAAR são vistos pelo Ziehl-Neelsen, como bastonetes vermelhos em fundo azul; aqui o fundo é claro e há duas populações de cores diferentes, típicas do Gram." },
+        { "letra": "C", "texto": "Cocos Gram-positivos (roxos) agrupados em cachos e bacilos Gram-negativos (rosa-avermelhados)", "explicacao": "Correta. Os cocos retiveram o complexo cristal violeta–iodo (parede com peptidoglicano espesso) e ficaram roxos, agrupados em cachos — arranjo estafilo. Os bastonetes perderam o corante no álcool (membrana externa e peptidoglicano fino) e foram corados pela fucsina/safranina — Gram-negativos. A preparação mistura *S. aureus* e *E. coli*." },
+        { "letra": "D", "texto": "Leveduras com pseudo-hifas", "explicacao": "Leveduras são maiores e ovais, e pseudo-hifas são filamentos com estrangulamentos; não há essas estruturas aqui." },
+        { "letra": "E", "texto": "Espiroquetas e vibriões", "explicacao": "Espiroquetas são espiraladas e finas, e vibriões têm forma de vírgula; os elementos vistos são cocos e bacilos retos." }
+      ],
+      "gabarito": "C",
+      "secao": "coloracao-gram",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Diagnóstico laboratorial das doenças bacterianas\"",
+      "tags": ["Gram", "cocos", "bacilos"]
+    },
+    {
+      "id": "mbc-002",
+      "nivel": "medio",
+      "enunciado": "Um estudante realiza a coloração de Gram de uma cultura de *Staphylococcus aureus*, mas esquece de aplicar o álcool e passa direto do lugol para a fucsina. Como as bactérias aparecerão e o que isso revela sobre a técnica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Aparecerão rosa, porque a fucsina substitui o cristal violeta", "explicacao": "Sem descoloração, o cristal violeta não é removido, e a cor roxa predomina sobre a fucsina." },
+        { "letra": "B", "texto": "Aparecerão incolores, porque o lugol remove o cristal violeta", "explicacao": "O lugol é o mordente: forma complexos com o cristal violeta, aumentando sua retenção; não descora." },
+        { "letra": "C", "texto": "Aparecerão vermelhas sobre fundo azul, como BAAR", "explicacao": "Esse aspecto é do Ziehl-Neelsen, técnica com fucsina a quente, álcool-ácido e azul de metileno." },
+        { "letra": "D", "texto": "Aparecerão roxas — assim como apareceriam bactérias Gram-negativas —, porque o álcool é a etapa que diferencia os dois grupos", "explicacao": "Correta. O cristal violeta e o lugol coram todas as bactérias de roxo. É a descoloração pelo álcool que separa os grupos: nas Gram-positivas, o peptidoglicano espesso desidratado retém o complexo; nas Gram-negativas, a membrana externa é dissolvida e o complexo é lavado. Sem álcool, qualquer bactéria permaneceria roxa, e o teste perderia o valor." },
+        { "letra": "E", "texto": "Aparecerão verdes, pela mistura dos corantes", "explicacao": "Não há formação de cor verde; sem a descoloração, a cor roxa do cristal violeta domina." }
+      ],
+      "gabarito": "D",
+      "secao": "coloracao-gram",
+      "referencia": "Tortora, Microbiologia, 12ª ed., cap. \"Observando micro-organismos através do microscópio\"",
+      "tags": ["Gram", "técnica"]
+    },
+    {
+      "id": "mbc-003",
+      "nivel": "medio",
+      "enunciado": "Homem de 42 anos tem tosse produtiva há seis semanas, febre vespertina, sudorese noturna e perda de 7 kg. A baciloscopia de escarro corada pelo Ziehl-Neelsen mostra o aspecto da imagem. Qual é a interpretação e a base estrutural do método?",
+      "imagem": { "src": "img/morfo/bacterias/baar-ziehl-lba.jpg", "legenda": "Amostra respiratória corada pelo Ziehl-Neelsen." },
+      "alternativas": [
+        { "letra": "A", "texto": "Cocos Gram-positivos; o peptidoglicano espesso retém o cristal violeta", "explicacao": "O Ziehl-Neelsen não usa cristal violeta, e os elementos vermelhos são bastonetes, não cocos." },
+        { "letra": "B", "texto": "Bacilos Gram-negativos; o LPS fixa a fucsina", "explicacao": "O LPS não confere resistência ao álcool-ácido; bacilos Gram-negativos perdem a fucsina no Ziehl-Neelsen e ficam azuis." },
+        { "letra": "C", "texto": "Leveduras encapsuladas; a cápsula exclui o corante", "explicacao": "O halo de exclusão da cápsula é visto na tinta nanquim; aqui há bastonetes finos corados de vermelho." },
+        { "letra": "D", "texto": "Espiroquetas; os filamentos axiais retêm a fucsina", "explicacao": "Espiroquetas não são vistas pelo Ziehl-Neelsen nem são álcool-ácido resistentes." },
+        { "letra": "E", "texto": "Bacilos álcool-ácido resistentes (BAAR), compatíveis com *Mycobacterium tuberculosis*; os ácidos micólicos da parede retêm a fucsina mesmo após o álcool-ácido", "explicacao": "Correta. A fucsina fenicada aquecida penetra na parede cerosa das micobactérias, rica em ácidos micólicos, que a retêm durante a descoloração com álcool-ácido; o resto é contracorado pelo azul de metileno. Bastonetes finos vermelhos sobre fundo azul, no contexto clínico descrito, indicam tuberculose pulmonar bacilífera." }
+      ],
+      "gabarito": "E",
+      "secao": "ziehl-neelsen",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Mycobacterium\" · Ministério da Saúde – Manual de Recomendações para o Controle da Tuberculose no Brasil",
+      "tags": ["Ziehl-Neelsen", "BAAR", "tuberculose"]
+    },
+    {
+      "id": "mbc-004",
+      "nivel": "medio",
+      "enunciado": "Criança de 8 anos com febre, dor de garganta intensa e exsudato amigdaliano. O Gram do material da orofaringe cultivado mostra cocos Gram-positivos formando longas cadeias. Que arranjo é esse e como ele se forma?",
+      "alternativas": [
+        { "letra": "A", "texto": "Estreptococos — as células se dividem sempre no mesmo plano e permanecem unidas, formando cadeias; compatível com *Streptococcus pyogenes*", "explicacao": "Correta. Quando os cocos se dividem repetidamente em um único plano e as células-filhas não se separam, formam cadeias (arranjo estrepto). O *Streptococcus pyogenes* (estreptococo β-hemolítico do grupo A) é a principal causa bacteriana de faringoamigdalite." },
+        { "letra": "B", "texto": "Estafilococos — divisão em vários planos ao acaso, formando cachos", "explicacao": "A divisão em vários planos ao acaso forma cachos irregulares (estafilo), não cadeias." },
+        { "letra": "C", "texto": "Sarcinas — divisão em três planos, formando cubos de oito células", "explicacao": "Sarcinas formam pacotes cúbicos, não cadeias." },
+        { "letra": "D", "texto": "Diplococos — pares de cocos em grão de café", "explicacao": "Diplococos em grão de café são típicos de *Neisseria*, que são Gram-negativas; o enunciado descreve cadeias longas de Gram-positivos." },
+        { "letra": "E", "texto": "Paliçada — bacilos lado a lado", "explicacao": "Paliçada é arranjo de bacilos (como *Corynebacterium*), não de cocos." }
+      ],
+      "gabarito": "A",
+      "secao": "arranjos",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Streptococcus e Enterococcus\"",
+      "tags": ["arranjos", "estreptococos"]
+    },
+    {
+      "id": "mbc-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 70 anos com pielonefrite por *Escherichia coli* evolui com febre alta, hipotensão refratária a volume, extremidades quentes e plaquetopenia. Após a primeira dose de antibiótico, há piora transitória. Qual componente bacteriano é o principal responsável por esse quadro e qual é seu mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ácido teicoico da parede, reconhecido pelo TLR5", "explicacao": "Ácidos teicoicos são componentes de Gram-positivas (e reconhecidos principalmente via TLR2); o TLR5 reconhece a flagelina. A *E. coli* é Gram-negativa." },
+        { "letra": "B", "texto": "Lipopolissacarídeo (LPS) da membrana externa — o lipídio A (endotoxina) ativa o TLR4 dos macrófagos, levando à liberação maciça de TNF, IL-1 e IL-6", "explicacao": "Correta. O LPS faz parte da membrana externa das Gram-negativas. Quando as bactérias se multiplicam ou são lisadas (inclusive pelo antibiótico, o que explica a piora transitória), o lipídio A é liberado e reconhecido pelo complexo TLR4. As citocinas causam febre, vasodilatação, aumento da permeabilidade e ativação da coagulação — choque séptico com consumo de plaquetas." },
+        { "letra": "C", "texto": "Cápsula polissacarídica, que bloqueia a fagocitose", "explicacao": "A cápsula ajuda a bactéria a escapar da fagocitose, mas não é o mediador direto do choque; o efeito sistêmico decorre da endotoxina." },
+        { "letra": "D", "texto": "Exotoxina formadora de poros secretada pela bactéria viva", "explicacao": "Exotoxinas podem contribuir em algumas infecções, mas o quadro clássico de choque por Gram-negativos, que piora com a lise bacteriana, é mediado pelo LPS da parede." },
+        { "letra": "E", "texto": "Peptidoglicano espesso, que ativa diretamente a coagulação", "explicacao": "As Gram-negativas têm peptidoglicano fino; o componente central da sepse por Gram-negativos é o LPS." }
+      ],
+      "gabarito": "B",
+      "secao": "gram-positiva-negativa",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Mecanismos de patogênese bacteriana\" · Abbas, 10ª ed., cap. \"Imunidade inata\"",
+      "tags": ["LPS", "endotoxina", "choque séptico"]
+    },
+    {
+      "id": "mbc-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 30 anos tem um furúnculo na nuca que evoluiu para abscesso. O Gram da secreção purulenta mostra o aspecto da imagem. Qual é o agente mais provável e o que explica o arranjo observado?",
+      "imagem": { "src": "img/morfo/bacterias/staphylococcus-gram.jpg", "legenda": "Coloração de Gram de cultura da secreção." },
+      "alternativas": [
+        { "letra": "A", "texto": "*Streptococcus pyogenes*; divisão em um único plano", "explicacao": "A divisão em um único plano forma cadeias; o aspecto da imagem é de agrupamentos irregulares." },
+        { "letra": "B", "texto": "*Neisseria gonorrhoeae*; diplococos Gram-negativos", "explicacao": "As neissérias são Gram-negativas (rosa) e aparecem aos pares; os cocos da imagem são roxos e em grupos." },
+        { "letra": "C", "texto": "*Escherichia coli*; bacilos Gram-negativos sem arranjo definido", "explicacao": "A imagem mostra cocos roxos, não bacilos rosados." },
+        { "letra": "D", "texto": "*Staphylococcus aureus*; cocos Gram-positivos em cachos, formados pela divisão em vários planos ao acaso", "explicacao": "Correta. Cocos Gram-positivos em grupos irregulares (cacho de uva) caracterizam o arranjo estafilo, resultado de divisões em planos sucessivos aleatórios com as células permanecendo unidas. O *S. aureus* é o principal agente de furúnculos e abscessos, com inflamação purulenta mediada por toxinas e enzimas (coagulase, toxinas formadoras de poros, proteína A)." },
+        { "letra": "E", "texto": "*Mycobacterium tuberculosis*; BAAR", "explicacao": "Micobactérias são bacilos finos que se coram mal pelo Gram e são identificados pelo Ziehl-Neelsen." }
+      ],
+      "gabarito": "D",
+      "secao": "arranjos",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Staphylococcus\"",
+      "tags": ["Staphylococcus aureus", "arranjos", "abscesso"]
+    },
+    {
+      "id": "mbc-007",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 24 anos tem cistites de repetição por *Escherichia coli*. Um estudo experimental mostra que a administração de D-manose na bexiga reduz a aderência dessa bactéria ao urotélio. Qual estrutura bacteriana é bloqueada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Flagelo, que impulsiona a bactéria contra o fluxo urinário", "explicacao": "O flagelo serve à motilidade, mas não se liga à manose das células; a aderência depende de adesinas fimbriais." },
+        { "letra": "B", "texto": "Cápsula, que impede a fagocitose na bexiga", "explicacao": "A cápsula protege contra fagocitose, mas não é a estrutura que reconhece manose para aderir ao urotélio." },
+        { "letra": "C", "texto": "Plasmídeo de resistência, que codifica β-lactamase", "explicacao": "Plasmídeos carregam genes (como de resistência), mas não são estruturas de superfície que medeiam aderência." },
+        { "letra": "D", "texto": "Endósporo, que resiste à urina", "explicacao": "A *E. coli* não forma endósporos, que são próprios de *Bacillus* e *Clostridium*." },
+        { "letra": "E", "texto": "Adesina FimH das fímbrias tipo 1, que se liga a resíduos de manose das glicoproteínas do urotélio", "explicacao": "Correta. As fímbrias são apêndices curtos e numerosos de adesão. Na ponta das fímbrias tipo 1, a adesina FimH reconhece manoses das células da bexiga, permitindo que a bactéria não seja eliminada pelo fluxo urinário. A manose livre ocupa a FimH e compete com o receptor — exemplo das 'proteínas que reconhecem manose' citadas no roteiro." }
+      ],
+      "gabarito": "E",
+      "secao": "proteinas-membrana",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Enterobacteriaceae\"",
+      "tags": ["fímbrias", "adesinas", "infecção urinária"]
+    },
+    {
+      "id": "mbc-008",
+      "nivel": "dificil",
+      "enunciado": "Na fita de urina de uma paciente com disúria e polaciúria, o teste do nitrito é positivo. A urocultura cresce *Escherichia coli*. Qual processo metabólico bacteriano explica esse teste?",
+      "alternativas": [
+        { "letra": "A", "texto": "Respiração anaeróbica, em que o nitrato da urina serve como aceptor final de elétrons na cadeia transportadora e é reduzido a nitrito", "explicacao": "Correta. A *E. coli* é anaeróbia facultativa. Na bexiga, com pouco oxigênio, ela usa o nitrato (presente na urina a partir da dieta) como aceptor final de elétrons de sua cadeia respiratória na membrana, reduzindo-o a nitrito, detectado na fita. É uma respiração anaeróbica (aceptor inorgânico), distinta da fermentação." },
+        { "letra": "B", "texto": "Fermentação lática, que converte nitrato em ácido lático", "explicacao": "Na fermentação o aceptor de elétrons é orgânico e não há redução de nitrato; o ácido lático não é detectado como nitrito." },
+        { "letra": "C", "texto": "Respiração aeróbica, em que o oxigênio é reduzido a nitrito", "explicacao": "Na respiração aeróbica o oxigênio é reduzido a água, não a nitrito." },
+        { "letra": "D", "texto": "Fotossíntese bacteriana com fixação de nitrogênio", "explicacao": "Bactérias de importância médica como a *E. coli* são quimio-heterotróficas e não fazem fotossíntese." },
+        { "letra": "E", "texto": "Produção de urease, que transforma ureia em nitrito", "explicacao": "A urease converte ureia em amônia e CO₂ (como em *Proteus* e *H. pylori*), não em nitrito." }
+      ],
+      "gabarito": "A",
+      "secao": "metabolismo",
+      "referencia": "Tortora, Microbiologia, 12ª ed., cap. \"Metabolismo microbiano\"",
+      "tags": ["respiração anaeróbica", "nitrito", "metabolismo"]
+    },
+    {
+      "id": "mbc-009",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 55 anos com hemocromatose hereditária não tratada (ferritina e saturação de transferrina muito elevadas) desenvolve sepse grave após comer ostras cruas, com isolamento de *Vibrio vulnificus*. Qual relação entre a fisiologia bacteriana e a condição do paciente explica a gravidade?",
+      "alternativas": [
+        { "letra": "A", "texto": "O excesso de ferro inativa o complemento, impedindo a lise das bactérias", "explicacao": "O papel do ferro está na nutrição bacteriana; não há inativação direta do complemento como mecanismo central." },
+        { "letra": "B", "texto": "O ferro é essencial às bactérias, normalmente sequestrado por transferrina e lactoferrina; com a transferrina saturada, há ferro disponível, e os sistemas de captação (sideróforos e receptores de membrana) permitem crescimento bacteriano rápido", "explicacao": "Correta. O hospedeiro limita o ferro livre (imunidade nutricional), mantendo-o ligado a proteínas. Bactérias produzem sideróforos, que capturam ferro com altíssima afinidade, e receptores na membrana que internalizam o complexo. Na sobrecarga de ferro, com transferrina saturada, o ferro fica facilmente disponível, e certas bactérias, como *V. vulnificus*, proliferam de forma explosiva." },
+        { "letra": "C", "texto": "O ferro aumenta a espessura do peptidoglicano, tornando a bactéria Gram-positiva", "explicacao": "O ferro não muda a classificação de Gram; *Vibrio* continua Gram-negativo." },
+        { "letra": "D", "texto": "O excesso de ferro induz a formação de endósporos resistentes", "explicacao": "*Vibrio* não forma endósporos; a gravidade decorre do crescimento facilitado pela disponibilidade de ferro." },
+        { "letra": "E", "texto": "A hemocromatose destrói os linfócitos B, impedindo a produção de anticorpos", "explicacao": "A hemocromatose não causa destruição de linfócitos B; o problema principal é a oferta de ferro ao patógeno." }
+      ],
+      "gabarito": "B",
+      "secao": "proteinas-membrana",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., caps. \"Mecanismos de patogênese bacteriana\" e \"Vibrio\"",
+      "tags": ["sideróforos", "ferro", "Vibrio"]
+    },
+    {
+      "id": "mbc-010",
+      "nivel": "aprofundado",
+      "enunciado": "Jovem de 22 anos foi submetido a esplenectomia após trauma abdominal e não recebeu vacinas. Dois anos depois, apresenta febre e evolui em poucas horas com choque e coagulação intravascular disseminada; a hemocultura mostra diplococos Gram-positivos lanceolados. Qual estrutura bacteriana e qual defesa perdida explicam a gravidade?",
+      "alternativas": [
+        { "letra": "A", "texto": "Flagelos do pneumococo, que o tornam muito móvel no sangue", "explicacao": "O pneumococo não tem flagelos; a gravidade se relaciona à cápsula e à perda do baço." },
+        { "letra": "B", "texto": "LPS do pneumococo, ativando o TLR4", "explicacao": "O pneumococo é Gram-positivo e não tem LPS; este é próprio das Gram-negativas." },
+        { "letra": "C", "texto": "Cápsula polissacarídica do *Streptococcus pneumoniae*, que dificulta a fagocitose direta; sem o baço, perde-se o principal local de remoção de bactérias encapsuladas opsonizadas e de produção rápida de anticorpos contra polissacarídeos", "explicacao": "Correta. A cápsula antifagocitária exige opsonização por anticorpos e complemento para a eliminação das bactérias. O baço filtra o sangue, remove bactérias opsonizadas e abriga linfócitos B da zona marginal, que respondem rapidamente a antígenos polissacarídicos. Sem ele, pneumococo, meningococo e *Haemophilus* b causam sepse fulminante — por isso asplênicos devem receber as vacinas conjugadas contra esses agentes." },
+        { "letra": "D", "texto": "Endósporos do pneumococo, que sobrevivem no sangue", "explicacao": "O pneumococo não forma endósporos." },
+        { "letra": "E", "texto": "Ácidos micólicos da parede, que impedem a ação do complemento", "explicacao": "Ácidos micólicos são característicos das micobactérias, não do pneumococo." }
+      ],
+      "gabarito": "C",
+      "secao": "capsula",
+      "referencia": "Murray, Microbiologia Médica, 9ª ed., cap. \"Streptococcus pneumoniae\" · Abbas, 10ª ed., cap. \"Imunidade aos micróbios\"",
+      "tags": ["cápsula", "asplenia", "pneumococo"]
+    }
+  ]
+}
