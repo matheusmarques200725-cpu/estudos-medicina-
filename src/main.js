@@ -1,4 +1,17 @@
 import './styles.css';
+import { registerSW } from 'virtual:pwa-register';
+
+// Atualização automática do aplicativo: ao abrir, procura versão nova; se houver, instala e recarrega.
+// Também verifica a cada 30 min e quando o app volta a ficar visível (ex.: reabrir no iPad).
+registerSW({
+  immediate: true,
+  onRegisteredSW(_url, reg) {
+    if (!reg) return;
+    const check = () => reg.update().catch(() => {});
+    setInterval(check, 30 * 60 * 1000);
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') check(); });
+  },
+});
 import { homeView, materiaView, moduloView } from './views/home.js';
 import { topicoView } from './views/topico.js';
 import { questoesTopicoView, revisaoView } from './views/estudo.js';
@@ -9,6 +22,7 @@ import { creditosView } from './views/creditos.js';
 import { dueIds, onChange } from './store.js';
 
 const main = document.getElementById('app-main');
+document.getElementById('app-versao').textContent = __VERSAO__;
 
 // ---------- Tema ----------
 const themeKey = 'estudos-med:theme';

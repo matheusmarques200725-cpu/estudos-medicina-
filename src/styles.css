@@ -216,3 +216,4 @@ a.chip { text-decoration: none; color: var(--text); }
 .creditos { list-style: none; padding: 0; }
 .creditos li { display: grid; grid-template-columns: 96px 1fr; gap: 12px; align-items: center; }
 .creditos img { width: 96px; height: 72px; object-fit: cover; border-radius: 8px; }
+.app-footer { max-width: 1180px; margin: 0 auto; padding: 0 16px 32px; text-align: center; }
