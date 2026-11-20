@@ -1,0 +1,169 @@
+{
+  "topico": "morfo-sangue-medula-ossea",
+  "questoes": [
+    {
+      "id": "ms-001",
+      "nivel": "medio",
+      "enunciado": "Observe a célula no centro deste esfregaço sanguíneo corado por Wright. Qual é a célula e qual é a sua principal característica de identificação?",
+      "imagem": { "src": "img/morfo/sangue/linfocito.jpg", "legenda": "Esfregaço de sangue periférico, coloração de Wright, objetiva de imersão." },
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócito: núcleo redondo e denso ocupando quase toda a célula, com fina borda de citoplasma, tamanho próximo ao de uma hemácia", "explicacao": "Correta. O **linfócito pequeno** tem praticamente o tamanho de uma hemácia (7–9 µm), **núcleo redondo e muito corado** e apenas uma fina borda de citoplasma azul-claro. Não há grânulos específicos — é um **agranulócito**." },
+        { "letra": "B", "texto": "Monócito: núcleo em forma de rim e citoplasma abundante cinza-azulado", "explicacao": "O monócito é bem **maior** que as hemácias e tem núcleo **reniforme** com citoplasma abundante. A célula da imagem tem pouco citoplasma e núcleo redondo." },
+        { "letra": "C", "texto": "Eosinófilo: núcleo bilobado e grânulos alaranjados", "explicacao": "Não há grânulos alaranjados nem núcleo bilobado na célula mostrada." },
+        { "letra": "D", "texto": "Neutrófilo: núcleo com 3 a 5 lobos", "explicacao": "O núcleo da célula é redondo e único, sem lobos." },
+        { "letra": "E", "texto": "Plaqueta: fragmento citoplasmático sem núcleo", "explicacao": "Plaquetas são muito menores (2–4 µm) e não têm núcleo; a célula da imagem tem um núcleo grande." }
+      ],
+      "gabarito": "A",
+      "secao": "linfocito",
+      "referencia": "Junqueira & Carneiro – Histologia Básica, 13ª ed., cap. 'Células do sangue'",
+      "tags": ["esfregaço", "linfócito", "identificação"]
+    },
+    {
+      "id": "ms-002",
+      "nivel": "medio",
+      "enunciado": "Identifique o leucócito no centro da imagem.",
+      "imagem": { "src": "img/morfo/sangue/monocito.jpg", "legenda": "Esfregaço de sangue periférico, coloração de Wright." },
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócito pequeno", "explicacao": "O linfócito pequeno tem tamanho próximo ao da hemácia e núcleo redondo; a célula mostrada é bem maior e tem núcleo curvo." },
+        { "letra": "B", "texto": "Basófilo", "explicacao": "O basófilo tem grânulos roxo-escuros grandes que escondem o núcleo, ausentes aqui." },
+        { "letra": "C", "texto": "Monócito, o maior leucócito, com núcleo em forma de rim ou ferradura e citoplasma cinza-azulado", "explicacao": "Correta. O **monócito** é o maior leucócito (12–20 µm), tem **núcleo reniforme/em ferradura** com cromatina frouxa e **citoplasma abundante cinza-azulado**, de aspecto fosco. Nos tecidos, diferencia-se em **macrófago**." },
+        { "letra": "D", "texto": "Eosinófilo", "explicacao": "O eosinófilo tem grânulos alaranjados e núcleo bilobado, que não aparecem na imagem." },
+        { "letra": "E", "texto": "Megacariócito", "explicacao": "O megacariócito é uma célula da **medula óssea**, gigantesca, que normalmente não circula no sangue periférico." }
+      ],
+      "gabarito": "C",
+      "secao": "monocito",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Células do sangue'",
+      "tags": ["esfregaço", "monócito", "identificação"]
+    },
+    {
+      "id": "ms-003",
+      "nivel": "medio",
+      "enunciado": "A célula do centro da imagem foi encontrada em grande quantidade no esfregaço de um paciente com pneumonia bacteriana. Qual é a célula e o que seu aumento indica?",
+      "imagem": { "src": "img/morfo/sangue/neutrofilo-bastonete.jpg", "legenda": "Esfregaço de sangue periférico, coloração de Wright." },
+      "alternativas": [
+        { "letra": "A", "texto": "Monócito; indica infecção viral", "explicacao": "A célula tem citoplasma rosado e granular e tamanho de granulócito, e não o citoplasma cinza-azulado abundante do monócito." },
+        { "letra": "B", "texto": "Linfócito atípico; indica mononucleose", "explicacao": "Linfócitos atípicos são grandes, com citoplasma azul abundante que 'abraça' as hemácias; não têm núcleo em U." },
+        { "letra": "C", "texto": "Eosinófilo; indica verminose", "explicacao": "Não há grânulos alaranjados grosseiros nem núcleo bilobado clássico." },
+        { "letra": "D", "texto": "Basófilo; indica leucemia mieloide crônica", "explicacao": "O basófilo tem grânulos roxo-escuros que escondem o núcleo, o que não é o caso." },
+        { "letra": "E", "texto": "Neutrófilo em bastonete; seu aumento é o 'desvio à esquerda', típico de infecção bacteriana", "explicacao": "Correta. O **bastonete** é o neutrófilo jovem, com núcleo em **C/U** ainda não segmentado e citoplasma rosado. Na infecção bacteriana, a medula libera precocemente formas jovens da reserva → aumento de bastonetes = **desvio à esquerda**." }
+      ],
+      "gabarito": "E",
+      "secao": "neutrofilo",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Células do sangue'; Hoffbrand – Fundamentos em Hematologia, 7ª ed.",
+      "tags": ["bastonete", "desvio à esquerda", "identificação"]
+    },
+    {
+      "id": "ms-004",
+      "nivel": "medio",
+      "enunciado": "Num esfregaço sanguíneo normal de adulto, qual leucócito é encontrado em maior proporção, e qual é sua faixa aproximada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócito, 60–80%", "explicacao": "Os linfócitos representam cerca de 20–40% no adulto; predominam apenas em crianças pequenas." },
+        { "letra": "B", "texto": "Neutrófilo, 50–70%", "explicacao": "Correta. Os **neutrófilos** são os leucócitos mais numerosos no adulto (cerca de **50–70%**), seguidos por linfócitos (20–40%), monócitos (2–8%), eosinófilos (1–4%) e basófilos (0–1%)." },
+        { "letra": "C", "texto": "Monócito, 20–30%", "explicacao": "Os monócitos são apenas 2–8% dos leucócitos." },
+        { "letra": "D", "texto": "Eosinófilo, 10–20%", "explicacao": "Os eosinófilos são 1–4%; valores maiores indicam eosinofilia (helmintos, alergia)." },
+        { "letra": "E", "texto": "Basófilo, 5–10%", "explicacao": "Os basófilos são os mais raros (menos de 1%)." }
+      ],
+      "gabarito": "B",
+      "secao": "tabela-identificacao",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Células do sangue'",
+      "tags": ["proporção", "leucócitos"]
+    },
+    {
+      "id": "ms-005",
+      "nivel": "dificil",
+      "enunciado": "Num esfregaço corado por Leishman, um granulócito apresenta núcleo bilobado e citoplasma repleto de grânulos grandes de cor alaranjada. Por que esses grânulos assumem essa cor?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque contêm heparina, que tem muitas cargas negativas e atrai o corante básico", "explicacao": "A heparina (ácida) atrai o corante **básico** (azul/roxo); é ela que dá a cor roxo-escura aos grânulos do **basófilo**." },
+        { "letra": "B", "texto": "Porque contêm hemoglobina absorvida das hemácias fagocitadas", "explicacao": "Os grânulos não contêm hemoglobina; a cor vem das proteínas próprias dos grânulos." },
+        { "letra": "C", "texto": "Porque contêm DNA, que se cora pelo corante ácido", "explicacao": "O DNA é ácido e se cora pelo corante **básico** (roxo), como no núcleo." },
+        { "letra": "D", "texto": "Porque contêm a proteína básica principal, de carga positiva, que se liga à eosina, o corante ácido", "explicacao": "Correta. O **eosinófilo** tem grânulos com **proteína básica principal** e outras proteínas catiônicas (carga positiva). Elas atraem o corante **ácido** (eosina), que é rosa-alaranjado — por isso os grânulos e a célula recebem o nome de **eosinófilos**." },
+        { "letra": "E", "texto": "Porque contêm ribossomos, ricos em RNA", "explicacao": "O RNA dos ribossomos é ácido e cora-se em **azul** pelo corante básico, como no citoplasma de linfócitos e plasmócitos." }
+      ],
+      "gabarito": "D",
+      "secao": "eosinofilo",
+      "referencia": "Junqueira & Carneiro, 13ª ed., caps. 'Células do sangue' e 'Técnicas de estudo em histologia'",
+      "tags": ["eosinófilo", "coloração", "acidofilia"]
+    },
+    {
+      "id": "ms-006",
+      "nivel": "dificil",
+      "enunciado": "Esta imagem é de um aspirado de medula óssea. Qual é a célula grande indicada pelo seu tamanho e qual é o seu papel?",
+      "imagem": { "src": "img/morfo/sangue/megacariocitos.jpg", "legenda": "Aspirado de medula óssea, coloração de Wright." },
+      "alternativas": [
+        { "letra": "A", "texto": "Plasmócito, que produz anticorpos", "explicacao": "O plasmócito é uma célula pequena a média, com núcleo excêntrico em 'roda de carroça' e citoplasma basófilo; não tem esse tamanho gigantesco." },
+        { "letra": "B", "texto": "Megacariócito, célula poliploide gigante que libera plaquetas nos sinusoides medulares", "explicacao": "Correta. O **megacariócito** é a maior célula da medula (40–100 µm), com **núcleo único, enorme e multilobulado**, resultado da **endomitose** (poliploidia de 16N a 64N). Encosta nos **sinusoides** e emite **proplaquetas**, fragmentadas pelo fluxo de sangue em milhares de **plaquetas**." },
+        { "letra": "C", "texto": "Osteoclasto, que reabsorve a matriz óssea", "explicacao": "Osteoclastos são células gigantes **multinucleadas** (vários núcleos separados) que ficam na superfície do osso; o megacariócito tem um núcleo único multilobulado." },
+        { "letra": "D", "texto": "Adipócito, que armazena gordura", "explicacao": "Na lâmina, adipócitos aparecem como **espaços vazios** arredondados, pois a gordura é dissolvida no preparo." },
+        { "letra": "E", "texto": "Mieloblasto, precursor dos granulócitos", "explicacao": "O mieloblasto é uma célula imatura de tamanho moderado, com núcleo redondo de cromatina fina e nucléolos." }
+      ],
+      "gabarito": "B",
+      "secao": "megacariocito",
+      "referencia": "Ross & Pawlina – Histologia: Texto e Atlas, 8ª ed., cap. 'Medula óssea'",
+      "tags": ["megacariócito", "medula óssea", "plaquetas", "identificação"]
+    },
+    {
+      "id": "ms-007",
+      "nivel": "dificil",
+      "enunciado": "Na lâmina de medula óssea vermelha, entre os cordões de células hematopoéticas, observam-se vasos largos, de trajeto irregular. Qual característica estrutural desses vasos permite a saída das células sanguíneas maduras para a circulação?",
+      "alternativas": [
+        { "letra": "A", "texto": "São capilares sinusoides com endotélio descontínuo e lâmina basal incompleta, que as células maduras atravessam", "explicacao": "Correta. Os **sinusoides** da medula têm **endotélio descontínuo** e lâmina basal incompleta. As células maduras, mais deformáveis, atravessam aberturas temporárias nas células endoteliais e ganham o sangue; as imaturas ficam retidas nos cordões." },
+        { "letra": "B", "texto": "São arteríolas musculares que bombeiam as células para o sangue", "explicacao": "Arteríolas não têm essa função, e a saída das células ocorre na microcirculação venosa (sinusoides)." },
+        { "letra": "C", "texto": "São capilares contínuos com junções firmes que transportam as células por vesículas", "explicacao": "Capilares contínuos, com junções firmes, dificultariam a passagem de células inteiras; transcitose por vesículas transporta moléculas, não células." },
+        { "letra": "D", "texto": "São vasos linfáticos que levam as células para os linfonodos", "explicacao": "As células recém-formadas na medula saem para o **sangue** pelos sinusoides, e não pelos linfáticos." },
+        { "letra": "E", "texto": "São vênulas de endotélio alto, como nos linfonodos", "explicacao": "As vênulas de endotélio alto ficam nos linfonodos e permitem a **entrada** de linfócitos vindos do sangue; não são o tipo vascular da medula." }
+      ],
+      "gabarito": "A",
+      "secao": "histologia-medula",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Medula óssea'; Junqueira & Carneiro, 13ª ed., cap. 'Hemocitopoese'",
+      "tags": ["sinusoides", "medula óssea"]
+    },
+    {
+      "id": "ms-008",
+      "nivel": "dificil",
+      "enunciado": "Um homem de 45 anos com suspeita de leucemia precisa de aspirado e biópsia de medula óssea. Qual é o local mais adequado e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Diáfise do fêmur, porque é o osso mais longo do corpo", "explicacao": "No adulto, a diáfise dos ossos longos contém medula **amarela** (adiposa), não hematopoética." },
+        { "letra": "B", "texto": "Falanges das mãos, por serem de fácil acesso", "explicacao": "As falanges contêm medula amarela no adulto e não são locais de punção de medula." },
+        { "letra": "C", "texto": "Tíbia, porque é o local de escolha em qualquer idade", "explicacao": "A tíbia proximal é usada em **lactentes**, cuja medula ainda é vermelha em ossos longos; não é o local de escolha no adulto." },
+        { "letra": "D", "texto": "Crista ilíaca posterior, porque o osso do quadril mantém medula vermelha no adulto e permite tanto o aspirado quanto a biópsia", "explicacao": "Correta. No adulto, a medula vermelha fica no esqueleto axial e nas raízes dos membros (crânio, vértebras, costelas, esterno, **pelve**, epífises proximais de fêmur e úmero). A **crista ilíaca posterior** é o local de escolha: segura e adequada para **aspirado e biópsia**. O esterno serve apenas para aspirado." },
+        { "letra": "E", "texto": "Clavícula, porque está próxima do coração", "explicacao": "A clavícula não é local de punção de medula, e a proximidade do coração não é critério." }
+      ],
+      "gabarito": "D",
+      "secao": "medula-vermelha-amarela",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Medula óssea'; Hoffbrand – Fundamentos em Hematologia, 7ª ed.",
+      "tags": ["medula vermelha", "punção", "crista ilíaca"]
+    },
+    {
+      "id": "ms-009",
+      "nivel": "aprofundado",
+      "enunciado": "No esfregaço, um granulócito raro apresenta grânulos grandes e roxo-escuros que praticamente escondem o núcleo. Qual explicação relaciona corretamente a composição desses grânulos com sua cor e função?",
+      "alternativas": [
+        { "letra": "A", "texto": "São grânulos de mieloperoxidase de neutrófilos imaturos, roxos por conterem ferro", "explicacao": "Os grânulos azurófilos dos precursores de neutrófilos são menores; a cor descrita e o padrão que esconde o núcleo são típicos do basófilo." },
+        { "letra": "B", "texto": "São grânulos de proteína básica principal do eosinófilo, roxos por oxidação", "explicacao": "Os grânulos do eosinófilo são **alaranjados** (afinidade pela eosina), e o núcleo bilobado costuma ser visível." },
+        { "letra": "C", "texto": "São ribossomos agrupados de um plasmócito circulante", "explicacao": "Ribossomos não formam grânulos visíveis assim; o citoplasma do plasmócito fica difusamente azul." },
+        { "letra": "D", "texto": "São vacúolos de fagocitose de um monócito contendo bactérias", "explicacao": "Vacúolos do monócito aparecem claros, não como grânulos grandes roxo-escuros." },
+        { "letra": "E", "texto": "São grânulos do basófilo, ricos em heparina (muito ácida, por isso atrai o corante básico) e histamina, liberadas nas reações alérgicas mediadas por IgE", "explicacao": "Correta. O **basófilo** (menos de 1% dos leucócitos) tem grânulos com **heparina**, um polissacarídeo com muitas cargas negativas que se liga ao corante **básico** (azul de metileno/azures) e fica roxo-escuro, escondendo o núcleo. Os grânulos também contêm **histamina**. Com receptores de **IgE** (FcεRI), o basófilo degranula nas reações alérgicas, como o mastócito dos tecidos." }
+      ],
+      "gabarito": "E",
+      "secao": "basofilo",
+      "referencia": "Junqueira & Carneiro, 13ª ed., cap. 'Células do sangue'",
+      "tags": ["basófilo", "heparina", "basofilia", "coloração"]
+    },
+    {
+      "id": "ms-010",
+      "nivel": "aprofundado",
+      "enunciado": "Um adolescente com talassemia grave tem anemia crônica intensa desde a infância. A ressonância mostra que regiões de medula amarela dos ossos longos foram substituídas por medula vermelha, e há focos de produção de células sanguíneas no baço e no fígado. Como esses achados se explicam?",
+      "alternativas": [
+        { "letra": "A", "texto": "A medula amarela é tecido necrótico, que é removido e substituído por tecido cicatricial vermelho", "explicacao": "A medula amarela é tecido adiposo vivo, e não necrose; a cor vermelha nesse caso indica atividade hematopoética, e não cicatriz." },
+        { "letra": "B", "texto": "Os adipócitos se transformam diretamente em hemácias", "explicacao": "Adipócitos não se transformam em hemácias; a hematopoese depende das células-tronco hematopoéticas." },
+        { "letra": "C", "texto": "A demanda crônica por hemácias estimula a reconversão da medula amarela em vermelha (hematopoética) e a hematopoese extramedular em órgãos que tiveram essa função no feto", "explicacao": "Correta. A medula amarela mantém **estroma e células-tronco** capazes de retomar a hematopoese. Sob estímulo intenso e crônico (como a eritropoetina elevada nas anemias hemolíticas graves), ela se **reconverte em medula vermelha**. Se a medula ainda não basta, ocorre **hematopoese extramedular** no fígado e no baço, que produziam células sanguíneas durante a vida fetal. Na talassemia grave, a expansão medular pode até deformar ossos do crânio e da face." },
+        { "letra": "D", "texto": "As células do sangue passam a ser produzidas pelos linfonodos, que substituem a medula", "explicacao": "Linfonodos são órgãos linfoides secundários, onde linfócitos se ativam e proliferam, e não locais de produção de hemácias." },
+        { "letra": "E", "texto": "O timo volta a crescer e passa a produzir hemácias", "explicacao": "O timo é órgão de maturação de linfócitos T e não participa da eritropoese." }
+      ],
+      "gabarito": "C",
+      "secao": "reconversao",
+      "referencia": "Ross & Pawlina, 8ª ed., cap. 'Medula óssea'; Hoffbrand – Fundamentos em Hematologia, 7ª ed.",
+      "tags": ["medula amarela", "reconversão", "hematopoese extramedular"]
+    }
+  ]
+}
