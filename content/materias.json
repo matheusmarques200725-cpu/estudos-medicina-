@@ -1,7 +1,13 @@
 {
   "semestres": [
-    { "numero": 1, "nome": "1º semestre (MED1)" },
-    { "numero": 2, "nome": "2º semestre (MED2)" }
+    {
+      "numero": 1,
+      "nome": "1º semestre (MED1)"
+    },
+    {
+      "numero": 2,
+      "nome": "2º semestre (MED2)"
+    }
   ],
   "modulos": [
     {
@@ -155,18 +161,96 @@
         "Neves DP. Parasitologia Humana. Atheneu.",
         "Rey L. Bases da Parasitologia Médica. Guanabara Koogan."
       ]
+    },
+    {
+      "id": "hp2",
+      "semestre": 2,
+      "sigla": "HP2",
+      "nome": "Habilidades Profissionais II (Semiologia)",
+      "icone": "🩺",
+      "cor": "#0f766e",
+      "rotulo": "Habilidades Profissionais (semiologia)",
+      "ementa": "Eixo de Habilidades Profissionais do 2º semestre: anamnese dirigida e exame físico dos sistemas osteoarticular, respiratório (tórax), cardiovascular e abdominal, com as principais manobras semiológicas e a correlação com a fisiopatologia estudada nos ASEs. (Conteúdo organizado a partir dos temas estudados pelo aluno no HP2.)",
+      "objetivos": [
+        "Realizar inspeção, palpação, percussão e ausculta de forma sistematizada",
+        "Executar e interpretar as principais manobras do exame osteoarticular",
+        "Reconhecer sons respiratórios e cardíacos normais e anormais e relacioná-los com as doenças",
+        "Correlacionar os achados do exame físico com a fisiologia e a fisiopatologia"
+      ],
+      "bibliografia": [
+        "Porto CC. Semiologia Médica. Guanabara Koogan.",
+        "Bickley LS. Bates — Propedêutica Médica. Guanabara Koogan.",
+        "López M, Laurentys-Medeiros J. Semiologia Médica: as bases do diagnóstico clínico. Revinter.",
+        "Hebert S et al. Ortopedia e Traumatologia: princípios e prática. Artmed."
+      ]
     }
   ],
   "materias": [
-    { "id": "fisiologia", "nome": "Fisiologia", "icone": "🫀", "cor": "#0f766e" },
-    { "id": "imunologia", "nome": "Imunologia", "icone": "🛡️", "cor": "#be123c" },
-    { "id": "patologia", "nome": "Patologia", "icone": "🔬", "cor": "#9333ea" },
-    { "id": "microbiologia-parasitologia", "nome": "Microbiologia e Parasitologia", "icone": "🦠", "cor": "#65a30d" },
-    { "id": "farmacologia", "nome": "Farmacologia", "icone": "💊", "cor": "#2563eb" },
-    { "id": "bioquimica", "nome": "Bioquímica", "icone": "⚗️", "cor": "#d97706" },
-    { "id": "histologia-embriologia", "nome": "Histologia e Embriologia", "icone": "🧫", "cor": "#db2777" },
-    { "id": "anatomia", "nome": "Anatomia", "icone": "🦴", "cor": "#78716c" },
-    { "id": "biologia-celular-genetica", "nome": "Biologia Celular e Genética", "icone": "🧬", "cor": "#7c3aed" },
-    { "id": "saude-coletiva", "nome": "Saúde Coletiva e Humanidades", "icone": "🏥", "cor": "#64748b" }
+    {
+      "id": "fisiologia",
+      "nome": "Fisiologia",
+      "icone": "🫀",
+      "cor": "#0f766e"
+    },
+    {
+      "id": "imunologia",
+      "nome": "Imunologia",
+      "icone": "🛡️",
+      "cor": "#be123c"
+    },
+    {
+      "id": "patologia",
+      "nome": "Patologia",
+      "icone": "🔬",
+      "cor": "#9333ea"
+    },
+    {
+      "id": "microbiologia-parasitologia",
+      "nome": "Microbiologia e Parasitologia",
+      "icone": "🦠",
+      "cor": "#65a30d"
+    },
+    {
+      "id": "farmacologia",
+      "nome": "Farmacologia",
+      "icone": "💊",
+      "cor": "#2563eb"
+    },
+    {
+      "id": "bioquimica",
+      "nome": "Bioquímica",
+      "icone": "⚗️",
+      "cor": "#d97706"
+    },
+    {
+      "id": "histologia-embriologia",
+      "nome": "Histologia e Embriologia",
+      "icone": "🧫",
+      "cor": "#db2777"
+    },
+    {
+      "id": "anatomia",
+      "nome": "Anatomia",
+      "icone": "🦴",
+      "cor": "#78716c"
+    },
+    {
+      "id": "biologia-celular-genetica",
+      "nome": "Biologia Celular e Genética",
+      "icone": "🧬",
+      "cor": "#7c3aed"
+    },
+    {
+      "id": "saude-coletiva",
+      "nome": "Saúde Coletiva e Humanidades",
+      "icone": "🏥",
+      "cor": "#64748b"
+    },
+    {
+      "id": "habilidades-profissionais",
+      "nome": "Habilidades Profissionais (Semiologia)",
+      "icone": "🩺",
+      "cor": "#0f766e"
+    }
   ]
 }

@@ -152,6 +152,15 @@ Cada ASE tem **tópicos da tutoria** e **tópicos de morfofuncional**, que segue
   - Questões podem ter imagem: `"imagem": { "src": "img/...", "legenda": "..." }` — usar em questões de identificação (~2–3 por tópico de morfo).
   - Para buscar imagens: páginas HTML da Commons (`Special:MediaSearch`, página `File:` para licença/autor) e download por `Special:FilePath/<arquivo>?width=960` (larguras padronizadas evitam bloqueio por limite de acesso; espaçar os downloads). O ambiente precisa liberar `commons.wikimedia.org`, `upload.wikimedia.org` e `thumb.wikimedia.org`.
 - Esquemas originais (mermaid) dispensam crédito.
+- **Áudio e vídeo**: o mesmo container `::: figura` aceita `.mp3/.ogg/.wav` (vira `<audio>`) e `.webm/.mp4` (vira `<video>`). Guardar em `public/midia/<assunto>/` (fora de `img/`, para não passar pelo cache do service worker) e converter áudio para **MP3 mono** (o Safari/iPad não toca OGG). Crédito em `content/imagens.json` com a mesma chave do caminho.
+- **Vídeos de demonstração**: caixa `::: videos` com links de **busca no YouTube** (`https://www.youtube.com/results?search_query=...`) — nunca inventar URLs de vídeos específicos que não foram verificados. Links externos abrem em nova aba.
+
+## Habilidades Profissionais (eixo HP)
+
+Eixo separado dos ASEs: módulo `hp2` em `content/materias.json` (sigla HP2, `rotulo` "Habilidades Profissionais (semiologia)"), disciplina `habilidades-profissionais`. Tópicos `hp-<tema>` com o mesmo modelo de 7 seções, foco em **técnica do exame + fisiopatologia do achado + manobras** (tabela "manobra × como fazer × positivo quando × sugere"), sons reais (Wikimedia Commons, licença livre), fotos das manobras e caixa `::: videos`.
+
+- HP2 ✔: `hp-exame-osteoarticular` (hos-), `hp-exame-torax` (htx-), `hp-exame-cardiovascular` (hcv-, ciclo cardíaco, bulhas, estenoses e insuficiências), `hp-exame-abdome` (hab-)
+- Outros semestres (HP1 etc.): criar módulo `hpN` quando o usuário enviar os temas.
 
 ## Regras de conteúdo (obrigatórias)
 

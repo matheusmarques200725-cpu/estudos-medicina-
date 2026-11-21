@@ -11,6 +11,7 @@ export const CALLOUTS = {
   armadilha: '🪤 Armadilha',
   prova: '🎯 Cai em prova',
   referencias: '📚 Referências',
+  videos: '▶️ Vídeos de demonstração',
 };
 
 const md = new MarkdownIt({ html: true, linkify: true, typographer: true });
@@ -32,7 +33,8 @@ for (const [name, label] of Object.entries(CALLOUTS)) {
 export function creditoImagem(src) {
   const c = creditos[src];
   if (!c) return '';
-  return `Imagem: ${md.utils.escapeHtml(c.autor)} · ${md.utils.escapeHtml(c.licenca)}`;
+  const tipo = /\.(ogg|oga|mp3|wav|m4a)$/i.test(src) ? 'Áudio' : /\.(webm|ogv|mp4)$/i.test(src) ? 'Vídeo' : 'Imagem';
+  return `${tipo}: ${md.utils.escapeHtml(c.autor)} · ${md.utils.escapeHtml(c.licenca)}`;
 }
 
 /** HTML de uma imagem ampliável com crédito (usado nas figuras e nas questões). */
@@ -50,6 +52,12 @@ md.use(container, 'figura', {
     if (t.nesting === 1) {
       const src = t.info.trim().slice('figura'.length).trim();
       const esc = md.utils.escapeHtml;
+      if (/\.(ogg|oga|mp3|wav|m4a)$/i.test(src)) {
+        return `<figure class="fig fig-midia"><audio controls preload="none" src="${esc(src)}"></audio><figcaption><!--credito:${esc(src)}-->`;
+      }
+      if (/\.(webm|ogv|mp4)$/i.test(src)) {
+        return `<figure class="fig fig-midia"><video controls preload="metadata" playsinline src="${esc(src)}"></video><figcaption><!--credito:${esc(src)}-->`;
+      }
       return `<figure class="fig"><button type="button" class="fig-zoom" data-src="${esc(src)}" aria-label="Ampliar imagem">`
         + `<img src="${esc(src)}" alt="" loading="lazy"></button><figcaption>`
         + `<!--credito:${esc(src)}-->`;
@@ -63,6 +71,14 @@ md.render = (src, env) => renderOriginal(src, env).replace(
   /<!--credito:([^>]*?)-->([\s\S]*?)<\/figcaption>/g,
   (_, s, cap) => `${cap}<span class="fig-credito">${creditoImagem(md.utils.unescapeAll(s))} — <a href="#/creditos">créditos</a></span></figcaption>`,
 );
+
+// Links externos (http/https) abrem em nova aba, sem sair do site
+const defaultLinkOpen = md.renderer.rules.link_open || ((tokens, idx, opts, env, self) => self.renderToken(tokens, idx, opts));
+md.renderer.rules.link_open = (tokens, idx, opts, env, self) => {
+  const href = tokens[idx].attrGet('href') || '';
+  if (/^https?:\/\//.test(href)) { tokens[idx].attrSet('target', '_blank'); tokens[idx].attrSet('rel', 'noopener noreferrer'); }
+  return defaultLinkOpen(tokens, idx, opts, env, self);
+};
 
 // ```mermaid → <div class="mermaid">
 const defaultFence = md.renderer.rules.fence;

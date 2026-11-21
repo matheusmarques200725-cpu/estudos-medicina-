@@ -1,0 +1,167 @@
+{
+  "topico": "hp-exame-abdome",
+  "questoes": [
+    {
+      "id": "hab-001",
+      "nivel": "medio",
+      "enunciado": "Ao examinar o abdome, um estudante inicia pela palpação profunda e, em seguida, ausculta e descreve ruídos hidroaéreos aumentados. O preceptor corrige a sequência. Qual é a ordem correta e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Palpação, percussão, ausculta e inspeção, porque a palpação localiza a dor primeiro", "explicacao": "Palpar antes de auscultar pode estimular o peristaltismo e alterar os ruídos." },
+        { "letra": "B", "texto": "Inspeção, ausculta, percussão e palpação, porque a manipulação do abdome pode modificar o peristaltismo e os ruídos hidroaéreos", "explicacao": "Correta. No abdome, a ausculta vem logo após a inspeção, antes da percussão e da palpação, que podem estimular ou alterar o peristaltismo. Também se deixa a área dolorosa para o fim." },
+        { "letra": "C", "texto": "Inspeção, palpação, percussão e ausculta, como no tórax", "explicacao": "No abdome a ordem difere da do tórax justamente para não alterar a ausculta." },
+        { "letra": "D", "texto": "Ausculta, inspeção, palpação e percussão, porque os ruídos desaparecem com a luz", "explicacao": "A inspeção vem primeiro; a luz não altera os ruídos." },
+        { "letra": "E", "texto": "A ordem não tem importância no abdome", "explicacao": "A ordem importa para não falsear os achados da ausculta." }
+      ],
+      "gabarito": "B",
+      "secao": "ausculta",
+      "referencia": "Porto – Semiologia Médica, 8ª ed., cap. \"Exame do abdome\"",
+      "tags": ["sequência do exame", "ruídos hidroaéreos"]
+    },
+    {
+      "id": "hab-002",
+      "nivel": "medio",
+      "enunciado": "Adolescente de 16 anos tem dor que começou na região periumbilical, acompanhada de náuseas, e, após 12 horas, migrou para a fossa ilíaca direita. Há dor à palpação profunda no ponto indicado na imagem e dor mais intensa ao retirar subitamente a mão comprimida. Qual é o diagnóstico mais provável e o nome dos sinais?",
+      "imagem": { "src": "img/morfo/hp/abdome/ponto-mcburney.jpg", "legenda": "Ponto marcado no abdome." },
+      "alternativas": [
+        { "letra": "A", "texto": "Colecistite aguda; sinais de Murphy e Courvoisier", "explicacao": "A colecistite causa dor no hipocôndrio direito com parada inspiratória à palpação do ponto cístico." },
+        { "letra": "B", "texto": "Pielonefrite; sinal de Giordano", "explicacao": "O Giordano é pesquisado na região lombar, e a pielonefrite não tem migração da dor periumbilical para a FID." },
+        { "letra": "C", "texto": "Apendicite aguda; sinais de McBurney (dor no ponto de McBurney) e Blumberg (dor à descompressão brusca)", "explicacao": "Correta. A distensão inicial do apêndice causa dor visceral mal localizada, periumbilical (fibras T10); quando a inflamação atinge o peritônio parietal, a dor se localiza na FID. O ponto de McBurney fica no terço lateral da linha entre a espinha ilíaca anterossuperior e o umbigo, e a dor à descompressão (Blumberg) indica irritação peritoneal." },
+        { "letra": "D", "texto": "Pancreatite aguda; sinal de Cullen", "explicacao": "A pancreatite causa dor epigástrica em faixa, e o Cullen é equimose periumbilical." },
+        { "letra": "E", "texto": "Gastroenterite viral; ruídos hidroaéreos aumentados", "explicacao": "A gastroenterite causa dor difusa em cólica com diarreia, sem sinais de irritação peritoneal localizados." }
+      ],
+      "gabarito": "C",
+      "secao": "apendicite",
+      "referencia": "Porto, 8ª ed. · Sabiston – Tratado de Cirurgia, 20ª ed.",
+      "tags": ["apendicite", "McBurney", "Blumberg"]
+    },
+    {
+      "id": "hab-003",
+      "nivel": "medio",
+      "enunciado": "Mulher de 45 anos tem dor no hipocôndrio direito após refeição gordurosa, febre e náuseas. Ao pressionar o ponto cístico durante uma inspiração profunda, a paciente interrompe subitamente a inspiração por dor. Qual sinal foi pesquisado e o que sugere?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sinal de Murphy, sugerindo colecistite aguda: a vesícula inflamada desce com o diafragma e encontra os dedos do examinador", "explicacao": "Correta. Na inspiração, o diafragma empurra o fígado e a vesícula para baixo. Se a vesícula está inflamada, o contato com os dedos sob o rebordo costal provoca dor súbita e a paciente interrompe a inspiração." },
+        { "letra": "B", "texto": "Sinal de Rovsing, sugerindo apendicite", "explicacao": "O Rovsing é a dor na FID ao comprimir a fossa ilíaca esquerda." },
+        { "letra": "C", "texto": "Sinal de Giordano, sugerindo pielonefrite", "explicacao": "O Giordano é a dor à punho-percussão lombar." },
+        { "letra": "D", "texto": "Sinal de Jobert, sugerindo pneumoperitônio", "explicacao": "O Jobert é o timpanismo no lugar da macicez hepática à percussão." },
+        { "letra": "E", "texto": "Sinal de Courvoisier, sugerindo tumor de pâncreas", "explicacao": "O Courvoisier é a vesícula palpável e indolor com icterícia." }
+      ],
+      "gabarito": "A",
+      "secao": "murphy",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["Murphy", "colecistite"]
+    },
+    {
+      "id": "hab-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 58 anos, etilista, tem abdome globoso com flancos abaulados em decúbito dorsal e cicatriz umbilical protrusa. À percussão, há timpanismo central e macicez nos flancos; ao virá-lo para o decúbito lateral direito, o flanco esquerdo, antes maciço, torna-se timpânico. Qual é o achado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Distensão gasosa por obstrução intestinal", "explicacao": "A distensão gasosa causa hipertimpanismo difuso, sem macicez que se desloca." },
+        { "letra": "B", "texto": "Obesidade", "explicacao": "A gordura não produz macicez móvel com a mudança de decúbito." },
+        { "letra": "C", "texto": "Hepatomegalia", "explicacao": "A hepatomegalia causa macicez no hipocôndrio direito que não se desloca." },
+        { "letra": "D", "texto": "Ascite livre, demonstrada pela macicez móvel de decúbito: o líquido escorre para a parte mais baixa e as alças com gás flutuam para cima", "explicacao": "Correta. O líquido livre se acumula nos flancos em decúbito dorsal (macicez lateral, abdome batráquio) e muda de lugar com a posição, enquanto as alças intestinais, mais leves, flutuam para o lado de cima (timpanismo). No etilista, a causa mais provável é cirrose com hipertensão portal." },
+        { "letra": "E", "texto": "Bexiga distendida (globo vesical)", "explicacao": "O globo vesical causa macicez suprapúbica que não se desloca para os flancos." }
+      ],
+      "gabarito": "D",
+      "secao": "ascite",
+      "referencia": "Porto, 8ª ed.",
+      "tags": ["ascite", "macicez móvel"]
+    },
+    {
+      "id": "hab-005",
+      "nivel": "dificil",
+      "enunciado": "Homem de 40 anos, etilista, tem dor epigástrica intensa irradiada para o dorso há três dias, vômitos e hipotensão. Ao exame, observa-se a alteração mostrada na imagem. Qual é o sinal e o que ele indica?",
+      "imagem": { "src": "img/morfo/hp/abdome/sinal-cullen.jpg", "legenda": "Região periumbilical do paciente." },
+      "alternativas": [
+        { "letra": "A", "texto": "Cabeça de medusa, indicando hipertensão portal", "explicacao": "A cabeça de medusa é formada por veias dilatadas, não por equimose." },
+        { "letra": "B", "texto": "Estrias violáceas, indicando síndrome de Cushing", "explicacao": "Estrias são lesões lineares por ruptura de fibras da derme, não manchas equimóticas periumbilicais." },
+        { "letra": "C", "texto": "Hérnia umbilical encarcerada", "explicacao": "A hérnia forma abaulamento, e não equimose difusa ao redor do umbigo." },
+        { "letra": "D", "texto": "Dermatite de contato pelo cinto", "explicacao": "O contexto clínico e o aspecto equimótico indicam hemorragia, não dermatite." },
+        { "letra": "E", "texto": "Sinal de Cullen: equimose periumbilical por sangue e enzimas que dissecam os planos de tecido a partir do retroperitônio — sugere pancreatite aguda necro-hemorrágica, de mau prognóstico", "explicacao": "Correta. Na pancreatite grave, a necrose e a hemorragia do pâncreas liberam sangue e enzimas no retroperitônio; esse material se espalha pelos planos teciduais (ligamento falciforme) até a região umbilical (Cullen) ou os flancos (Grey Turner). Também aparece em gravidez ectópica rota e trauma." }
+      ],
+      "gabarito": "E",
+      "secao": "inspecao",
+      "referencia": "Porto, 8ª ed. · Sabiston, 20ª ed.",
+      "tags": ["sinal de Cullen", "pancreatite"]
+    },
+    {
+      "id": "hab-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 55 anos com úlcera péptica conhecida tem dor epigástrica súbita, lancinante, que se generalizou. Está imóvel no leito, com abdome rígido 'em tábua'. À percussão do hipocôndrio direito, na linha hemiclavicular, encontra-se timpanismo onde deveria haver macicez. Ruídos hidroaéreos ausentes. Qual é a interpretação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Obstrução intestinal inicial", "explicacao": "Na obstrução inicial os ruídos estão aumentados e metálicos, e não há rigidez em tábua nem perda da macicez hepática." },
+        { "letra": "B", "texto": "Perfuração de víscera oca com pneumoperitônio (sinal de Jobert) e peritonite química difusa", "explicacao": "Correta. A perfuração da úlcera libera ar e suco gástrico na cavidade. O ar livre sobe e se interpõe entre o fígado e a parede, trocando a macicez hepática por timpanismo (Jobert). O conteúdo ácido irrita todo o peritônio, causando defesa involuntária difusa (abdome em tábua), imobilidade e íleo paralítico (RHA ausentes). É uma emergência cirúrgica." },
+        { "letra": "C", "texto": "Colecistite aguda", "explicacao": "A colecistite causa dor localizada no hipocôndrio direito e Murphy positivo, sem pneumoperitônio." },
+        { "letra": "D", "texto": "Ascite volumosa", "explicacao": "A ascite causa macicez nos flancos, e não timpanismo no lugar da macicez hepática com abdome em tábua." },
+        { "letra": "E", "texto": "Gastrite aguda sem complicações", "explicacao": "A gastrite não causa rigidez difusa nem pneumoperitônio." }
+      ],
+      "gabarito": "B",
+      "secao": "percussao",
+      "referencia": "Porto, 8ª ed. · Sabiston, 20ª ed.",
+      "tags": ["pneumoperitônio", "Jobert", "abdome em tábua"]
+    },
+    {
+      "id": "hab-007",
+      "nivel": "dificil",
+      "enunciado": "Ao examinar um paciente vindo de área endêmica para esquistossomose, o estudante palpa o hipocôndrio esquerdo junto ao rebordo costal e não encontra nada. O preceptor coloca o paciente em decúbito lateral direito e começa a palpar perto da fossa ilíaca direita, subindo a cada inspiração, e encontra uma borda com um entalhe. O espaço de Traube está maciço. Por que a técnica do estudante falhou?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque o baço normal é sempre palpável e o estudante não fez força suficiente", "explicacao": "O baço normal não é palpável; não se deve palpar com força." },
+        { "letra": "B", "texto": "Porque o achado é o rim esquerdo, que só se palpa na fossa ilíaca", "explicacao": "A chanfradura (entalhe), o crescimento na diagonal e a macicez do espaço de Traube indicam baço." },
+        { "letra": "C", "texto": "Porque o baço só é palpável em decúbito ventral", "explicacao": "Usa-se o decúbito dorsal e o decúbito lateral direito (Schuster), não o ventral." },
+        { "letra": "D", "texto": "Porque a esplenomegalia volumosa cresce em direção à fossa ilíaca direita: começando no rebordo costal, a mão fica sobre o baço e não sente sua borda; deve-se começar baixo e subir com as inspirações", "explicacao": "Correta. O baço aumenta na diagonal, para baixo e para a direita. Se a mão começa junto ao rebordo, já está sobre o órgão e não detecta a borda. A posição de Schuster aproxima o baço da parede. A chanfradura e a macicez do espaço de Traube confirmam a esplenomegalia, comum na esquistossomose hepatoesplênica (hipertensão portal)." },
+        { "letra": "E", "texto": "Porque o fígado esconde o baço no hipocôndrio esquerdo", "explicacao": "O fígado não esconde o baço; a falha foi técnica." }
+      ],
+      "gabarito": "D",
+      "secao": "palpacao-baco",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["esplenomegalia", "palpação do baço", "esquistossomose"]
+    },
+    {
+      "id": "hab-008",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 30 anos tem febre alta, calafrios, disúria e dor lombar à esquerda. Com a paciente sentada, o examinador dá um golpe com a borda ulnar da mão fechada no ângulo costovertebral esquerdo, provocando dor intensa. Qual sinal foi pesquisado e qual o diagnóstico mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sinal de Giordano positivo, sugerindo pielonefrite aguda (distensão dolorosa da cápsula renal inflamada)", "explicacao": "Correta. A punho-percussão do ângulo costovertebral transmite um impacto ao rim; se a cápsula está distendida pela inflamação (pielonefrite) ou a pelve pela obstrução (cólica renal), a dor é intensa. Com febre, calafrios e disúria, o diagnóstico mais provável é pielonefrite." },
+        { "letra": "B", "texto": "Sinal de Murphy, sugerindo colecistite", "explicacao": "O Murphy é pesquisado sob o rebordo costal direito com inspiração." },
+        { "letra": "C", "texto": "Sinal do psoas, sugerindo apendicite retrocecal", "explicacao": "O sinal do psoas é a dor à extensão da coxa direita." },
+        { "letra": "D", "texto": "Sinal de Kehr, sugerindo ruptura de baço", "explicacao": "O Kehr é a dor no ombro esquerdo por irritação diafragmática." },
+        { "letra": "E", "texto": "Sinal de Carnett, sugerindo dor da parede", "explicacao": "O Carnett avalia se a dor piora com a contração da parede abdominal." }
+      ],
+      "gabarito": "A",
+      "secao": "giordano",
+      "referencia": "Porto, 8ª ed.",
+      "tags": ["Giordano", "pielonefrite"]
+    },
+    {
+      "id": "hab-009",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 60 anos com cirrose apresenta veias dilatadas e tortuosas ao redor do umbigo. Ao esvaziar um segmento venoso infraumbilical com dois dedos e soltar o dedo superior, a veia se enche rapidamente a partir de cima (do umbigo para baixo). Qual é o tipo de circulação colateral e seu mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tipo cava inferior, por obstrução da veia cava, com fluxo de baixo para cima", "explicacao": "No tipo cava inferior, as veias ficam nos flancos e o fluxo nas veias infraumbilicais é de baixo para cima." },
+        { "letra": "B", "texto": "Tipo cava superior, por obstrução no mediastino", "explicacao": "A circulação do tipo cava superior se localiza no tórax e na parte alta do abdome, com fluxo de cima para baixo, sem relação com o umbigo." },
+        { "letra": "C", "texto": "Tipo porta: na hipertensão portal, a veia umbilical recanalizada leva sangue do sistema porta para as veias da parede, que fluem para longe do umbigo (cabeça de medusa)", "explicacao": "Correta. O fígado cirrótico oferece resistência ao fluxo portal; o sangue procura vias alternativas, uma delas a veia paraumbilical/umbilical recanalizada, que desemboca nas veias periumbilicais. O fluxo segue do umbigo para fora — para cima nas veias supraumbilicais e para baixo nas infraumbilicais. A direção do fluxo diferencia esse padrão da obstrução da cava inferior." },
+        { "letra": "D", "texto": "Varizes de membros inferiores ascendendo ao abdome", "explicacao": "Varizes de membros inferiores não formam circulação periumbilical radiada." },
+        { "letra": "E", "texto": "Achado normal em pessoas magras", "explicacao": "Veias dilatadas e tortuosas periumbilicais com fluxo centrífugo são patológicas." }
+      ],
+      "gabarito": "C",
+      "secao": "inspecao",
+      "referencia": "Porto, 8ª ed.",
+      "tags": ["circulação colateral", "hipertensão portal", "cabeça de medusa"]
+    },
+    {
+      "id": "hab-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 68 anos tem icterícia progressiva indolor, perda de peso e prurido. À palpação, encontra-se a vesícula biliar aumentada, palpável e indolor no hipocôndrio direito. Qual é o significado desse achado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Colecistite aguda litiásica, com sinal de Murphy", "explicacao": "Na colecistite a vesícula é dolorosa e o Murphy é positivo; a vesícula descrita é indolor." },
+        { "letra": "B", "texto": "Sinal de Courvoisier-Terrier: a obstrução gradual da via biliar distal (como por tumor da cabeça do pâncreas) distende uma vesícula sem fibrose, que se torna palpável e indolor", "explicacao": "Correta. Uma obstrução lenta e progressiva abaixo da junção do ducto cístico (tumor periampular ou da cabeça do pâncreas) aumenta a pressão na árvore biliar e distende a vesícula. Na colelitíase crônica, a vesícula costuma estar fibrosada e não se distende — por isso vesícula palpável e indolor com icterícia sugere causa maligna." },
+        { "letra": "C", "texto": "Hepatite viral aguda", "explicacao": "A hepatite causa icterícia, mas não distensão palpável da vesícula." },
+        { "letra": "D", "texto": "Abscesso hepático amebiano", "explicacao": "O abscesso causa febre e dor no hipocôndrio direito, sem vesícula palpável indolor com icterícia obstrutiva." },
+        { "letra": "E", "texto": "Achado normal no idoso", "explicacao": "A vesícula normal não é palpável." }
+      ],
+      "gabarito": "B",
+      "secao": "murphy",
+      "referencia": "Porto, 8ª ed. · Sabiston, 20ª ed.",
+      "tags": ["Courvoisier", "icterícia obstrutiva"]
+    }
+  ]
+}

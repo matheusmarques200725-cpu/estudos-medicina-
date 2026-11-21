@@ -1,0 +1,168 @@
+{
+  "topico": "hp-exame-osteoarticular",
+  "questoes": [
+    {
+      "id": "hos-001",
+      "nivel": "medio",
+      "enunciado": "Mãe de um bebê de 2 meses tem dor na borda radial do punho direito, sobre o processo estiloide do rádio, que piora ao segurar a criança. O examinador realiza a manobra mostrada na imagem e reproduz dor intensa no local. Qual é o diagnóstico?",
+      "imagem": { "src": "img/morfo/hp/osteo/finkelstein.jpg", "legenda": "Manobra realizada no exame." },
+      "alternativas": [
+        { "letra": "A", "texto": "Síndrome do túnel do carpo", "explicacao": "O túnel do carpo causa parestesias no território do nervo mediano e é testado pelo Phalen e pelo Tinel." },
+        { "letra": "B", "texto": "Epicondilite lateral", "explicacao": "A epicondilite lateral dói no cotovelo e é testada pelas manobras de Cozen e Mill." },
+        { "letra": "C", "texto": "Tenossinovite de De Quervain, pelo teste de Finkelstein (polegar fechado na mão + desvio ulnar do punho)", "explicacao": "Correta. A manobra estira os tendões do abdutor longo e do extensor curto do polegar no primeiro compartimento dorsal. Quando estão inflamados, surge dor aguda sobre o estiloide radial. É comum em mães de recém-nascidos, pelo esforço repetido de carregar o bebê." },
+        { "letra": "D", "texto": "Artrite reumatoide", "explicacao": "A artrite reumatoide causa sinovite simétrica de punhos e pequenas articulações, não dor localizada reproduzida por essa manobra." },
+        { "letra": "E", "texto": "Fratura de escafoide", "explicacao": "A fratura de escafoide segue trauma e dói na tabaqueira anatômica." }
+      ],
+      "gabarito": "C",
+      "secao": "de-quervain",
+      "referencia": "Hebert et al. – Ortopedia e Traumatologia, 5ª ed. · Porto, 8ª ed.",
+      "tags": ["De Quervain", "Finkelstein"]
+    },
+    {
+      "id": "hos-002",
+      "nivel": "medio",
+      "enunciado": "Gestante de 32 semanas acorda à noite com formigamento no polegar, indicador e dedo médio da mão direita e alivia sacudindo a mão. A flexão máxima dos punhos por 60 segundos reproduz os sintomas, e a percussão sobre a face anterior do punho provoca choque irradiado para os mesmos dedos. Qual é o diagnóstico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Síndrome do túnel do carpo (testes de Phalen e Tinel positivos), por compressão do nervo mediano favorecida pela retenção de líquido da gestação", "explicacao": "Correta. O território do mediano inclui polegar, indicador, médio e metade lateral do anular. A gestação, com edema, reduz o espaço no túnel do carpo. O Phalen aumenta a pressão no túnel, e o Tinel percute o nervo irritado; os sintomas noturnos são típicos." },
+        { "letra": "B", "texto": "Radiculopatia C8", "explicacao": "A raiz C8 inerva a borda ulnar da mão (4º e 5º dedos)." },
+        { "letra": "C", "texto": "Compressão do nervo ulnar no cotovelo", "explicacao": "O nervo ulnar causa sintomas no 4º e 5º dedos." },
+        { "letra": "D", "texto": "Tenossinovite de De Quervain", "explicacao": "De Quervain causa dor na borda radial do punho, não parestesias no território do mediano." },
+        { "letra": "E", "texto": "Doença de Raynaud", "explicacao": "O Raynaud causa alterações de cor dos dedos ao frio, não parestesias reproduzidas por Phalen e Tinel." }
+      ],
+      "gabarito": "A",
+      "secao": "tunel-carpo",
+      "referencia": "Porto, 8ª ed. · Hebert et al., 5ª ed.",
+      "tags": ["túnel do carpo", "Phalen", "Tinel"]
+    },
+    {
+      "id": "hos-003",
+      "nivel": "medio",
+      "enunciado": "Jogador de futebol de 22 anos girou o corpo com o pé fixo no gramado, ouviu um estalo no joelho, teve inchaço rápido e sensação de falseio. Com o joelho a 20–30° de flexão, o examinador estabiliza o fêmur e traciona a tíbia para a frente, como na imagem, observando deslocamento anterior aumentado e sem batente firme. Qual estrutura está lesada?",
+      "imagem": { "src": "img/morfo/hp/osteo/lachman.jpg", "legenda": "Manobra realizada no joelho." },
+      "alternativas": [
+        { "letra": "A", "texto": "Ligamento cruzado posterior", "explicacao": "O LCP é testado empurrando a tíbia para trás (gaveta posterior)." },
+        { "letra": "B", "texto": "Menisco medial", "explicacao": "O menisco é testado pelo McMurray e pelo Apley (compressão)." },
+        { "letra": "C", "texto": "Ligamento colateral lateral", "explicacao": "O colateral lateral é testado pelo estresse em varo." },
+        { "letra": "D", "texto": "Tendão patelar", "explicacao": "A lesão do tendão patelar impede a extensão ativa do joelho." },
+        { "letra": "E", "texto": "Ligamento cruzado anterior, pelo teste de Lachman (o mais sensível para essa lesão)", "explicacao": "Correta. O LCA impede o deslizamento anterior da tíbia. O mecanismo de giro com desaceleração, o estalo e a hemartrose rápida são típicos. No Lachman, deslocamento anterior aumentado sem batente firme, comparado ao lado sadio, indica ruptura." }
+      ],
+      "gabarito": "E",
+      "secao": "joelho-manobras",
+      "referencia": "Hebert et al., 5ª ed. · Porto, 8ª ed.",
+      "tags": ["LCA", "Lachman"]
+    },
+    {
+      "id": "hos-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 40 anos tem dor lombar irradiada pela face posterior da coxa e da perna esquerdas até o pé. Em decúbito dorsal, a elevação passiva da perna esquerda estendida provoca, a 45°, dor que desce abaixo do joelho; ao abaixar um pouco a perna e fazer dorsiflexão do tornozelo, a dor retorna. Qual é a interpretação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Encurtamento dos isquiotibiais, sem importância", "explicacao": "O encurtamento causa desconforto apenas na face posterior da coxa, não dor irradiada abaixo do joelho que retorna com a dorsiflexão." },
+        { "letra": "B", "texto": "Lasègue positivo com sinal de Bragard positivo: radiculopatia L5/S1, como por hérnia de disco lombar", "explicacao": "Correta. Entre ~30° e 70°, a elevação da perna estendida estira as raízes L5 e S1; se uma delas estiver comprimida, surge dor irradiada pelo trajeto do isquiático, abaixo do joelho. A dorsiflexão do tornozelo (Bragard) estira ainda mais o nervo e reproduz a dor, confirmando a origem radicular." },
+        { "letra": "C", "texto": "Artrose do quadril", "explicacao": "A artrose do quadril causa dor na virilha, avaliada pelo Patrick e pela rotação interna." },
+        { "letra": "D", "texto": "Sacroileíte", "explicacao": "A sacroileíte causa dor glútea, avaliada pelo Patrick (dor posterior)." },
+        { "letra": "E", "texto": "Trombose venosa profunda", "explicacao": "A TVP causa edema e dor na panturrilha, sem relação com o estiramento radicular." }
+      ],
+      "gabarito": "B",
+      "secao": "lombar",
+      "referencia": "Porto, 8ª ed. · Hebert et al., 5ª ed.",
+      "tags": ["Lasègue", "Bragard", "hérnia de disco"]
+    },
+    {
+      "id": "hos-005",
+      "nivel": "dificil",
+      "enunciado": "Pintor de paredes de 50 anos tem dor no ombro direito ao levantar o braço. A abdução ativa dói entre 60° e 120°, com alívio acima e abaixo dessa faixa. A elevação passiva do braço em rotação interna e a rotação interna com o ombro e o cotovelo a 90° provocam dor. Com os braços abduzidos a 90°, polegares para baixo, ele resiste à pressão, mas com dor. Qual é a interpretação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Capsulite adesiva", "explicacao": "A capsulite causa perda importante da ADM ativa e passiva, sobretudo da rotação externa, sem arco doloroso típico." },
+        { "letra": "B", "texto": "Instabilidade anterior do ombro", "explicacao": "A instabilidade anterior se manifesta com apreensão na abdução com rotação externa." },
+        { "letra": "C", "texto": "Ruptura completa do subescapular", "explicacao": "O subescapular é testado pelo Gerber (lift-off); a ruptura completa causa fraqueza, não apenas dor." },
+        { "letra": "D", "texto": "Síndrome do impacto com tendinite do supraespinal: arco doloroso, Neer, Hawkins e Jobe dolorosos, sem fraqueza (o que fala contra ruptura completa)", "explicacao": "Correta. Entre 60° e 120° de abdução, o tendão do supraespinal passa sob o acrômio e é comprimido. O Neer (elevação passiva em rotação interna) e o Hawkins (rotação interna a 90°/90°) reproduzem esse impacto. O Jobe testa o supraespinal: dor com força preservada sugere tendinite; fraqueza sugeriria ruptura. Atividades com os braços elevados (pintar paredes) favorecem a síndrome." },
+        { "letra": "E", "texto": "Tendinite da cabeça longa do bíceps isolada", "explicacao": "A tendinite bicipital é avaliada pelos testes de Speed e Yergason, com dor no sulco intertubercular." }
+      ],
+      "gabarito": "D",
+      "secao": "ombro-manobras",
+      "referencia": "Hebert et al., 5ª ed. · Porto, 8ª ed.",
+      "tags": ["síndrome do impacto", "Neer", "Hawkins", "Jobe"]
+    },
+    {
+      "id": "hos-006",
+      "nivel": "dificil",
+      "enunciado": "Paciente com dor crônica no quadril é colocado em apoio sobre a perna direita e eleva a esquerda. Observa-se o achado da imagem (à direita): a pelve cai do lado esquerdo. Qual músculo está fraco e de que lado?",
+      "imagem": { "src": "img/morfo/hp/osteo/trendelenburg.png", "legenda": "Apoio unipodal: normal (esquerda) e alterado (direita)." },
+      "alternativas": [
+        { "letra": "A", "texto": "Glúteo máximo esquerdo", "explicacao": "O glúteo máximo é extensor do quadril; e o lado relevante é o do apoio." },
+        { "letra": "B", "texto": "Adutores do quadril direito", "explicacao": "Os adutores não mantêm a pelve nivelada no apoio unipodal." },
+        { "letra": "C", "texto": "Iliopsoas esquerdo", "explicacao": "O iliopsoas é flexor do quadril e não é testado por essa manobra." },
+        { "letra": "D", "texto": "Quadríceps direito", "explicacao": "O quadríceps estende o joelho e não estabiliza a pelve no plano frontal." },
+        { "letra": "E", "texto": "Abdutores do quadril (glúteo médio e mínimo) do lado direito, o do apoio — sinal de Trendelenburg positivo", "explicacao": "Correta. No apoio unipodal, os abdutores do lado da perna de apoio contraem e sustentam a pelve. Se estão fracos (lesão do nervo glúteo superior, artrose, displasia), a pelve cai do lado oposto, o da perna elevada. A queda à esquerda, com apoio à direita, indica fraqueza dos abdutores direitos." }
+      ],
+      "gabarito": "E",
+      "secao": "quadril",
+      "referencia": "Porto, 8ª ed. · Hebert et al., 5ª ed.",
+      "tags": ["Trendelenburg", "glúteo médio"]
+    },
+    {
+      "id": "hos-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 25 anos tem dor lombar há 8 meses, pior de madrugada e ao acordar, com rigidez matinal de 2 horas, que melhora com exercício e piora com repouso. Teve uma uveíte anterior no ano passado. No teste de Schober, a distância entre as marcas passa de 10 para 12 cm. Qual é a interpretação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Lombalgia mecânica por esforço, com Schober normal", "explicacao": "A dor que piora com repouso e melhora com exercício, a rigidez prolongada e o Schober reduzido indicam processo inflamatório." },
+        { "letra": "B", "texto": "Hérnia de disco com radiculopatia", "explicacao": "A hérnia causa dor radicular com Lasègue positivo; não explica o padrão inflamatório e a uveíte." },
+        { "letra": "C", "texto": "Lombalgia inflamatória com redução da mobilidade lombar (Schober com aumento de apenas 2 cm), sugestiva de espondilite anquilosante", "explicacao": "Correta. A espondilite anquilosante (espondiloartrite associada ao HLA-B27) acomete homens jovens com dor lombar inflamatória — piora com repouso, melhora com movimento, rigidez matinal longa — e manifestações extra-articulares como uveíte anterior. A inflamação e a ossificação progressivas reduzem a flexão lombar: no Schober, o aumento normal é de pelo menos 5 cm." },
+        { "letra": "D", "texto": "Osteoporose com fratura vertebral", "explicacao": "Pouco provável num homem de 25 anos sem trauma ou fator de risco, e não explica o padrão inflamatório." },
+        { "letra": "E", "texto": "Fibromialgia", "explicacao": "A fibromialgia causa dor difusa com pontos dolorosos, sem redução objetiva da mobilidade nem uveíte." }
+      ],
+      "gabarito": "C",
+      "secao": "lombar",
+      "referencia": "Porto, 8ª ed. · Sociedade Brasileira de Reumatologia",
+      "tags": ["Schober", "espondilite anquilosante", "dor inflamatória"]
+    },
+    {
+      "id": "hos-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 35 anos torceu o joelho direito ao se levantar de cócoras rodando o corpo; desde então o joelho às vezes 'trava' e dói na face medial. Há dor à palpação da interlinha articular medial. Com o joelho em flexão máxima, o examinador faz rotação externa da tíbia e estresse em valgo enquanto estende o joelho, sentindo um estalo doloroso na interlinha medial. Qual é a lesão?",
+      "alternativas": [
+        { "letra": "A", "texto": "Lesão do menisco medial (McMurray positivo)", "explicacao": "Correta. Os meniscos se lesam em rotação com o joelho fletido e o pé apoiado. No McMurray, a rotação externa com valgo durante a extensão pinça o menisco medial roto entre fêmur e tíbia, gerando dor e estalo palpável na interlinha medial. O bloqueio ('travamento') ocorre quando o fragmento se desloca." },
+        { "letra": "B", "texto": "Lesão do menisco lateral", "explicacao": "O menisco lateral é testado com rotação interna e varo, e a dor seria na interlinha lateral." },
+        { "letra": "C", "texto": "Ruptura do ligamento cruzado anterior", "explicacao": "O LCA é testado pelo Lachman e pela gaveta anterior; o travamento e a dor na interlinha apontam para menisco." },
+        { "letra": "D", "texto": "Lesão do ligamento colateral lateral", "explicacao": "O colateral lateral é testado pelo estresse em varo, com dor lateral." },
+        { "letra": "E", "texto": "Derrame articular isolado", "explicacao": "O derrame é pesquisado pelo sinal da tecla e não explica o estalo na interlinha medial." }
+      ],
+      "gabarito": "A",
+      "secao": "joelho-manobras",
+      "referencia": "Hebert et al., 5ª ed.",
+      "tags": ["menisco medial", "McMurray"]
+    },
+    {
+      "id": "hos-009",
+      "nivel": "aprofundado",
+      "enunciado": "No exame de um recém-nascido do sexo feminino, nascido em apresentação pélvica, o pediatra flexiona os quadris e os joelhos a 90°. Ao abduzir as coxas pressionando o trocanter maior para cima, sente um ressalto ('clique') no quadril esquerdo. Qual é a manobra e o que ela demonstra?",
+      "alternativas": [
+        { "letra": "A", "texto": "Manobra de Barlow positiva: o quadril está estável", "explicacao": "A manobra de Barlow é feita em adução com pressão posterior e demonstra quadril luxável; o ressalto em abdução corresponde a outra manobra." },
+        { "letra": "B", "texto": "Teste de Patrick: sacroileíte neonatal", "explicacao": "O teste de Patrick não é usado na triagem neonatal do quadril." },
+        { "letra": "C", "texto": "Teste de Thomas: contratura em flexão fisiológica", "explicacao": "O teste de Thomas avalia contratura em flexão, não a estabilidade do quadril no recém-nascido." },
+        { "letra": "D", "texto": "Manobra de Ortolani positiva: a cabeça femoral luxada é reduzida para dentro do acetábulo na abdução — displasia do desenvolvimento do quadril", "explicacao": "Correta. Na manobra de Ortolani, a abdução com pressão no trocanter faz a cabeça do fêmur, que estava fora, voltar ao acetábulo, produzindo um ressalto palpável. Meninas, apresentação pélvica e história familiar são fatores de risco. O diagnóstico precoce (complementado por ultrassonografia) permite tratamento simples com suspensório de Pavlik." },
+        { "letra": "E", "texto": "Sinal de Trendelenburg positivo no recém-nascido", "explicacao": "O sinal de Trendelenburg exige apoio unipodal, impossível no recém-nascido." }
+      ],
+      "gabarito": "D",
+      "secao": "quadril",
+      "referencia": "Hebert et al., 5ª ed. · Sociedade Brasileira de Pediatria",
+      "tags": ["Ortolani", "displasia do quadril"]
+    },
+    {
+      "id": "hos-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 45 anos sentiu uma 'pedrada' na panturrilha direita ao arrancar para uma corrida e passou a mancar. Com o paciente em decúbito ventral e os pés para fora da maca, o examinador comprime a panturrilha direita e o pé não faz flexão plantar; do lado esquerdo, faz normalmente. Qual é o diagnóstico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Entorse do tornozelo em inversão", "explicacao": "A entorse lesa o ligamento talofibular anterior, com dor lateral, e não altera o teste de compressão da panturrilha." },
+        { "letra": "B", "texto": "Trombose venosa profunda", "explicacao": "A TVP causa edema e dor, mas a compressão da panturrilha ainda produz flexão plantar." },
+        { "letra": "C", "texto": "Fasciite plantar", "explicacao": "A fasciite causa dor no calcanhar nos primeiros passos, sem alterar a flexão plantar à compressão." },
+        { "letra": "D", "texto": "Radiculopatia S1", "explicacao": "A radiculopatia S1 reduz o reflexo aquileu e a força, mas não abole a flexão passiva produzida pela compressão da panturrilha." },
+        { "letra": "E", "texto": "Ruptura completa do tendão calcâneo (de Aquiles), pelo teste de Thompson positivo", "explicacao": "Correta. Comprimir os músculos da panturrilha (gastrocnêmio e sóleo) traciona o tendão calcâneo e faz a flexão plantar do pé. Se o tendão está rompido, a força não é transmitida ao calcâneo e o pé não se move. A história de dor súbita durante uma arrancada é típica." }
+      ],
+      "gabarito": "E",
+      "secao": "tornozelo",
+      "referencia": "Hebert et al., 5ª ed.",
+      "tags": ["Thompson", "tendão calcâneo"]
+    }
+  ]
+}

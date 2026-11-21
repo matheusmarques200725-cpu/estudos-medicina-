@@ -89,7 +89,7 @@ export function moduloView(main, moduloId) {
     <div class="actions">
       ${st.total ? `<a class="btn btn-primary" href="#/simulado?modulo=${m.id}">⏱️ Simulado do ${esc(m.sigla)}</a>` : ''}
     </div>
-    ${ts.length ? [['Tutoria', ts.filter((t) => t.tipo !== 'morfo')], ['🔬 Morfofuncional (anatomia e histologia)', ts.filter((t) => t.tipo === 'morfo')]]
+    ${ts.length ? [[m.rotulo || 'Tutoria', ts.filter((t) => t.tipo !== 'morfo')], ['🔬 Morfofuncional (anatomia e histologia)', ts.filter((t) => t.tipo === 'morfo')]]
       .filter(([, l]) => l.length).map(([nome, l]) => `
       <section class="card">
         <h2>${nome}</h2>

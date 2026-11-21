@@ -1,0 +1,166 @@
+{
+  "topico": "hp-exame-torax",
+  "questoes": [
+    {
+      "id": "htx-001",
+      "nivel": "medio",
+      "enunciado": "Homem de 55 anos com febre, tosse produtiva e dor pleurítica à direita. Na base direita posterior: expansibilidade reduzida, frêmito toracovocal aumentado, macicez à percussão, som brônquico (sopro tubário) e estertores finos. Qual é a síndrome?",
+      "alternativas": [
+        { "letra": "A", "texto": "Derrame pleural", "explicacao": "No derrame o frêmito e o murmúrio vesicular estão diminuídos ou abolidos." },
+        { "letra": "B", "texto": "Pneumotórax", "explicacao": "O pneumotórax é hipersonoro à percussão, com frêmito e murmúrio abolidos." },
+        { "letra": "C", "texto": "Enfisema pulmonar", "explicacao": "O enfisema é bilateral, hipersonoro, com murmúrio difusamente diminuído." },
+        { "letra": "D", "texto": "Atelectasia com brônquio obstruído", "explicacao": "Na atelectasia obstrutiva, o frêmito e o murmúrio estão diminuídos." },
+        { "letra": "E", "texto": "Consolidação pulmonar (pneumonia): o tecido sólido conduz melhor a vibração da voz e o som dos brônquios", "explicacao": "Correta. Com os alvéolos cheios de exsudato e o brônquio aberto, o pulmão vira um meio sólido: o frêmito aumenta, a percussão fica maciça e o som brônquico chega à parede (sopro tubário). Os estertores finos vêm da abertura de alvéolos com exsudato." }
+      ],
+      "gabarito": "E",
+      "secao": "padroes",
+      "referencia": "Porto – Semiologia Médica, 8ª ed., cap. \"Exame dos pulmões\"",
+      "tags": ["consolidação", "pneumonia"]
+    },
+    {
+      "id": "htx-002",
+      "nivel": "medio",
+      "enunciado": "Mulher de 68 anos com insuficiência cardíaca tem dispneia progressiva. Na base esquerda: expansibilidade reduzida, frêmito toracovocal abolido, macicez cujo limite superior é curvo e mais alto na axila, murmúrio vesicular abolido e egofonia no limite superior da macicez. A traqueia está levemente desviada para a direita. Qual é a síndrome?",
+      "alternativas": [
+        { "letra": "A", "texto": "Derrame pleural: o líquido afasta o pulmão da parede e bloqueia a vibração e o som; se volumoso, empurra o mediastino para o lado oposto", "explicacao": "Correta. O líquido na pleura isola o pulmão: frêmito e murmúrio diminuem ou somem, e a percussão fica maciça, com limite superior curvo (Damoiseau). No limite superior, o pulmão comprimido produz egofonia. Um derrame volumoso desloca a traqueia para o lado oposto." },
+        { "letra": "B", "texto": "Consolidação", "explicacao": "Na consolidação o frêmito está aumentado e há som brônquico." },
+        { "letra": "C", "texto": "Atelectasia", "explicacao": "Na atelectasia a traqueia é puxada para o mesmo lado." },
+        { "letra": "D", "texto": "Pneumotórax hipertensivo", "explicacao": "O pneumotórax é hipersonoro, não maciço." },
+        { "letra": "E", "texto": "Crise de asma", "explicacao": "A asma causa sibilos difusos sem macicez localizada." }
+      ],
+      "gabarito": "A",
+      "secao": "padroes",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["derrame pleural", "egofonia"]
+    },
+    {
+      "id": "htx-003",
+      "nivel": "medio",
+      "enunciado": "Paciente com cetoacidose diabética apresenta respirações profundas, amplas e rápidas, regulares. Qual é o nome e o mecanismo desse padrão?",
+      "alternativas": [
+        { "letra": "A", "texto": "Cheyne-Stokes, por insuficiência cardíaca", "explicacao": "O Cheyne-Stokes tem ciclos crescentes e decrescentes com apneias." },
+        { "letra": "B", "texto": "Respiração de Biot, por lesão bulbar", "explicacao": "A respiração de Biot é irregular, com apneias, por lesão do tronco." },
+        { "letra": "C", "texto": "Respiração de Kussmaul, compensação respiratória da acidose metabólica pela eliminação de CO₂", "explicacao": "Correta. Os quimiorreceptores detectam a queda do pH e estimulam o centro respiratório; a hiperventilação profunda reduz a PaCO₂ e atenua a acidose, conforme a equação de Henderson-Hasselbalch." },
+        { "letra": "D", "texto": "Respiração suspirosa, por ansiedade", "explicacao": "A respiração suspirosa tem suspiros intermitentes, sem padrão profundo e regular." },
+        { "letra": "E", "texto": "Respiração paradoxal, por fadiga do diafragma", "explicacao": "Na respiração paradoxal o abdome afunda na inspiração." }
+      ],
+      "gabarito": "C",
+      "secao": "inspecao-dinamica",
+      "referencia": "Porto, 8ª ed. · Guyton & Hall, 14ª ed.",
+      "tags": ["Kussmaul", "acidose metabólica"]
+    },
+    {
+      "id": "htx-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 62 anos, ex-tabagista, com perda de peso e tosse, tem os dedos mostrados na imagem. O ângulo entre a unha e a pele da base está desfeito e, ao encostar as unhas dos dois indicadores, não se forma a pequena 'janela' entre elas. Qual é o achado e uma causa importante a investigar?",
+      "imagem": { "src": "img/morfo/hp/torax/baqueteamento-digital.jpg", "legenda": "Dedos das mãos do paciente." },
+      "alternativas": [
+        { "letra": "A", "texto": "Cianose periférica; investigar frio", "explicacao": "A imagem mostra alteração da forma das pontas dos dedos e das unhas, não apenas cor." },
+        { "letra": "B", "texto": "Baqueteamento digital (sinal de Schamroth positivo); investigar câncer de pulmão", "explicacao": "Correta. O baqueteamento é o aumento do tecido mole das falanges distais com perda do ângulo ungueal; o sinal de Schamroth (desaparecimento da janela entre as unhas encostadas) confirma. Num ex-tabagista com perda de peso, o câncer de pulmão é causa importante; outras: fibrose pulmonar, bronquiectasias, cardiopatias cianóticas. Não é típico da DPOC simples." },
+        { "letra": "C", "texto": "Nódulos de Heberden por artrose", "explicacao": "Os nódulos de Heberden são saliências ósseas nas interfalângicas distais, sem alteração das unhas." },
+        { "letra": "D", "texto": "Unhas em colher por deficiência de ferro", "explicacao": "A coiloníquia é côncava, o oposto das unhas convexas do baqueteamento." },
+        { "letra": "E", "texto": "Achado normal do envelhecimento", "explicacao": "O baqueteamento é sempre patológico e merece investigação." }
+      ],
+      "gabarito": "B",
+      "secao": "inspecao-estatica",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["baqueteamento digital", "Schamroth"]
+    },
+    {
+      "id": "htx-005",
+      "nivel": "dificil",
+      "enunciado": "Jovem alto e magro chega com dispneia súbita, hipotensão, taquicardia, turgência jugular, desvio da traqueia para a esquerda e, no hemitórax direito, frêmito e murmúrio abolidos com hipersonoridade à percussão. Qual é a conduta imediata?",
+      "alternativas": [
+        { "letra": "A", "texto": "Solicitar radiografia de tórax antes de qualquer procedimento", "explicacao": "No pneumotórax hipertensivo com instabilidade, a descompressão não deve esperar a radiografia." },
+        { "letra": "B", "texto": "Toracocentese na base direita para drenar líquido", "explicacao": "A hipersonoridade indica ar, não líquido." },
+        { "letra": "C", "texto": "Broncodilatador inalatório", "explicacao": "Não há broncoespasmo; o problema é o ar sob tensão na pleura." },
+        { "letra": "D", "texto": "Antibiótico para pneumonia", "explicacao": "O quadro súbito com hipersonoridade e desvio do mediastino não é pneumonia." },
+        { "letra": "E", "texto": "Descompressão imediata com agulha no hemitórax direito (pneumotórax hipertensivo), seguida de drenagem torácica", "explicacao": "Correta. O ar entra na pleura e não sai, aumentando a pressão: o pulmão colapsa (hipersonoridade, frêmito e murmúrio abolidos) e o mediastino é empurrado para o lado oposto, dobrando as veias cavas e reduzindo o retorno venoso (hipotensão, turgência jugular). A descompressão com agulha salva a vida e é feita com base no exame clínico." }
+      ],
+      "gabarito": "E",
+      "secao": "casos-torax",
+      "referencia": "Porto, 8ª ed. · Harrison – Medicina Interna, 21ª ed.",
+      "tags": ["pneumotórax hipertensivo", "emergência"]
+    },
+    {
+      "id": "htx-006",
+      "nivel": "dificil",
+      "enunciado": "Paciente com insuficiência cardíaca descompensada tem, nas duas bases pulmonares, sons descontínuos, curtos e agudos no fim da inspiração, semelhantes a esfregar fios de cabelo perto do ouvido, que não se modificam após tossir. Qual é o ruído e seu mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Estertores finos (crepitantes), pela abertura súbita, na inspiração, de pequenas vias aéreas e alvéolos fechados pelo líquido do edema", "explicacao": "Correta. O edema intersticial e alveolar faz pequenas vias aéreas colapsarem na expiração; quando a pressão inspiratória as vence, elas se abrem bruscamente, gerando estalidos curtos no fim da inspiração, que não mudam com a tosse (não dependem de secreção nos brônquios). Bilaterais e nas bases, por ação da gravidade." },
+        { "letra": "B", "texto": "Estertores grossos, por secreção nos brônquios grandes", "explicacao": "Os estertores grossos são mais graves, ocorrem no início da inspiração e na expiração e mudam com a tosse." },
+        { "letra": "C", "texto": "Sibilos, por broncoespasmo", "explicacao": "Os sibilos são contínuos e musicais, predominantemente expiratórios." },
+        { "letra": "D", "texto": "Atrito pleural, por pleurite", "explicacao": "O atrito é áspero, nas duas fases da respiração." },
+        { "letra": "E", "texto": "Estridor, por obstrução laríngea", "explicacao": "O estridor é contínuo, inspiratório, de via aérea superior." }
+      ],
+      "gabarito": "A",
+      "secao": "ruidos-adventicios",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["estertores finos", "insuficiência cardíaca"]
+    },
+    {
+      "id": "htx-007",
+      "nivel": "dificil",
+      "enunciado": "Criança asmática chega em crise, com dificuldade para falar, uso intenso da musculatura acessória e cianose. Na ausculta, quase não se ouvem sibilos nem murmúrio vesicular. Qual é a interpretação correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Melhora da crise, pois os sibilos desapareceram", "explicacao": "A ausência de sibilos com esforço intenso e cianose não indica melhora." },
+        { "letra": "B", "texto": "Pneumotórax bilateral", "explicacao": "Não há elementos como hipersonoridade unilateral ou desvio de mediastino; o quadro é de obstrução extrema." },
+        { "letra": "C", "texto": "Tórax silencioso: o fluxo de ar está tão reduzido pela obstrução que não há ar suficiente para produzir sibilos — sinal de crise muito grave", "explicacao": "Correta. Os sibilos dependem de ar passando por vias estreitadas. Na obstrução extrema, o fluxo cai tanto que os sons somem. Junto com dificuldade de falar, cianose e esforço intenso, indica risco de parada respiratória e exige tratamento imediato e intensivo." },
+        { "letra": "D", "texto": "Derrame pleural bilateral", "explicacao": "O derrame causa macicez nas bases, não o quadro difuso de obstrução grave." },
+        { "letra": "E", "texto": "Crise leve sem necessidade de tratamento", "explicacao": "Os sinais descritos são de crise grave." }
+      ],
+      "gabarito": "C",
+      "secao": "ruidos-adventicios",
+      "referencia": "Porto, 8ª ed. · Sociedade Brasileira de Pneumologia e Tisiologia",
+      "tags": ["asma", "tórax silencioso"]
+    },
+    {
+      "id": "htx-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 65 anos, tabagista, com tumor endobrônquico no brônquio principal esquerdo, tem dispneia. No hemitórax esquerdo: expansibilidade reduzida, retração dos espaços intercostais, frêmito toracovocal abolido, macicez e murmúrio abolido. A traqueia está desviada para a esquerda. Qual é a síndrome?",
+      "alternativas": [
+        { "letra": "A", "texto": "Derrame pleural volumoso", "explicacao": "O derrame volumoso empurra a traqueia para o lado oposto." },
+        { "letra": "B", "texto": "Consolidação com brônquio pérvio", "explicacao": "Na consolidação com brônquio aberto, o frêmito aumenta e há som brônquico." },
+        { "letra": "C", "texto": "Pneumotórax", "explicacao": "O pneumotórax é hipersonoro." },
+        { "letra": "D", "texto": "Atelectasia obstrutiva: com o brônquio bloqueado, o ar é reabsorvido e o pulmão colapsa, reduzindo o volume do hemitórax e puxando o mediastino para o mesmo lado", "explicacao": "Correta. O tumor obstrui o brônquio; o ar distal é absorvido e o pulmão se retrai (atelectasia). Sem condução pelo brônquio, frêmito e murmúrio somem e a percussão é maciça; a perda de volume retrai os espaços intercostais e desvia a traqueia para o lado doente — o oposto do derrame volumoso." },
+        { "letra": "E", "texto": "Enfisema", "explicacao": "O enfisema é hipersonoro e bilateral." }
+      ],
+      "gabarito": "D",
+      "secao": "padroes",
+      "referencia": "Porto, 8ª ed.",
+      "tags": ["atelectasia", "desvio de traqueia"]
+    },
+    {
+      "id": "htx-009",
+      "nivel": "aprofundado",
+      "enunciado": "Durante o exame de um paciente com pneumonia, o examinador ouve com clareza as palavras sussurradas pelo paciente ao auscultar a área afetada, enquanto do lado sadio o sussurro é inaudível. Qual é esse achado e o que ele indica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Pectorilóquia afônica, que indica consolidação: o parênquima sólido transmite até os sons de alta frequência da voz sussurrada", "explicacao": "Correta. O pulmão aerado filtra os sons de alta frequência, por isso o sussurro normalmente não é compreendido. O tecido consolidado conduz esses sons até a parede, tornando o sussurro nítido. Faz parte do aumento da ressonância vocal, junto com broncofonia e egofonia." },
+        { "letra": "B", "texto": "Egofonia, que indica pneumotórax", "explicacao": "A egofonia é a voz anasalada (de cabra), e o pneumotórax diminui a ressonância vocal." },
+        { "letra": "C", "texto": "Ressonância vocal diminuída, por derrame", "explicacao": "No derrame a ressonância está diminuída, e o sussurro não seria nítido." },
+        { "letra": "D", "texto": "Atrito pleural", "explicacao": "O atrito pleural é um ruído áspero, não transmissão da voz." },
+        { "letra": "E", "texto": "Achado normal sobre a traqueia", "explicacao": "A área afetada é o pulmão com pneumonia, não a traqueia." }
+      ],
+      "gabarito": "A",
+      "secao": "ressonancia-vocal",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["pectorilóquia", "ressonância vocal"]
+    },
+    {
+      "id": "htx-010",
+      "nivel": "aprofundado",
+      "enunciado": "Paciente com dor pleurítica tem um ruído áspero, como couro se esfregando, ouvido nas duas fases da respiração na região lateral do tórax. O ruído não muda após a tosse e desaparece quando o paciente prende a respiração, embora os batimentos cardíacos continuem. Qual é o ruído e por que ele pode desaparecer dias depois, mesmo sem melhora?",
+      "alternativas": [
+        { "letra": "A", "texto": "Atrito pericárdico; desaparece com a melhora da pericardite", "explicacao": "O atrito pericárdico persiste com a respiração presa, pois depende dos batimentos." },
+        { "letra": "B", "texto": "Estertores grossos; desaparecem após a tosse", "explicacao": "O ruído descrito não muda com a tosse." },
+        { "letra": "C", "texto": "Sibilo localizado; desaparece com broncodilatador", "explicacao": "Sibilos são musicais, não ásperos." },
+        { "letra": "D", "texto": "Estridor; desaparece com a intubação", "explicacao": "O estridor é inspiratório e de via aérea superior." },
+        { "letra": "E", "texto": "Atrito pleural, pelos folhetos pleurais inflamados e ásperos atritando-se; pode desaparecer quando se forma um derrame que separa os folhetos", "explicacao": "Correta. A fibrina depositada nas pleuras inflamadas torna as superfícies ásperas, e elas se atritam a cada movimento respiratório. Com a respiração presa, o ruído cessa (diferente do pericárdico). Se o processo evolui com acúmulo de líquido, os folhetos se separam e o atrito desaparece — o que não significa melhora." }
+      ],
+      "gabarito": "E",
+      "secao": "ruidos-adventicios",
+      "referencia": "Porto, 8ª ed.",
+      "tags": ["atrito pleural", "pleurite"]
+    }
+  ]
+}

@@ -621,5 +621,173 @@
     "licenca": "Domínio público",
     "fonte": "https://commons.wikimedia.org/wiki/File:Head_of_Enterobius_vermicularis_human_pinworm_5230_lores.tif",
     "modificacao": "convertida, redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/cardio/focos-ausculta.png": {
+    "titulo": "Heart sounds auscultation areas",
+    "autor": "Ickle (original); obra derivada de Vinne2",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Heart_sounds_auscultation_areas.svg",
+    "modificacao": "convertida para PNG e redimensionada"
+  },
+  "img/morfo/hp/cardio/fonocardiogramas.png": {
+    "titulo": "Phonocardiograms from normal and abnormal heart sounds-pt",
+    "autor": "Usien6",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Phonocardiograms_from_normal_and_abnormal_heart_sounds-pt.svg",
+    "modificacao": "convertida para PNG e redimensionada"
+  },
+  "img/morfo/hp/cardio/diagrama-wiggers.png": {
+    "titulo": "Wiggers Diagram 2",
+    "autor": "adh30, revisado por DanielChangMD",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Wiggers_Diagram_2.svg",
+    "modificacao": "convertida para PNG e redimensionada"
+  },
+  "img/morfo/hp/cardio/turgencia-jugular.jpg": {
+    "titulo": "Jugular Venous Distention (JVD)",
+    "autor": "Ferencga",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Jugular_Venous_Distention_%28JVD%29.JPG",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/cardio/korotkoff.jpg": {
+    "titulo": "Korotkow English",
+    "autor": "PhilippN (Wikimedia Commons)",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Korotkow_English.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "midia/hp/cardio/som-sopro-carotideo.mp3": {
+    "titulo": "MurmurO",
+    "autor": "James Heilman, MD",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:MurmurO.ogg",
+    "modificacao": "convertido para MP3 (mono) para compatibilidade com navegadores"
+  },
+  "img/morfo/hp/torax/exame-respiratorio.jpg": {
+    "titulo": "Respiratory examn",
+    "autor": "Armanjain011",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Respiratory_examn.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/torax/baqueteamento-digital.jpg": {
+    "titulo": "Clubbing fingers 1",
+    "autor": "Wesalius",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Clubbing_fingers_1.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/torax/pectus-excavatum.jpg": {
+    "titulo": "Pectus excavatum",
+    "autor": "Gzzz",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pectus_excavatum.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "midia/hp/torax/som-estertores-pneumonia.mp3": {
+    "titulo": "Crackles pneumoniaO",
+    "autor": "James Heilman, MD",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Crackles_pneumoniaO.ogg",
+    "modificacao": "convertido para MP3 (mono) para compatibilidade com navegadores"
+  },
+  "midia/hp/torax/som-sibilos.mp3": {
+    "titulo": "Wheeze2O",
+    "autor": "James Heilman, MD",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Wheeze2O.ogg",
+    "modificacao": "convertido para MP3 (mono) para compatibilidade com navegadores"
+  },
+  "midia/hp/torax/som-estertores-fibrose.mp3": {
+    "titulo": "IPF Lung Sound",
+    "autor": "IPFeditor",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:IPF_Lung_Sound.ogg",
+    "modificacao": "convertido para MP3 (mono) para compatibilidade com navegadores"
+  },
+  "img/morfo/hp/abdome/regioes.png": {
+    "titulo": "Abdominal Regions Cleaned labeled",
+    "autor": "OpenStax",
+    "licenca": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Abdominal_Regions_Cleaned_labeled.png",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/abdome/ponto-mcburney.jpg": {
+    "titulo": "McBurney's point",
+    "autor": "Steven Fruitsmaak",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:McBurney%27s_point.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/abdome/sinal-cullen.jpg": {
+    "titulo": "Cullen's sign",
+    "autor": "Herbert L. Fred, MD, e Hendrik A. van Dijk",
+    "licenca": "CC BY 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Cullen%27s_sign.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/abdome/projecao-orgaos.png": {
+    "titulo": "Surface projections of the organs of the trunk",
+    "autor": "Mikael Häggström",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Surface_projections_of_the_organs_of_the_trunk.svg",
+    "modificacao": "convertida para PNG e redimensionada"
+  },
+  "img/morfo/hp/osteo/phalen.jpg": {
+    "titulo": "Phalen maneuver",
+    "autor": "Dr. Harry Gouvas",
+    "licenca": "Atribuição (uso livre com crédito)",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Phalen_maneuver.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/osteo/tinel.jpg": {
+    "titulo": "Tinel's sign",
+    "autor": "NourMaka",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Tinel%27s_sign.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/osteo/finkelstein.jpg": {
+    "titulo": "Finkelstein's test",
+    "autor": "InvictaHOG (Wikipedia)",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Finkelstein%27s_test.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/osteo/lasegue.gif": {
+    "titulo": "Straight-leg-test",
+    "autor": "Davidjr74",
+    "licenca": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Straight-leg-test.gif",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/osteo/trendelenburg.png": {
+    "titulo": "Trendelenburg",
+    "autor": "User:Mikael Häggström",
+    "licenca": "Domínio público",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Trendelenburg.PNG",
+    "modificacao": "redimensionada e comprimida para o site"
+  },
+  "img/morfo/hp/osteo/joelho-anatomia.png": {
+    "titulo": "Knee anatomy",
+    "autor": "InjuryMap",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Knee_anatomy.svg",
+    "modificacao": "convertida para PNG e redimensionada"
+  },
+  "img/morfo/hp/osteo/manguito-rotador.png": {
+    "titulo": "Rotator cuff injury",
+    "autor": "InjuryMap",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Rotator_cuff_injury.svg",
+    "modificacao": "convertida para PNG e redimensionada"
+  },
+  "img/morfo/hp/osteo/lachman.jpg": {
+    "titulo": "ACLI 17",
+    "autor": "Mak-Ham Lam, Daniel TP Fong, Patrick SH Yung et al.",
+    "licenca": "CC BY-SA 2.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:ACLI_17.jpg",
+    "modificacao": "redimensionada e comprimida para o site"
   }
 }

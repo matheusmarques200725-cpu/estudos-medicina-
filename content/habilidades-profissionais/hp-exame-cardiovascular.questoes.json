@@ -1,0 +1,165 @@
+{
+  "topico": "hp-exame-cardiovascular",
+  "questoes": [
+    {
+      "id": "hcv-001",
+      "nivel": "medio",
+      "enunciado": "Durante a ausculta, um estudante tem dúvida sobre qual das bulhas é a primeira. Qual é a forma mais segura de identificá-la e qual evento ela representa?",
+      "alternativas": [
+        { "letra": "A", "texto": "B1 é a bulha mais intensa no foco aórtico e representa a abertura da valva aórtica", "explicacao": "A abertura das valvas normais não produz som; e B1 é mais intensa no ápice (foco mitral)." },
+        { "letra": "B", "texto": "B1 é a que vem logo após o pulso carotídeo e representa o fechamento das semilunares", "explicacao": "O fechamento das semilunares é a B2, que ocorre no fim da sístole, depois do pulso." },
+        { "letra": "C", "texto": "B1 coincide com o início do pulso carotídeo (vem imediatamente antes dele) e representa o fechamento das valvas mitral e tricúspide no início da sístole", "explicacao": "Correta. Quando o ventrículo começa a contrair, sua pressão supera a do átrio e as valvas atrioventriculares fecham (B1); logo depois a aórtica abre e o sangue ejetado gera o pulso. Palpar a carótida durante a ausculta permite identificar B1 com segurança. Além disso, o intervalo B1–B2 (sístole) é o mais curto." },
+        { "letra": "D", "texto": "B1 é a que vem depois da pausa mais curta", "explicacao": "A pausa mais curta é a sístole, que vem depois de B1 (entre B1 e B2); B1 vem após a pausa mais longa (diástole)." },
+        { "letra": "E", "texto": "B1 é um som grave do início da diástole, ouvido com a campânula", "explicacao": "Esse é o padrão da B3, que ocorre no enchimento ventricular rápido." }
+      ],
+      "gabarito": "C",
+      "secao": "ciclo-cardiaco",
+      "referencia": "Porto – Semiologia Médica, 8ª ed., cap. \"Exame do coração\"",
+      "tags": ["B1", "ciclo cardíaco"]
+    },
+    {
+      "id": "hcv-002",
+      "nivel": "medio",
+      "enunciado": "Homem de 78 anos com episódios de síncope ao subir ladeiras e angina. Ao exame: sopro sistólico rude, em crescendo-decrescendo, mais intenso no 2º espaço intercostal direito, irradiado para as carótidas; pulso carotídeo de amplitude reduzida e ascensão lenta; B2 hipofonética. Qual é o diagnóstico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Estenose aórtica", "explicacao": "Correta. O orifício valvar estreitado (calcificação no idoso) produz sopro sistólico de ejeção, em diamante, no foco aórtico e irradiado para as carótidas, seguindo o jato. A ejeção lenta e reduzida explica o pulso parvus et tardus, e a valva rígida, a A2 hipofonética. Angina, síncope e dispneia indicam doença grave." },
+        { "letra": "B", "texto": "Insuficiência mitral", "explicacao": "A insuficiência mitral causa sopro holossistólico no ápice irradiado para a axila, sem pulso parvus et tardus." },
+        { "letra": "C", "texto": "Insuficiência aórtica", "explicacao": "A insuficiência aórtica dá sopro diastólico aspirativo e pulso amplo em martelo d'água." },
+        { "letra": "D", "texto": "Estenose mitral", "explicacao": "A estenose mitral causa ruflar diastólico no ápice com B1 hiperfonética." },
+        { "letra": "E", "texto": "Sopro inocente do idoso", "explicacao": "Sopros inocentes são suaves, sem irradiação importante, sem sintomas e com B2 normal." }
+      ],
+      "gabarito": "A",
+      "secao": "estenose-aortica",
+      "referencia": "Porto, 8ª ed. · Diretriz Brasileira de Valvopatias (SBC)",
+      "tags": ["estenose aórtica", "sopro sistólico"]
+    },
+    {
+      "id": "hcv-003",
+      "nivel": "medio",
+      "enunciado": "Ao auscultar uma estudante de 20 anos saudável no foco pulmonar, o examinador percebe que a segunda bulha se desdobra em dois componentes durante a inspiração e volta a ser única na expiração. Qual é a interpretação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Comunicação interatrial", "explicacao": "Na CIA o desdobramento é fixo, não varia com a respiração." },
+        { "letra": "B", "texto": "Bloqueio de ramo esquerdo", "explicacao": "O BRE causa desdobramento paradoxal (aparece na expiração)." },
+        { "letra": "C", "texto": "Desdobramento fisiológico: na inspiração, o maior retorno venoso ao coração direito prolonga a ejeção do ventrículo direito e atrasa o fechamento da valva pulmonar (P2)", "explicacao": "Correta. A pressão intratorácica negativa na inspiração aumenta o enchimento do lado direito e reduz o do esquerdo; o VD esvazia mais tarde e a P2 se separa da A2. Na expiração, os componentes se aproximam. É normal, sobretudo em jovens." },
+        { "letra": "D", "texto": "Hipertensão pulmonar", "explicacao": "A hipertensão pulmonar causa hiperfonese de P2; o desdobramento descrito é o padrão normal." },
+        { "letra": "E", "texto": "Estenose aórtica grave", "explicacao": "A estenose aórtica grave pode causar desdobramento paradoxal e A2 hipofonética." }
+      ],
+      "gabarito": "C",
+      "secao": "b2",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["B2", "desdobramento fisiológico"]
+    },
+    {
+      "id": "hcv-004",
+      "nivel": "medio",
+      "enunciado": "Ao medir a pressão arterial de um homem obeso (circunferência do braço de 40 cm) com um manguito-padrão de adulto, obtém-se 168/102 mmHg. Qual é o erro mais provável e como corrigi-lo?",
+      "alternativas": [
+        { "letra": "A", "texto": "O manguito pequeno subestima a pressão; repetir com manguito menor", "explicacao": "O manguito pequeno superestima, e não subestima, a pressão." },
+        { "letra": "B", "texto": "Não há erro; o tamanho do manguito não interfere", "explicacao": "O tamanho do manguito interfere bastante no resultado." },
+        { "letra": "C", "texto": "A medida deve ser feita no antebraço", "explicacao": "A conduta padrão é usar manguito adequado no braço." },
+        { "letra": "D", "texto": "O manguito estreito para a circunferência do braço superestima a pressão; repetir com manguito adequado (bolsa envolvendo cerca de 80% da circunferência)", "explicacao": "Correta. Com bolsa pequena, é preciso mais pressão no manguito para comprimir a artéria sob um tecido mais espesso, o que eleva falsamente os valores — risco de diagnosticar hipertensão em quem não tem. As diretrizes recomendam manguito com bolsa que envolva ~80% da circunferência, além de repouso, posição sentada e braço na altura do coração." },
+        { "letra": "E", "texto": "A diastólica deve ser registrada na fase I de Korotkoff", "explicacao": "A fase I corresponde à pressão sistólica; a diastólica, em geral, à fase V." }
+      ],
+      "gabarito": "D",
+      "secao": "pressao-arterial",
+      "referencia": "Diretrizes Brasileiras de Hipertensão Arterial · Porto, 8ª ed.",
+      "tags": ["pressão arterial", "manguito"]
+    },
+    {
+      "id": "hcv-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 32 anos, com história de febre reumática na infância, tem dispneia progressiva e palpitações. Ao exame: pulso irregular, B1 hiperfonética, um som seco e agudo logo após B2, seguido de sopro diastólico grave, em ruflar, restrito ao ápice, melhor ouvido com a campânula em decúbito lateral esquerdo. P2 hiperfonética. Qual é o diagnóstico e por que a taquicardia piora os sintomas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Insuficiência aórtica; a taquicardia aumenta o refluxo", "explicacao": "A insuficiência aórtica causa sopro diastólico aspirativo no foco aórtico acessório, não ruflar apical com estalido de abertura." },
+        { "letra": "B", "texto": "Estenose mitral: o átrio esquerdo tem dificuldade para esvaziar pela valva estreitada; a taquicardia encurta a diástole, reduzindo o tempo de enchimento ventricular e elevando ainda mais a pressão atrial e pulmonar", "explicacao": "Correta. A fusão reumática das comissuras estreita a mitral. B1 hiperfonética, estalido de abertura e ruflar diastólico apical são característicos; a pressão alta no átrio esquerdo causa congestão pulmonar, hipertensão pulmonar (P2 forte) e fibrilação atrial (pulso irregular). Como o fluxo pela valva depende do tempo de diástole, a taquicardia piora muito os sintomas." },
+        { "letra": "C", "texto": "Insuficiência mitral; a taquicardia aumenta o volume regurgitado", "explicacao": "A insuficiência mitral causa sopro holossistólico irradiado para a axila." },
+        { "letra": "D", "texto": "Estenose aórtica; a taquicardia reduz a perfusão coronariana", "explicacao": "A estenose aórtica causa sopro sistólico de ejeção no foco aórtico." },
+        { "letra": "E", "texto": "Pericardite constritiva; a taquicardia aumenta o atrito", "explicacao": "O atrito pericárdico é áspero e não tem estalido de abertura nem ruflar apical." }
+      ],
+      "gabarito": "B",
+      "secao": "estenose-mitral",
+      "referencia": "Porto, 8ª ed. · Diretriz Brasileira de Valvopatias (SBC)",
+      "tags": ["estenose mitral", "febre reumática", "ruflar"]
+    },
+    {
+      "id": "hcv-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 45 anos tem pressão arterial de 170/40 mmHg, pulsos amplos com subida e queda abruptas, balanço da cabeça sincrônico com os batimentos e ictus desviado para baixo e para a esquerda, amplo. Que sopro se espera e onde ouvi-lo melhor?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sopro sistólico de ejeção no foco aórtico, irradiado para as carótidas", "explicacao": "Esse é o sopro da estenose aórtica, que estreita a pressão de pulso." },
+        { "letra": "B", "texto": "Sopro holossistólico no ápice irradiado para a axila", "explicacao": "Esse é o sopro da insuficiência mitral, que não alarga tanto a pressão de pulso." },
+        { "letra": "C", "texto": "Ruflar diastólico com estalido de abertura no ápice", "explicacao": "Esse é o padrão da estenose mitral." },
+        { "letra": "D", "texto": "Sopro contínuo infraclavicular", "explicacao": "O sopro contínuo é típico da persistência do canal arterial." },
+        { "letra": "E", "texto": "Sopro diastólico aspirativo, decrescente, logo após B2, no 3º espaço intercostal esquerdo (foco aórtico acessório), com o paciente sentado, inclinado para a frente e em expiração", "explicacao": "Correta. Na insuficiência aórtica, o sangue reflui da aorta para o VE na diástole: a pressão diastólica despenca, e o grande volume ejetado eleva a sistólica (pressão de pulso alargada, martelo d'água, sinal de Musset). A sobrecarga de volume dilata o VE (ictus desviado e amplo). O sopro é de alta frequência e se ouve melhor na posição que aproxima a base do coração da parede." }
+      ],
+      "gabarito": "E",
+      "secao": "insuficiencia-aortica",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["insuficiência aórtica", "pressão de pulso"]
+    },
+    {
+      "id": "hcv-007",
+      "nivel": "dificil",
+      "enunciado": "Paciente com insuficiência cardíaca por disfunção sistólica (fração de ejeção de 25%) e ventrículo esquerdo dilatado apresenta, à ausculta com a campânula no ápice, um som grave logo após B2, formando um ritmo em três tempos. Qual é esse som e seu mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "B4, pela contração atrial contra um ventrículo rígido", "explicacao": "A B4 ocorre no fim da diástole, imediatamente antes de B1, e se associa a ventrículos rígidos (hipertrofia)." },
+        { "letra": "B", "texto": "Estalido de abertura da mitral", "explicacao": "O estalido é seco e agudo, típico da estenose mitral, não de um ventrículo dilatado." },
+        { "letra": "C", "texto": "Clique de ejeção aórtico", "explicacao": "O clique de ejeção ocorre logo após B1, no início da sístole." },
+        { "letra": "D", "texto": "B3 (galope ventricular), pela desaceleração súbita do sangue que entra no enchimento rápido num ventrículo dilatado e com sobrecarga de volume", "explicacao": "Correta. A B3 ocorre no início da diástole, na fase de enchimento rápido. Num ventrículo dilatado e cheio, o sangue que entra rapidamente faz a parede vibrar ao ser freado. Em adultos acima de ~40 anos, a B3 indica disfunção ventricular ou sobrecarga de volume (insuficiência cardíaca, insuficiência mitral grave); é um sinal de congestão." },
+        { "letra": "E", "texto": "Atrito pericárdico", "explicacao": "O atrito é áspero, com vários componentes, e não forma um galope grave após B2." }
+      ],
+      "gabarito": "D",
+      "secao": "b3",
+      "referencia": "Porto, 8ª ed. · Bates, 13ª ed.",
+      "tags": ["B3", "insuficiência cardíaca", "galope"]
+    },
+    {
+      "id": "hcv-008",
+      "nivel": "dificil",
+      "enunciado": "Usuário de drogas injetáveis com febre há duas semanas tem sopro holossistólico na borda esternal esquerda baixa, que aumenta claramente durante a inspiração profunda, além de turgência jugular com grandes ondas pulsáteis e fígado pulsátil. Qual é o diagnóstico mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Insuficiência tricúspide (provável endocardite da tricúspide): a inspiração aumenta o retorno venoso ao coração direito e o volume regurgitado (sinal de Rivero-Carvallo)", "explicacao": "Correta. Na endocardite de usuários de drogas injetáveis, a tricúspide é frequentemente acometida. O refluxo do VD para o átrio direito na sístole gera sopro holossistólico na borda esternal baixa, ondas v gigantes no pulso jugular e fígado pulsátil. Sopros do lado direito aumentam na inspiração, que eleva o retorno venoso." },
+        { "letra": "B", "texto": "Insuficiência mitral, que aumenta na inspiração", "explicacao": "Sopros do lado esquerdo tendem a aumentar na expiração; a insuficiência mitral irradia para a axila e não causa fígado pulsátil." },
+        { "letra": "C", "texto": "Estenose aórtica", "explicacao": "A estenose aórtica gera sopro de ejeção no foco aórtico, irradiado para as carótidas." },
+        { "letra": "D", "texto": "Comunicação interatrial", "explicacao": "A CIA causa sopro de fluxo pulmonar e desdobramento fixo de B2, sem ondas v gigantes." },
+        { "letra": "E", "texto": "Sopro inocente", "explicacao": "Um sopro holossistólico com febre e sinais de congestão direita não é inocente." }
+      ],
+      "gabarito": "A",
+      "secao": "valvas-direitas",
+      "referencia": "Porto, 8ª ed. · Harrison – Medicina Interna, 21ª ed.",
+      "tags": ["insuficiência tricúspide", "Rivero-Carvallo", "endocardite"]
+    },
+    {
+      "id": "hcv-009",
+      "nivel": "aprofundado",
+      "enunciado": "Mulher de 60 anos chega com dispneia, hipotensão (80/60 mmHg), turgência jugular e bulhas cardíacas abafadas. A pressão sistólica cai 18 mmHg durante a inspiração. Qual é o diagnóstico e o mecanismo do sinal descrito por último?",
+      "alternativas": [
+        { "letra": "A", "texto": "Estenose aórtica grave; o pulso cai pela obstrução", "explicacao": "A estenose aórtica não causa bulhas abafadas nem queda inspiratória acentuada da pressão como mecanismo típico." },
+        { "letra": "B", "texto": "Insuficiência mitral aguda; a regurgitação aumenta na inspiração", "explicacao": "A insuficiência mitral causa sopro holossistólico e congestão pulmonar, não bulhas abafadas com turgência jugular e pulso paradoxal." },
+        { "letra": "C", "texto": "Choque hipovolêmico; a jugular está cheia pelo volume", "explicacao": "No choque hipovolêmico, as jugulares ficam colabadas, não túrgidas." },
+        { "letra": "D", "texto": "Tamponamento cardíaco (tríade de Beck) com pulso paradoxal: na inspiração, o VD recebe mais sangue, mas, como o pericárdio cheio de líquido não se distende, o septo se desloca para a esquerda e reduz o enchimento e o débito do VE", "explicacao": "Correta. O líquido no pericárdio limita o volume total das câmaras. Com o aumento inspiratório do retorno ao lado direito, o septo interventricular abaula para a esquerda (interdependência ventricular), o VE enche menos e a pressão sistólica cai mais de 10 mmHg — o pulso paradoxal. Hipotensão, turgência jugular e bulhas abafadas formam a tríade de Beck; é uma emergência (pericardiocentese)." },
+        { "letra": "E", "texto": "Pneumonia lobar; a hipotensão é por febre", "explicacao": "Não explica turgência jugular, bulhas abafadas e pulso paradoxal." }
+      ],
+      "gabarito": "D",
+      "secao": "pericardite",
+      "referencia": "Porto, 8ª ed. · Harrison – Medicina Interna, 21ª ed.",
+      "tags": ["tamponamento", "pulso paradoxal", "tríade de Beck"]
+    },
+    {
+      "id": "hcv-010",
+      "nivel": "aprofundado",
+      "enunciado": "Num exame de rotina, uma criança de 4 anos, assintomática e com crescimento normal, tem sopro sistólico suave (2/6), curto, de timbre musical, na borda esternal esquerda média, sem irradiação e sem frêmito, que diminui quando a criança se senta; B1 e B2 normais. Qual é a conduta mais adequada?",
+      "alternativas": [
+        { "letra": "A", "texto": "Restringir atividades físicas até investigação completa", "explicacao": "Sopros com características inocentes em criança assintomática não exigem restrição de atividades." },
+        { "letra": "B", "texto": "Iniciar profilaxia para endocardite", "explicacao": "Sopros inocentes não indicam profilaxia para endocardite." },
+        { "letra": "C", "texto": "Considerar um sopro inocente (como o de Still): sistólico, suave, curto, localizado, variável com a posição, com bulhas normais e criança assintomática; orientar a família e reavaliar no seguimento", "explicacao": "Correta. Sopros inocentes são muito comuns na infância e decorrem do fluxo normal; suas características (sistólico, ≤ 2/6, sem frêmito, curto, localizado, que muda com a posição, B2 normal, sem sintomas) permitem reconhecê-los. Sinais de alarme — sopro diastólico, intensidade ≥ 3/6, frêmito, B2 anormal, sintomas, cianose, baixo ganho de peso — indicariam investigação com ecocardiograma." },
+        { "letra": "D", "texto": "Encaminhar para cirurgia cardíaca", "explicacao": "Não há indicação cirúrgica para sopro inocente." },
+        { "letra": "E", "texto": "Considerar estenose mitral reumática", "explicacao": "A estenose mitral causa sopro diastólico, não sistólico suave e variável." }
+      ],
+      "gabarito": "C",
+      "secao": "sopros-inocentes",
+      "referencia": "Porto, 8ª ed. · Sociedade Brasileira de Pediatria",
+      "tags": ["sopro inocente", "pediatria"]
+    }
+  ]
+}
