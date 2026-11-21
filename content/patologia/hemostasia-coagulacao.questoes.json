@@ -1,0 +1,165 @@
+{
+  "topico": "hemostasia-coagulacao",
+  "questoes": [
+    {
+      "id": "hc-001",
+      "nivel": "medio",
+      "enunciado": "Menino de 6 anos tem hemartroses recorrentes nos joelhos e hematomas extensos após traumas leves. O tio materno tinha quadro semelhante. Exames: plaquetas 250.000/mm³, TP normal, TTPa prolongado. Qual é o diagnóstico mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Púrpura trombocitopênica imune", "explicacao": "A púrpura causa plaquetopenia e sangramento mucocutâneo (petéquias), com coagulograma normal." },
+        { "letra": "B", "texto": "Deficiência de vitamina K", "explicacao": "A deficiência de vitamina K prolonga primeiro o TP (fator VII) e não tem padrão de herança ligado ao X." },
+        { "letra": "C", "texto": "Hemofilia A ou B (deficiência de fator VIII ou IX), de herança recessiva ligada ao X", "explicacao": "Correta. Sangramentos profundos (hemartroses, hematomas) indicam defeito de coagulação. TTPa prolongado com TP normal localiza o defeito na via intrínseca (VIII, IX, XI, XII); a herança ligada ao X (menino afetado, tio materno afetado, mãe portadora) aponta para hemofilia. A dosagem dos fatores VIII e IX diferencia os tipos A e B." },
+        { "letra": "D", "texto": "Coagulação intravascular disseminada", "explicacao": "A CIVD ocorre em doenças agudas graves, com plaquetopenia, TP e TTPa prolongados e fibrinogênio baixo." },
+        { "letra": "E", "texto": "Deficiência de fator VII", "explicacao": "A deficiência de fator VII prolongaria o TP, não o TTPa isolado." }
+      ],
+      "gabarito": "C",
+      "secao": "disturbios-hemorragicos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças hematológicas\"",
+      "tags": ["hemofilia", "TTPa"]
+    },
+    {
+      "id": "hc-002",
+      "nivel": "medio",
+      "enunciado": "Mulher de 24 anos tem epistaxes frequentes, menstruações muito volumosas desde a menarca e sangramento prolongado após extração dentária. A mãe tem queixas semelhantes. Plaquetas 230.000/mm³, TP normal, TTPa levemente prolongado. Qual é o defeito mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de fator IX ligada ao X", "explicacao": "A hemofilia B afeta quase só homens e causa sangramentos profundos, não um padrão mucocutâneo com herança materna em mulher." },
+        { "letra": "B", "texto": "Plaquetopenia por destruição imune", "explicacao": "As plaquetas estão em número normal." },
+        { "letra": "C", "texto": "Excesso de antitrombina", "explicacao": "Não é causa reconhecida de sangramento hereditário mucocutâneo." },
+        { "letra": "D", "texto": "Doença de von Willebrand: deficiência do fator que liga as plaquetas ao colágeno (via GP Ib) e protege o fator VIII", "explicacao": "Correta. É o distúrbio hemorrágico hereditário mais comum, geralmente autossômico dominante (afeta mulheres e homens). A falta de FvW prejudica a adesão plaquetária, causando sangramento mucocutâneo (epistaxe, menorragia, sangramento dentário). Como o FvW estabiliza o fator VIII, este pode cair, prolongando discretamente o TTPa; o número de plaquetas é normal." },
+        { "letra": "E", "texto": "Deficiência de vitamina K", "explicacao": "Prolongaria o TP e não explicaria o padrão familiar desde a menarca." }
+      ],
+      "gabarito": "D",
+      "secao": "disturbios-hemorragicos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças hematológicas\"",
+      "tags": ["doença de von Willebrand", "hemostasia primária"]
+    },
+    {
+      "id": "hc-003",
+      "nivel": "medio",
+      "enunciado": "Recém-nascido de parto domiciliar, que não recebeu nenhuma medicação ao nascer, apresenta no 4º dia de vida sangramento pelo coto umbilical e melena. Plaquetas normais; TP muito prolongado. Qual é o mecanismo e a prevenção?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de vitamina K: os fatores II, VII, IX e X não são γ-carboxilados e não funcionam; previne-se com vitamina K intramuscular ao nascer", "explicacao": "Correta. O recém-nascido tem pouca vitamina K (passagem placentária baixa, leite materno pobre e flora intestinal ainda estéril). Sem ela, os fatores dependentes de vitamina K são produzidos mas não ligam cálcio nem fosfolipídios. O TP prolonga primeiro porque o fator VII tem meia-vida curta. A vitamina K intramuscular de rotina previne a doença hemorrágica do recém-nascido." },
+        { "letra": "B", "texto": "Hemofilia A; previne-se com fator VIII ao nascer", "explicacao": "A hemofilia prolonga o TTPa, não o TP, e não se previne com reposição de rotina em todos os recém-nascidos." },
+        { "letra": "C", "texto": "Plaquetopenia neonatal aloimune", "explicacao": "As plaquetas estão normais." },
+        { "letra": "D", "texto": "Excesso de proteína C", "explicacao": "Excesso de proteína C não é causa da doença hemorrágica do recém-nascido; ela também depende de vitamina K." },
+        { "letra": "E", "texto": "Doença de von Willebrand grave", "explicacao": "Não explicaria o TP muito prolongado nem o contexto de ausência de profilaxia." }
+      ],
+      "gabarito": "A",
+      "secao": "vitamina-k",
+      "referencia": "Robbins Patologia Básica, 10ª ed. · Guyton & Hall, 14ª ed.",
+      "tags": ["vitamina K", "recém-nascido", "TP"]
+    },
+    {
+      "id": "hc-004",
+      "nivel": "medio",
+      "enunciado": "Paciente em uso de ácido acetilsalicílico 100 mg/dia vai fazer uma cirurgia eletiva. O cirurgião orienta suspender o medicamento cerca de 7 dias antes. Qual é a base dessa orientação?",
+      "alternativas": [
+        { "letra": "A", "texto": "O AAS inibe a síntese hepática dos fatores dependentes de vitamina K", "explicacao": "Esse é o mecanismo da varfarina, não do AAS." },
+        { "letra": "B", "texto": "O AAS inibe irreversivelmente a COX-1 das plaquetas, que, sem núcleo, não produzem nova enzima; a agregação só se normaliza com a renovação das plaquetas (vida de 7–10 dias)", "explicacao": "Correta. O AAS acetila a cicloxigenase-1 de forma irreversível, bloqueando a síntese de tromboxano A₂, que amplifica a ativação e a agregação plaquetária. Como a plaqueta não tem núcleo, o efeito dura toda a sua vida; a função plaquetária normal retorna à medida que novas plaquetas são produzidas pela medula." },
+        { "letra": "C", "texto": "O AAS potencializa a antitrombina por 7 dias", "explicacao": "A potencialização da antitrombina é o mecanismo da heparina." },
+        { "letra": "D", "texto": "O AAS reduz o número de plaquetas por destruição na medula", "explicacao": "O AAS não causa plaquetopenia; altera a função das plaquetas." },
+        { "letra": "E", "texto": "O AAS bloqueia o receptor de ADP de forma reversível", "explicacao": "O bloqueio do receptor de ADP (P2Y12) é o mecanismo do clopidogrel e similares." }
+      ],
+      "gabarito": "B",
+      "secao": "farmacos",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Coagulação sanguínea e fármacos...\"",
+      "tags": ["AAS", "COX-1", "tromboxano"]
+    },
+    {
+      "id": "hc-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 30 anos internada com sepse por meningococo apresenta petéquias que confluem em grandes equimoses, sangramento nos locais de punção, oligúria e confusão. Exames: plaquetas 35.000/mm³, TP e TTPa prolongados, fibrinogênio 80 mg/dL, D-dímero muito elevado, esquizócitos no esfregaço. Qual mecanismo explica simultaneamente o sangramento e a lesão de órgãos?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência hereditária de fator VIII revelada pela infecção", "explicacao": "Não explica a plaquetopenia, o fibrinogênio baixo, os esquizócitos nem a lesão de órgãos." },
+        { "letra": "B", "texto": "Destruição imune isolada das plaquetas", "explicacao": "A púrpura imune não prolonga TP e TTPa nem consome fibrinogênio." },
+        { "letra": "C", "texto": "Excesso de vitamina K", "explicacao": "Excesso de vitamina K não causa sangramento nem consumo de fatores." },
+        { "letra": "D", "texto": "Hepatopatia crônica com redução da síntese de fatores", "explicacao": "Não há dados de hepatopatia, e ela não explica D-dímero muito alto com esquizócitos num quadro agudo séptico." },
+        { "letra": "E", "texto": "Coagulação intravascular disseminada: ativação sistêmica da coagulação forma microtrombos (isquemia de órgãos, esquizócitos) e consome plaquetas, fibrinogênio e fatores, enquanto a fibrinólise ativada eleva o D-dímero e favorece hemorragia", "explicacao": "Correta. Na sepse, o LPS e as citocinas fazem monócitos e endotélio expressarem fator tecidual e reduzem os anticoagulantes naturais. A coagulação se ativa em toda a microcirculação, formando microtrombos que causam isquemia (rins, cérebro, pele) e fragmentam hemácias. O consumo de plaquetas e fatores e a fibrinólise secundária deixam o sangue incapaz de coagular nos locais de lesão — trombose e hemorragia ao mesmo tempo." }
+      ],
+      "gabarito": "E",
+      "secao": "civd",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças hematológicas\"",
+      "tags": ["CIVD", "sepse", "D-dímero"]
+    },
+    {
+      "id": "hc-006",
+      "nivel": "dificil",
+      "enunciado": "Paciente com fibrilação atrial usa varfarina com INR estável em 2,5. Inicia tratamento prolongado com um antibiótico de amplo espectro e passa a ter hematúria e equimoses, com INR de 7,8. Qual é a explicação mais provável e a conduta para reverter o efeito?",
+      "alternativas": [
+        { "letra": "A", "texto": "O antibiótico ativou a antitrombina; reverter com protamina", "explicacao": "A protamina reverte a heparina, não a varfarina; e o antibiótico não age sobre a antitrombina." },
+        { "letra": "B", "texto": "O antibiótico destruiu as plaquetas; reverter com transfusão de plaquetas", "explicacao": "O INR elevado indica efeito sobre os fatores dependentes de vitamina K, não sobre plaquetas." },
+        { "letra": "C", "texto": "A redução da flora intestinal produtora de vitamina K (e possível interação medicamentosa) potencializou o efeito da varfarina; reverter com vitamina K (e plasma ou complexo protrombínico se sangramento grave)", "explicacao": "Correta. A varfarina impede a reciclagem da vitamina K, reduzindo a carboxilação dos fatores II, VII, IX e X. Antibióticos de amplo espectro reduzem a vitamina K produzida pela flora e muitos inibem o metabolismo hepático da varfarina, elevando o INR. A vitamina K restaura a síntese de fatores funcionais em horas; em sangramento grave, repõem-se fatores prontos." },
+        { "letra": "D", "texto": "O antibiótico ativou a plasmina; reverter com alteplase", "explicacao": "A alteplase é trombolítica e pioraria o sangramento." },
+        { "letra": "E", "texto": "O antibiótico aumentou o fator VIII; reverter com desmopressina", "explicacao": "Aumento de fator VIII não causa sangramento, e a desmopressina não reverte a varfarina." }
+      ],
+      "gabarito": "C",
+      "secao": "farmacos",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Coagulação sanguínea e fármacos...\"",
+      "tags": ["varfarina", "INR", "vitamina K"]
+    },
+    {
+      "id": "hc-007",
+      "nivel": "dificil",
+      "enunciado": "No modelo celular da coagulação, a via extrínseca (fator tecidual + VIIa) inicia o processo. Mesmo assim, pacientes com deficiência grave de fator VIII ou IX têm sangramentos graves, enquanto pessoas com deficiência de fator XII não sangram, apesar de terem o TTPa prolongado. Qual explicação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "O complexo FT–VIIa gera só pequena quantidade de trombina (iniciação, rapidamente bloqueada pelo TFPI); a explosão de trombina depende do complexo IXa–VIIIa sobre as plaquetas (propagação), enquanto o fator XII não é necessário para a hemostasia no organismo", "explicacao": "Correta. A trombina inicial ativa plaquetas e os cofatores V e VIII (amplificação); a maior parte do Xa e da trombina vem do complexo tenase (IXa + VIIIa) na superfície plaquetária. Sem VIII ou IX, não há amplificação suficiente e o tampão não se consolida. O fator XII participa da ativação por contato, que prolonga o TTPa no tubo de vidro, mas não é necessário in vivo." },
+        { "letra": "B", "texto": "O fator XII é o principal iniciador da coagulação no corpo", "explicacao": "O iniciador fisiológico é o fator tecidual; a deficiência de XII não causa sangramento." },
+        { "letra": "C", "texto": "Os fatores VIII e IX atuam na fibrinólise", "explicacao": "VIII e IX são pró-coagulantes da via intrínseca, não componentes da fibrinólise." },
+        { "letra": "D", "texto": "A via extrínseca sozinha gera toda a trombina necessária", "explicacao": "Se fosse assim, as hemofilias não causariam sangramento grave." },
+        { "letra": "E", "texto": "O TTPa não tem relação com os fatores VIII e IX", "explicacao": "O TTPa avalia justamente a via intrínseca, incluindo VIII e IX." }
+      ],
+      "gabarito": "A",
+      "secao": "modelo-celular",
+      "referencia": "Robbins Patologia Básica, 10ª ed. · Guyton & Hall, 14ª ed.",
+      "tags": ["modelo celular", "tenase", "fator XII"]
+    },
+    {
+      "id": "hc-008",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 28 anos tem uma TVP e, no passado, três abortos espontâneos. O TTPa está prolongado e não corrige ao se misturar o plasma dela com plasma normal; anticorpos anticardiolipina positivos. O que explica o paradoxo entre o TTPa prolongado e a trombose?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ela tem hemofilia adquirida, que causa trombose", "explicacao": "Hemofilia adquirida (anticorpo contra o fator VIII) causa sangramento, não trombose." },
+        { "letra": "B", "texto": "Síndrome antifosfolípide: os autoanticorpos interferem com os fosfolipídios do teste (prolongando o TTPa in vitro), mas, no organismo, ativam endotélio, plaquetas e monócitos e prejudicam a proteína C, causando trombose", "explicacao": "Correta. O 'anticoagulante lúpico' prolonga testes dependentes de fosfolipídios porque os anticorpos se ligam ao complexo proteína–fosfolipídio usado no reagente; a falta de correção na mistura com plasma normal indica inibidor, e não deficiência. No corpo, esses anticorpos induzem um estado pró-trombótico, causando tromboses venosas e arteriais e perdas gestacionais (trombose placentária)." },
+        { "letra": "C", "texto": "Deficiência de fator XII, que causa trombose", "explicacao": "A deficiência de XII não explicaria anticorpos anticardiolipina nem abortos de repetição, e o TTPa corrigiria na mistura." },
+        { "letra": "D", "texto": "Uso oculto de heparina", "explicacao": "A heparina prolongaria o TTPa, mas não explicaria os anticorpos nem a trombose." },
+        { "letra": "E", "texto": "Deficiência de vitamina K", "explicacao": "Prolongaria primeiro o TP e causaria sangramento, não trombose." }
+      ],
+      "gabarito": "B",
+      "secao": "trombofilias",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Distúrbios hemodinâmicos\" e \"Doenças do sistema imune\"",
+      "tags": ["síndrome antifosfolípide", "trombofilia"]
+    },
+    {
+      "id": "hc-009",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 35 anos com história familiar de trombose tem TVP sem fator desencadeante. O teste mostra que seu fator Va resiste à inativação pela proteína C ativada. Qual é o defeito e por que ele causa trombose?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de antitrombina, que deixa a trombina livre", "explicacao": "A deficiência de antitrombina não altera a resistência do fator Va à proteína C." },
+        { "letra": "B", "texto": "Excesso de t-PA, que dissolve os trombos", "explicacao": "Excesso de t-PA favoreceria sangramento, não trombose." },
+        { "letra": "C", "texto": "Mutação da GP IIb/IIIa, que aumenta a agregação", "explicacao": "Não explica a resistência do fator Va à proteína C ativada." },
+        { "letra": "D", "texto": "Fator V de Leiden: mutação no sítio de clivagem do fator V impede sua inativação pela proteína C ativada, e o complexo protrombinase permanece ativo por mais tempo, gerando mais trombina", "explicacao": "Correta. Normalmente, a proteína C ativada (com a proteína S) cliva e inativa os cofatores Va e VIIIa, freando a amplificação. No fator V de Leiden, uma mutação pontual (R506Q) altera o local de clivagem, e o Va continua ativo, mantendo a protrombinase funcionando e gerando trombina em excesso. É a trombofilia hereditária mais comum em populações de origem europeia." },
+        { "letra": "E", "texto": "Deficiência de fator XIII, que impede a estabilização da fibrina", "explicacao": "A deficiência de XIII causa sangramento tardio, não trombose." }
+      ],
+      "gabarito": "D",
+      "secao": "anticoagulantes-naturais",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Distúrbios hemodinâmicos\"",
+      "tags": ["fator V de Leiden", "proteína C", "trombofilia"]
+    },
+    {
+      "id": "hc-010",
+      "nivel": "aprofundado",
+      "enunciado": "Paciente em uso de heparina não fracionada há 7 dias para TVP tem queda das plaquetas de 280.000 para 95.000/mm³ e desenvolve trombose arterial no membro inferior. Qual é o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "A heparina inibiu a antitrombina, causando trombose", "explicacao": "A heparina potencializa, não inibe, a antitrombina." },
+        { "letra": "B", "texto": "Consumo de plaquetas por sangramento oculto", "explicacao": "Sangramento não explicaria a trombose arterial associada." },
+        { "letra": "C", "texto": "Trombocitopenia induzida por heparina: anticorpos IgG contra o complexo heparina–fator plaquetário 4 ativam as plaquetas pelo receptor Fc, causando queda das plaquetas e trombose", "explicacao": "Correta. Entre 5 e 10 dias de uso, alguns pacientes formam IgG contra o complexo heparina–PF4. O imunocomplexo se liga ao receptor Fc das plaquetas e as ativa, gerando micropartículas pró-coagulantes e trombina; as plaquetas ativadas são consumidas e removidas. O resultado paradoxal é plaquetopenia com trombose venosa ou arterial; a heparina deve ser suspensa e substituída por anticoagulante não heparínico." },
+        { "letra": "D", "texto": "Deficiência de vitamina K induzida pela heparina", "explicacao": "A heparina não interfere com a vitamina K." },
+        { "letra": "E", "texto": "Efeito direto da heparina destruindo megacariócitos", "explicacao": "O mecanismo é imunológico, com ativação plaquetária, e não destruição dos megacariócitos." }
+      ],
+      "gabarito": "C",
+      "secao": "trombofilias",
+      "referencia": "Goodman & Gilman, 13ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["TIH", "heparina", "plaquetopenia"]
+    }
+  ]
+}
