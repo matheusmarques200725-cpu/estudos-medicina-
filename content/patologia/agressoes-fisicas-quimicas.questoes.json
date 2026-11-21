@@ -1,0 +1,165 @@
+{
+  "topico": "agressoes-fisicas-quimicas",
+  "questoes": [
+    {
+      "id": "af-001",
+      "nivel": "medio",
+      "enunciado": "Homem de 35 anos sofre queimadura por chama. Na face anterior do tórax e abdome há bolhas íntegras e rompidas sobre base rosada e úmida, extremamente dolorosas; no antebraço direito, há área branca, nacarada, seca e endurecida, insensível ao toque com agulha. Como classificar as duas áreas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tórax e abdome: 1º grau; antebraço: 2º grau", "explicacao": "Bolhas indicam no mínimo 2º grau, e a área branca, seca e insensível é de 3º grau." },
+        { "letra": "B", "texto": "Ambas são 3º grau", "explicacao": "A área com bolhas e muito dolorosa tem terminações nervosas preservadas, típica do 2º grau." },
+        { "letra": "C", "texto": "Tórax e abdome: 3º grau; antebraço: 1º grau", "explicacao": "A classificação está invertida." },
+        { "letra": "D", "texto": "Tórax e abdome: 2º grau superficial (epiderme e derme superficial, bolhas, dolorosa); antebraço: 3º grau (toda a derme destruída, escara, indolor, necessita de enxerto)", "explicacao": "Correta. No 2º grau superficial, o calor destrói a epiderme e parte da derme; o plasma extravasado forma bolhas, e as terminações nervosas expostas e preservadas causam dor intensa; cicatriza a partir dos anexos. No 3º grau, toda a derme, incluindo terminações nervosas e anexos, é destruída: a área fica branca ou carbonizada, seca, endurecida e indolor, e não regenera, exigindo enxerto." },
+        { "letra": "E", "texto": "Ambas são 2º grau profundo", "explicacao": "A área insensível, seca e nacarada caracteriza destruição de toda a derme (3º grau)." }
+      ],
+      "gabarito": "D",
+      "secao": "queimaduras",
+      "referencia": "Ministério da Saúde – Cartilha para Tratamento de Emergência das Queimaduras · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["queimaduras", "profundidade"]
+    },
+    {
+      "id": "af-002",
+      "nivel": "medio",
+      "enunciado": "Família é encontrada sonolenta e confusa numa casa fechada, com um aquecedor a gás ligado durante a noite. Todos têm cefaleia intensa. A oximetria de pulso mostra 98% em ar ambiente. Qual é o diagnóstico mais provável e qual é a explicação para a oximetria?",
+      "alternativas": [
+        { "letra": "A", "texto": "Intoxicação por monóxido de carbono; o oxímetro comum não distingue carboxi-hemoglobina de oxi-hemoglobina, dando valores falsamente normais apesar da hipóxia tecidual", "explicacao": "Correta. A combustão incompleta em ambiente fechado gera CO, que se liga à hemoglobina com afinidade cerca de 200–250 vezes maior que o O₂, desvia a curva de dissociação para a esquerda e inibe a citocromo oxidase. Há hipóxia tecidual (cérebro: cefaleia, confusão) com PaO₂ normal. Os oxímetros de dois comprimentos de onda leem a COHb como oxi-hemoglobina; o diagnóstico exige co-oximetria. Trata-se com oxigênio a 100%." },
+        { "letra": "B", "texto": "Intoxicação alimentar; a oximetria normal exclui hipóxia", "explicacao": "A oximetria de pulso não exclui hipóxia por CO; o contexto aponta para CO." },
+        { "letra": "C", "texto": "Hipotermia; a oximetria está correta", "explicacao": "O aquecedor ligado e os sintomas neurológicos em todos sugerem intoxicação por gás." },
+        { "letra": "D", "texto": "Intoxicação por organofosforado; a oximetria é normal porque não há hipóxia", "explicacao": "Não há exposição a inseticidas nem sinais colinérgicos descritos." },
+        { "letra": "E", "texto": "Hipoglicemia coletiva; a oximetria é confiável", "explicacao": "O quadro coletivo após exposição a aquecedor em ambiente fechado sugere CO." }
+      ],
+      "gabarito": "A",
+      "secao": "monoxido-carbono",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças ambientais e nutricionais\" · Harrison, 21ª ed.",
+      "tags": ["monóxido de carbono", "oximetria"]
+    },
+    {
+      "id": "af-003",
+      "nivel": "medio",
+      "enunciado": "Trabalhador rural de 40 anos é trazido após aplicar inseticida sem proteção: pupilas puntiformes, salivação e lacrimejamento intensos, sibilos com muita secreção brônquica, bradicardia, diarreia, sudorese e fasciculações musculares. Qual é o mecanismo e o tratamento principal?",
+      "alternativas": [
+        { "letra": "A", "texto": "Bloqueio de receptores muscarínicos; tratar com fisostigmina", "explicacao": "O bloqueio muscarínico causaria pupilas dilatadas, boca seca e taquicardia — o oposto do quadro." },
+        { "letra": "B", "texto": "Excesso de noradrenalina; tratar com betabloqueador", "explicacao": "O quadro é colinérgico, não adrenérgico." },
+        { "letra": "C", "texto": "Inibição da acetilcolinesterase por organofosforado, com excesso de acetilcolina em receptores muscarínicos e nicotínicos; tratar com atropina (até secar as secreções brônquicas), pralidoxima e suporte ventilatório", "explicacao": "Correta. Organofosforados inibem a acetilcolinesterase, e a acetilcolina se acumula: nos receptores muscarínicos, causa miose, sialorreia, lacrimejamento, broncorreia, broncoespasmo, bradicardia, diarreia e sudorese; nos nicotínicos, fasciculações e paralisia. A atropina bloqueia os efeitos muscarínicos (o alvo é secar a broncorreia); a pralidoxima pode reativar a enzima; a paralisia respiratória exige ventilação." },
+        { "letra": "D", "texto": "Intoxicação por monóxido de carbono; tratar com oxigênio hiperbárico", "explicacao": "O CO não causa síndrome colinérgica." },
+        { "letra": "E", "texto": "Reação alérgica ao inseticida; tratar com adrenalina", "explicacao": "A anafilaxia não causa miose, bradicardia e fasciculações." }
+      ],
+      "gabarito": "C",
+      "secao": "organofosforados",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Anticolinesterásicos\" · Ministério da Saúde – Diretrizes para intoxicação por agrotóxicos",
+      "tags": ["organofosforados", "acetilcolinesterase", "atropina"]
+    },
+    {
+      "id": "af-004",
+      "nivel": "medio",
+      "enunciado": "Num pronto-socorro, um adulto tem queimaduras de 2º grau em todo o membro superior direito e em toda a face anterior do tórax e abdome, além de queimaduras de 1º grau na face. Qual é a superfície corporal queimada pela regra dos nove?",
+      "alternativas": [
+        { "letra": "A", "texto": "36%", "explicacao": "Inclui a face, mas queimaduras de 1º grau não entram no cálculo; e a soma estaria incorreta." },
+        { "letra": "B", "texto": "18%", "explicacao": "Esse valor corresponde apenas à face anterior do tronco." },
+        { "letra": "C", "texto": "45%", "explicacao": "Superestima a área; somaria regiões não queimadas." },
+        { "letra": "D", "texto": "9%", "explicacao": "Esse valor corresponde apenas ao membro superior." },
+        { "letra": "E", "texto": "27%", "explicacao": "Correta. Pela regra dos nove em adultos: membro superior inteiro = 9%; face anterior do tronco (tórax + abdome) = 18%; total de 27%. As queimaduras de 1º grau (só eritema) não são somadas na superfície corporal queimada, que considera as lesões a partir do 2º grau." }
+      ],
+      "gabarito": "E",
+      "secao": "queimaduras",
+      "referencia": "Ministério da Saúde – Cartilha para Tratamento de Emergência das Queimaduras",
+      "tags": ["regra dos nove", "queimaduras"]
+    },
+    {
+      "id": "af-005",
+      "nivel": "dificil",
+      "enunciado": "Eletricista de 30 anos toca um fio de alta tensão com a mão direita. Tem pequenas queimaduras puntiformes na palma direita e no pé esquerdo, mas, nas horas seguintes, o antebraço direito fica tenso e muito doloroso, a urina fica escura (cor de chá) e a CK chega a 85.000 U/L. Qual explicação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "A lesão se limita à pele, e a urina escura é desidratação", "explicacao": "A CK muito alta e a urina escura indicam rabdomiólise, ou seja, lesão muscular extensa." },
+        { "letra": "B", "texto": "A corrente atravessou o corpo pelos tecidos de menor resistência (músculos, nervos, vasos), gerando calor e lesão interna extensa ao longo do trajeto, com rabdomiólise, síndrome compartimental e risco de lesão renal pela mioglobina", "explicacao": "Correta. A pele seca resiste à corrente (queimaduras pequenas nos pontos de entrada e saída), mas dentro do corpo a corrente segue pelos tecidos ricos em água e eletrólitos, gerando calor e destruindo músculos ao longo do trajeto. A necrose muscular libera mioglobina (urina escura, risco de lesão renal) e potássio, e o edema dentro das fáscias causa síndrome compartimental. A lesão externa é a 'ponta do iceberg'." },
+        { "letra": "C", "texto": "A urina escura é hemoglobinúria por hemólise causada pela corrente, sem lesão muscular", "explicacao": "A CK de 85.000 U/L indica destruição muscular maciça (rabdomiólise)." },
+        { "letra": "D", "texto": "É uma queimadura de 1º grau extensa", "explicacao": "Queimaduras de 1º grau atingem só a epiderme e não causam rabdomiólise." },
+        { "letra": "E", "texto": "É hipertermia maligna desencadeada pelo choque", "explicacao": "A hipertermia maligna é desencadeada por anestésicos em pessoas predispostas, não por choque elétrico." }
+      ],
+      "gabarito": "B",
+      "secao": "eletricidade",
+      "referencia": "Robbins Patologia Básica, 10ª ed. · Harrison, 21ª ed., cap. \"Lesões elétricas\"",
+      "tags": ["lesão elétrica", "rabdomiólise"]
+    },
+    {
+      "id": "af-006",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 25 anos ingere 25 g de paracetamol numa tentativa de suicídio. Nas primeiras 24 horas tem apenas náuseas; no terceiro dia, as transaminases passam de 8.000 U/L, com icterícia e INR prolongado. A biópsia mostra necrose ao redor das veias centrais (zona 3). Qual é o mecanismo e o antídoto?",
+      "alternativas": [
+        { "letra": "A", "texto": "O paracetamol inibe a COX hepática e causa isquemia; o antídoto é a vitamina K", "explicacao": "A lesão não decorre da inibição da COX, e a vitamina K não trata a hepatotoxicidade." },
+        { "letra": "B", "texto": "Reação imunológica de hipersensibilidade; tratar com corticoide", "explicacao": "A hepatotoxicidade do paracetamol é dose-dependente e previsível, por metabólito tóxico." },
+        { "letra": "C", "texto": "O paracetamol causa colestase por obstrução biliar; tratar com cirurgia", "explicacao": "O padrão é de necrose hepatocelular centrolobular, não de obstrução biliar." },
+        { "letra": "D", "texto": "O fármaco destrói diretamente as células de Kupffer; o antídoto é o flumazenil", "explicacao": "O flumazenil é antídoto de benzodiazepínicos; o mecanismo descrito está incorreto." },
+        { "letra": "E", "texto": "As vias de conjugação saturam e o CYP2E1 produz excesso de NAPQI, que esgota a glutationa e se liga a proteínas dos hepatócitos; a zona 3 tem mais CYP2E1 e menos O₂; o antídoto é a N-acetilcisteína, que repõe a glutationa", "explicacao": "Correta. Em dose terapêutica, quase todo o paracetamol é conjugado, e a pequena fração oxidada a NAPQI é neutralizada pela glutationa. Na superdosagem, forma-se muita NAPQI, a glutationa se esgota e o metabólito causa lesão oxidativa e mitocondrial, com necrose centrolobular, onde se concentra o CYP2E1. A N-acetilcisteína fornece cisteína para regenerar a glutationa, sendo mais eficaz quando dada precocemente." }
+      ],
+      "gabarito": "E",
+      "secao": "paracetamol",
+      "referencia": "Robbins Patologia Básica, 10ª ed. · Goodman & Gilman, 13ª ed.",
+      "tags": ["paracetamol", "NAPQI", "glutationa"]
+    },
+    {
+      "id": "af-007",
+      "nivel": "dificil",
+      "enunciado": "Operário de usina nuclear é exposto acidentalmente a cerca de 5 Gy de radiação de corpo inteiro. Após náuseas e vômitos iniciais, melhora por alguns dias. Três semanas depois, tem febre, infecções e sangramentos. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Forma cerebrovascular da síndrome aguda da radiação", "explicacao": "A forma neurovascular ocorre com doses muito maiores (acima de ~20 Gy) e mata em horas a dias." },
+        { "letra": "B", "texto": "Forma hematopoética: a radiação mata as células-tronco e progenitoras da medula, que se dividem rapidamente; quando as células maduras circulantes envelhecem, surge pancitopenia (neutropenia → infecções; plaquetopenia → sangramento)", "explicacao": "Correta. Tecidos de divisão rápida são os mais sensíveis à radiação. Na faixa de ~2 a 10 Gy, a medula óssea é o órgão crítico: as progenitoras morrem, mas as células maduras já circulantes continuam funcionando por um tempo (fase latente). Em 2–3 semanas, granulócitos e plaquetas se esgotam, e surgem infecções e hemorragias." },
+        { "letra": "C", "texto": "Forma gastrointestinal, com morte das células das criptas", "explicacao": "A forma gastrointestinal exige doses mais altas (~10–20 Gy) e se manifesta com diarreia grave mais precocemente." },
+        { "letra": "D", "texto": "Leucemia induzida por radiação", "explicacao": "A leucemia é efeito tardio, que surge anos depois." },
+        { "letra": "E", "texto": "Queimadura térmica pela radiação", "explicacao": "A radiação ionizante age principalmente lesando o DNA, não por queimadura térmica." }
+      ],
+      "gabarito": "B",
+      "secao": "radiacao-ionizante",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças ambientais e nutricionais\"",
+      "tags": ["radiação ionizante", "síndrome aguda da radiação"]
+    },
+    {
+      "id": "af-008",
+      "nivel": "dificil",
+      "enunciado": "Criança de 3 anos que mora numa casa antiga, com tinta descascando, apresenta irritabilidade, dor abdominal em cólica, atraso no desenvolvimento e anemia microcítica com pontilhado basófilo nas hemácias. Qual é o mecanismo da anemia?",
+      "alternativas": [
+        { "letra": "A", "texto": "O chumbo inibe enzimas da síntese do heme (como a ácido δ-aminolevulínico desidratase e a ferroquelatase), reduzindo a produção de hemoglobina; o pontilhado basófilo reflete agregados de ribossomos", "explicacao": "Correta. O chumbo se liga a grupos sulfidrila e inibe enzimas da via do heme, acumulando precursores (ácido δ-aminolevulínico e protoporfirina) e produzindo hemácias pobres em hemoglobina (microcíticas). A inibição de uma enzima que degrada RNA ribossômico deixa agregados visíveis como pontilhado basófilo. Em crianças, o chumbo é muito neurotóxico." },
+        { "letra": "B", "texto": "Deficiência de vitamina B12 por má absorção", "explicacao": "A deficiência de B12 causa anemia macrocítica." },
+        { "letra": "C", "texto": "Hemólise autoimune desencadeada pela tinta", "explicacao": "O quadro de microcitose com pontilhado basófilo e exposição a tinta antiga sugere intoxicação por chumbo." },
+        { "letra": "D", "texto": "Perda de sangue por parasitose", "explicacao": "A perda crônica causa anemia ferropriva, mas não explica pontilhado basófilo nem os sintomas neurológicos e a exposição." },
+        { "letra": "E", "texto": "Aplasia medular por radiação", "explicacao": "Não há exposição a radiação, e a aplasia causaria pancitopenia." }
+      ],
+      "gabarito": "A",
+      "secao": "chumbo",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças ambientais e nutricionais\"",
+      "tags": ["chumbo", "anemia", "pontilhado basófilo"]
+    },
+    {
+      "id": "af-009",
+      "nivel": "aprofundado",
+      "enunciado": "Comunidade ribeirinha da Amazônia, a jusante de áreas de garimpo, tem crianças com atraso de desenvolvimento e adultos com parestesias, ataxia e redução do campo visual. A dieta é baseada em peixes carnívoros do rio. Qual é o mecanismo mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Intoxicação por chumbo da gasolina dos barcos", "explicacao": "O contexto de garimpo e consumo de peixes aponta para o mercúrio." },
+        { "letra": "B", "texto": "Deficiência de tiamina pela dieta", "explicacao": "A deficiência de tiamina causa beribéri e Wernicke, mas o contexto de garimpo e as alterações neurológicas fetais sugerem mercúrio." },
+        { "letra": "C", "texto": "O mercúrio usado no garimpo, lançado nos rios, é transformado por bactérias em metilmercúrio, que se bioacumula na cadeia alimentar (peixes carnívoros), atravessa a placenta e a barreira hematoencefálica e lesa o sistema nervoso", "explicacao": "Correta. O mercúrio metálico usado para amalgamar o ouro contamina rios e sedimentos, onde bactérias o metilam. O metilmercúrio, lipossolúvel, acumula-se ao longo da cadeia alimentar e atinge concentrações altas em peixes predadores. Ingerido, atravessa a placenta e a barreira hematoencefálica, causando lesão neurológica (ataxia, parestesias, perda visual) e danos ao cérebro fetal, como na doença de Minamata." },
+        { "letra": "D", "texto": "Radiação natural dos sedimentos do rio", "explicacao": "Não há evidência de exposição radioativa; o quadro é típico de metilmercúrio." },
+        { "letra": "E", "texto": "Intoxicação por monóxido de carbono dos motores", "explicacao": "O CO causa intoxicação aguda em ambientes fechados, não esse quadro crônico comunitário associado à dieta." }
+      ],
+      "gabarito": "C",
+      "secao": "mercurio",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças ambientais e nutricionais\"",
+      "tags": ["mercúrio", "metilmercúrio", "garimpo"]
+    },
+    {
+      "id": "af-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 40 anos sofreu fratura fechada do fêmur em acidente de moto. No segundo dia, ainda aguardando cirurgia, desenvolve dispneia, hipoxemia, confusão mental e petéquias no tórax, axilas e conjuntivas. Qual é o diagnóstico mais provável e seu mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tromboembolismo pulmonar por TVP, que não causa petéquias", "explicacao": "A TVP pode causar embolia, mas a tríade com alteração neurológica e petéquias no 2º dia após fratura de osso longo é típica de embolia gordurosa." },
+        { "letra": "B", "texto": "Pneumonia aspirativa", "explicacao": "Não explicaria a confusão mental e as petéquias na distribuição descrita." },
+        { "letra": "C", "texto": "Choque hipovolêmico pela fratura", "explicacao": "O choque não explica petéquias e infiltrado com hipoxemia nessa sequência." },
+        { "letra": "D", "texto": "Síndrome da embolia gordurosa: gotículas de gordura da medula óssea entram nas veias, obstruem a microcirculação pulmonar e sistêmica e são degradadas em ácidos graxos tóxicos que lesam o endotélio, causando insuficiência respiratória, disfunção cerebral e petéquias", "explicacao": "Correta. Em fraturas de ossos longos e da pelve, glóbulos de gordura entram nas vênulas rompidas da medula. Eles obstruem capilares pulmonares e, passando para a circulação sistêmica, do cérebro e da pele; a lipase converte a gordura em ácidos graxos livres que lesam o endotélio e ativam plaquetas. O quadro surge tipicamente 24–72 horas após o trauma, com a tríade insuficiência respiratória, alterações neurológicas e petéquias." },
+        { "letra": "E", "texto": "Síndrome de esmagamento com hipercalemia", "explicacao": "A síndrome de esmagamento causa rabdomiólise e lesão renal, não a tríade descrita." }
+      ],
+      "gabarito": "D",
+      "secao": "trauma-mecanico",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Distúrbios hemodinâmicos\" e \"Doenças ambientais e nutricionais\"",
+      "tags": ["embolia gordurosa", "trauma"]
+    }
+  ]
+}
