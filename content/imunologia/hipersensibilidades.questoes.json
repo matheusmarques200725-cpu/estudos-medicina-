@@ -1,0 +1,165 @@
+{
+  "topico": "hipersensibilidades",
+  "questoes": [
+    {
+      "id": "hs-001",
+      "nivel": "medio",
+      "enunciado": "Adolescente de 15 anos, alérgica a amendoim, come um doce que continha o alimento. Em 10 minutos, tem urticária generalizada, rouquidão, sibilos, tontura e pressão de 70/40 mmHg. Qual é a primeira medida terapêutica e por quê?",
+      "alternativas": [
+        { "letra": "A", "texto": "Anti-histamínico H1 intravenoso, pois a histamina é o único mediador", "explicacao": "Os anti-histamínicos aliviam a urticária e o prurido, mas não revertem a hipotensão nem o broncoespasmo, mediados também por leucotrienos, PGD₂ e PAF." },
+        { "letra": "B", "texto": "Corticoide intravenoso, pois age em minutos", "explicacao": "Os corticoides demoram horas para agir e são apenas adjuvantes (podem reduzir a fase tardia)." },
+        { "letra": "C", "texto": "Adrenalina intramuscular, que causa vasoconstrição (α1), aumenta o débito cardíaco (β1), broncodilata e estabiliza mastócitos (β2), revertendo os mecanismos da anafilaxia", "explicacao": "Correta. A anafilaxia decorre da liberação maciça de mediadores de mastócitos, com vasodilatação, extravasamento de plasma, edema de laringe e broncoespasmo. A adrenalina IM na face anterolateral da coxa age em todos esses pontos e é a única medida que reduz a mortalidade; deve ser dada imediatamente e repetida se necessário, junto com oxigênio, volume e posição adequada." },
+        { "letra": "D", "texto": "Observar, pois a reação é autolimitada", "explicacao": "A anafilaxia pode evoluir rapidamente para obstrução de via aérea e choque; exige tratamento imediato." },
+        { "letra": "E", "texto": "Antibiótico, pois é uma infecção", "explicacao": "Trata-se de reação alérgica, não de infecção." }
+      ],
+      "gabarito": "C",
+      "secao": "anafilaxia",
+      "referencia": "Abbas, 10ª ed., cap. \"Alergia\" · Associação Brasileira de Alergia e Imunologia – Guia de anafilaxia",
+      "tags": ["anafilaxia", "adrenalina", "tipo I"]
+    },
+    {
+      "id": "hs-002",
+      "nivel": "medio",
+      "enunciado": "Mulher de 30 anos desenvolve placas avermelhadas, com vesículas e intenso prurido, exatamente na área da cintura em contato com o botão metálico da calça jeans, cerca de dois dias após usá-la. O teste de contato com níquel é positivo após 72 horas. Qual é o tipo de hipersensibilidade?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tipo I, mediada por IgE", "explicacao": "A reação tipo I surge em minutos; a lesão em 1–3 dias com eczema na área de contato é tardia." },
+        { "letra": "B", "texto": "Tipo II, por anticorpos contra células da pele", "explicacao": "Não há mecanismo de anticorpos contra antígenos fixos; o quadro é tardio e mediado por células." },
+        { "letra": "C", "texto": "Tipo III, por imunocomplexos", "explicacao": "Imunocomplexos causam lesões sistêmicas (rins, articulações, vasos) ou a reação de Arthus em horas, não eczema de contato." },
+        { "letra": "D", "texto": "Tipo IV: o níquel atua como hapteno, ligando-se a proteínas da pele; linfócitos T sensibilizados reconhecem o complexo e causam inflamação em 24–72 horas", "explicacao": "Correta. Haptenos como o níquel são pequenos demais para serem imunogênicos sozinhos, mas se ligam a proteínas próprias, criando neoantígenos. Após a sensibilização, a reexposição recruta linfócitos T de memória (e citotóxicos) ao local, que liberam citocinas e lesam os queratinócitos, produzindo eczema restrito à área de contato. O patch test lido em 48–96 horas confirma." },
+        { "letra": "E", "texto": "Dermatite irritativa, sem mecanismo imunológico", "explicacao": "A dermatite irritativa não depende de sensibilização e não dá teste de contato positivo específico." }
+      ],
+      "gabarito": "D",
+      "secao": "tipo-iv-cd4",
+      "referencia": "Abbas, 10ª ed., cap. \"Hipersensibilidade\"",
+      "tags": ["dermatite de contato", "hapteno", "tipo IV"]
+    },
+    {
+      "id": "hs-003",
+      "nivel": "medio",
+      "enunciado": "Gestante de 26 anos, Rh negativo, está na segunda gestação; o primeiro filho era Rh positivo e ela não recebeu imunoglobulina anti-D. O feto atual apresenta anemia grave e hidropisia. Qual é o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Hipersensibilidade tipo II: IgG anti-D materna, produzida após sensibilização no primeiro parto, atravessa a placenta e opsoniza as hemácias Rh positivas do feto, que são destruídas", "explicacao": "Correta. No parto do primeiro filho, hemácias fetais Rh positivas entraram na circulação materna e induziram anticorpos anti-D; a troca de classe gerou IgG, que atravessa a placenta pelo receptor FcRn. Na gestação seguinte com feto Rh positivo, a IgG se liga às hemácias fetais, que são destruídas no baço do feto — anemia, eritroblastose e hidropisia. A imunoglobulina anti-D no pós-parto teria evitado a sensibilização." },
+        { "letra": "B", "texto": "Hipersensibilidade tipo I por IgE materna contra o feto", "explicacao": "A IgE não atravessa a placenta nem causa hemólise fetal." },
+        { "letra": "C", "texto": "Hipersensibilidade tipo III por imunocomplexos depositados no rim fetal", "explicacao": "O mecanismo é a destruição das hemácias fetais por anticorpos ligados a elas, não a deposição de imunocomplexos." },
+        { "letra": "D", "texto": "Hipersensibilidade tipo IV por linfócitos T maternos que atravessam a placenta", "explicacao": "A doença hemolítica é mediada por anticorpos, não por linfócitos T." },
+        { "letra": "E", "texto": "IgM anti-D materna atravessando a placenta", "explicacao": "A IgM, pentamérica e grande, não atravessa a placenta; o anticorpo responsável é IgG." }
+      ],
+      "gabarito": "A",
+      "secao": "tipo-ii-lise",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["doença hemolítica do recém-nascido", "tipo II", "anti-D"]
+    },
+    {
+      "id": "hs-004",
+      "nivel": "medio",
+      "enunciado": "Criança de 8 anos tem, duas semanas após uma faringite não tratada, urina cor de coca-cola, edema palpebral, hipertensão arterial e oligúria. O complemento C3 está baixo, e a biópsia (se feita) mostraria depósitos granulosos de IgG e C3 nos glomérulos. Qual é o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tipo I: IgE contra o estreptococo nos rins", "explicacao": "A IgE não causa glomerulonefrite com consumo de complemento." },
+        { "letra": "B", "texto": "Tipo II: anticorpos contra o colágeno IV da membrana basal (Goodpasture)", "explicacao": "Na doença de Goodpasture o depósito é linear, não granuloso, e não há relação com faringite recente." },
+        { "letra": "C", "texto": "Tipo IV: linfócitos T contra as células do glomérulo", "explicacao": "O consumo de C3 e os depósitos granulosos de IgG indicam mecanismo por imunocomplexos." },
+        { "letra": "D", "texto": "Infecção bacteriana direta dos rins", "explicacao": "O estreptococo não infecta os rins; a lesão é imunológica e surge semanas depois." },
+        { "letra": "E", "texto": "Tipo III: imunocomplexos com antígenos estreptocócicos se depositam nos glomérulos, ativam o complemento (consumindo C3) e recrutam neutrófilos — glomerulonefrite pós-estreptocócica", "explicacao": "Correta. Após a infecção por cepas nefritogênicas do *Streptococcus pyogenes*, formam-se complexos antígeno–anticorpo que se depositam nos glomérulos, onde a filtração sob pressão favorece a deposição. O complemento ativado é consumido (C3 baixo) e atrai neutrófilos, causando inflamação glomerular — síndrome nefrítica com hematúria, edema, hipertensão e oligúria, 1–3 semanas após a infecção." }
+      ],
+      "gabarito": "E",
+      "secao": "tipo-iii-exemplos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Rim\" · Abbas, 10ª ed.",
+      "tags": ["glomerulonefrite pós-estreptocócica", "imunocomplexos", "tipo III"]
+    },
+    {
+      "id": "hs-005",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 32 anos tem palpitações, perda de peso, tremores, bócio difuso e exoftalmia. Exames: TSH suprimido, T4 livre elevado e anticorpos contra o receptor de TSH (TRAb) positivos. Qual é o mecanismo do hipertireoidismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Destruição da tireoide por linfócitos T CD8⁺, liberando hormônio armazenado", "explicacao": "A destruição tireoidiana causa tireoidite com liberação transitória de hormônio; a presença de TRAb e bócio difuso indica estímulo, não destruição." },
+        { "letra": "B", "texto": "Hipersensibilidade tipo II por alteração de função: anticorpos IgG se ligam ao receptor de TSH e o estimulam, imitando o TSH, apesar de o TSH estar suprimido", "explicacao": "Correta. Na doença de Graves, os autoanticorpos agem como agonistas do receptor de TSH, ativando a via do AMPc nos tireócitos: aumentam a síntese e a liberação de hormônios e o crescimento da glândula (bócio). Como os anticorpos não respondem à retroalimentação, o TSH hipofisário fica suprimido enquanto a tireoide continua estimulada. É um exemplo de tipo II sem destruição celular." },
+        { "letra": "C", "texto": "Hipersensibilidade tipo III com imunocomplexos na tireoide", "explicacao": "O mecanismo não é deposição de imunocomplexos, e sim estímulo direto do receptor." },
+        { "letra": "D", "texto": "Tumor hipofisário produtor de TSH", "explicacao": "Nesse caso o TSH estaria elevado ou inapropriadamente normal, não suprimido." },
+        { "letra": "E", "texto": "Hipersensibilidade tipo I com histamina estimulando a tireoide", "explicacao": "A histamina não estimula a produção de hormônios tireoidianos." }
+      ],
+      "gabarito": "B",
+      "secao": "tipo-ii-funcao",
+      "referencia": "Abbas, 10ª ed., cap. \"Hipersensibilidade\" · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["doença de Graves", "tipo II", "receptor de TSH"]
+    },
+    {
+      "id": "hs-006",
+      "nivel": "dificil",
+      "enunciado": "Homem de 40 anos picado por jararaca recebe soro antibotrópico (imunoglobulinas de cavalo). Doze dias depois, apresenta febre, exantema urticariforme, artralgias em grandes articulações, linfonodomegalia e proteinúria, com C3 e C4 baixos. Qual é o diagnóstico e o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Anafilaxia tardia mediada por IgE", "explicacao": "A anafilaxia ocorre em minutos a poucas horas, sem consumo de complemento e sem artralgia e proteinúria após 12 dias." },
+        { "letra": "B", "texto": "Reação tipo II contra as hemácias", "explicacao": "Não há hemólise; o quadro sistêmico com consumo de complemento é de imunocomplexos." },
+        { "letra": "C", "texto": "Doença do soro (tipo III): anticorpos produzidos contra as proteínas equinas formam imunocomplexos circulantes que se depositam em vasos, articulações e glomérulos, consumindo complemento", "explicacao": "Correta. As proteínas do soro heterólogo são estranhas ao organismo; em 1–2 semanas, surgem anticorpos que formam complexos com as proteínas ainda circulantes. Os complexos de tamanho intermediário se depositam na pele, sinóvia e glomérulos, ativam o complemento (C3 e C4 baixos) e atraem neutrófilos, causando febre, exantema, artralgia, linfadenopatia e proteinúria. Costuma ser autolimitada." },
+        { "letra": "D", "texto": "Dermatite de contato tipo IV", "explicacao": "A dermatite de contato se restringe à área de contato e não causa artralgia, proteinúria nem consumo de complemento." },
+        { "letra": "E", "texto": "Efeito tóxico direto do veneno da serpente", "explicacao": "Os efeitos do veneno botrópico são precoces (coagulopatia, lesão local); o quadro após 12 dias é imunológico." }
+      ],
+      "gabarito": "C",
+      "secao": "tipo-iii-exemplos",
+      "referencia": "Abbas, 10ª ed. · Ministério da Saúde – Manual de Acidentes por Animais Peçonhentos",
+      "tags": ["doença do soro", "imunocomplexos", "soro antiveneno"]
+    },
+    {
+      "id": "hs-007",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 28 anos tem ptose palpebral e visão dupla que pioram no fim do dia, e fraqueza para mastigar que aumenta com o uso e melhora com o repouso. A administração de um anticolinesterásico melhora a força. Qual é o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Anticorpos que estimulam o receptor de acetilcolina, causando contração contínua", "explicacao": "Se os anticorpos estimulassem o receptor, haveria contração excessiva, não fraqueza." },
+        { "letra": "B", "texto": "Linfócitos T CD8⁺ que destroem os neurônios motores", "explicacao": "A destruição de neurônios motores causaria fraqueza progressiva sem melhora com repouso ou anticolinesterásico." },
+        { "letra": "C", "texto": "Excesso de acetilcolinesterase por mutação", "explicacao": "O quadro descrito com padrão de flutuação e resposta à medicação é típico de doença autoimune da junção." },
+        { "letra": "D", "texto": "Imunocomplexos depositados nos músculos", "explicacao": "O mecanismo é a ação de anticorpos sobre o receptor da junção neuromuscular, não deposição de imunocomplexos." },
+        { "letra": "E", "texto": "Hipersensibilidade tipo II: anticorpos contra o receptor de acetilcolina da junção neuromuscular bloqueiam o receptor, promovem sua internalização e ativam o complemento, reduzindo o número de receptores funcionais", "explicacao": "Correta. Na miastenia gravis, com menos receptores disponíveis, a acetilcolina liberada não gera potencial de placa suficiente após estímulos repetidos — daí a fraqueza que piora com o uso, sobretudo dos músculos oculares e bulbares. O anticolinesterásico aumenta a quantidade e o tempo de ação da acetilcolina na fenda, melhorando a transmissão." }
+      ],
+      "gabarito": "E",
+      "secao": "tipo-ii-funcao",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["miastenia gravis", "tipo II"]
+    },
+    {
+      "id": "hs-008",
+      "nivel": "dificil",
+      "enunciado": "Criança asmática tem uma crise de broncoespasmo minutos após brincar com um gato; melhora com broncodilatador, mas 6 horas depois volta a apresentar dispneia e sibilos, sem nova exposição. O escarro mostra muitos eosinófilos. Como se explica a segunda fase?",
+      "alternativas": [
+        { "letra": "A", "texto": "Reação de fase tardia: citocinas dos mastócitos e dos linfócitos Th2 (IL-5, IL-4, IL-13) recrutam eosinófilos e outras células, que causam inflamação prolongada e lesão do epitélio brônquico", "explicacao": "Correta. Além da degranulação imediata, os mastócitos ativados sintetizam citocinas e quimiocinas que, em horas, recrutam eosinófilos, basófilos e linfócitos Th2. Os eosinófilos liberam proteínas tóxicas e leucotrienos, e a IL-13 aumenta o muco e a hiper-reatividade. Essa fase tardia é a base da inflamação crônica da asma e responde melhor a corticoides do que a broncodilatadores isolados." },
+        { "letra": "B", "texto": "Nova liberação de histamina pré-formada, sem participação celular", "explicacao": "A histamina pré-formada é liberada na fase imediata; a fase tardia depende do recrutamento celular." },
+        { "letra": "C", "texto": "Infecção bacteriana secundária", "explicacao": "A eosinofilia no escarro e a cronologia indicam reação alérgica de fase tardia, não infecção bacteriana." },
+        { "letra": "D", "texto": "Reação tipo III por imunocomplexos com antígenos do gato", "explicacao": "A reação descrita é mediada por IgE e Th2, com eosinófilos, não por imunocomplexos." },
+        { "letra": "E", "texto": "Reação tipo IV mediada por CD8⁺ que leva 72 horas", "explicacao": "A segunda fase ocorreu em 6 horas e envolve eosinófilos, típica da fase tardia da tipo I." }
+      ],
+      "gabarito": "A",
+      "secao": "tipo-i-etapas",
+      "referencia": "Abbas, 10ª ed., cap. \"Alergia\"",
+      "tags": ["asma", "fase tardia", "eosinófilos"]
+    },
+    {
+      "id": "hs-009",
+      "nivel": "aprofundado",
+      "enunciado": "Duas doenças causam glomerulonefrite mediada por anticorpos. Na doença X, a imunofluorescência mostra depósito linear e contínuo de IgG ao longo da membrana basal glomerular, e o paciente também tem hemorragia pulmonar. Na doença Y, os depósitos de IgG e C3 são granulosos e irregulares, e o paciente tem artrite, lesões de pele e anticorpos anti-DNA de dupla fita. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ambas são tipo III; a diferença é só a intensidade", "explicacao": "O padrão linear indica anticorpo contra um antígeno fixo da membrana basal (tipo II), diferente dos depósitos granulosos de imunocomplexos." },
+        { "letra": "B", "texto": "X é tipo II (anticorpos contra o colágeno IV das membranas basais glomerular e alveolar — Goodpasture); Y é tipo III (imunocomplexos com antígenos nucleares que se depositam nos glomérulos — lúpus)", "explicacao": "Correta. Quando o anticorpo se liga a um antígeno distribuído de modo contínuo e fixo no tecido (colágeno IV), o depósito acompanha a membrana basal, formando uma linha; o mesmo antígeno no alvéolo explica a hemorragia pulmonar. No lúpus, complexos formados no sangue ou in situ com antígenos nucleares se depositam de forma irregular (granulosa) e acometem vários órgãos, com consumo de complemento." },
+        { "letra": "C", "texto": "X é tipo IV e Y é tipo I", "explicacao": "Ambas são mediadas por anticorpos IgG; não há participação de IgE nem lesão primariamente celular." },
+        { "letra": "D", "texto": "X é tipo III e Y é tipo II", "explicacao": "A classificação está invertida." },
+        { "letra": "E", "texto": "Nenhuma é imunológica", "explicacao": "A presença de IgG e complemento depositados indica mecanismo imunológico." }
+      ],
+      "gabarito": "B",
+      "secao": "comparacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Rim\" e \"Doenças do sistema imune\"",
+      "tags": ["Goodpasture", "lúpus", "tipo II", "tipo III"]
+    },
+    {
+      "id": "hs-010",
+      "nivel": "aprofundado",
+      "enunciado": "Estudante de medicina faz o teste tuberculínico (PPD) na admissão do internato. Após 72 horas, há uma área de 15 mm de enduração no local da injeção. Uma biópsia mostraria infiltrado perivascular de linfócitos e macrófagos. Qual é o mecanismo e o significado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Hipersensibilidade tipo I por IgE contra a tuberculina; indica alergia", "explicacao": "Uma reação tipo I apareceria em minutos, como pápula e eritema, não como enduração após 72 horas." },
+        { "letra": "B", "texto": "Reação de Arthus por imunocomplexos; indica excesso de anticorpos", "explicacao": "A reação de Arthus surge em horas, com vasculite e neutrófilos, não com infiltrado de linfócitos e macrófagos após 72 horas." },
+        { "letra": "C", "texto": "Hipersensibilidade tipo IV: linfócitos T CD4⁺ Th1 de memória, gerados por contato prévio com o bacilo (infecção ou BCG), são recrutados ao local, produzem IFN-γ e ativam macrófagos, causando enduração em 48–72 horas", "explicacao": "Correta. O PPD contém proteínas do *M. tuberculosis*. Em quem já foi sensibilizado, células apresentadoras na pele mostram os antígenos aos linfócitos Th1 de memória, que liberam IFN-γ, TNF e quimiocinas, recrutando mais linfócitos e monócitos. O infiltrado leva 48–72 horas para se formar e causa a enduração medida. O resultado indica sensibilização prévia (infecção latente ou vacina), e não necessariamente doença ativa." },
+        { "letra": "D", "texto": "Reação tipo II contra as células da pele", "explicacao": "Não há anticorpos contra antígenos fixos da pele; o mecanismo é celular." },
+        { "letra": "E", "texto": "Infecção ativa da pele pela injeção", "explicacao": "O PPD não contém bacilos vivos; a reação é imunológica." }
+      ],
+      "gabarito": "C",
+      "secao": "tipo-iv-cd4",
+      "referencia": "Abbas, 10ª ed., cap. \"Hipersensibilidade\" · Ministério da Saúde – Manual de Recomendações para o Controle da Tuberculose",
+      "tags": ["PPD", "tipo IV", "Th1"]
+    }
+  ]
+}
