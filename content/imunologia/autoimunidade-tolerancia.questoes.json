@@ -1,0 +1,165 @@
+{
+  "topico": "autoimunidade-tolerancia",
+  "questoes": [
+    {
+      "id": "at-001",
+      "nivel": "medio",
+      "enunciado": "Mulher de 25 anos tem eritema malar que piora com o sol, artrite em mãos, úlceras orais, pleurite e proteinúria. Exames: FAN positivo, anti-DNA de dupla fita positivo, C3 e C4 baixos. Qual mecanismo explica a lesão renal?",
+      "alternativas": [
+        { "letra": "A", "texto": "Linfócitos T CD8⁺ destroem diretamente as células glomerulares", "explicacao": "A nefrite lúpica é causada principalmente por imunocomplexos, com consumo de complemento." },
+        { "letra": "B", "texto": "IgE contra o glomérulo, com liberação de histamina", "explicacao": "A IgE não participa da nefrite lúpica." },
+        { "letra": "C", "texto": "Anticorpos contra o colágeno IV com depósito linear", "explicacao": "Esse é o mecanismo da doença de Goodpasture." },
+        { "letra": "D", "texto": "Imunocomplexos de autoanticorpos com antígenos nucleares que se depositam nos glomérulos, ativam o complemento (C3 e C4 baixos) e recrutam leucócitos — hipersensibilidade tipo III", "explicacao": "Correta. No lúpus, material nuclear de células apoptóticas mal removidas estimula a produção de autoanticorpos (anti-DNA, anti-nucleossomo). Os complexos se depositam nos glomérulos e em outros órgãos, ativam o complemento — consumido, por isso C3 e C4 baixos — e atraem neutrófilos e macrófagos, causando a nefrite. O anti-DNA de dupla fita é específico e acompanha a atividade renal." },
+        { "letra": "E", "texto": "Infecção bacteriana dos rins favorecida pela doença", "explicacao": "A lesão renal do lúpus é autoimune, não infecciosa." }
+      ],
+      "gabarito": "D",
+      "secao": "lupus",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças do sistema imune\"",
+      "tags": ["lúpus", "imunocomplexos", "nefrite"]
+    },
+    {
+      "id": "at-002",
+      "nivel": "medio",
+      "enunciado": "No timo, os timócitos cujo TCR reconhece com alta afinidade peptídeos de insulina são eliminados, embora a insulina seja produzida no pâncreas. Que mecanismo permite que esse antígeno 'pancreático' seja apresentado no timo?",
+      "alternativas": [
+        { "letra": "A", "texto": "As células epiteliais da medula tímica expressam o fator de transcrição AIRE, que induz a produção de proteínas típicas de outros tecidos, apresentadas aos timócitos para seleção negativa", "explicacao": "Correta. O AIRE permite que as células epiteliais medulares do timo expressem pequenas quantidades de milhares de antígenos tecido-específicos (insulina, tireoglobulina, proteínas da retina). Timócitos que os reconhecem com alta afinidade morrem por apoptose (seleção negativa) ou se tornam Treg. Mutações no AIRE causam autoimunidade contra várias glândulas (APECED)." },
+        { "letra": "B", "texto": "A insulina do sangue é concentrada no timo pelos macrófagos", "explicacao": "O mecanismo central é a expressão local de antígenos tecido-específicos regulada pelo AIRE." },
+        { "letra": "C", "texto": "Os timócitos migram até o pâncreas para serem selecionados", "explicacao": "A seleção negativa ocorre dentro do timo, antes de os linfócitos saírem para a periferia." },
+        { "letra": "D", "texto": "As células β migram para o timo na infância", "explicacao": "As células β não migram para o timo." },
+        { "letra": "E", "texto": "O FOXP3 produz insulina no timo", "explicacao": "O FOXP3 é o fator de transcrição dos linfócitos T reguladores; não induz a produção de antígenos tecido-específicos." }
+      ],
+      "gabarito": "A",
+      "secao": "tolerancia-timo",
+      "referencia": "Abbas, 10ª ed., cap. \"Tolerância imunológica e autoimunidade\"",
+      "tags": ["AIRE", "tolerância central", "seleção negativa"]
+    },
+    {
+      "id": "at-003",
+      "nivel": "medio",
+      "enunciado": "Paciente com melanoma metastático recebe ipilimumabe (anti-CTLA-4) e nivolumabe (anti-PD-1), com boa resposta tumoral. Semanas depois, desenvolve diarreia com sangue (colite), hepatite e hipotireoidismo. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Metástases para intestino, fígado e tireoide", "explicacao": "O padrão multissistêmico após inibidores de checkpoint é típico de eventos imunomediados." },
+        { "letra": "B", "texto": "Imunodeficiência induzida pelos anticorpos, com infecções oportunistas", "explicacao": "Os inibidores de checkpoint estimulam, e não suprimem, a resposta imune." },
+        { "letra": "C", "texto": "Reação de hipersensibilidade tipo I aos anticorpos", "explicacao": "Não há quadro anafilático; as lesões são inflamatórias e de órgãos, mediadas por linfócitos T." },
+        { "letra": "D", "texto": "Toxicidade química direta dos anticorpos sobre as células", "explicacao": "Os eventos adversos decorrem da ativação imune, não de toxicidade química." },
+        { "letra": "E", "texto": "Os fármacos bloqueiam os 'freios' da tolerância periférica (CTLA-4 e PD-1), liberando linfócitos T contra o tumor e também contra tecidos próprios — eventos adversos autoimunes", "explicacao": "Correta. CTLA-4 limita a coestimulação (compete com CD28 pelo B7) e PD-1 inibe linfócitos T nos tecidos. Bloqueá-los potencializa a resposta antitumoral, mas também ativa linfócitos autorreativos antes controlados, causando colite, hepatite, tireoidite, hipofisite, pneumonite e diabetes — em geral tratados com corticoides." }
+      ],
+      "gabarito": "E",
+      "secao": "checkpoints",
+      "referencia": "Abbas, 10ª ed. · Goodman & Gilman, 13ª ed.",
+      "tags": ["CTLA-4", "PD-1", "inibidores de checkpoint"]
+    },
+    {
+      "id": "at-004",
+      "nivel": "medio",
+      "enunciado": "Mulher de 45 anos tem cansaço, ganho de peso, intolerância ao frio, pele seca e bócio firme e indolor. Exames: TSH elevado, T4 livre baixo, anticorpos anti-TPO muito elevados. A punção mostraria intenso infiltrado linfocitário com centros germinativos. Qual é o diagnóstico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Doença de Graves", "explicacao": "A Graves causa hipertireoidismo com TSH suprimido e anticorpos estimuladores do receptor de TSH." },
+        { "letra": "B", "texto": "Tireoidite de Hashimoto: destruição autoimune da tireoide por linfócitos T e anticorpos, causando hipotireoidismo", "explicacao": "Correta. Na tireoidite de Hashimoto, linfócitos T (CD4⁺ e CD8⁺) e mecanismos dependentes de anticorpos destroem os tireócitos; a glândula é infiltrada por linfócitos com folículos linfoides. Com a perda de tecido, cai a produção de T4 e o TSH sobe. O anti-TPO é o marcador mais sensível. É a causa mais comum de hipotireoidismo em regiões com iodo suficiente." },
+        { "letra": "C", "texto": "Tumor hipofisário produtor de TSH", "explicacao": "Causaria hipertireoidismo com TSH elevado e T4 alto." },
+        { "letra": "D", "texto": "Deficiência de iodo", "explicacao": "A deficiência de iodo não explica os anticorpos anti-TPO muito elevados nem o infiltrado linfocitário." },
+        { "letra": "E", "texto": "Tireoidite bacteriana aguda", "explicacao": "A tireoidite infecciosa é dolorosa, com febre e neutrófilos, não um processo crônico autoimune." }
+      ],
+      "gabarito": "B",
+      "secao": "hashimoto",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Sistema endócrino\"",
+      "tags": ["Hashimoto", "anti-TPO", "hipotireoidismo"]
+    },
+    {
+      "id": "at-005",
+      "nivel": "dificil",
+      "enunciado": "Lactente do sexo masculino apresenta, nas primeiras semanas de vida, diabetes insulinodependente, diarreia grave com atrofia intestinal e eczema extenso. O irmão mais velho morreu com quadro semelhante. A investigação mostra ausência de linfócitos T CD4⁺CD25⁺ funcionais. Qual é o defeito mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Mutação no AIRE, impedindo a seleção negativa no timo", "explicacao": "A APECED tem herança autossômica recessiva e se manifesta com hipoparatireoidismo, insuficiência adrenal e candidíase, geralmente mais tarde." },
+        { "letra": "B", "texto": "Mutação no Fas, com acúmulo de linfócitos", "explicacao": "A ALPS causa linfoproliferação e citopenias autoimunes, não esse quadro neonatal." },
+        { "letra": "C", "texto": "Mutação no FOXP3 (síndrome IPEX, ligada ao X), com ausência de linfócitos T reguladores funcionais e autoimunidade multissistêmica precoce", "explicacao": "Correta. O FOXP3 é indispensável para o desenvolvimento e a função dos Treg. Sem eles, falta um mecanismo essencial de supressão da tolerância periférica, e linfócitos autorreativos atacam pâncreas (diabetes neonatal), intestino (enteropatia) e pele (eczema). A herança ligada ao X explica o acometimento de meninos e o irmão afetado." },
+        { "letra": "D", "texto": "Deficiência de C1q, levando a lúpus neonatal", "explicacao": "A deficiência de C1q predispõe ao lúpus, mas não causa esse quadro neonatal com ausência de Treg." },
+        { "letra": "E", "texto": "Infecção congênita por citomegalovírus", "explicacao": "Não explicaria a ausência de Treg nem o padrão familiar ligado ao X." }
+      ],
+      "gabarito": "C",
+      "secao": "treg",
+      "referencia": "Abbas, 10ª ed., cap. \"Tolerância imunológica e autoimunidade\"",
+      "tags": ["IPEX", "FOXP3", "Treg"]
+    },
+    {
+      "id": "at-006",
+      "nivel": "dificil",
+      "enunciado": "Em um experimento, linfócitos T virgens específicos para um peptídeo próprio são expostos a células dendríticas em repouso que apresentam o peptídeo no MHC, mas expressam pouquíssimo B7 (CD80/CD86). Depois, os mesmos linfócitos são expostos ao peptídeo apresentado por células dendríticas ativadas e não respondem. Qual mecanismo foi demonstrado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Seleção positiva no timo", "explicacao": "A seleção positiva ocorre no timo e seleciona timócitos que reconhecem o MHC próprio; o experimento é com linfócitos maduros na periferia." },
+        { "letra": "B", "texto": "Ativação plena com expansão clonal", "explicacao": "Os linfócitos não responderam ao segundo estímulo, o que indica tolerância." },
+        { "letra": "C", "texto": "Ignorância por sítio privilegiado", "explicacao": "Os linfócitos encontraram o antígeno; na ignorância, o antígeno fica escondido." },
+        { "letra": "D", "texto": "Anergia: o reconhecimento do antígeno (sinal 1) sem coestimulação (sinal 2, B7–CD28) torna o linfócito T funcionalmente inativo e não responsivo a estímulos posteriores", "explicacao": "Correta. Células dendríticas em repouso, sem sinais de perigo, apresentam antígenos próprios com pouco B7. O linfócito que recebe apenas o sinal do TCR ativa vias inibitórias e entra em anergia, permanecendo não responsivo mesmo diante de uma apresentação completa. É um mecanismo central da tolerância periférica e explica por que infecções (que aumentam o B7) podem romper a tolerância." },
+        { "letra": "E", "texto": "Edição de receptor", "explicacao": "A edição de receptor é um mecanismo dos linfócitos B imaturos na medula óssea." }
+      ],
+      "gabarito": "D",
+      "secao": "anergia",
+      "referencia": "Abbas, 10ª ed., cap. \"Tolerância imunológica e autoimunidade\"",
+      "tags": ["anergia", "coestimulação", "tolerância periférica"]
+    },
+    {
+      "id": "at-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 45 anos, tabagista pesado, portador de HLA-DR4, tem há 4 meses dor e edema simétricos em punhos e metacarpofalângicas, com rigidez matinal de 2 horas. Anti-CCP fortemente positivo; radiografias com erosões ósseas. Qual é a sequência fisiopatológica mais adequada?",
+      "alternativas": [
+        { "letra": "A", "texto": "O tabagismo promove citrulinação de proteínas; em portadores de HLA-DR4, peptídeos citrulinados ativam linfócitos T e B (anti-CCP); a sinóvia inflamada forma o pannus, que, com citocinas (TNF, IL-6) e osteoclastos ativados, destrói cartilagem e osso", "explicacao": "Correta. A citrulinação (troca de arginina por citrulina) cria neoantígenos; o HLA-DR4 apresenta esses peptídeos com eficiência, rompendo a tolerância. Autoanticorpos anti-CCP surgem anos antes da artrite. Na sinóvia, linfócitos, plasmócitos e macrófagos produzem TNF e IL-6, e o tecido proliferado (pannus) invade a cartilagem; o RANKL ativa osteoclastos, gerando erosões. Por isso o anti-TNF e o metotrexato são eficazes." },
+        { "letra": "B", "texto": "Desgaste mecânico da cartilagem, sem participação imune", "explicacao": "Isso descreve a osteoartrite, que não é simétrica em pequenas articulações com rigidez prolongada nem tem anti-CCP." },
+        { "letra": "C", "texto": "Deposição de cristais de urato", "explicacao": "A gota causa crises agudas monoarticulares por cristais, sem anti-CCP." },
+        { "letra": "D", "texto": "Infecção bacteriana das articulações", "explicacao": "Artrite séptica é geralmente monoarticular, aguda e febril." },
+        { "letra": "E", "texto": "Hipersensibilidade tipo I com IgE nas articulações", "explicacao": "A artrite reumatoide não é mediada por IgE." }
+      ],
+      "gabarito": "A",
+      "secao": "artrite-reumatoide",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Ossos, articulações e tecidos moles\" · Abbas, 10ª ed.",
+      "tags": ["artrite reumatoide", "anti-CCP", "HLA-DR4"]
+    },
+    {
+      "id": "at-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 30 anos sofre trauma perfurante no olho direito. Três meses depois, desenvolve inflamação grave (uveíte) também no olho esquerdo, que não foi atingido. Qual mecanismo explica o acometimento do olho sadio?",
+      "alternativas": [
+        { "letra": "A", "texto": "Infecção bacteriana disseminada do olho lesado para o outro pelo nervo óptico", "explicacao": "O quadro é imunológico e bilateral, sem infecção." },
+        { "letra": "B", "texto": "Mimetismo molecular com bactérias da pele", "explicacao": "O antígeno responsável é próprio do olho, exposto pelo trauma." },
+        { "letra": "C", "texto": "Deficiência de linfócitos T reguladores congênita", "explicacao": "A doença surgiu após trauma num indivíduo previamente saudável." },
+        { "letra": "D", "texto": "Hipersensibilidade tipo I a colírios", "explicacao": "Não há relação temporal com medicamentos nem quadro alérgico." },
+        { "letra": "E", "texto": "Quebra da 'ignorância' de um sítio imunologicamente privilegiado: o trauma liberou antígenos oculares antes escondidos, ativando linfócitos autorreativos que atacam também o olho sadio (oftalmia simpática)", "explicacao": "Correta. O olho é um sítio privilegiado: seus antígenos ficam isolados por barreiras e ambiente imunossupressor, e linfócitos autorreativos contra eles não os encontram. O trauma expõe esses antígenos aos linfonodos em contexto inflamatório, ativando uma resposta que reconhece os mesmos antígenos no olho contralateral." }
+      ],
+      "gabarito": "E",
+      "secao": "sitios-privilegiados",
+      "referencia": "Abbas, 10ª ed., cap. \"Tolerância imunológica e autoimunidade\"",
+      "tags": ["sítios privilegiados", "oftalmia simpática"]
+    },
+    {
+      "id": "at-009",
+      "nivel": "aprofundado",
+      "enunciado": "Gestante com lúpus e anticorpos anti-Ro/SSA positivos dá à luz um recém-nascido com bradicardia por bloqueio atrioventricular total e lesões cutâneas anulares, que desaparecem em alguns meses (o bloqueio persiste). Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "O recém-nascido herdou o lúpus e produz seus próprios autoanticorpos", "explicacao": "A melhora das lesões cutâneas em meses indica anticorpos de origem materna, não produção própria." },
+        { "letra": "B", "texto": "Autoanticorpos IgG maternos (anti-Ro) atravessam a placenta pelo receptor FcRn e lesam o tecido de condução cardíaco e a pele fetais; as lesões de pele regridem quando a IgG materna é eliminada, mas a fibrose do sistema de condução é permanente", "explicacao": "Correta. A IgG é a única classe que atravessa a placenta. Os anticorpos anti-Ro se ligam a antígenos expressos no coração fetal em desenvolvimento, causando inflamação e fibrose do nó atrioventricular — dano irreversível. As lesões cutâneas, dependentes da presença dos anticorpos, desaparecem com a eliminação da IgG materna em semanas a meses." },
+        { "letra": "C", "texto": "Infecção viral congênita", "explicacao": "Não explicaria a associação com anticorpos anti-Ro maternos." },
+        { "letra": "D", "texto": "IgM materna anti-Ro atravessou a placenta", "explicacao": "A IgM não atravessa a placenta." },
+        { "letra": "E", "texto": "Linfócitos T maternos atravessaram a placenta e destruíram o coração fetal", "explicacao": "O mecanismo descrito é mediado por anticorpos IgG transferidos pela placenta." }
+      ],
+      "gabarito": "B",
+      "secao": "autoimunidade-gestacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças do sistema imune\" · Abbas, 10ª ed.",
+      "tags": ["lúpus neonatal", "anti-Ro", "IgG materna"]
+    },
+    {
+      "id": "at-010",
+      "nivel": "aprofundado",
+      "enunciado": "O abatacepte, usado na artrite reumatoide, é uma proteína de fusão formada pela porção extracelular do CTLA-4 unida à porção Fc de uma IgG. Como ele reduz a atividade da doença?",
+      "alternativas": [
+        { "letra": "A", "texto": "Liga-se ao TNF e o neutraliza", "explicacao": "A neutralização do TNF é o mecanismo dos anti-TNF (infliximabe, adalimumabe, etanercepte)." },
+        { "letra": "B", "texto": "Destrói linfócitos B que expressam CD20", "explicacao": "Esse é o mecanismo do rituximabe." },
+        { "letra": "C", "texto": "Liga-se às moléculas B7 (CD80/CD86) das células apresentadoras, bloqueando a coestimulação via CD28 e reduzindo a ativação de linfócitos T autorreativos — imitando um mecanismo natural de tolerância", "explicacao": "Correta. O CTLA-4 tem afinidade pelo B7 muito maior que o CD28. Ao ocupar o B7, o abatacepte impede o sinal 2, de modo que os linfócitos T que reconhecem autoantígenos na sinóvia não se ativam plenamente — o mesmo princípio que os Treg usam para suprimir respostas." },
+        { "letra": "D", "texto": "Bloqueia o receptor de IL-6", "explicacao": "O bloqueio do receptor de IL-6 é o mecanismo do tocilizumabe." },
+        { "letra": "E", "texto": "Estimula o CTLA-4 dos linfócitos, aumentando sua ativação", "explicacao": "O CTLA-4 é inibitório; o abatacepte não ativa linfócitos." }
+      ],
+      "gabarito": "C",
+      "secao": "tratamento-autoimune",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"Imunossupressores, tolerógenos e imunoestimulantes\"",
+      "tags": ["abatacepte", "CTLA-4", "coestimulação"]
+    }
+  ]
+}
