@@ -1,0 +1,165 @@
+{
+  "topico": "inflamacao-cronica-reparo",
+  "questoes": [
+    {
+      "id": "icr-001",
+      "nivel": "medio",
+      "enunciado": "Biópsia de linfonodo mediastinal de uma mulher de 30 anos com linfonodomegalia hilar bilateral, lesões de pele e cálcio sérico elevado mostra agregados compactos de macrófagos epitelioides com células gigantes multinucleadas e um colar de linfócitos, **sem necrose central**. Pesquisa de BAAR e fungos negativa. Qual é o diagnóstico mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sarcoidose, com granulomas não caseosos", "explicacao": "Correta. Granulomas bem formados sem necrose (não caseosos), com linfonodomegalia hilar bilateral em adulto jovem, lesões cutâneas e pesquisa negativa para micobactérias e fungos, sugerem sarcoidose. A hipercalcemia ocorre porque os macrófagos dos granulomas produzem calcitriol (vitamina D ativa)." },
+        { "letra": "B", "texto": "Tuberculose, com granulomas caseosos", "explicacao": "A tuberculose tipicamente forma granulomas com necrose caseosa central e frequentemente BAAR identificáveis; aqui não há necrose." },
+        { "letra": "C", "texto": "Abscesso bacteriano", "explicacao": "Abscessos têm necrose liquefativa com neutrófilos (pus), não macrófagos epitelioides organizados." },
+        { "letra": "D", "texto": "Tecido de granulação de reparo", "explicacao": "Tecido de granulação é formado por capilares novos e fibroblastos, não por agregados de macrófagos epitelioides." },
+        { "letra": "E", "texto": "Inflamação aguda supurativa", "explicacao": "A inflamação aguda é dominada por neutrófilos e exsudato, não por granulomas." }
+      ],
+      "gabarito": "A",
+      "secao": "tipos-granuloma",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["granuloma", "sarcoidose"]
+    },
+    {
+      "id": "icr-002",
+      "nivel": "medio",
+      "enunciado": "Homem de 45 anos com artrite reumatoide inicia tratamento com infliximabe (anticorpo anti-TNF). Antes do início, o médico solicita rastreamento de tuberculose latente. Qual é a justificativa fisiopatológica?",
+      "alternativas": [
+        { "letra": "A", "texto": "O anti-TNF aumenta a virulência do bacilo", "explicacao": "O fármaco não age sobre o bacilo; ele altera a resposta do hospedeiro." },
+        { "letra": "B", "texto": "O TNF é essencial para recrutar células e manter o granuloma organizado; bloqueá-lo pode desorganizar granulomas antigos e reativar bacilos latentes", "explicacao": "Correta. Na tuberculose latente, os bacilos ficam contidos em granulomas mantidos pela resposta Th1 (IFN-γ) e pelo TNF produzido pelos macrófagos, que recruta e organiza as células. O bloqueio do TNF desestrutura esses granulomas, liberando bacilos e causando tuberculose ativa, muitas vezes disseminada." },
+        { "letra": "C", "texto": "O anti-TNF destrói os neutrófilos, principal defesa contra o bacilo", "explicacao": "A defesa principal contra o *M. tuberculosis* é a imunidade celular (Th1 e macrófagos ativados); o anti-TNF não age destruindo neutrófilos." },
+        { "letra": "D", "texto": "O anti-TNF aumenta a produção de IFN-γ, que favorece o bacilo", "explicacao": "O IFN-γ ativa macrófagos para matar o bacilo; não favorece a infecção." },
+        { "letra": "E", "texto": "Não há relação; o rastreamento é apenas burocrático", "explicacao": "A reativação de tuberculose é complicação conhecida e frequente dos anti-TNF." }
+      ],
+      "gabarito": "B",
+      "secao": "granuloma-formacao",
+      "referencia": "Robbins Patologia Básica, 10ª ed. · Abbas, 10ª ed., cap. \"Imunidade aos micróbios\"",
+      "tags": ["TNF", "granuloma", "tuberculose latente"]
+    },
+    {
+      "id": "icr-003",
+      "nivel": "medio",
+      "enunciado": "Doador vivo de fígado tem 60% do órgão retirado para transplante. Seis semanas depois, a massa hepática está praticamente restaurada. Já um paciente com hepatite C crônica há 25 anos desenvolve cirrose. Qual explicação diferencia os dois desfechos?",
+      "alternativas": [
+        { "letra": "A", "texto": "Os hepatócitos são células permanentes; no doador houve hipertrofia sem divisão", "explicacao": "Os hepatócitos são células estáveis, capazes de voltar ao ciclo celular e se dividir." },
+        { "letra": "B", "texto": "No doador, os hepatócitos são células lábeis em divisão contínua", "explicacao": "Os hepatócitos não estão em divisão contínua: ficam quiescentes (G₀) e só se dividem quando há perda de tecido." },
+        { "letra": "C", "texto": "Hepatócitos são células estáveis que saem de G₀ e regeneram quando a matriz está preservada; na lesão crônica, a destruição repetida e a ativação de células produtoras de colágeno geram fibrose e perda da arquitetura", "explicacao": "Correta. Após a hepatectomia parcial, a matriz e a arquitetura do fígado restante estão intactas, e fatores como o HGF fazem os hepatócitos quiescentes voltarem ao ciclo, regenerando a massa. Na hepatite crônica, a inflamação persistente destrói hepatócitos e matriz e ativa as células estreladas (via TGF-β) em miofibroblastos, que depositam colágeno: nódulos de regeneração cercados de fibrose — a cirrose." },
+        { "letra": "D", "texto": "O vírus C destrói diretamente os fibroblastos", "explicacao": "A cirrose resulta do excesso de fibrose, e não da destruição de fibroblastos." },
+        { "letra": "E", "texto": "A diferença é apenas a idade dos pacientes", "explicacao": "A idade pode influenciar, mas o determinante é a persistência da lesão e o dano à matriz." }
+      ],
+      "gabarito": "C",
+      "secao": "capacidade-proliferativa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["regeneração", "células estáveis", "cirrose"]
+    },
+    {
+      "id": "icr-004",
+      "nivel": "medio",
+      "enunciado": "Seis semanas após um infarto extenso, a área necrótica do ventrículo esquerdo foi totalmente substituída por tecido fibroso, e o paciente evolui com insuficiência cardíaca. Por que o miocárdio não regenerou?",
+      "alternativas": [
+        { "letra": "A", "texto": "Porque os cardiomiócitos são células lábeis que se esgotaram", "explicacao": "Células lábeis se dividem continuamente; os cardiomiócitos não." },
+        { "letra": "B", "texto": "Porque faltou VEGF para a angiogênese", "explicacao": "A angiogênese ocorre no tecido de granulação do infarto; a falta de regeneração decorre da natureza das células musculares cardíacas." },
+        { "letra": "C", "texto": "Porque a matriz extracelular estava intacta", "explicacao": "Matriz intacta favorece a regeneração em tecidos capazes de se dividir; não explica a falha aqui." },
+        { "letra": "D", "texto": "Porque os cardiomiócitos são células permanentes, com capacidade de divisão praticamente nula no adulto, e o tecido perdido é reparado por cicatriz de colágeno", "explicacao": "Correta. Cardiomiócitos e neurônios são células de diferenciação terminal, que no adulto praticamente não entram no ciclo celular. A área necrótica é removida pelos macrófagos e substituída por tecido de granulação e depois por cicatriz colágena, que não contrai — daí a perda de função e a insuficiência cardíaca." },
+        { "letra": "E", "texto": "Porque os neutrófilos impediram a regeneração", "explicacao": "Os neutrófilos participam da fase inicial; não são o motivo da ausência de regeneração." }
+      ],
+      "gabarito": "D",
+      "secao": "capacidade-proliferativa",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["células permanentes", "cicatriz", "infarto"]
+    },
+    {
+      "id": "icr-005",
+      "nivel": "dificil",
+      "enunciado": "Em um experimento, macrófagos são expostos a dois meios diferentes. No meio 1 (LPS + IFN-γ), produzem óxido nítrico, espécies reativas de oxigênio, IL-12 e TNF, e matam bactérias com eficiência. No meio 2 (IL-4 + IL-13), produzem TGF-β, PDGF, VEGF e IL-10, e estimulam fibroblastos em cultura. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "No meio 1, macrófagos de ativação alternativa (M2), especializados em reparo", "explicacao": "A ativação por LPS e IFN-γ é a clássica (M1), voltada à eliminação de micróbios." },
+        { "letra": "B", "texto": "Ambos os meios produzem o mesmo tipo de macrófago, com função idêntica", "explicacao": "Os perfis de produtos e funções são claramente diferentes." },
+        { "letra": "C", "texto": "No meio 2, os macrófagos se transformaram em linfócitos B", "explicacao": "Macrófagos não se transformam em linfócitos." },
+        { "letra": "D", "texto": "O meio 2 induz células gigantes de corpo estranho, sem função secretora", "explicacao": "O perfil descrito é secretor de fatores de crescimento, característico da ativação alternativa." },
+        { "letra": "E", "texto": "Meio 1: ativação clássica (M1), que mata micróbios e amplifica a inflamação, podendo lesar o tecido; meio 2: ativação alternativa (M2), que promove reparo, angiogênese e fibrose e reduz a inflamação", "explicacao": "Correta. Produtos microbianos e IFN-γ (de Th1 e NK) induzem macrófagos M1, que geram radicais e citocinas inflamatórias. IL-4 e IL-13 (de Th2, mastócitos, eosinófilos) induzem macrófagos M2, fonte de TGF-β (fibrogênico), PDGF (fibroblastos), VEGF (angiogênese) e IL-10 (anti-inflamatória). Na prática, há um espectro entre os dois perfis ao longo da inflamação." }
+      ],
+      "gabarito": "E",
+      "secao": "macrofagos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\" · Abbas, 10ª ed.",
+      "tags": ["macrófagos", "M1", "M2"]
+    },
+    {
+      "id": "icr-006",
+      "nivel": "dificil",
+      "enunciado": "Usuário de drogas injetáveis que dissolve comprimidos para injetar tem nódulos pulmonares. A biópsia mostra granulomas com células gigantes multinucleadas de núcleos espalhados pelo citoplasma, contendo cristais birrefringentes à luz polarizada, sem necrose e sem micro-organismos. Qual é o mecanismo do granuloma?",
+      "alternativas": [
+        { "letra": "A", "texto": "Granuloma de corpo estranho: material inerte grande demais para ser fagocitado, englobado por células gigantes formadas pela fusão de macrófagos, sem resposta imune específica", "explicacao": "Correta. Partículas como talco e outros excipientes dos comprimidos, injetados por via venosa, alojam-se nos pulmões. Por serem inertes e grandes, os macrófagos se fundem em células gigantes de corpo estranho (núcleos dispersos) que tentam englobá-las. O material birrefringente à luz polarizada é característico." },
+        { "letra": "B", "texto": "Granuloma imunológico por tuberculose, com células de Langhans", "explicacao": "Não há necrose caseosa nem bacilos, e as células gigantes têm núcleos dispersos com material estranho, típico de corpo estranho." },
+        { "letra": "C", "texto": "Sarcoidose, doença de causa desconhecida", "explicacao": "A presença de cristais birrefringentes dentro das células gigantes aponta para corpo estranho, não sarcoidose." },
+        { "letra": "D", "texto": "Abscesso por bactérias piogênicas", "explicacao": "Abscessos têm neutrófilos e necrose liquefativa, não células gigantes com cristais." },
+        { "letra": "E", "texto": "Reação de hipersensibilidade imediata mediada por IgE", "explicacao": "A hipersensibilidade imediata envolve mastócitos e eosinófilos, não granulomas de células gigantes." }
+      ],
+      "gabarito": "A",
+      "secao": "tipos-granuloma",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["granuloma de corpo estranho", "células gigantes"]
+    },
+    {
+      "id": "icr-007",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 55 anos com artrite reumatoide há 20 anos, mal controlada, desenvolve edema, proteinúria de 6 g/24 h e hepatoesplenomegalia. A biópsia renal mostra material extracelular rosa, amorfo, nos glomérulos, que se cora pelo vermelho Congo e apresenta birrefringência verde-maçã à luz polarizada. Qual é o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deposição de imunocomplexos por glomerulonefrite lúpica", "explicacao": "Imunocomplexos não mostram birrefringência verde-maçã ao vermelho Congo; esse achado define amiloide." },
+        { "letra": "B", "texto": "Amiloidose AA: a inflamação crônica mantém alta a produção hepática de amiloide A sérica, cujos fragmentos se dobram em folhas β-pregueadas e se depositam nos tecidos", "explicacao": "Correta. Citocinas como IL-1 e IL-6 estimulam continuamente o fígado a produzir a proteína amiloide A sérica (de fase aguda). Em inflamações crônicas prolongadas, fragmentos dessa proteína formam fibrilas em folha β-pregueada, insolúveis, que se depositam principalmente nos rins (síndrome nefrótica), fígado e baço. O vermelho Congo com birrefringência verde-maçã é o achado diagnóstico." },
+        { "letra": "C", "texto": "Fibrose intersticial por TGF-β", "explicacao": "A fibrose é colágeno, que não tem birrefringência verde-maçã ao vermelho Congo." },
+        { "letra": "D", "texto": "Necrose fibrinoide dos glomérulos", "explicacao": "A necrose fibrinoide é fibrina e imunocomplexos na parede vascular, sem a birrefringência típica do amiloide." },
+        { "letra": "E", "texto": "Amiloidose AL por cadeias leves de mieloma", "explicacao": "A amiloidose AL decorre de discrasia de plasmócitos; no contexto de inflamação crônica de longa data, a forma AA é a mais provável." }
+      ],
+      "gabarito": "B",
+      "secao": "efeitos-sistemicos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças do sistema imune\"",
+      "tags": ["amiloidose AA", "vermelho Congo"]
+    },
+    {
+      "id": "icr-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 60 anos com doença de Crohn ativa há anos tem hemoglobina de 9,8 g/dL, VCM 80 fL, ferro sérico baixo, saturação da transferrina baixa e ferritina de 450 ng/mL (elevada). Qual mecanismo explica a anemia?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência absoluta de ferro por sangramento intestinal", "explicacao": "Na ferropenia absoluta, a ferritina está baixa; aqui ela está elevada." },
+        { "letra": "B", "texto": "Hemólise autoimune", "explicacao": "A hemólise causaria reticulocitose, bilirrubina indireta e LDH elevadas, não o padrão de ferro descrito." },
+        { "letra": "C", "texto": "Anemia da inflamação: a IL-6 induz hepcidina, que bloqueia a liberação de ferro pelos macrófagos e a absorção intestinal, retendo ferro nos depósitos", "explicacao": "Correta. A hepcidina, produzida pelo fígado em resposta à IL-6, degrada a ferroportina (o 'exportador' de ferro). O ferro fica preso nos macrófagos e enterócitos: ferritina normal ou alta, ferro sérico e saturação baixos, e a medula fica sem ferro disponível para a eritropoese. É um mecanismo de defesa (priva micróbios de ferro) com custo para o hospedeiro." },
+        { "letra": "D", "texto": "Deficiência de vitamina B12 por lesão ileal", "explicacao": "A deficiência de B12 causa anemia macrocítica, não microcítica com esse perfil de ferro." },
+        { "letra": "E", "texto": "Aplasia medular por amiloidose", "explicacao": "Não há dados de aplasia; o perfil de ferro é típico da anemia da inflamação." }
+      ],
+      "gabarito": "C",
+      "secao": "efeitos-sistemicos",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Doenças hematológicas\"",
+      "tags": ["anemia da inflamação", "hepcidina", "IL-6"]
+    },
+    {
+      "id": "icr-009",
+      "nivel": "aprofundado",
+      "enunciado": "Em dois modelos experimentais de lesão renal, ambos com necrose de células tubulares: no modelo 1 (toxina que mata as células tubulares, mas poupa a membrana basal), o rim volta ao normal em semanas; no modelo 2 (abscesso que destrói células e membrana basal), forma-se uma cicatriz. Qual conceito explica a diferença?",
+      "alternativas": [
+        { "letra": "A", "texto": "No modelo 2 as células tubulares são permanentes, e no modelo 1 são lábeis", "explicacao": "As células tubulares são as mesmas nos dois modelos (estáveis); o que muda é o estado da matriz." },
+        { "letra": "B", "texto": "No modelo 1 houve hipertrofia compensatória, e no modelo 2 hiperplasia", "explicacao": "A diferença descrita é entre regeneração e cicatrização, não entre adaptações." },
+        { "letra": "C", "texto": "O abscesso libera VEGF, que impede a regeneração", "explicacao": "O VEGF promove angiogênese; não impede a regeneração." },
+        { "letra": "D", "texto": "A integridade da matriz extracelular (membrana basal) serve de molde para a regeneração ordenada; quando destruída, o reparo ocorre por tecido conjuntivo (cicatriz)", "explicacao": "Correta. Células estáveis como as tubulares podem se dividir, mas reconstruir a arquitetura depende da matriz: com a membrana basal preservada, as células remanescentes proliferam e migram sobre ela, restaurando os túbulos. Se a matriz é destruída (abscesso, infarto extenso), não há molde, e o defeito é preenchido por tecido de granulação e cicatriz." },
+        { "letra": "E", "texto": "No modelo 1 não houve inflamação, por isso não houve reparo", "explicacao": "Houve reparo completo (regeneração) no modelo 1; a inflamação faz parte de ambos." }
+      ],
+      "gabarito": "D",
+      "secao": "matriz-extracelular",
+      "referencia": "Robbins Patologia Básica, 10ª ed., cap. \"Inflamação e reparo\"",
+      "tags": ["matriz extracelular", "regeneração", "membrana basal"]
+    },
+    {
+      "id": "icr-010",
+      "nivel": "aprofundado",
+      "enunciado": "Trabalhador de jateamento de areia há 20 anos tem dispneia progressiva e nódulos fibróticos nos lobos superiores. Qual é a sequência fisiopatológica mais adequada?",
+      "alternativas": [
+        { "letra": "A", "texto": "A sílica estimula diretamente os linfócitos B a produzirem IgE, e os mastócitos depositam colágeno", "explicacao": "A silicose não é uma reação mediada por IgE, e mastócitos não depositam colágeno." },
+        { "letra": "B", "texto": "A sílica é digerida pelos neutrófilos e não causa lesão persistente", "explicacao": "A sílica não é digerível e persiste nos tecidos, mantendo o estímulo." },
+        { "letra": "C", "texto": "A sílica causa necrose caseosa por infecção", "explicacao": "A silicose não é infecciosa; embora aumente o risco de tuberculose, os nódulos são fibróticos." },
+        { "letra": "D", "texto": "A sílica destrói os fibroblastos, impedindo a cicatrização", "explicacao": "O problema é o excesso de fibrose, e não a falta de fibroblastos." },
+        { "letra": "E", "texto": "Macrófagos alveolares fagocitam a sílica, que não é degradada e lesa os fagolisossomos; ativados (inclusive via inflamassoma), liberam IL-1, TNF e fatores fibrogênicos (TGF-β, PDGF) que recrutam e ativam fibroblastos, formando nódulos de colágeno", "explicacao": "Correta. A sílica é um agente tóxico persistente: os macrófagos a fagocitam, mas não conseguem degradá-la; a lesão dos lisossomos ativa o inflamassoma e a liberação de IL-1, e o ciclo de morte e nova fagocitose mantém a inflamação. Os mediadores fibrogênicos ativam fibroblastos e depositam colágeno em nódulos — um exemplo de inflamação crônica por agente não infeccioso que termina em fibrose." }
+      ],
+      "gabarito": "E",
+      "secao": "fibrose",
+      "referencia": "Robbins Patologia Básica, 10ª ed., caps. \"Inflamação e reparo\" e \"Pulmão\"",
+      "tags": ["silicose", "fibrose", "macrófagos"]
+    }
+  ]
+}
