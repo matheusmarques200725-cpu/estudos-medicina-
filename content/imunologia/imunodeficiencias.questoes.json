@@ -1,0 +1,165 @@
+{
+  "topico": "imunodeficiencias",
+  "questoes": [
+    {
+      "id": "imd-001",
+      "nivel": "medio",
+      "enunciado": "Menino de 2 anos tem, desde os 8 meses, otites, sinusites e duas pneumonias por *Streptococcus pneumoniae*. Lidou bem com a varicela. Ao exame, tonsilas palatinas quase ausentes e linfonodos não palpáveis. Imunoglobulinas IgG, IgA e IgM muito baixas; linfócitos CD19⁺ ausentes; linfócitos T normais. Qual é o diagnóstico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Imunodeficiência combinada grave", "explicacao": "Na SCID os linfócitos T estão ausentes e as infecções virais e fúngicas são graves; aqui os T estão normais e a varicela evoluiu bem." },
+        { "letra": "B", "texto": "Doença granulomatosa crônica", "explicacao": "A DGC causa abscessos por catalase-positivos e granulomas, com imunoglobulinas normais." },
+        { "letra": "C", "texto": "Agamaglobulinemia ligada ao X (Bruton): defeito na BTK impede a maturação dos linfócitos B, levando à ausência de B e de todas as imunoglobulinas", "explicacao": "Correta. Sem a tirosina quinase de Bruton, os precursores não passam do estágio pré-B, e faltam linfócitos B maduros, plasmócitos e folículos (tonsilas e linfonodos pequenos). As infecções por bactérias encapsuladas começam após os 6 meses, quando acaba a IgG materna. A imunidade celular preservada explica a boa evolução da varicela. O tratamento é a reposição de imunoglobulina." },
+        { "letra": "D", "texto": "Síndrome de DiGeorge", "explicacao": "No DiGeorge, a deficiência é de linfócitos T (timo hipoplásico), com hipocalcemia e cardiopatia." },
+        { "letra": "E", "texto": "Deficiência seletiva de IgA", "explicacao": "Na deficiência de IgA, IgG e IgM são normais e os linfócitos B estão presentes." }
+      ],
+      "gabarito": "C",
+      "secao": "bruton",
+      "referencia": "Abbas, 10ª ed., cap. \"Imunodeficiências congênitas e adquiridas\"",
+      "tags": ["Bruton", "BTK", "imunodeficiência humoral"]
+    },
+    {
+      "id": "imd-002",
+      "nivel": "medio",
+      "enunciado": "Recém-nascido com cardiopatia congênita (tronco arterioso), orelhas de implantação baixa e fenda palatina apresenta convulsões no 3º dia de vida, com cálcio sérico muito baixo. A radiografia de tórax não mostra sombra tímica. Qual é o diagnóstico e a explicação da hipocalcemia?",
+      "alternativas": [
+        { "letra": "A", "texto": "Síndrome de DiGeorge (deleção 22q11.2): falha no desenvolvimento da 3ª e 4ª bolsas faríngeas, de onde derivam o timo e as paratireoides — hipoparatireoidismo causa a hipocalcemia", "explicacao": "Correta. A microdeleção 22q11.2 prejudica estruturas derivadas da 3ª e 4ª bolsas faríngeas e das regiões vizinhas: paratireoides (hipocalcemia, tetania e convulsões neonatais), timo (deficiência de linfócitos T), via de saída do coração e face. É o quadro clássico do 'CATCH-22'." },
+        { "letra": "B", "texto": "Agamaglobulinemia de Bruton", "explicacao": "Bruton não causa cardiopatia, hipocalcemia nem ausência de timo." },
+        { "letra": "C", "texto": "Deficiência de vitamina D materna, sem relação imunológica", "explicacao": "Não explicaria a ausência do timo, a cardiopatia e a face característica." },
+        { "letra": "D", "texto": "Síndrome de Wiskott-Aldrich", "explicacao": "Wiskott-Aldrich causa plaquetopenia com plaquetas pequenas, eczema e infecções, não hipocalcemia." },
+        { "letra": "E", "texto": "Imunodeficiência comum variável", "explicacao": "A IDCV é uma deficiência de anticorpos geralmente diagnosticada em adolescentes e adultos." }
+      ],
+      "gabarito": "A",
+      "secao": "digeorge",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["DiGeorge", "22q11.2", "hipocalcemia"]
+    },
+    {
+      "id": "imd-003",
+      "nivel": "medio",
+      "enunciado": "Homem de 32 anos com diagnóstico recente de HIV, sem tratamento, tem dispneia progressiva há três semanas, tosse seca, febre e hipoxemia ao esforço; a radiografia mostra infiltrado intersticial bilateral. A contagem de CD4⁺ é 85 células/mm³. Qual é o agente mais provável e qual medida teria evitado o quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "*Streptococcus pneumoniae*; vacina antipneumocócica", "explicacao": "A pneumonia pneumocócica é aguda, lobar, e ocorre em qualquer CD4⁺; o quadro subagudo intersticial com CD4⁺ baixo sugere *Pneumocystis*." },
+        { "letra": "B", "texto": "*Pneumocystis jirovecii*; terapia antirretroviral precoce e profilaxia com sulfametoxazol-trimetoprima quando o CD4⁺ está abaixo de 200", "explicacao": "Correta. A pneumonia por *Pneumocystis* é uma das doenças definidoras de aids mais frequentes quando o CD4⁺ cai abaixo de 200: quadro subagudo de dispneia, tosse seca, hipoxemia e infiltrado intersticial bilateral. A TARV, que recupera os CD4⁺, e a profilaxia com sulfametoxazol-trimetoprima previnem a doença." },
+        { "letra": "C", "texto": "Citomegalovírus; ganciclovir profilático", "explicacao": "A doença por CMV é mais comum com CD4⁺ abaixo de 50 e afeta principalmente a retina e o trato digestivo." },
+        { "letra": "D", "texto": "*Staphylococcus aureus*; antibiótico profilático contínuo", "explicacao": "*S. aureus* não é o agente típico de pneumonia intersticial subaguda na aids." },
+        { "letra": "E", "texto": "Influenza; vacina anual", "explicacao": "A influenza é aguda e sazonal; o quadro e o CD4⁺ apontam para *Pneumocystis*." }
+      ],
+      "gabarito": "B",
+      "secao": "oportunistas",
+      "referencia": "Ministério da Saúde – PCDT HIV em Adultos · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["HIV", "Pneumocystis", "CD4"]
+    },
+    {
+      "id": "imd-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 35 anos, saudável, com giardíase de repetição e doença celíaca, apresenta, durante a primeira transfusão de concentrado de hemácias, urticária, broncoespasmo e hipotensão. Qual é a imunodeficiência de base mais provável e o mecanismo da reação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Agamaglobulinemia ligada ao X; reação por falta de anticorpos", "explicacao": "Bruton se manifesta na infância com infecções graves; e a falta de anticorpos não causaria anafilaxia transfusional." },
+        { "letra": "B", "texto": "Deficiência de C1-INH; reação por bradicinina", "explicacao": "O angioedema hereditário não cursa com urticária e não é desencadeado tipicamente por transfusão." },
+        { "letra": "C", "texto": "Imunodeficiência combinada grave", "explicacao": "Não é compatível com um adulto previamente saudável." },
+        { "letra": "D", "texto": "Doença granulomatosa crônica", "explicacao": "A DGC não se associa à giardíase, celíaca ou anafilaxia transfusional." },
+        { "letra": "E", "texto": "Deficiência seletiva de IgA: alguns pacientes produzem anticorpos anti-IgA, que reagem com a IgA presente no plasma do hemocomponente e desencadeiam anafilaxia", "explicacao": "Correta. A deficiência de IgA é a imunodeficiência primária mais comum; muitos são assintomáticos, mas há maior frequência de giardíase (IgA secretora protege a mucosa), doença celíaca e alergias. Como esses indivíduos não toleram a IgA como própria, podem formar anticorpos anti-IgA; ao receberem sangue com IgA, ocorre anafilaxia. Usam-se hemocomponentes lavados ou de doadores deficientes de IgA." }
+      ],
+      "gabarito": "E",
+      "secao": "deficiencia-iga",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["deficiência de IgA", "anafilaxia transfusional"]
+    },
+    {
+      "id": "imd-005",
+      "nivel": "dificil",
+      "enunciado": "Menino de 4 meses tem candidíase oral persistente, diarreia crônica, déficit de crescimento e pneumonia por *Pneumocystis*. Após a vacina BCG, desenvolveu lesões disseminadas. O hemograma mostra linfócitos de 400/mm³ (muito baixo para a idade), e a radiografia não mostra timo. A análise revela ausência de linfócitos T e NK, com linfócitos B presentes, mas sem produzir anticorpos. Qual é o defeito mais provável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Mutação na cadeia γ comum dos receptores de citocinas (IL-2, IL-7, IL-15...) — SCID ligada ao X", "explicacao": "Correta. A cadeia γ comum é compartilhada pelos receptores de várias interleucinas. Sem sinalização de IL-7, não se desenvolvem linfócitos T; sem IL-15, não há células NK. Os linfócitos B existem, mas não funcionam sem a ajuda dos T (e também dependem de IL-21). O resultado é imunodeficiência combinada grave nos primeiros meses, com infecções oportunistas e BCGíte disseminada; o tratamento curativo é o transplante de células-tronco hematopoéticas." },
+        { "letra": "B", "texto": "Mutação na BTK", "explicacao": "Na agamaglobulinemia de Bruton faltam os linfócitos B, mas os T e NK estão normais." },
+        { "letra": "C", "texto": "Mutação no CD18", "explicacao": "A deficiência de CD18 (LAD-1) afeta a migração de neutrófilos, com neutrofilia e infecções bacterianas sem pus." },
+        { "letra": "D", "texto": "Deficiência seletiva de IgA", "explicacao": "A deficiência de IgA é geralmente leve e não causa linfopenia nem ausência de T e NK." },
+        { "letra": "E", "texto": "Mutação no gene ATM", "explicacao": "A ataxia-telangiectasia se manifesta com ataxia e telangiectasias mais tarde, e a imunodeficiência é parcial." }
+      ],
+      "gabarito": "A",
+      "secao": "scid",
+      "referencia": "Abbas, 10ª ed., cap. \"Imunodeficiências congênitas e adquiridas\"",
+      "tags": ["SCID", "cadeia gama comum", "IL-7"]
+    },
+    {
+      "id": "imd-006",
+      "nivel": "dificil",
+      "enunciado": "Menino de 3 anos tem pneumonias bacterianas de repetição e uma pneumonia por *Pneumocystis jirovecii*. Exames: IgM elevada, IgG, IgA e IgE muito baixas; linfócitos B em número normal. Qual é o defeito mais provável e por que há infecção oportunista?",
+      "alternativas": [
+        { "letra": "A", "texto": "Defeito na BTK, que impede a produção de IgM", "explicacao": "Na deficiência de BTK não há linfócitos B nem IgM." },
+        { "letra": "B", "texto": "Excesso de produção de IgM por linfoma", "explicacao": "Não explica a ausência das outras classes nem a infecção por *Pneumocystis* em criança." },
+        { "letra": "C", "texto": "Deficiência de C3", "explicacao": "A deficiência de C3 causa infecções por encapsuladas, mas não altera o perfil de imunoglobulinas." },
+        { "letra": "D", "texto": "Defeito no CD40L dos linfócitos T (hiper-IgM ligada ao X): sem a interação CD40L–CD40, não há troca de classe (só IgM) e os linfócitos T não ativam macrófagos e células dendríticas, permitindo oportunistas", "explicacao": "Correta. O CD40L dos linfócitos T CD4⁺ ativados é necessário para a troca de classe e os centros germinativos nos linfócitos B, e também para ativar macrófagos e células dendríticas. Sem ele, a criança só produz IgM (infecções por encapsuladas) e tem falha da imunidade celular (*Pneumocystis*, *Cryptosporidium*) — uma imunodeficiência combinada." },
+        { "letra": "E", "texto": "Doença granulomatosa crônica", "explicacao": "A DGC tem imunoglobulinas normais e infecções por catalase-positivos." }
+      ],
+      "gabarito": "D",
+      "secao": "hiper-igm",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["hiper-IgM", "CD40L", "troca de classe"]
+    },
+    {
+      "id": "imd-007",
+      "nivel": "dificil",
+      "enunciado": "Jovem de 19 anos tem o terceiro episódio de meningite meningocócica (sorogrupos diferentes). Imunoglobulinas e linfócitos normais; neutrófilos e teste da DHR normais. O CH50 (atividade hemolítica total do complemento) é zero. Qual é o defeito mais provável e a principal medida preventiva?",
+      "alternativas": [
+        { "letra": "A", "texto": "Deficiência de C1-INH; tratar com anti-histamínico", "explicacao": "A deficiência do inibidor de C1 causa angioedema hereditário, não meningites de repetição." },
+        { "letra": "B", "texto": "Deficiência de um componente terminal do complemento (C5–C9), que impede a formação do complexo de ataque à membrana, essencial contra *Neisseria*; vacinar contra meningococo (e considerar profilaxia)", "explicacao": "Correta. As neissérias são particularmente sensíveis à lise pelo complexo de ataque à membrana (C5b–C9). Na ausência de um desses componentes, o CH50 é nulo e a pessoa tem infecções meningocócicas e gonocócicas recorrentes, muitas vezes por sorogrupos incomuns. Vacinação antimeningocócica ampla e, em alguns casos, antibioticoprofilaxia." },
+        { "letra": "C", "texto": "Agamaglobulinemia; repor imunoglobulina", "explicacao": "As imunoglobulinas estão normais." },
+        { "letra": "D", "texto": "Deficiência de C1q, que causa lúpus", "explicacao": "A deficiência de C1q predispõe ao lúpus; infecções por *Neisseria* recorrentes sugerem os componentes terminais." },
+        { "letra": "E", "texto": "Doença granulomatosa crônica; profilaxia com itraconazol", "explicacao": "O teste da DHR é normal, excluindo DGC." }
+      ],
+      "gabarito": "B",
+      "secao": "deficiencias-complemento",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["complemento", "Neisseria", "CH50"]
+    },
+    {
+      "id": "imd-008",
+      "nivel": "dificil",
+      "enunciado": "Homem de 28 anos procura atendimento 3 semanas após relação sexual desprotegida com parceria de status sorológico desconhecido, com febre, faringite, linfonodomegalia generalizada, exantema e úlceras orais. O teste rápido para HIV (que detecta anticorpos) é negativo, mas a carga viral é de 3.500.000 cópias/mL. Qual interpretação está correta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Mononucleose; o HIV está excluído pelo teste rápido negativo", "explicacao": "A carga viral muito alta confirma infecção pelo HIV; o teste de anticorpos pode ser negativo na janela imunológica." },
+        { "letra": "B", "texto": "Aids avançada, com destruição completa do sistema imune", "explicacao": "Trata-se de infecção recente; a aids surge após anos sem tratamento, com CD4⁺ abaixo de 200." },
+        { "letra": "C", "texto": "Resultado falso-positivo da carga viral; repetir em 6 meses", "explicacao": "Carga viral de milhões de cópias com quadro típico não deve ser descartada; o diagnóstico e o tratamento são urgentes." },
+        { "letra": "D", "texto": "Infecção aguda pelo HIV (síndrome retroviral aguda) na janela imunológica: replicação maciça antes da produção de anticorpos, com risco de transmissão muito alto; iniciar TARV", "explicacao": "Correta. Nas primeiras semanas, o vírus se replica intensamente (sobretudo no GALT, destruindo muitos CD4⁺) antes que os anticorpos sejam detectáveis — janela imunológica. O quadro lembra mononucleose. A carga viral (ou testes de 4ª geração com p24) faz o diagnóstico. Iniciar TARV precocemente reduz o reservatório e a transmissão." },
+        { "letra": "E", "texto": "Infecção latente sem replicação viral", "explicacao": "A carga viral altíssima indica replicação intensa, não latência." }
+      ],
+      "gabarito": "D",
+      "secao": "hiv-fisiopatologia",
+      "referencia": "Ministério da Saúde – PCDT HIV em Adultos · Abbas, 10ª ed.",
+      "tags": ["HIV agudo", "janela imunológica", "carga viral"]
+    },
+    {
+      "id": "imd-009",
+      "nivel": "aprofundado",
+      "enunciado": "Menino de 5 anos tem abscessos hepáticos e de linfonodos por *Staphylococcus aureus*, osteomielite por *Serratia* e pneumonia por *Aspergillus*. As biópsias mostram granulomas. Neutrófilos em número normal migram bem ao foco. O teste da di-hidrorrodamina por citometria não mostra fluorescência após estímulo. Qual é o mecanismo?",
+      "alternativas": [
+        { "letra": "A", "texto": "Defeito no CD18, impedindo a saída dos neutrófilos dos vasos", "explicacao": "Os neutrófilos migram bem ao foco, e na LAD-1 não há pus nem granulomas." },
+        { "letra": "B", "texto": "Defeito na fusão dos fagossomos com lisossomos gigantes", "explicacao": "A Chédiak-Higashi tem albinismo parcial e grânulos gigantes; o teste da DHR é normal." },
+        { "letra": "C", "texto": "Falta de anticorpos opsonizantes", "explicacao": "Na deficiência de anticorpos, os agentes típicos são encapsulados, e o teste da DHR é normal." },
+        { "letra": "D", "texto": "Excesso de mieloperoxidase", "explicacao": "Não há doença por excesso de mieloperoxidase com esse quadro." },
+        { "letra": "E", "texto": "Defeito na NADPH oxidase (doença granulomatosa crônica): sem explosão respiratória, os fagócitos não matam micro-organismos catalase-positivos, que degradam o próprio H₂O₂; os micróbios sobrevivem nos macrófagos, formando granulomas", "explicacao": "Correta. A NADPH oxidase gera superóxido, que origina H₂O₂ e, pela mieloperoxidase, ácido hipocloroso. Sem ela, os fagócitos ainda aproveitam o H₂O₂ produzido por micróbios catalase-negativos, mas não o dos catalase-positivos (*S. aureus*, *Serratia*, *Aspergillus*). O teste da DHR mede essa oxidação; sem fluorescência, confirma-se a DGC." }
+      ],
+      "gabarito": "E",
+      "secao": "deficiencias-fagocitos",
+      "referencia": "Abbas, 10ª ed. · Robbins Patologia Básica, 10ª ed.",
+      "tags": ["doença granulomatosa crônica", "NADPH oxidase", "DHR"]
+    },
+    {
+      "id": "imd-010",
+      "nivel": "aprofundado",
+      "enunciado": "Pessoa vivendo com HIV inicia TARV com CD4⁺ de 30 células/mm³. Após 4 semanas, a carga viral cai muito e os CD4⁺ sobem para 150, mas ela desenvolve febre alta e aumento doloroso de linfonodos, com detecção de micobactérias. Antes da TARV, essas micobactérias não causavam sintomas evidentes. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "Falha da TARV com resistência viral", "explicacao": "A carga viral caiu e os CD4⁺ subiram — a TARV está funcionando." },
+        { "letra": "B", "texto": "Síndrome inflamatória de reconstituição imune: a recuperação dos linfócitos T CD4⁺ desencadeia uma resposta inflamatória intensa contra antígenos de uma infecção oportunista preexistente", "explicacao": "Correta. Com CD4⁺ muito baixo, a infecção micobacteriana existia, mas a resposta imune era insuficiente para causar inflamação visível. Ao recuperar os linfócitos T, a resposta contra os antígenos micobacterianos se torna intensa (inflamação, granulomas, linfonodos aumentados), causando piora paradoxal. Trata-se a infecção, mantém-se a TARV e, em casos graves, usam-se anti-inflamatórios ou corticoides." },
+        { "letra": "C", "texto": "Toxicidade direta dos antirretrovirais sobre os linfonodos", "explicacao": "O quadro de inflamação com micobactérias após recuperação imune não é toxicidade medicamentosa." },
+        { "letra": "D", "texto": "Nova infecção adquirida após a TARV, sem relação com a imunidade", "explicacao": "O padrão de piora paradoxal coincidindo com a recuperação de CD4⁺ caracteriza a reconstituição imune." },
+        { "letra": "E", "texto": "Evolução natural para aids, independente da TARV", "explicacao": "A TARV está revertendo a imunodeficiência, não ocorrendo progressão." }
+      ],
+      "gabarito": "B",
+      "secao": "hiv-tratamento",
+      "referencia": "Ministério da Saúde – PCDT HIV em Adultos · Harrison, 21ª ed.",
+      "tags": ["SIRI", "reconstituição imune", "HIV"]
+    }
+  ]
+}
