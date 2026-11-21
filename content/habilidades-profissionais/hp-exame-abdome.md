@@ -91,10 +91,6 @@ Observe de frente e tangencialmente (abaixando-se até o nível do abdome).
 - **Movimentos**: **peristalse visível** (ondas que percorrem a parede — **obstrução intestinal**, ou normal em pessoas muito magras); **pulsações** no epigástrio (aorta em magros; **massa pulsátil** que se expande lateralmente = **aneurisma de aorta abdominal**); a respiração abdominal fica **reduzida** na peritonite (o paciente "trava" o abdome para não doer).
 - **Hérnias**: peça ao paciente para **tossir** ou levantar a cabeça (manobra de Valsalva) e observe as regiões **umbilical, inguinal, incisional** (cicatrizes) e da linha alba; a **diástase dos retos** (afastamento dos músculos retos na linha média) aparece como um "**sulco ou crista**" ao levantar a cabeça.
 
-::: figura img/morfo/hp/abdome/cabeca-medusa.jpg
-**"Cabeça de medusa" — circulação colateral do tipo porta** na hipertensão portal. Veias dilatadas e tortuosas **irradiando a partir do umbigo**, como os cabelos de serpente da Medusa. O sangue do sistema porta, impedido de passar pelo fígado cirrótico, desvia-se pela veia umbilical recanalizada para as veias da parede abdominal, fluindo **para longe do umbigo**.
-:::
-
 ::: figura img/morfo/hp/abdome/sinal-cullen.jpg
 **Sinal de Cullen** em paciente com **pancreatite aguda**. Observe a **equimose arroxeada ao redor do umbigo**, causada pelo sangue e pelas enzimas pancreáticas que, a partir do retroperitônio, dissecam os planos de tecido até a região periumbilical (pelo ligamento falciforme e redondo). Quando a equimose aparece nos **flancos**, chama-se **sinal de Grey Turner**. Ambos indicam doença grave.
 :::

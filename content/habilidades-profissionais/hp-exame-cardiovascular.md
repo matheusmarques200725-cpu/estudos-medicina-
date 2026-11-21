@@ -196,10 +196,6 @@ Som **grave** no **fim da diástole**, imediatamente antes de B1: "**tu**-TUM-T�
 - **Clique de ejeção**: logo após B1, na estenose aórtica ou pulmonar congênita (valva bicúspide).
 - **Atrito pericárdico**: ruído **áspero**, "de couro novo" ou de lixa, com até **três componentes** (sístole atrial, sístole e diástole ventricular), mais audível na borda esternal esquerda com o paciente **sentado e inclinado para a frente**, em expiração; **não se irradia** e pode **variar** de um exame para o outro. Indica **pericardite** (inflamação das lâminas do pericárdio, que se atritam).
 
-::: figura midia/hp/cardio/som-coracao-normal.mp3
-**Coração normal** — bulhas de uma adolescente saudável, gravadas no foco tricúspide. Identifique o ritmo em **dois tempos**: **TUM** (B1, fechamento das valvas atrioventriculares) – **TÁ** (B2, fechamento das semilunares), com um **intervalo curto** entre B1 e B2 (sístole) e um **intervalo mais longo** entre B2 e a próxima B1 (diástole). Não há sopros nem bulhas extras.
-:::
-
 ::: figura img/morfo/hp/cardio/fonocardiogramas.png
 **Fonocardiogramas de sons cardíacos normais e anormais** (registros gráficos dos sons, em português). Compare: o padrão **normal** (B1 e B2 com silêncio entre elas); **sopros sistólicos** entre B1 e B2 (de **ejeção**, em forma de losango/"diamante", como na estenose aórtica, e **holossistólicos**, em platô, como na insuficiência mitral); e **sopros diastólicos** após B2 (decrescente, como na insuficiência aórtica, e o ruflar com reforço pré-sistólico, como na estenose mitral).
 :::
@@ -277,10 +273,6 @@ flowchart TD
 - **Fisiopatologia**: na sístole, parte do sangue do VE **reflui para o átrio esquerdo** (que tem pressão baixa) → sobrecarga de **volume** do átrio e do ventrículo esquerdos → **dilatação** de ambos; congestão pulmonar nos casos graves.
 - **Exame**: **sopro holossistólico** (ocupa toda a sístole, "**em platô**", começando junto com B1 e indo até B2, que pode ficar encoberta), **em jato de vapor**, mais intenso no **foco mitral**, **irradiado para a axila esquerda** (e dorso); **B1 hipofonética**; **B3** se a regurgitação é importante (grande volume entrando no VE no enchimento rápido); **ictus desviado** para a esquerda e para baixo. No **prolapso**: **clique mesossistólico** seguido de **sopro telessistólico**.
 
-::: figura midia/hp/cardio/som-prolapso-mitral.mp3
-**Prolapso da valva mitral com insuficiência mitral** (gravação de uma adolescente com o diagnóstico). Procure, entre B1 e B2, o **ruído sistólico** produzido pelo sangue que **reflui do ventrículo para o átrio esquerdo** através da valva que não fecha completamente. Compare com a gravação do coração normal: lá, o intervalo entre B1 e B2 é silencioso.
-:::
-
 #### Valvas do lado direito {#valvas-direitas}
 
 - **Insuficiência tricúspide**: geralmente **funcional**, por dilatação do VD (hipertensão pulmonar, insuficiência cardíaca esquerda); também na endocardite de usuários de drogas injetáveis. **Sopro holossistólico** na **borda esternal esquerda baixa**, que **aumenta na inspiração profunda** (**sinal de Rivero-Carvallo**: a inspiração aumenta o retorno venoso ao coração direito, aumentando o volume regurgitado); **ondas v gigantes** no pulso jugular, **fígado pulsátil**, edema, ascite.
@@ -293,14 +285,6 @@ flowchart TD
 - **Comunicação interventricular (CIV)**: sopro **holossistólico** **rude**, intenso (frequentemente com frêmito), na **borda esternal esquerda baixa** (3º–4º espaço intercostal) — o sangue passa do VE (pressão alta) para o VD durante toda a sístole. Defeitos **pequenos** fazem sopros **mais intensos** (jato de alta velocidade).
 - **Comunicação interatrial (CIA)**: sopro sistólico de fluxo pulmonar (aumento do fluxo pela valva pulmonar) e **desdobramento fixo de B2**.
 - **Sopro inocente (funcional)**: comum em **crianças** (até ~50%), gestantes e estados hipercinéticos. Características: **sistólico** (nunca diastólico), **suave** (intensidade **≤ 2/6**, sem frêmito), **curto**, mesossistólico, **localizado** (pouca irradiação), **varia com a posição** (diminui ao sentar ou ficar em pé), **B2 normal**, sem outras alterações e com o paciente **assintomático**. O mais comum em crianças é o **sopro de Still** (vibratório, musical, na borda esternal esquerda média). **Todo sopro diastólico é patológico.**
-
-::: figura midia/hp/cardio/som-cia-civ.mp3
-**Comunicação interventricular** (gravação de um coração com o defeito). Note o **sopro sistólico intenso e áspero** que preenche o intervalo entre B1 e B2: em cada sístole, o sangue passa em jato do ventrículo esquerdo (pressão alta) para o direito através do orifício no septo.
-:::
-
-::: figura midia/hp/cardio/som-sopro-inocente.mp3
-**Sopro inocente de Still em uma criança pequena.** Um sopro **sistólico suave, musical ("vibratório")**, sem frêmito, com bulhas normais, numa criança saudável. Não indica doença do coração — resulta das vibrações do fluxo normal na via de saída do ventrículo esquerdo. Compare a suavidade dele com a aspereza do sopro da comunicação interventricular.
-:::
 
 ### Manobras que modificam os sopros {#manobras-sopros}
 

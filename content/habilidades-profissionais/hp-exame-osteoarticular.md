@@ -176,10 +176,6 @@ Inflamação dos tendões do **abdutor longo e do extensor curto do polegar** no
 **Teste de Lasègue (elevação da perna estendida).** Com o paciente deitado, a perna é **elevada passivamente com o joelho estendido**. Entre cerca de 30° e 70°, as raízes **L5 e S1** são estiradas; se uma delas estiver comprimida por uma hérnia de disco, surge **dor irradiada pela face posterior da coxa até abaixo do joelho** (ciatalgia).
 :::
 
-::: figura img/morfo/hp/osteo/schober.jpg
-**Teste de Schober.** Marcam-se um ponto na altura das espinhas ilíacas posterossuperiores (~L5) e outro **10 cm acima**; na **flexão máxima do tronco**, a distância deve aumentar para pelo menos **15 cm**. Um aumento menor que ~5 cm indica **rigidez da coluna lombar**, característica da **espondilite anquilosante**.
-:::
-
 ### Quadril e articulações sacroilíacas {#quadril}
 
 - **Inspeção da marcha**: **marcha antálgica** (o paciente apoia o mínimo de tempo na perna dolorosa), **marcha de Trendelenburg** (a pelve cai do lado oposto a cada passo).
