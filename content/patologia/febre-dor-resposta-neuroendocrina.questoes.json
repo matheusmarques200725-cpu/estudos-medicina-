@@ -1,0 +1,165 @@
+{
+  "topico": "febre-dor-resposta-neuroendocrina",
+  "questoes": [
+    {
+      "id": "fd-001",
+      "nivel": "medio",
+      "enunciado": "Criança com pneumonia tem, no início de um pico febril, tremores intensos, mãos e pés frios, palidez e pede cobertor, embora a temperatura axilar já esteja em 38,5 °C. Qual é a explicação?",
+      "alternativas": [
+        { "letra": "A", "texto": "A febre está terminando, e o corpo está perdendo calor", "explicacao": "Na defervescência há vasodilatação e sudorese, não tremores e vasoconstrição." },
+        { "letra": "B", "texto": "O ponto de ajuste hipotalâmico subiu (por PGE₂); a temperatura real ainda está abaixo dele, e o corpo ativa mecanismos de produção e conservação de calor", "explicacao": "Correta. As citocinas pirogênicas induzem PGE₂ no hipotálamo, que eleva o ponto de ajuste (por exemplo, para 39,5 °C). Com a temperatura ainda abaixo desse valor, o hipotálamo 'sente frio' e aciona vasoconstrição cutânea (extremidades frias, palidez), tremores (produção de calor) e comportamento de busca de agasalho, até atingir o novo ponto." },
+        { "letra": "C", "texto": "Trata-se de hipertermia por falha na perda de calor", "explicacao": "Na hipertermia o ponto de ajuste é normal e não há tremores nem sensação de frio." },
+        { "letra": "D", "texto": "Os tremores indicam convulsão febril", "explicacao": "Tremores de calafrio são rítmicos e com consciência preservada; não são convulsão." },
+        { "letra": "E", "texto": "É uma reação alérgica ao antibiótico", "explicacao": "O quadro descrito é o padrão fisiológico da fase de subida da febre." }
+      ],
+      "gabarito": "B",
+      "secao": "genese-febre",
+      "referencia": "Guyton & Hall, 14ª ed., cap. \"Temperatura corporal, regulação da temperatura e febre\"",
+      "tags": ["febre", "ponto de ajuste", "calafrios"]
+    },
+    {
+      "id": "fd-002",
+      "nivel": "medio",
+      "enunciado": "Trabalhador da construção civil, após horas de trabalho pesado sob sol intenso, é trazido confuso, com temperatura de 41,2 °C e pele quente e seca. Recebeu dipirona sem melhora. Por que o antitérmico não funcionou, e qual é a conduta?",
+      "alternativas": [
+        { "letra": "A", "texto": "A dose foi insuficiente; deve-se repetir a dipirona em dose dobrada", "explicacao": "O problema não é a dose: o mecanismo de ação do antitérmico não se aplica a esse quadro." },
+        { "letra": "B", "texto": "É febre por infecção resistente; iniciar antibiótico", "explicacao": "O contexto é de exposição ao calor com esforço, não de infecção." },
+        { "letra": "C", "texto": "É hipertermia: o ponto de ajuste está normal e a produção de calor superou a capacidade de perda; antitérmicos (que baixam o ponto de ajuste) não funcionam — o tratamento é resfriamento físico rápido", "explicacao": "Correta. Na insolação (intermação), o calor gerado pelo esforço e absorvido do ambiente excede a perda, e a temperatura sobe sem alteração do termostato. Como não há PGE₂ elevando o ponto de ajuste, inibir a COX não adianta. A conduta é resfriar rapidamente (imersão em água fria, evaporação com ventilação), além de suporte." },
+        { "letra": "D", "texto": "É febre de origem central por tumor hipotalâmico", "explicacao": "O quadro agudo após esforço no calor é típico de insolação." },
+        { "letra": "E", "texto": "Deve-se agasalhar o paciente para evitar tremores", "explicacao": "Agasalhar impediria a perda de calor e agravaria a hipertermia." }
+      ],
+      "gabarito": "C",
+      "secao": "febre-hipertermia",
+      "referencia": "Harrison, 21ª ed., cap. \"Febre e hipertermia\"",
+      "tags": ["hipertermia", "insolação", "antitérmicos"]
+    },
+    {
+      "id": "fd-003",
+      "nivel": "medio",
+      "enunciado": "Ao bater o dedo do pé num móvel, uma pessoa sente primeiro uma dor aguda, nítida e bem localizada e, segundos depois, uma dor latejante, em queimação e mais difusa. Quais fibras explicam cada componente?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ambas são conduzidas por fibras Aβ de tato", "explicacao": "Fibras Aβ conduzem tato e vibração; ativá-las tende a reduzir a dor (teoria do portão)." },
+        { "letra": "B", "texto": "Primeira dor por fibras C; segunda dor por fibras Aδ", "explicacao": "A ordem está invertida: as fibras C são as mais lentas." },
+        { "letra": "C", "texto": "Ambas por fibras motoras alfa", "explicacao": "Fibras motoras levam comandos aos músculos; não conduzem dor." },
+        { "letra": "D", "texto": "Primeira dor por fibras Aδ (finamente mielinizadas, rápidas); segunda dor por fibras C (amielínicas, lentas)", "explicacao": "Correta. As fibras Aδ conduzem rapidamente (5–30 m/s) a dor aguda, em pontada e bem localizada, que alerta para retirar o membro. As fibras C, amielínicas e lentas (0,5–2 m/s), conduzem a dor em queimação, difusa e persistente, que chega depois e se relaciona mais ao componente afetivo." },
+        { "letra": "E", "texto": "Ambas por fibras simpáticas pós-ganglionares", "explicacao": "Fibras simpáticas eferentes não são as vias de condução da dor somática." }
+      ],
+      "gabarito": "D",
+      "secao": "fibras-vias",
+      "referencia": "Guyton & Hall, 14ª ed., cap. \"Sensações somáticas: II. Dor\"",
+      "tags": ["fibras Aδ", "fibras C", "dor"]
+    },
+    {
+      "id": "fd-004",
+      "nivel": "medio",
+      "enunciado": "Homem de 58 anos tem dor opressiva no peito irradiada para o braço esquerdo e a mandíbula durante um infarto do miocárdio. Por que a dor é sentida no braço e na mandíbula?",
+      "alternativas": [
+        { "letra": "A", "texto": "Dor referida: as fibras aferentes do coração e as da pele dessas regiões convergem nos mesmos neurônios do corno dorsal, e o cérebro atribui a dor à região cutânea", "explicacao": "Correta. As fibras viscerais cardíacas entram na medula nos segmentos torácicos altos (T1–T5), que também recebem fibras da pele do braço medial e do tórax; neurônios de segunda ordem recebem os dois sinais. Como o cérebro está habituado a sentir dor vinda da pele, interpreta o sinal visceral como dor cutânea — a dor referida." },
+        { "letra": "B", "texto": "O infarto se estendeu ao braço por trombose arterial", "explicacao": "A dor no braço não indica isquemia do membro; é um fenômeno de convergência neural." },
+        { "letra": "C", "texto": "Há inflamação dos nervos do braço causada pelo infarto", "explicacao": "Não há lesão dos nervos do braço; a dor é referida." },
+        { "letra": "D", "texto": "O coração tem nociceptores na pele do braço", "explicacao": "Os nociceptores cardíacos estão no próprio coração; a localização no braço resulta da convergência medular." },
+        { "letra": "E", "texto": "A dor é psicogênica, sem base anatômica", "explicacao": "A dor referida tem base anatômica bem definida." }
+      ],
+      "gabarito": "A",
+      "secao": "tipos-dor",
+      "referencia": "Guyton & Hall, 14ª ed., cap. \"Sensações somáticas: II. Dor\"",
+      "tags": ["dor referida", "infarto"]
+    },
+    {
+      "id": "fd-005",
+      "nivel": "dificil",
+      "enunciado": "Após uma queimadura solar, o simples contato da camisa com a pele das costas causa dor, e a área dolorosa ao toque se estende além da pele avermelhada. Um anti-inflamatório não esteroide reduz parcialmente a dor. Qual explicação integra esses achados?",
+      "alternativas": [
+        { "letra": "A", "texto": "A queimadura destruiu os nociceptores, e a dor vem das fibras de tato lesadas", "explicacao": "Se os nociceptores tivessem sido destruídos, haveria menos dor, não mais." },
+        { "letra": "B", "texto": "Há apenas ativação normal de nociceptores, sem alteração de limiar", "explicacao": "A dor ao toque leve e em área maior indica sensibilização, não ativação normal." },
+        { "letra": "C", "texto": "A dor ocorre porque os opioides endógenos foram esgotados", "explicacao": "A modulação descendente não explica a alodinia localizada e o efeito do AINE." },
+        { "letra": "D", "texto": "A PGE₂ causa dor diretamente, sem participação da medula", "explicacao": "A PGE₂ sensibiliza (reduz o limiar), e a extensão da área dolorosa envolve sensibilização central." },
+        { "letra": "E", "texto": "Sensibilização periférica (prostaglandinas e outros mediadores reduzem o limiar dos nociceptores — hiperalgesia primária e alodinia) somada à sensibilização central no corno dorsal, que amplia a área dolorosa (hiperalgesia secundária); os AINEs reduzem as prostaglandinas", "explicacao": "Correta. Os mediadores inflamatórios — PGE₂, bradicinina, citocinas, NGF — tornam os nociceptores mais excitáveis, de modo que estímulos fracos passam a doer (alodinia). O bombardeio aferente torna os neurônios do corno dorsal hiperexcitáveis (receptores NMDA, wind-up), fazendo até o toque levado por fibras Aβ ser sentido como dor e ampliando a área. O AINE reduz a síntese de prostaglandinas, atenuando a sensibilização." }
+      ],
+      "gabarito": "E",
+      "secao": "sensibilizacao",
+      "referencia": "Guyton & Hall, 14ª ed. · Harrison, 21ª ed., cap. \"Dor: fisiopatologia e tratamento\"",
+      "tags": ["alodinia", "sensibilização", "PGE2"]
+    },
+    {
+      "id": "fd-006",
+      "nivel": "dificil",
+      "enunciado": "Mulher de 45 anos com artrite reumatoide usa prednisona 20 mg/dia há dois anos. Ela é operada de urgência por apendicite e, no pós-operatório imediato, evolui com hipotensão que não responde a volume nem a noradrenalina, hipoglicemia e sódio de 128 mEq/L. Qual é o mecanismo e a conduta?",
+      "alternativas": [
+        { "letra": "A", "texto": "Insuficiência adrenal aguda: o corticoide crônico suprimiu o eixo HHA, e as adrenais não aumentam o cortisol no estresse; falta o efeito permissivo sobre os vasos — tratar com hidrocortisona em dose de estresse", "explicacao": "Correta. O corticoide exógeno inibe CRH e ACTH por retroalimentação, e o córtex adrenal atrofia. Diante da cirurgia, a paciente não consegue elevar o cortisol: os vasos respondem mal às catecolaminas (choque refratário), falta gliconeogênese (hipoglicemia) e há hiponatremia. A hidrocortisona intravenosa corrige o quadro; por isso usuárias de corticoide crônico recebem dose de estresse perioperatória." },
+        { "letra": "B", "texto": "Sepse por Gram-negativos; trocar o antibiótico apenas", "explicacao": "A sepse pode coexistir, mas o choque refratário com hipoglicemia e hiponatremia em usuária crônica de corticoide sugere insuficiência adrenal, que precisa ser tratada." },
+        { "letra": "C", "texto": "Excesso de cortisol pela prednisona, causando hipotensão", "explicacao": "O excesso de cortisol tende a aumentar a pressão e a glicemia, não a causar choque com hipoglicemia." },
+        { "letra": "D", "texto": "Hipertermia maligna pela anestesia", "explicacao": "A hipertermia maligna causa temperatura muito alta, rigidez e acidose, não esse quadro." },
+        { "letra": "E", "texto": "Excesso de ADH; tratar com restrição de líquidos isoladamente", "explicacao": "O ADH elevado não explica o choque refratário e a hipoglicemia." }
+      ],
+      "gabarito": "A",
+      "secao": "crise-adrenal",
+      "referencia": "Goodman & Gilman, 13ª ed., cap. \"ACTH, esteroides adrenais...\" · Harrison, 21ª ed.",
+      "tags": ["insuficiência adrenal", "eixo HHA", "corticoide"]
+    },
+    {
+      "id": "fd-007",
+      "nivel": "dificil",
+      "enunciado": "Homem de 50 anos, sem diabetes, no 3º dia após cirurgia abdominal de grande porte, tem glicemias de 190–230 mg/dL, diurese baixa com urina concentrada, sódio levemente baixo, perda de peso muscular e aumento da excreção urinária de nitrogênio. Qual conjunto de alterações hormonais explica o quadro?",
+      "alternativas": [
+        { "letra": "A", "texto": "Aumento de insulina e queda de cortisol", "explicacao": "Na resposta ao estresse, o cortisol aumenta e a insulina tem secreção reduzida e ação comprometida." },
+        { "letra": "B", "texto": "Queda de ADH com diurese abundante", "explicacao": "O ADH aumenta, causando retenção de água e oligúria." },
+        { "letra": "C", "texto": "Hipotireoidismo primário agudo", "explicacao": "O T3 pode cair no estresse, mas não explica o conjunto descrito." },
+        { "letra": "D", "texto": "Aumento de cortisol, catecolaminas, glucagon e GH (gliconeogênese, resistência à insulina, catabolismo proteico) e de ADH e aldosterona (retenção de água e sódio)", "explicacao": "Correta. A agressão cirúrgica ativa o eixo HHA e o simpático-adrenal. Cortisol, catecolaminas, glucagon e GH elevam a glicose (gliconeogênese, glicogenólise, resistência à insulina) e degradam proteína muscular para fornecer aminoácidos — balanço nitrogenado negativo da fase de fluxo. ADH e aldosterona retêm água e sódio, reduzindo a diurese; o excesso relativo de água pode baixar o sódio." },
+        { "letra": "E", "texto": "Deficiência de GH", "explicacao": "O GH aumenta na resposta ao estresse." }
+      ],
+      "gabarito": "D",
+      "secao": "fases-metabolicas",
+      "referencia": "Guyton & Hall, 14ª ed. · Sabiston – Tratado de Cirurgia, 20ª ed.",
+      "tags": ["resposta ao estresse", "hiperglicemia de estresse", "catabolismo"]
+    },
+    {
+      "id": "fd-008",
+      "nivel": "dificil",
+      "enunciado": "Durante uma partida, um jogador fratura o antebraço, mas só percebe a dor intensa minutos depois, quando sai de campo. Qual mecanismo explica a analgesia temporária?",
+      "alternativas": [
+        { "letra": "A", "texto": "Destruição dos nociceptores pela fratura", "explicacao": "A dor surgiu depois, o que mostra que os nociceptores estavam funcionando." },
+        { "letra": "B", "texto": "Bloqueio das fibras C pela vasoconstrição simpática", "explicacao": "A vasoconstrição não bloqueia a condução nas fibras de dor." },
+        { "letra": "C", "texto": "Excesso de PGE₂ no local da fratura", "explicacao": "A PGE₂ aumenta a dor (sensibilização), não a reduz." },
+        { "letra": "D", "texto": "Inibição da COX-2 pelo cortisol, que elimina toda a dor", "explicacao": "O efeito anti-inflamatório do cortisol é lento e não explica a analgesia imediata." },
+        { "letra": "E", "texto": "Analgesia induzida pelo estresse: o sistema descendente (substância cinzenta periaquedutal, bulbo rostral ventromedial) libera serotonina, noradrenalina e opioides endógenos que inibem a transmissão no corno dorsal", "explicacao": "Correta. Estresse, emoção intensa e foco de atenção ativam a PAG e o bulbo, que enviam fibras ao corno dorsal; elas liberam serotonina e noradrenalina e ativam interneurônios com encefalinas e endorfinas, que reduzem a liberação de glutamato e substância P e hiperpolarizam os neurônios de segunda ordem. Ao fim do estímulo estressante, a inibição diminui e a dor aparece." }
+      ],
+      "gabarito": "E",
+      "secao": "modulacao",
+      "referencia": "Guyton & Hall, 14ª ed., cap. \"Sensações somáticas: II. Dor\"",
+      "tags": ["analgesia endógena", "opioides endógenos", "PAG"]
+    },
+    {
+      "id": "fd-009",
+      "nivel": "aprofundado",
+      "enunciado": "Em um modelo experimental, a injeção de LPS em animais causa febre. A febre é bloqueada por um inibidor seletivo de COX-2 administrado no sistema nervoso central e também por animais geneticamente sem o receptor EP3 de prostaglandinas, mas não por um antagonista de receptores de histamina. Qual sequência é confirmada?",
+      "alternativas": [
+        { "letra": "A", "texto": "LPS → histamina dos mastócitos → hipotálamo", "explicacao": "O bloqueio da histamina não impediu a febre." },
+        { "letra": "B", "texto": "LPS → bradicinina → nociceptores do hipotálamo", "explicacao": "A bradicinina participa da dor e da permeabilidade, não é a via principal da febre." },
+        { "letra": "C", "texto": "LPS (via TLR4) → citocinas pirogênicas (IL-1, IL-6, TNF) → indução de COX-2 no endotélio próximo ao hipotálamo → PGE₂ → receptor EP3 nos neurônios pré-ópticos → elevação do ponto de ajuste", "explicacao": "Correta. O LPS ativa macrófagos via TLR4, que liberam pirógenos endógenos; estes induzem COX-2 nas células do OVLT e vasos cerebrais, gerando PGE₂, que age em receptores EP3 da área pré-óptica e eleva o ponto de ajuste. O bloqueio da COX-2 central ou a ausência de EP3 interrompem a via, demonstrando que a PGE₂ é o mediador final." },
+        { "letra": "D", "texto": "LPS → aumento direto de hormônios tireoidianos", "explicacao": "Os hormônios tireoidianos não são o mediador da febre induzida por LPS." },
+        { "letra": "E", "texto": "LPS → lesão direta dos neurônios termorreguladores", "explicacao": "A febre é uma resposta regulada e reversível, mediada por PGE₂, não por lesão neuronal." }
+      ],
+      "gabarito": "C",
+      "secao": "genese-febre",
+      "referencia": "Guyton & Hall, 14ª ed. · Harrison, 21ª ed., cap. \"Febre e hipertermia\"",
+      "tags": ["febre", "PGE2", "COX-2", "LPS"]
+    },
+    {
+      "id": "fd-010",
+      "nivel": "aprofundado",
+      "enunciado": "Homem de 62 anos com diabetes há 15 anos tem dor em queimação e choques nos pés, pior à noite, com dor ao contato do lençol e, ao mesmo tempo, redução da sensibilidade ao toque e à temperatura. Ibuprofeno não ajuda. Qual é o tipo de dor e a base para a escolha terapêutica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Dor nociceptiva inflamatória; aumentar a dose do AINE", "explicacao": "Não há inflamação tecidual evidente, e a dor não respondeu ao AINE — características de dor neuropática." },
+        { "letra": "B", "texto": "Dor neuropática por lesão das fibras sensitivas (neuropatia diabética), com descargas ectópicas e sensibilização; trata-se com fármacos que reduzem a excitabilidade neural ou reforçam a inibição descendente (gabapentinoides, antidepressivos tricíclicos ou duais)", "explicacao": "Correta. A lesão das fibras finas pela hiperglicemia crônica causa perda de sensibilidade (déficit) e, paradoxalmente, dor em queimação, choques e alodinia, por descargas ectópicas em fibras lesadas e sensibilização central. Os AINEs ajudam pouco; gabapentina/pregabalina reduzem a liberação de neurotransmissores excitatórios, e amitriptilina ou duloxetina aumentam serotonina e noradrenalina na via descendente inibitória." },
+        { "letra": "C", "texto": "Dor visceral referida aos pés", "explicacao": "Não há origem visceral; o quadro é de lesão dos nervos periféricos." },
+        { "letra": "D", "texto": "Dor isquêmica por oclusão arterial aguda", "explicacao": "A isquemia aguda causa dor súbita, palidez e ausência de pulsos, não queimação crônica com alodinia e déficit sensitivo." },
+        { "letra": "E", "texto": "Dor psicogênica; não há tratamento farmacológico", "explicacao": "A neuropatia diabética tem base orgânica e tratamento farmacológico específico." }
+      ],
+      "gabarito": "B",
+      "secao": "tipos-dor",
+      "referencia": "Harrison, 21ª ed., cap. \"Dor: fisiopatologia e tratamento\" · Goodman & Gilman, 13ª ed.",
+      "tags": ["dor neuropática", "neuropatia diabética"]
+    }
+  ]
+}
